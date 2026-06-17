@@ -504,8 +504,10 @@ class ConfigToYAMLConverter:
 
             for tier_name, converted_configs in converted_by_tier.items():
                 output_filename = os.path.join(output_cat_dir, f"{tier_name}.yaml")
+                proxy_groups = self.build_proxy_groups(converted_configs)
                 yaml_content = {
-                    'proxies': converted_configs
+                    'proxies': converted_configs,
+                    'proxy-groups': proxy_groups
                 }
                 with open(output_filename, 'w', encoding='utf-8') as f:
                     f.write(f"# {source_name.upper()} - {category.upper()} - Tier {tier_name}\n")
@@ -543,8 +545,10 @@ class ConfigToYAMLConverter:
                     continue
 
                 output_filename = os.path.join(output_all_dir, f"{tier_name}.yaml")
+                proxy_groups = self.build_proxy_groups(converted_configs)
                 yaml_content = {
-                    'proxies': converted_configs
+                    'proxies': converted_configs,
+                    'proxy-groups': proxy_groups
                 }
                 with open(output_filename, 'w', encoding='utf-8') as f:
                     f.write(f"# {source_name.upper()} - ALL - Tier {tier_name}\n")
@@ -662,8 +666,10 @@ class ConfigToYAMLConverter:
         master_file = os.path.join(output_dir, 'master.yaml')
         if all_proxies:
             timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            proxy_groups = self.build_proxy_groups(all_proxies)
             master_content = {
-                'proxies': all_proxies
+                'proxies': all_proxies,
+                'proxy-groups': proxy_groups
             }
             with open(master_file, 'w', encoding='utf-8') as f:
                 f.write(f"# MASTER YAML - ALL CONFIGURATIONS\n")
