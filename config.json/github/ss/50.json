@@ -1,5 +1,5 @@
 // GITHUB - SS - Tier 50
-// Updated: 2026-06-17 19:59:39
+// Updated: 2026-06-17 20:43:37
 // Count: 50
 
 {
@@ -350,14 +350,6 @@
     {
       "type": "shadowsocks",
       "tag": "T.ME: @aristapnel #40",
-      "server": "admin.c1.webramz.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #41",
       "server": "r3mrcg00129437x.cybervena.com",
       "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
@@ -365,7 +357,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #42",
+      "tag": "T.ME: @aristapnel #41",
       "server": "82.38.31.16",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -373,7 +365,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #43",
+      "tag": "T.ME: @aristapnel #42",
       "server": "213.226.68.8",
       "server_port": 31348,
       "method": "chacha20-ietf-poly1305",
@@ -381,7 +373,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #44",
+      "tag": "T.ME: @aristapnel #43",
       "server": "46.246.97.3",
       "server_port": 31348,
       "method": "chacha20-ietf-poly1305",
@@ -389,7 +381,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #45",
+      "tag": "T.ME: @aristapnel #44",
       "server": "185.202.93.194",
       "server_port": 41348,
       "method": "chacha20-ietf-poly1305",
@@ -397,7 +389,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #46",
+      "tag": "T.ME: @aristapnel #45",
       "server": "45.129.96.62",
       "server_port": 41348,
       "method": "chacha20-ietf-poly1305",
@@ -405,7 +397,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #47",
+      "tag": "T.ME: @aristapnel #46",
       "server": "r3mrcg001286ek2.cybervena.com",
       "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
@@ -413,7 +405,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #48",
+      "tag": "T.ME: @aristapnel #47",
       "server": "r3mrcg001269pz2.cybervena.com",
       "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
@@ -421,7 +413,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #49",
+      "tag": "T.ME: @aristapnel #48",
       "server": "198.98.53.130",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -429,11 +421,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #50",
+      "tag": "T.ME: @aristapnel #49",
       "server": "108.181.121.226",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "WSyL4XTwNsdv"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "T.ME: @aristapnel #50",
+      "server": "161.129.71.148",
+      "server_port": 17913,
+      "method": "aes-128-gcm",
+      "password": "wcjMniCODfhz26P7L2BvpEDQfhogbFTl"
     },
     {
       "type": "direct",
