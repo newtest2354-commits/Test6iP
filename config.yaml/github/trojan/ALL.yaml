@@ -1,6 +1,6 @@
 # GITHUB - TROJAN - Tier ALL
-# Updated: 2026-06-17 12:13:57
-# Count: 218
+# Updated: 2026-06-17 12:37:30
+# Count: 219
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
@@ -2502,17 +2502,6 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #191'
   type: trojan
-  server: 185.137.157.59
-  port: 443
-  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.lateralio.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #192'
-  type: trojan
   server: 38.54.13.189
   port: 443
   password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
@@ -2522,7 +2511,7 @@ proxies:
   tcp-fast-open: true
   servername: 38.54.13.189
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #193'
+- name: 'T.ME: @aristapnel #192'
   type: trojan
   server: 188.253.12.90
   port: 48697
@@ -2533,9 +2522,20 @@ proxies:
   tcp-fast-open: true
   servername: gh.01.naiun.bilibili.com
   client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #193'
+  type: trojan
+  server: 103.177.136.42
+  port: 46424
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: de.01.naiun.bilibili.com
+  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #194'
   type: trojan
-  server: 188.253.12.96
+  server: 103.177.136.44
   port: 46424
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
@@ -2579,7 +2579,7 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #198'
   type: trojan
-  server: 103.177.136.45
+  server: 188.253.12.90
   port: 41943
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
@@ -2593,15 +2593,19 @@ proxies:
   server: 3.8.238.251
   port: 443
   password: hF7uSJfeBPtSNXKtuYvTRNaBdGkkXHpKJfLRfbpaDWovomSL
-  network: tcp
+  network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 3.8.238.251
+  servername: uk1.bw8848.org
   client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fuk1-uk1-gcjtze'
+    headers:
+      Host: uk1.bw8848.org
 - name: 'T.ME: @aristapnel #200'
   type: trojan
-  server: 188.253.12.90
+  server: 90081bb25c.node.tro.cac.cab
   port: 47909
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
@@ -2611,6 +2615,17 @@ proxies:
   servername: is.01.naiun.bilibili.com
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #201'
+  type: trojan
+  server: 103.177.136.44
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ch.01.naiun.bilibili.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #202'
   type: trojan
   server: 46.137.202.140
   port: 443
@@ -2625,9 +2640,9 @@ proxies:
     path: /node1-node1-5sczzi
     headers:
       Host: node1.bw8848.org
-- name: 'T.ME: @aristapnel #202'
+- name: 'T.ME: @aristapnel #203'
   type: trojan
-  server: 188.253.12.98
+  server: 103.177.136.44
   port: 41943
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
@@ -2636,9 +2651,20 @@ proxies:
   tcp-fast-open: true
   servername: az.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #203'
+- name: 'T.ME: @aristapnel #204'
   type: trojan
-  server: 188.253.12.90
+  server: 90081bb25c.node.tro.cac.cab
+  port: 48697
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: gh.01.naiun.bilibili.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #205'
+  type: trojan
+  server: 188.253.12.99
   port: 45619
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
@@ -2647,7 +2673,7 @@ proxies:
   tcp-fast-open: true
   servername: fr.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #204'
+- name: 'T.ME: @aristapnel #206'
   type: trojan
   server: 119.246.1.143
   port: 443
@@ -2658,7 +2684,7 @@ proxies:
   tcp-fast-open: true
   servername: t.me/ripaojiedian
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #205'
+- name: 'T.ME: @aristapnel #207'
   type: trojan
   server: de-1.hysteria.ltd
   port: 9443
@@ -2668,28 +2694,6 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: de-1.hysteria.ltd
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #206'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #207'
-  type: trojan
-  server: ch-2.bexum.fun
-  port: 443
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ch-2.bexum.fun
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #208'
   type: trojan
@@ -2704,6 +2708,17 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #209'
   type: trojan
+  server: ch-2.bexum.fun
+  port: 443
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ch-2.bexum.fun
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #210'
+  type: trojan
   server: 172.236.220.10
   port: 443
   password: s_WEN9lMmufG%2BqDIsn-4C7JOVAnDdbS3Ui
@@ -2713,7 +2728,7 @@ proxies:
   tcp-fast-open: true
   servername: 172.236.220.10
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #210'
+- name: 'T.ME: @aristapnel #211'
   type: trojan
   server: de-1.hysteria.ltd
   port: 9443
@@ -2724,7 +2739,7 @@ proxies:
   tcp-fast-open: true
   servername: de-1.hysteria.ltd
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #211'
+- name: 'T.ME: @aristapnel #212'
   type: trojan
   server: ws-1.hysteria.ltd
   port: 9443
@@ -2739,7 +2754,7 @@ proxies:
     path: '%2Fws'
     headers:
       Host: ws-1.hysteria.ltd
-- name: 'T.ME: @aristapnel #212'
+- name: 'T.ME: @aristapnel #213'
   type: trojan
   server: de-1.hysteria.ltd
   port: 9443
@@ -2750,7 +2765,7 @@ proxies:
   tcp-fast-open: true
   servername: de-1.hysteria.ltd
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #213'
+- name: 'T.ME: @aristapnel #214'
   type: trojan
   server: 103.177.136.41
   port: 48697
@@ -2761,7 +2776,7 @@ proxies:
   tcp-fast-open: true
   servername: gh.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #214'
+- name: 'T.ME: @aristapnel #215'
   type: trojan
   server: 35.181.89.207
   port: 22223
@@ -2772,7 +2787,7 @@ proxies:
   tcp-fast-open: true
   servername: trojan.burgerip.co.uk
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #215'
+- name: 'T.ME: @aristapnel #216'
   type: trojan
   server: 65.20.90.225
   port: 443
@@ -2783,7 +2798,7 @@ proxies:
   tcp-fast-open: true
   servername: www.sandbox-cloud.click
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #216'
+- name: 'T.ME: @aristapnel #217'
   type: trojan
   server: kz-1.hysteria.ltd
   port: 9443
@@ -2794,7 +2809,7 @@ proxies:
   tcp-fast-open: true
   servername: kz-1.hysteria.ltd
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #217'
+- name: 'T.ME: @aristapnel #218'
   type: trojan
   server: kz-1.bexum.fun
   port: 5443
@@ -2805,7 +2820,7 @@ proxies:
   tcp-fast-open: true
   servername: kz-1.bexum.fun
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #218'
+- name: 'T.ME: @aristapnel #219'
   type: trojan
   server: kz-1.hysteria.ltd
   port: 9443
@@ -2816,7 +2831,7 @@ proxies:
   tcp-fast-open: true
   servername: kz-1.hysteria.ltd
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #219'
+- name: 'T.ME: @aristapnel #220'
   type: trojan
   server: 81.255.155.10
   port: 443
@@ -2831,7 +2846,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.creationlong.org
-- name: 'T.ME: @aristapnel #220'
+- name: 'T.ME: @aristapnel #221'
   type: trojan
   server: 64.176.65.85
   port: 443
@@ -2842,7 +2857,7 @@ proxies:
   tcp-fast-open: true
   servername: 64.176.65.85
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #221'
+- name: 'T.ME: @aristapnel #222'
   type: trojan
   server: 108.181.4.83
   port: 443
@@ -2857,3 +2872,252 @@ proxies:
     path: /images
     headers:
       Host: us6lh1fsyabizv5m.lovebaipiao.net
+proxy-groups:
+- name: 🚀 ARISTA LOW LATENCY
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  timeout: 3000
+  proxies: &id001
+  - 'T.ME: @aristapnel #1'
+  - 'T.ME: @aristapnel #2'
+  - 'T.ME: @aristapnel #3'
+  - 'T.ME: @aristapnel #4'
+  - 'T.ME: @aristapnel #7'
+  - 'T.ME: @aristapnel #8'
+  - 'T.ME: @aristapnel #9'
+  - 'T.ME: @aristapnel #10'
+  - 'T.ME: @aristapnel #11'
+  - 'T.ME: @aristapnel #12'
+  - 'T.ME: @aristapnel #13'
+  - 'T.ME: @aristapnel #14'
+  - 'T.ME: @aristapnel #15'
+  - 'T.ME: @aristapnel #16'
+  - 'T.ME: @aristapnel #17'
+  - 'T.ME: @aristapnel #18'
+  - 'T.ME: @aristapnel #19'
+  - 'T.ME: @aristapnel #20'
+  - 'T.ME: @aristapnel #21'
+  - 'T.ME: @aristapnel #22'
+  - 'T.ME: @aristapnel #23'
+  - 'T.ME: @aristapnel #24'
+  - 'T.ME: @aristapnel #25'
+  - 'T.ME: @aristapnel #26'
+  - 'T.ME: @aristapnel #27'
+  - 'T.ME: @aristapnel #28'
+  - 'T.ME: @aristapnel #29'
+  - 'T.ME: @aristapnel #30'
+  - 'T.ME: @aristapnel #31'
+  - 'T.ME: @aristapnel #32'
+  - 'T.ME: @aristapnel #33'
+  - 'T.ME: @aristapnel #34'
+  - 'T.ME: @aristapnel #35'
+  - 'T.ME: @aristapnel #36'
+  - 'T.ME: @aristapnel #37'
+  - 'T.ME: @aristapnel #38'
+  - 'T.ME: @aristapnel #39'
+  - 'T.ME: @aristapnel #40'
+  - 'T.ME: @aristapnel #41'
+  - 'T.ME: @aristapnel #42'
+  - 'T.ME: @aristapnel #43'
+  - 'T.ME: @aristapnel #44'
+  - 'T.ME: @aristapnel #45'
+  - 'T.ME: @aristapnel #46'
+  - 'T.ME: @aristapnel #47'
+  - 'T.ME: @aristapnel #48'
+  - 'T.ME: @aristapnel #49'
+  - 'T.ME: @aristapnel #50'
+  - 'T.ME: @aristapnel #51'
+  - 'T.ME: @aristapnel #52'
+  - 'T.ME: @aristapnel #53'
+  - 'T.ME: @aristapnel #54'
+  - 'T.ME: @aristapnel #55'
+  - 'T.ME: @aristapnel #56'
+  - 'T.ME: @aristapnel #57'
+  - 'T.ME: @aristapnel #58'
+  - 'T.ME: @aristapnel #59'
+  - 'T.ME: @aristapnel #60'
+  - 'T.ME: @aristapnel #61'
+  - 'T.ME: @aristapnel #62'
+  - 'T.ME: @aristapnel #63'
+  - 'T.ME: @aristapnel #64'
+  - 'T.ME: @aristapnel #65'
+  - 'T.ME: @aristapnel #66'
+  - 'T.ME: @aristapnel #67'
+  - 'T.ME: @aristapnel #68'
+  - 'T.ME: @aristapnel #69'
+  - 'T.ME: @aristapnel #70'
+  - 'T.ME: @aristapnel #71'
+  - 'T.ME: @aristapnel #72'
+  - 'T.ME: @aristapnel #73'
+  - 'T.ME: @aristapnel #74'
+  - 'T.ME: @aristapnel #75'
+  - 'T.ME: @aristapnel #76'
+  - 'T.ME: @aristapnel #78'
+  - 'T.ME: @aristapnel #79'
+  - 'T.ME: @aristapnel #80'
+  - 'T.ME: @aristapnel #81'
+  - 'T.ME: @aristapnel #82'
+  - 'T.ME: @aristapnel #83'
+  - 'T.ME: @aristapnel #84'
+  - 'T.ME: @aristapnel #85'
+  - 'T.ME: @aristapnel #86'
+  - 'T.ME: @aristapnel #87'
+  - 'T.ME: @aristapnel #88'
+  - 'T.ME: @aristapnel #89'
+  - 'T.ME: @aristapnel #90'
+  - 'T.ME: @aristapnel #91'
+  - 'T.ME: @aristapnel #92'
+  - 'T.ME: @aristapnel #93'
+  - 'T.ME: @aristapnel #94'
+  - 'T.ME: @aristapnel #95'
+  - 'T.ME: @aristapnel #96'
+  - 'T.ME: @aristapnel #97'
+  - 'T.ME: @aristapnel #98'
+  - 'T.ME: @aristapnel #99'
+  - 'T.ME: @aristapnel #100'
+  - 'T.ME: @aristapnel #101'
+  - 'T.ME: @aristapnel #102'
+  - 'T.ME: @aristapnel #103'
+  - 'T.ME: @aristapnel #104'
+  - 'T.ME: @aristapnel #105'
+  - 'T.ME: @aristapnel #106'
+  - 'T.ME: @aristapnel #107'
+  - 'T.ME: @aristapnel #108'
+  - 'T.ME: @aristapnel #109'
+  - 'T.ME: @aristapnel #110'
+  - 'T.ME: @aristapnel #111'
+  - 'T.ME: @aristapnel #112'
+  - 'T.ME: @aristapnel #113'
+  - 'T.ME: @aristapnel #114'
+  - 'T.ME: @aristapnel #115'
+  - 'T.ME: @aristapnel #116'
+  - 'T.ME: @aristapnel #117'
+  - 'T.ME: @aristapnel #118'
+  - 'T.ME: @aristapnel #119'
+  - 'T.ME: @aristapnel #120'
+  - 'T.ME: @aristapnel #121'
+  - 'T.ME: @aristapnel #122'
+  - 'T.ME: @aristapnel #123'
+  - 'T.ME: @aristapnel #124'
+  - 'T.ME: @aristapnel #125'
+  - 'T.ME: @aristapnel #126'
+  - 'T.ME: @aristapnel #127'
+  - 'T.ME: @aristapnel #128'
+  - 'T.ME: @aristapnel #129'
+  - 'T.ME: @aristapnel #130'
+  - 'T.ME: @aristapnel #131'
+  - 'T.ME: @aristapnel #132'
+  - 'T.ME: @aristapnel #133'
+  - 'T.ME: @aristapnel #134'
+  - 'T.ME: @aristapnel #135'
+  - 'T.ME: @aristapnel #136'
+  - 'T.ME: @aristapnel #137'
+  - 'T.ME: @aristapnel #138'
+  - 'T.ME: @aristapnel #139'
+  - 'T.ME: @aristapnel #140'
+  - 'T.ME: @aristapnel #141'
+  - 'T.ME: @aristapnel #142'
+  - 'T.ME: @aristapnel #143'
+  - 'T.ME: @aristapnel #144'
+  - 'T.ME: @aristapnel #145'
+  - 'T.ME: @aristapnel #146'
+  - 'T.ME: @aristapnel #147'
+  - 'T.ME: @aristapnel #148'
+  - 'T.ME: @aristapnel #149'
+  - 'T.ME: @aristapnel #150'
+  - 'T.ME: @aristapnel #151'
+  - 'T.ME: @aristapnel #152'
+  - 'T.ME: @aristapnel #153'
+  - 'T.ME: @aristapnel #154'
+  - 'T.ME: @aristapnel #155'
+  - 'T.ME: @aristapnel #156'
+  - 'T.ME: @aristapnel #157'
+  - 'T.ME: @aristapnel #158'
+  - 'T.ME: @aristapnel #159'
+  - 'T.ME: @aristapnel #160'
+  - 'T.ME: @aristapnel #161'
+  - 'T.ME: @aristapnel #162'
+  - 'T.ME: @aristapnel #163'
+  - 'T.ME: @aristapnel #164'
+  - 'T.ME: @aristapnel #165'
+  - 'T.ME: @aristapnel #166'
+  - 'T.ME: @aristapnel #167'
+  - 'T.ME: @aristapnel #168'
+  - 'T.ME: @aristapnel #169'
+  - 'T.ME: @aristapnel #170'
+  - 'T.ME: @aristapnel #171'
+  - 'T.ME: @aristapnel #172'
+  - 'T.ME: @aristapnel #173'
+  - 'T.ME: @aristapnel #174'
+  - 'T.ME: @aristapnel #175'
+  - 'T.ME: @aristapnel #176'
+  - 'T.ME: @aristapnel #177'
+  - 'T.ME: @aristapnel #178'
+  - 'T.ME: @aristapnel #179'
+  - 'T.ME: @aristapnel #180'
+  - 'T.ME: @aristapnel #181'
+  - 'T.ME: @aristapnel #182'
+  - 'T.ME: @aristapnel #183'
+  - 'T.ME: @aristapnel #184'
+  - 'T.ME: @aristapnel #185'
+  - 'T.ME: @aristapnel #186'
+  - 'T.ME: @aristapnel #187'
+  - 'T.ME: @aristapnel #188'
+  - 'T.ME: @aristapnel #189'
+  - 'T.ME: @aristapnel #190'
+  - 'T.ME: @aristapnel #191'
+  - 'T.ME: @aristapnel #192'
+  - 'T.ME: @aristapnel #193'
+  - 'T.ME: @aristapnel #194'
+  - 'T.ME: @aristapnel #195'
+  - 'T.ME: @aristapnel #196'
+  - 'T.ME: @aristapnel #197'
+  - 'T.ME: @aristapnel #198'
+  - 'T.ME: @aristapnel #199'
+  - 'T.ME: @aristapnel #200'
+  - 'T.ME: @aristapnel #201'
+  - 'T.ME: @aristapnel #202'
+  - 'T.ME: @aristapnel #203'
+  - 'T.ME: @aristapnel #204'
+  - 'T.ME: @aristapnel #205'
+  - 'T.ME: @aristapnel #206'
+  - 'T.ME: @aristapnel #207'
+  - 'T.ME: @aristapnel #208'
+  - 'T.ME: @aristapnel #209'
+  - 'T.ME: @aristapnel #210'
+  - 'T.ME: @aristapnel #211'
+  - 'T.ME: @aristapnel #212'
+  - 'T.ME: @aristapnel #213'
+  - 'T.ME: @aristapnel #214'
+  - 'T.ME: @aristapnel #215'
+  - 'T.ME: @aristapnel #216'
+  - 'T.ME: @aristapnel #217'
+  - 'T.ME: @aristapnel #218'
+  - 'T.ME: @aristapnel #219'
+  - 'T.ME: @aristapnel #220'
+  - 'T.ME: @aristapnel #221'
+  - 'T.ME: @aristapnel #222'
+- name: 🎬 ARISTA STREAM
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  proxies: *id001
+- name: ⚖️ ARISTA BALANCE
+  type: load-balance
+  strategy: consistent-hashing
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  proxies: *id001
+- name: 🎯 ARISTA CORE
+  type: select
+  proxies:
+  - 🚀 ARISTA LOW LATENCY
+  - 🎬 ARISTA STREAM
+  - ⚖️ ARISTA BALANCE
+  - DIRECT
+  - REJECT

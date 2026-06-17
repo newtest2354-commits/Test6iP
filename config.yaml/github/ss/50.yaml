@@ -1,5 +1,5 @@
 # GITHUB - SS - Tier 50
-# Updated: 2026-06-17 12:13:57
+# Updated: 2026-06-17 12:37:30
 # Count: 44
 
 proxies:
@@ -261,21 +261,29 @@ proxies:
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #39'
   type: ss
-  server: e1.cover20.ir
-  port: 51570
-  cipher: chacha20-ietf-poly1305
-  password: pH/JgEiIbopi90FB0E5FWGjTsmrSvUOQKkLGPwWD068=
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #40'
-  type: ss
   server: 15.204.254.187
   port: 12000
   cipher: aes-256-gcm
   password: 8JCsPssfgS8tiRwiMlhARg==
   udp: true
   tcp-fast-open: true
+- name: 'T.ME: @aristapnel #40'
+  type: ss
+  server: e1.cover20.ir
+  port: 51570
+  cipher: chacha20-ietf-poly1305
+  password: pH/JgEiIbopi90FB0E5FWGjTsmrSvUOQKkLGPwWD068=
+  udp: true
+  tcp-fast-open: true
 - name: 'T.ME: @aristapnel #41'
+  type: ss
+  server: ru.moktana.app
+  port: 51523
+  cipher: chacha20-ietf-poly1305
+  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #42'
   type: ss
   server: r3mrcg00129437x.cybervena.com
   port: 50099
@@ -283,7 +291,7 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #42'
+- name: 'T.ME: @aristapnel #43'
   type: ss
   server: 82.38.31.16
   port: 8080
@@ -291,7 +299,7 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #43'
+- name: 'T.ME: @aristapnel #44'
   type: ss
   server: 46.246.97.3
   port: 31348
@@ -299,7 +307,7 @@ proxies:
   password: nbWNC8zZ0eXokIOuW5rL8oNrXmXg5qAuL05R4fGNKCS7IG0u
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #44'
+- name: 'T.ME: @aristapnel #45'
   type: ss
   server: 185.202.93.194
   port: 41348
@@ -307,7 +315,15 @@ proxies:
   password: HSpc9IH8JsQkeHSzzYXChjHsl7nHgSaA8K60Cd
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #45'
+- name: 'T.ME: @aristapnel #46'
+  type: ss
+  server: 45.129.96.62
+  port: 41348
+  cipher: chacha20-ietf-poly1305
+  password: 6U3psR0sQuQxWXoBHB4KTD3YacwQwS21XvSEy9
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #47'
   type: ss
   server: r3mrcg001286ek2.cybervena.com
   port: 50099
@@ -315,7 +331,15 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #46'
+- name: 'T.ME: @aristapnel #48'
+  type: ss
+  server: r3mrcg001269pz2.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #49'
   type: ss
   server: 198.98.53.130
   port: 443
@@ -323,7 +347,7 @@ proxies:
   password: eDfN7SODQceIOmIAbtJJtK
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #47'
+- name: 'T.ME: @aristapnel #50'
   type: ss
   server: 108.181.121.226
   port: 8388
@@ -331,27 +355,77 @@ proxies:
   password: WSyL4XTwNsdv
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #48'
-  type: ss
-  server: 161.129.71.148
-  port: 17913
-  cipher: aes-128-gcm
-  password: wcjMniCODfhz26P7L2BvpEDQfhogbFTl
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #49'
-  type: ss
-  server: 47.80.24.245
-  port: 8127
-  cipher: 2022-blake3-aes-128-gcm
-  password: 3UebYm8HW8DU7iMs1O0pew==
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #50'
-  type: ss
-  server: 103.130.147.40
-  port: 1122
-  cipher: aes-256-gcm
-  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
-  udp: true
-  tcp-fast-open: true
+proxy-groups:
+- name: 🚀 ARISTA LOW LATENCY
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+  timeout: 3000
+  proxies: &id001
+  - 'T.ME: @aristapnel #1'
+  - 'T.ME: @aristapnel #2'
+  - 'T.ME: @aristapnel #3'
+  - 'T.ME: @aristapnel #4'
+  - 'T.ME: @aristapnel #5'
+  - 'T.ME: @aristapnel #6'
+  - 'T.ME: @aristapnel #7'
+  - 'T.ME: @aristapnel #8'
+  - 'T.ME: @aristapnel #9'
+  - 'T.ME: @aristapnel #10'
+  - 'T.ME: @aristapnel #11'
+  - 'T.ME: @aristapnel #12'
+  - 'T.ME: @aristapnel #13'
+  - 'T.ME: @aristapnel #14'
+  - 'T.ME: @aristapnel #15'
+  - 'T.ME: @aristapnel #16'
+  - 'T.ME: @aristapnel #17'
+  - 'T.ME: @aristapnel #18'
+  - 'T.ME: @aristapnel #19'
+  - 'T.ME: @aristapnel #21'
+  - 'T.ME: @aristapnel #23'
+  - 'T.ME: @aristapnel #24'
+  - 'T.ME: @aristapnel #25'
+  - 'T.ME: @aristapnel #26'
+  - 'T.ME: @aristapnel #27'
+  - 'T.ME: @aristapnel #29'
+  - 'T.ME: @aristapnel #32'
+  - 'T.ME: @aristapnel #34'
+  - 'T.ME: @aristapnel #35'
+  - 'T.ME: @aristapnel #36'
+  - 'T.ME: @aristapnel #37'
+  - 'T.ME: @aristapnel #38'
+  - 'T.ME: @aristapnel #39'
+  - 'T.ME: @aristapnel #40'
+  - 'T.ME: @aristapnel #41'
+  - 'T.ME: @aristapnel #42'
+  - 'T.ME: @aristapnel #43'
+  - 'T.ME: @aristapnel #44'
+  - 'T.ME: @aristapnel #45'
+  - 'T.ME: @aristapnel #46'
+  - 'T.ME: @aristapnel #47'
+  - 'T.ME: @aristapnel #48'
+  - 'T.ME: @aristapnel #49'
+  - 'T.ME: @aristapnel #50'
+- name: 🎬 ARISTA STREAM
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  proxies: *id001
+- name: ⚖️ ARISTA BALANCE
+  type: load-balance
+  strategy: consistent-hashing
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  lazy: true
+  proxies: *id001
+- name: 🎯 ARISTA CORE
+  type: select
+  proxies:
+  - 🚀 ARISTA LOW LATENCY
+  - 🎬 ARISTA STREAM
+  - ⚖️ ARISTA BALANCE
+  - DIRECT
+  - REJECT
