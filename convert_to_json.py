@@ -28,10 +28,6 @@ class ConfigToJSONConverter:
             "2022-blake3-aes-128-gcm", "2022-blake3-aes-256-gcm",
             "2022-blake3-chacha20-poly1305"
         }
-        self.allowed_fp = {
-            "chrome", "firefox", "safari", "ios", "android",
-            "edge", "qq", "random", "randomized"
-        }
 
     def clean_host(self, value: str) -> str:
         if not value:
@@ -98,16 +94,13 @@ class ConfigToJSONConverter:
         security = self.get_first(qs, "security", "none")
         if security not in ("tls", "reality"):
             return {"enabled": False}
-        fp = self.get_first(qs, "fp", "chrome")
-        if fp not in self.allowed_fp:
-            fp = "chrome"
         tls = {
             "enabled": True,
             "server_name": self.clean_host(self.get_first(qs, "sni", host)),
             "insecure": False,
             "utls": {
                 "enabled": True,
-                "fingerprint": fp
+                "fingerprint": self.get_first(qs, "fp", "chrome")
             }
         }
         alpn = self.get_first(qs, "alpn")
@@ -123,7 +116,7 @@ class ConfigToJSONConverter:
                 return {"enabled": False}
             reality = {
                 "enabled": True,
-                "public_key": pbk
+                "public_key": pbk.replace("=", "")
             }
             sid = self.get_first(qs, "sid")
             if sid:
@@ -191,54 +184,26 @@ class ConfigToJSONConverter:
     def decode_ss_config(self, ss_url: str) -> Optional[Dict]:
         try:
             raw = ss_url.replace("ss://", "").split("#")[0]
+            if "@" not in raw:
+                return None
+            method_password, server_port = raw.split("@", 1)
+            decoded = self.safe_b64_decode(method_password)
+            if not decoded or ":" not in decoded:
+                return None
+            method, password = decoded.split(":", 1)
+            if method not in self.allowed_ss_ciphers:
+                return None
+            server, port = server_port.split(":", 1)
+            if not port.isdigit():
+                return None
             name = unquote(ss_url.split("#", 1)[1]) if "#" in ss_url else ""
-            if "@" in raw:
-                method_password, server_port = raw.split("@", 1)
-                decoded = self.safe_b64_decode(method_password)
-                if decoded and ":" in decoded:
-                    method, password = decoded.split(":", 1)
-                    if method in self.allowed_ss_ciphers:
-                        server, port = server_port.split(":", 1)
-                        if port.isdigit():
-                            return {
-                                "method": method,
-                                "password": password,
-                                "server": server,
-                                "port": int(port),
-                                "name": name
-                            }
-                method_password_base64 = raw.split("@", 1)[0]
-                if self.safe_b64_decode(method_password_base64):
-                    full_decoded = self.safe_b64_decode(method_password_base64)
-                    if full_decoded and "@" in full_decoded:
-                        method_password_part, server_port_part = full_decoded.split("@", 1)
-                        if ":" in method_password_part:
-                            method, password = method_password_part.split(":", 1)
-                            if method in self.allowed_ss_ciphers:
-                                server, port = server_port_part.split(":", 1)
-                                if port.isdigit():
-                                    return {
-                                        "method": method,
-                                        "password": password,
-                                        "server": server,
-                                        "port": int(port),
-                                        "name": name
-                                    }
-            if raw.startswith("method:") or ":" in raw and "@" in raw:
-                method_password, server_port = raw.split("@", 1)
-                if ":" in method_password:
-                    method, password = method_password.split(":", 1)
-                    if method in self.allowed_ss_ciphers:
-                        server, port = server_port.split(":", 1)
-                        if port.isdigit():
-                            return {
-                                "method": method,
-                                "password": password,
-                                "server": server,
-                                "port": int(port),
-                                "name": name
-                            }
-            return None
+            return {
+                "method": method,
+                "password": password,
+                "server": server,
+                "port": int(port),
+                "name": name
+            }
         except:
             return None
 
@@ -275,9 +240,8 @@ class ConfigToJSONConverter:
             flow = self.get_first(qs, "flow")
             if flow in ["xtls-rprx-vision", "xtls-rprx-udp443", "xtls-rprx"]:
                 config["flow"] = flow
-            packet_encoding = self.get_first(qs, "packetEncoding")
-            if packet_encoding:
-                config["packet_encoding"] = packet_encoding
+            if self.get_first(qs, "udp", "true") != "false":
+                config["packet_encoding"] = "xudp"
             transport = self.build_transport_vless(qs, parsed.hostname)
             if transport:
                 config["transport"] = transport
@@ -319,11 +283,9 @@ class ConfigToJSONConverter:
                 "server": c["add"],
                 "server_port": int(c["port"]),
                 "uuid": c["id"],
-                "security": c.get("scy", "auto")
+                "security": c.get("scy", "auto"),
+                "alter_id": int(c.get("aid", 0))
             }
-            aid = int(c.get("aid", 0))
-            if aid > 0:
-                config["alter_id"] = aid
             tls_qs = {}
             if c.get("tls") == "tls":
                 tls_qs["security"] = ["tls"]
@@ -450,11 +412,10 @@ class ConfigToJSONConverter:
                 {
                     "type": "tun",
                     "tag": "tun-in",
-                    "interface_name": "singbox-tun",
-                    "inet4_address": "172.19.0.1/30",
                     "auto_route": True,
                     "strict_route": True,
-                    "stack": "system"
+                    "stack": "system",
+                    "sniff": True
                 }
             ],
             "outbounds": outbounds + [
