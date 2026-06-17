@@ -1,0 +1,856 @@
+# COMBINED - VLESS - Tier 50
+# Updated: 2026-06-17 05:59:57
+# Count: 50
+# Failed conversions: 0
+
+proxies:
+- name: 'ARISTA #1'
+  type: vless
+  server: 104.16.0.0
+  port: 8080
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: tr-cd.sublink-vip2.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: tr-cd.sublink-vip2.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #2'
+  type: vless
+  server: 78.17.98.36
+  port: 8443
+  uuid: bfe7f8db-f380-46cb-99c4-3578f90d8e85
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: HA772VN0jk_nXjzMj2O1vxR4Ibr2OyS-rfMb6VJggnU
+    short-id: d5e7f1a2
+- name: 'ARISTA #3'
+  type: vless
+  server: 77.74.123.163
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn3-87.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #4'
+  type: vless
+  server: ch-gt-02.com
+  port: 8443
+  uuid: 06bcd513-ef0b-4c0c-a03b-e25fcda66fe2
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: 40ce08cf20c67003
+- name: 'ARISTA #5'
+  type: vless
+  server: 72.56.92.177
+  port: 40443
+  uuid: 4480161e-2c59-4d37-8736-675c9af32bf1
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: deepl.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y
+    short-id: 01d1bf2d4755d40c
+- name: 'ARISTA #6'
+  type: vless
+  server: 144.124.228.113
+  port: 443
+  uuid: 039a1658-e86e-475f-a3a4-67cc249acada
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: nl3.panel11.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4
+    short-id: e069bfaf9ba2069c
+- name: 'ARISTA #7'
+  type: vless
+  server: 172.64.53.74
+  port: 443
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: fgnix832fx.fx6hsv0.ccwu.cc
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /
+    headers:
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #8'
+  type: vless
+  server: ara.public.lat
+  port: 58748
+  uuid: 21e22226-0b96-4b4e-9a91-5c7f9e3f1760
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: e1roj9ul.divarcdn.com%2C%20e1roj9ul.alibaba.ir%2C%20e1roj9ul.splus.ir%2C%20e1roj9ul.cafebazaar.ir%2C%20e1roj9ul.yjc.ir
+  client-fingerprint: chrome
+- name: 'ARISTA #9'
+  type: vless
+  server: 77.74.123.168
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn3-87.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #10'
+  type: vless
+  server: sca30.mysilipdir.com
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  network: grpc
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sca30.mysilipdir.com
+  client-fingerprint: chrome
+- name: 'ARISTA #11'
+  type: vless
+  server: 46.229.243.136
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn3-25.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #12'
+  type: vless
+  server: ch-gt-01.com
+  port: 8443
+  uuid: 3b7950ed-e076-4a51-8df2-222a88689700
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
+    short-id: d037f6f67cc90016
+- name: 'ARISTA #13'
+  type: vless
+  server: 37.233.82.140
+  port: 40478
+  uuid: e977d854-33f3-4345-abee-bf3fa9a6d880
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0
+    short-id: 3c
+- name: 'ARISTA #14'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c2f0a8f0-36fe-4a94-824b-bca271ca642b
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: alphacdn.alphashops.shop
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2Fws'
+    headers:
+      Host: alphacdn.alphashops.shop
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #15'
+  type: vless
+  server: sca18.myfymain.com
+  port: 8880
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  network: grpc
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sca18.myfymain.com
+  client-fingerprint: chrome
+- name: 'ARISTA #16'
+  type: vless
+  server: 104.25.252.37
+  port: 443
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: juzi.qea.ccwu.cc
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: juzi.qea.ccwu.cc
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #17'
+  type: vless
+  server: python-graysongon.wasmer.app
+  port: 443
+  uuid: 7bd180e8-1142-4387-93f5-03e8d750a896
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: python-graysongon.wasmer.app
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2F7bd180e8'
+    headers:
+      Host: python-graysongon.wasmer.app
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #18'
+  type: vless
+  server: 91.107.244.55
+  port: 8080
+  uuid: 92929b0d-a473-4ea2-bba5-f651ea263872
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 91.107.244.55
+  client-fingerprint: chrome
+- name: 'ARISTA #19'
+  type: vless
+  server: farari.mmrknight.app
+  port: 51617
+  uuid: 880b0b6d-0de5-4803-bd30-c98dd1c00d14
+  network: xhttp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: aws.amazon.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: aAfb7PIVx0wb1tFBZkh1YmorOHbRGOey2kA3UpzpeXQ
+    short-id: 06aff0790c18566b
+- name: 'ARISTA #20'
+  type: vless
+  server: 216.24.57.1
+  port: 443
+  uuid: 790df6a3-c3b3-4642-8505-925c8871f612
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: somersby.pt.cyylr.eu.cc
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2Fae-bo'
+    headers:
+      Host: somersby.pt.cyylr.eu.cc
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #21'
+  type: vless
+  server: 79.127.196.11
+  port: 8443
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdg-1.fromblancwithlove.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #22'
+  type: vless
+  server: 79.127.196.11
+  port: 8443
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdg-1.fromblancwithlove.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #23'
+  type: vless
+  server: www.downloadnova.live
+  port: 719
+  uuid: 373209d7-c464-4ad3-9027-07e94afad7d5
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: play.google.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fapi%2Fv2%2Fxtrnwqjbkr%3Fed%3D2560'
+    headers:
+      Host: play.google.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #24'
+  type: vless
+  server: se.riotvpn.eu
+  port: 443
+  uuid: 3e72a68f-e40d-44c6-a73d-13b99d0d1d50
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    short-id: 2f49bccf11150ef2
+- name: 'ARISTA #25'
+  type: vless
+  server: blubank.ir
+  port: 80
+  uuid: afb3eb91-6ab7-4c70-874e-716e2481cb7d
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: vip.masterdadeh.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: vip.masterdadeh.ir
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #26'
+  type: vless
+  server: fastly.com
+  port: 80
+  uuid: 96eec36e-2c44-5b09-898e-6f0f0526e57f
+  network: xhttp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: shangulin.global.ssl.fastly.net
+  client-fingerprint: chrome
+- name: 'ARISTA #27'
+  type: vless
+  server: cdn9-33.vk-cdnvideo.com
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn9-33.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #28'
+  type: vless
+  server: 47.79.149.248
+  port: 38388
+  uuid: 45c8d20e-0222-4b16-8d21-37318456b980
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: xHaPe5SLprSSqGccSor5d3tCRuwyowBwFeYrVXoSz3w
+    short-id: 6ba85179e30d4fc2
+- name: 'ARISTA #29'
+  type: vless
+  server: 104.26.15.137
+  port: 8080
+  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: tr-cd.sublink-vip2.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: tr-cd.sublink-vip2.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #30'
+  type: vless
+  server: 65.109.191.190
+  port: 48285
+  uuid: c3d4b1da-eaa5-4ff0-a5e8-39cc79b3d220
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.speedtest.net
+  client-fingerprint: chrome
+- name: 'ARISTA #31'
+  type: vless
+  server: 65.109.191.190
+  port: 48285
+  uuid: c3d4b1da-eaa5-4ff0-a5e8-39cc79b3d220
+  network: xhttp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 65.109.191.190
+  client-fingerprint: chrome
+- name: 'ARISTA #32'
+  type: vless
+  server: 46.229.243.139
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn3-87.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #33'
+  type: vless
+  server: 141.193.213.30
+  port: 443
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: octopusss4.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2Ftsghdws'
+    headers:
+      Host: octopusss4.com
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #34'
+  type: vless
+  server: 77.74.123.167
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn7-09.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #35'
+  type: vless
+  server: 2.27.27.226
+  port: 443
+  uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: am.buycloud.app
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
+    short-id: 3a4453b8b46a18de
+- name: 'ARISTA #36'
+  type: vless
+  server: 89.167.82.102
+  port: 2052
+  uuid: e36ada23-dd64-4f1a-bb38-408f5165d759
+  network: xhttp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 89.167.82.102
+  client-fingerprint: chrome
+- name: 'ARISTA #37'
+  type: vless
+  server: client.lightnin.click
+  port: 443
+  uuid: c5e850d4-c551-457c-8dba-beb0ccbad963
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sni.lightnin.click
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: un.lightnin.click
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #38'
+  type: vless
+  server: fast.cd-tur4.ir
+  port: 443
+  uuid: 4fcb91d0-bbc4-480c-b362-216d4a79bb5c
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: default.ssl.fastly.net
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: pan3.global.ssl.fastly.net
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #39'
+  type: vless
+  server: 188.114.96.3
+  port: 443
+  uuid: e25269fc-5267-4639-9528-64e8690ad73e
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ez-73eAfc.HZHDyeHxhcJbdsS.woRkERS.Dev
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2FeyJqdW5rIjoiUHNMRXZld3JoWW5BIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D%3Fed%3D2560'
+    headers:
+      Host: ez-73eafc.hzhdyehxhcjbdss.workers.dev
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #40'
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: b813cbc9-dc15-4348-9765-b99dc76d4422
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: default.ssl.fastly.net
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #41'
+  type: vless
+  server: 77.74.123.166
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn7-09.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #42'
+  type: vless
+  server: cdn3-87.vk-cdnvideo.com
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: cdn3-87.vk-cdnvideo.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #43'
+  type: vless
+  server: 199.232.244.3
+  port: 443
+  uuid: d6c8c72b-32ae-4ef5-8637-fb162d4eea81
+  network: xhttp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: global.fastly.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #44'
+  type: vless
+  server: 45.205.0.55
+  port: 443
+  uuid: 44f7eb71-de22-4a9c-8d5a-64fb7115c82f
+  network: xhttp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: panel.fredomiran.com
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #45'
+  type: vless
+  server: www.jorquna.ir
+  port: 443
+  uuid: 8882c88f-e5d5-4519-938e-3c0f60c61c92
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: play.google.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: k2hbpFLj1gfVXbx0Hae2bvMIZIaBwJcVG71XiEDkSD0
+    short-id: 21cee1c9ab
+- name: 'ARISTA #46'
+  type: vless
+  server: snapp.ir
+  port: 80
+  uuid: 1c111ccf-bc41-4f4e-a641-ebefe04e6306
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: veryfast2.ir
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2F'
+    headers:
+      Host: veryfast2.ir
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #47'
+  type: vless
+  server: 104.21.86.253
+  port: 443
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  network: grpc
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: pqh27v1.carwashipdir.shop
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 'ARISTA #48'
+  type: vless
+  server: 25.26.27.158
+  port: 2096
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: sni.111000.de5.net
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: '%2F%3Fed%3D2560%26Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN'
+    headers:
+      Host: sni.111000.de5.net
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'ARISTA #49'
+  type: vless
+  server: forallpanel.srtongston.ir
+  port: 8880
+  uuid: 17186ef5-7a33-4d80-bece-9feb3743532d
+  network: httpupgrade
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Cdn8-pro.postshup.ir.
+  client-fingerprint: chrome
+- name: 'ARISTA #50'
+  type: vless
+  server: 45.196.224.110
+  port: 8443
+  uuid: ad7b2fde-d820-4dfe-be66-09fde32ddf61
+  network: tcp
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: rbc.ru
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  alpn:
+  - h2
+  - http/1.1
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: 364994a6f61fc955
