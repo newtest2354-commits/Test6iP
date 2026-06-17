@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier 100
-// Updated: 2026-06-17 18:56:04
+// Updated: 2026-06-17 19:31:27
 // Count: 95
 
 {
@@ -10,16 +10,12 @@
   "dns": {
     "servers": [
       {
-        "type": "udp",
         "tag": "google",
-        "server": "8.8.8.8",
-        "server_port": 53
+        "address": "8.8.8.8"
       },
       {
-        "type": "udp",
         "tag": "cloudflare",
-        "server": "1.1.1.1",
-        "server_port": 53
+        "address": "1.1.1.1"
       }
     ],
     "final": "google"
@@ -38,103 +34,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #3",
-      "server": "series-a1.samanehha.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #4",
-      "server": "108.181.58.239",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "CJmTCCx7Ltud"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #5",
-      "server": "62.133.63.169",
-      "server_port": 37096,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Y5EJZojVMENvkDVFYliEqE"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #6",
-      "server": "82.38.31.202",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #7",
-      "server": "82.38.31.205",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #8",
-      "server": "221.139.79.57",
-      "server_port": 13979,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #9",
-      "server": "52.60.99.199",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #10",
-      "server": "3.96.152.83",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #11",
-      "server": "82.38.31.214",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #12",
-      "server": "admin.c1.webramz.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #13",
-      "server": "admin.c1.havij.co",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1kVr0KATIJI7mwOF"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #15",
-      "server": "31.172.87.124",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #16",
+      "tag": "ARISTA #1",
       "server": "193.29.139.206",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -142,7 +42,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #17",
+      "tag": "ARISTA #2",
       "server": "195.133.23.28",
       "server_port": 60129,
       "method": "aes-256-gcm",
@@ -150,7 +50,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #18",
+      "tag": "ARISTA #3",
       "server": "148.253.208.76",
       "server_port": 3478,
       "method": "chacha20-ietf-poly1305",
@@ -158,63 +58,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #19",
-      "server": "57.129.129.247",
-      "server_port": 29757,
-      "method": "chacha20-ietf-poly1305",
-      "password": "82f3a83f1556c0e3"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #20",
-      "server": "31.76.7.28",
+      "tag": "ARISTA #4",
+      "server": "31.172.87.124",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #21",
-      "server": "109.107.182.229",
-      "server_port": 51544,
-      "method": "chacha20-ietf-poly1305",
-      "password": "64pFwul1pk5xuFr6T05S5S"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #22",
-      "server": "8.209.74.72",
-      "server_port": 20001,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PWpjPo3tqhPN4yRZ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #23",
-      "server": "36.230.59.142",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #24",
-      "server": "195.93.253.240",
-      "server_port": 14130,
-      "method": "chacha20-ietf-poly1305",
-      "password": "zfRwdreLaBOGwUzCaWmvIN"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #25",
-      "server": "173.244.56.6",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #26",
+      "tag": "ARISTA #5",
       "server": "195.93.253.245",
       "server_port": 49137,
       "method": "chacha20-ietf-poly1305",
@@ -222,7 +74,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #27",
+      "tag": "ARISTA #6",
+      "server": "31.76.7.28",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #7",
+      "server": "109.107.182.229",
+      "server_port": 51544,
+      "method": "chacha20-ietf-poly1305",
+      "password": "64pFwul1pk5xuFr6T05S5S"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #8",
       "server": "193.29.139.204",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -230,7 +98,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #28",
+      "tag": "ARISTA #9",
+      "server": "8.209.74.72",
+      "server_port": 20001,
+      "method": "chacha20-ietf-poly1305",
+      "password": "PWpjPo3tqhPN4yRZ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #10",
+      "server": "36.230.59.142",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #11",
       "server": "193.29.139.162",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -238,15 +122,167 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #29",
-      "server": "r3mrcg001269pz2.cybervena.com",
-      "server_port": 50099,
+      "tag": "ARISTA #12",
+      "server": "173.244.56.6",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #13",
+      "server": "51.254.142.162",
+      "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+      "password": "bjnrInsnyNlbYotSv9ykgy"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #14",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #17",
+      "server": "82.38.31.11",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #18",
+      "server": "82.38.31.202",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #19",
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #20",
+      "server": "82.38.31.205",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #21",
+      "server": "221.139.79.57",
+      "server_port": 13979,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #22",
+      "server": "52.60.99.199",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #23",
+      "server": "3.96.152.83",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #24",
+      "server": "82.38.31.214",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #25",
+      "server": "admin.c1.webramz.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #26",
+      "server": "admin.c1.havij.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1kVr0KATIJI7mwOF"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #28",
+      "server": "82.38.31.10",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #29",
+      "server": "82.38.31.15",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
       "tag": "ARISTA #30",
+      "server": "62.133.63.169",
+      "server_port": 37096,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Y5EJZojVMENvkDVFYliEqE"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #31",
+      "server": "82.38.31.218",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #32",
+      "server": "57.129.129.247",
+      "server_port": 29757,
+      "method": "chacha20-ietf-poly1305",
+      "password": "82f3a83f1556c0e3"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #33",
+      "server": "195.93.253.240",
+      "server_port": 14130,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zfRwdreLaBOGwUzCaWmvIN"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #34",
+      "server": "82.38.31.185",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #35",
       "server": "82.38.31.7",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -254,31 +290,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #31",
-      "server": "38.135.24.131",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hbGrpfvNrJsUmKmPbR3iY2"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #32",
-      "server": "82.38.31.190",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #34",
-      "server": "82.38.31.35",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #35",
+      "tag": "ARISTA #36",
       "server": "ru.moktana.app",
       "server_port": 51523,
       "method": "chacha20-ietf-poly1305",
@@ -286,7 +298,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #36",
+      "tag": "ARISTA #37",
       "server": "90.156.203.62",
       "server_port": 5112,
       "method": "chacha20-ietf-poly1305",
@@ -294,7 +306,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #37",
+      "tag": "ARISTA #38",
       "server": "193.29.139.143",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -302,7 +314,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #38",
+      "tag": "ARISTA #39",
       "server": "168.138.175.92",
       "server_port": 9888,
       "method": "aes-128-gcm",
@@ -310,7 +322,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #39",
+      "tag": "ARISTA #40",
       "server": "47.80.24.245",
       "server_port": 8127,
       "method": "2022-blake3-aes-128-gcm",
@@ -318,7 +330,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #40",
+      "tag": "ARISTA #41",
       "server": "16.192.29.182",
       "server_port": 54635,
       "method": "chacha20-ietf-poly1305",
@@ -326,7 +338,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #41",
+      "tag": "ARISTA #42",
       "server": "185.22.154.212",
       "server_port": 50129,
       "method": "aes-256-gcm",
@@ -334,7 +346,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #42",
+      "tag": "ARISTA #43",
       "server": "185.22.154.46",
       "server_port": 20129,
       "method": "aes-256-gcm",
@@ -342,7 +354,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #43",
+      "tag": "ARISTA #44",
       "server": "de5.taskflowhub.org",
       "server_port": 2083,
       "method": "aes-256-gcm",
@@ -350,7 +362,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #44",
+      "tag": "ARISTA #45",
       "server": "108.181.121.226",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
@@ -358,7 +370,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #45",
+      "tag": "ARISTA #46",
       "server": "93.93.205.137",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -366,7 +378,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #46",
+      "tag": "ARISTA #47",
       "server": "k1.cover20.ir",
       "server_port": 52502,
       "method": "chacha20-ietf-poly1305",
@@ -374,7 +386,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #47",
+      "tag": "ARISTA #48",
       "server": "195.58.48.56",
       "server_port": 20129,
       "method": "aes-256-gcm",
@@ -382,7 +394,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #48",
+      "tag": "ARISTA #49",
       "server": "194.242.127.47",
       "server_port": 3478,
       "method": "chacha20-ietf-poly1305",
@@ -390,19 +402,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #49",
+      "tag": "ARISTA #50",
       "server": "91.208.75.251",
       "server_port": 3478,
       "method": "chacha20-ietf-poly1305",
       "password": "yu2XnSPWhmQjxn83iJA3DA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #50",
-      "server": "82.38.31.218",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
       "type": "shadowsocks",
@@ -414,23 +418,23 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #53",
-      "server": "82.38.31.11",
+      "tag": "ARISTA #52",
+      "server": "82.38.31.35",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #54",
-      "server": "82.38.31.185",
-      "server_port": 8080,
+      "tag": "ARISTA #53",
+      "server": "108.181.58.239",
+      "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "password": "CJmTCCx7Ltud"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #55",
+      "tag": "ARISTA #54",
       "server": "82.38.31.194",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -438,7 +442,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #56",
+      "tag": "ARISTA #55",
       "server": "141.98.101.182",
       "server_port": 443,
       "method": "aes-128-gcm",
@@ -447,14 +451,30 @@
     {
       "type": "shadowsocks",
       "tag": "ARISTA #57",
-      "server": "series-a2.samanehha.co",
-      "server_port": 443,
+      "server": "r3mrcg001269pz2.cybervena.com",
+      "server_port": 50099,
       "method": "chacha20-ietf-poly1305",
-      "password": "W74XFALLLuw6m5IA"
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #58",
+      "tag": "ARISTA #59",
+      "server": "38.135.24.131",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "hbGrpfvNrJsUmKmPbR3iY2"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #60",
+      "server": "82.38.31.190",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #61",
       "server": "open.iranzaminmob.com",
       "server_port": 10853,
       "method": "chacha20-ietf-poly1305",
@@ -462,47 +482,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #59",
-      "server": "82.38.31.10",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #60",
-      "server": "82.38.31.15",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #61",
-      "server": "213.202.208.199",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #62",
-      "server": "46.249.109.128",
-      "server_port": 56594,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #63",
-      "server": "47.79.144.115",
-      "server_port": 40003,
-      "method": "aes-256-gcm",
-      "password": "GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #64",
+      "tag": "T.ME: @aristapnel #62",
       "server": "61.171.92.202",
       "server_port": 1001,
       "method": "aes-256-gcm",
@@ -510,7 +490,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #65",
+      "tag": "T.ME: @aristapnel #63",
       "server": "62.133.60.43",
       "server_port": 36456,
       "method": "chacha20-ietf-poly1305",
@@ -518,7 +498,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #66",
+      "tag": "T.ME: @aristapnel #64",
       "server": "89.185.84.185",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -526,7 +506,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #67",
+      "tag": "T.ME: @aristapnel #65",
       "server": "62.133.60.43",
       "server_port": 36456,
       "method": "chacha20-ietf-poly1305",
@@ -534,7 +514,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #68",
+      "tag": "T.ME: @aristapnel #66",
       "server": "89.185.84.185",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -542,7 +522,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #69",
+      "tag": "T.ME: @aristapnel #67",
       "server": "46.246.97.195",
       "server_port": 23931,
       "method": "chacha20-ietf-poly1305",
@@ -550,7 +530,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #70",
+      "tag": "T.ME: @aristapnel #68",
       "server": "51.195.119.47",
       "server_port": 1080,
       "method": "chacha20-ietf-poly1305",
@@ -558,7 +538,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #71",
+      "tag": "T.ME: @aristapnel #69",
       "server": "95.164.123.197",
       "server_port": 36611,
       "method": "chacha20-ietf-poly1305",
@@ -566,7 +546,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #72",
+      "tag": "T.ME: @aristapnel #70",
       "server": "171.22.254.129",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -574,7 +554,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #73",
+      "tag": "T.ME: @aristapnel #71",
       "server": "45.87.175.190",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -582,7 +562,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #74",
+      "tag": "T.ME: @aristapnel #72",
       "server": "77.83.246.74",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -590,7 +570,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #75",
+      "tag": "T.ME: @aristapnel #73",
       "server": "185.163.204.94",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -598,7 +578,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #76",
+      "tag": "T.ME: @aristapnel #74",
       "server": "103.186.155.103",
       "server_port": 38388,
       "method": "aes-256-cfb",
@@ -606,7 +586,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #77",
+      "tag": "T.ME: @aristapnel #75",
       "server": "103.186.155.62",
       "server_port": 38388,
       "method": "aes-256-cfb",
@@ -614,7 +594,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #78",
+      "tag": "T.ME: @aristapnel #76",
       "server": "45.87.175.165",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -622,7 +602,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #79",
+      "tag": "T.ME: @aristapnel #77",
       "server": "217.30.10.18",
       "server_port": 9088,
       "method": "aes-256-cfb",
@@ -630,7 +610,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #80",
+      "tag": "T.ME: @aristapnel #78",
       "server": "77.83.246.74",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -638,7 +618,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #81",
+      "tag": "T.ME: @aristapnel #79",
       "server": "81.19.141.45",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -646,7 +626,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #82",
+      "tag": "T.ME: @aristapnel #80",
       "server": "81.19.141.45",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -654,7 +634,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #83",
+      "tag": "T.ME: @aristapnel #81",
       "server": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFYXhwMWRkbU1lYWNKZ0lCYjRJaUF5",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -662,7 +642,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #84",
+      "tag": "T.ME: @aristapnel #82",
       "server": "185.193.49.88",
       "server_port": 989,
       "method": "aes-256-cfb",
@@ -670,7 +650,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #85",
+      "tag": "T.ME: @aristapnel #83",
       "server": "YWVzLTI1Ni1jZmI6VFBxWDhlZGdiQVVSY0FNYg==",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -678,7 +658,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #86",
+      "tag": "T.ME: @aristapnel #84",
       "server": "45.87.175.157",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -686,7 +666,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #87",
+      "tag": "T.ME: @aristapnel #85",
       "server": "109.61.39.28",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -694,7 +674,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #88",
+      "tag": "T.ME: @aristapnel #86",
       "server": "134.255.210.49",
       "server_port": 990,
       "method": "chacha20-ietf-poly1305",
@@ -702,7 +682,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #89",
+      "tag": "T.ME: @aristapnel #87",
       "server": "208.67.105.196",
       "server_port": 42029,
       "method": "chacha20-ietf-poly1305",
@@ -710,7 +690,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #90",
+      "tag": "T.ME: @aristapnel #88",
       "server": "217.30.10.18",
       "server_port": 9094,
       "method": "aes-256-cfb",
@@ -718,7 +698,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #91",
+      "tag": "T.ME: @aristapnel #89",
       "server": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3c2NBZklQdVROUm1tc1UxRTJJajhs",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -726,7 +706,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #92",
+      "tag": "T.ME: @aristapnel #90",
       "server": "217.30.10.18",
       "server_port": 9019,
       "method": "aes-256-cfb",
@@ -734,7 +714,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #93",
+      "tag": "T.ME: @aristapnel #91",
       "server": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVkJZUmtTa0hsVHFlYlNKckdjMkM3",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -742,7 +722,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #94",
+      "tag": "T.ME: @aristapnel #92",
       "server": "YWVzLTI1Ni1jZmI6YzNOdEhKNXVqVjJ0R0Rmag==",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -750,7 +730,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #95",
+      "tag": "T.ME: @aristapnel #93",
       "server": "45.87.175.177",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -758,7 +738,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #96",
+      "tag": "T.ME: @aristapnel #94",
       "server": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMWWxjanJabUE2eFJsQTVTdnRKSTly",
       "server_port": 8388,
       "method": "aes-256-gcm",
@@ -766,7 +746,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #97",
+      "tag": "T.ME: @aristapnel #95",
       "server": "78.129.140.11",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -774,7 +754,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #98",
+      "tag": "T.ME: @aristapnel #96",
       "server": "82.38.31.191",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
@@ -782,7 +762,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #99",
+      "tag": "T.ME: @aristapnel #97",
       "server": "213.176.16.71",
       "server_port": 4966,
       "method": "chacha20-ietf-poly1305",
@@ -790,15 +770,27 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "T.ME: @aristapnel #100",
+      "tag": "T.ME: @aristapnel #98",
       "server": "92.53.120.249",
       "server_port": 1080,
       "method": "chacha20-ietf-poly1305",
       "password": "mKm5n5DYEI4HCFhsevGWkA"
     },
     {
-      "type": "dns",
-      "tag": "dns-out"
+      "type": "shadowsocks",
+      "tag": "T.ME: @aristapnel #99",
+      "server": "185.39.204.161",
+      "server_port": 33563,
+      "method": "chacha20-ietf-poly1305",
+      "password": "bSlgCoGhApOb55tIMD0zxY"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "T.ME: @aristapnel #100",
+      "server": "15.204.254.187",
+      "server_port": 12000,
+      "method": "aes-256-gcm",
+      "password": "8JCsPssfgS8tiRwiMlhARg=="
     },
     {
       "type": "direct",
@@ -812,6 +804,8 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
+        "ARISTA #1",
+        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
@@ -823,8 +817,7 @@
         "ARISTA #11",
         "ARISTA #12",
         "ARISTA #13",
-        "ARISTA #15",
-        "ARISTA #16",
+        "ARISTA #14",
         "ARISTA #17",
         "ARISTA #18",
         "ARISTA #19",
@@ -835,12 +828,12 @@
         "ARISTA #24",
         "ARISTA #25",
         "ARISTA #26",
-        "ARISTA #27",
         "ARISTA #28",
         "ARISTA #29",
         "ARISTA #30",
         "ARISTA #31",
         "ARISTA #32",
+        "ARISTA #33",
         "ARISTA #34",
         "ARISTA #35",
         "ARISTA #36",
@@ -859,17 +852,16 @@
         "ARISTA #49",
         "ARISTA #50",
         "ARISTA #51",
+        "ARISTA #52",
         "ARISTA #53",
         "ARISTA #54",
         "ARISTA #55",
-        "ARISTA #56",
         "ARISTA #57",
-        "ARISTA #58",
         "ARISTA #59",
         "ARISTA #60",
         "ARISTA #61",
-        "ARISTA #62",
-        "ARISTA #63",
+        "T.ME: @aristapnel #62",
+        "T.ME: @aristapnel #63",
         "T.ME: @aristapnel #64",
         "T.ME: @aristapnel #65",
         "T.ME: @aristapnel #66",
@@ -909,12 +901,14 @@
         "T.ME: @aristapnel #100",
         "direct"
       ],
-      "default": "ARISTA #3"
+      "default": "ARISTA #1"
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "ARISTA #1",
+        "ARISTA #2",
         "ARISTA #3",
         "ARISTA #4",
         "ARISTA #5",
@@ -926,8 +920,7 @@
         "ARISTA #11",
         "ARISTA #12",
         "ARISTA #13",
-        "ARISTA #15",
-        "ARISTA #16",
+        "ARISTA #14",
         "ARISTA #17",
         "ARISTA #18",
         "ARISTA #19",
@@ -938,12 +931,12 @@
         "ARISTA #24",
         "ARISTA #25",
         "ARISTA #26",
-        "ARISTA #27",
         "ARISTA #28",
         "ARISTA #29",
         "ARISTA #30",
         "ARISTA #31",
         "ARISTA #32",
+        "ARISTA #33",
         "ARISTA #34",
         "ARISTA #35",
         "ARISTA #36",
@@ -962,17 +955,16 @@
         "ARISTA #49",
         "ARISTA #50",
         "ARISTA #51",
+        "ARISTA #52",
         "ARISTA #53",
         "ARISTA #54",
         "ARISTA #55",
-        "ARISTA #56",
         "ARISTA #57",
-        "ARISTA #58",
         "ARISTA #59",
         "ARISTA #60",
         "ARISTA #61",
-        "ARISTA #62",
-        "ARISTA #63",
+        "T.ME: @aristapnel #62",
+        "T.ME: @aristapnel #63",
         "T.ME: @aristapnel #64",
         "T.ME: @aristapnel #65",
         "T.ME: @aristapnel #66",
@@ -1012,7 +1004,7 @@
         "T.ME: @aristapnel #100"
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "5m0s",
+      "interval": "5m",
       "tolerance": 50
     }
   ],
@@ -1021,13 +1013,7 @@
     "final": "proxy",
     "rules": [
       {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 53,
-        "outbound": "dns-out"
+        "action": "hijack-dns"
       }
     ]
   }

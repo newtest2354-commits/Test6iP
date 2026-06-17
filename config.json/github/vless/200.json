@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 200
-// Updated: 2026-06-17 18:56:05
+// Updated: 2026-06-17 19:31:28
 // Count: 198
 
 {
@@ -10,16 +10,12 @@
   "dns": {
     "servers": [
       {
-        "type": "udp",
         "tag": "google",
-        "server": "8.8.8.8",
-        "server_port": 53
+        "address": "8.8.8.8"
       },
       {
-        "type": "udp",
         "tag": "cloudflare",
-        "server": "1.1.1.1",
-        "server_port": 53
+        "address": "1.1.1.1"
       }
     ],
     "final": "google"
@@ -4026,10 +4022,6 @@
       }
     },
     {
-      "type": "dns",
-      "tag": "dns-out"
-    },
-    {
       "type": "direct",
       "tag": "direct"
     },
@@ -4447,7 +4439,7 @@
         "T.ME: @aristapnel #200"
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "5m0s",
+      "interval": "5m",
       "tolerance": 50
     }
   ],
@@ -4456,13 +4448,7 @@
     "final": "proxy",
     "rules": [
       {
-        "protocol": "dns",
-        "outbound": "dns-out"
-      },
-      {
-        "network": "udp",
-        "port": 53,
-        "outbound": "dns-out"
+        "action": "hijack-dns"
       }
     ]
   }
