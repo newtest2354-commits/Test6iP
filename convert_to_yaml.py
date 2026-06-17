@@ -414,6 +414,55 @@ class ConfigToYAMLConverter:
         else:
             return None
 
+    def build_proxy_groups(self, all_proxies):
+        proxy_names = [p["name"] for p in all_proxies if p.get("name")]
+
+        if not proxy_names:
+            return []
+
+        groups = [
+            {
+                "name": "🚀 ARISTA LOW LATENCY",
+                "type": "url-test",
+                "url": "http://www.gstatic.com/generate_204",
+                "interval": 300,
+                "tolerance": 50,
+                "lazy": True,
+                "timeout": 3000,
+                "proxies": proxy_names
+            },
+            {
+                "name": "🎬 ARISTA STREAM",
+                "type": "fallback",
+                "url": "http://www.gstatic.com/generate_204",
+                "interval": 300,
+                "lazy": True,
+                "proxies": proxy_names
+            },
+            {
+                "name": "⚖️ ARISTA BALANCE",
+                "type": "load-balance",
+                "strategy": "consistent-hashing",
+                "url": "http://www.gstatic.com/generate_204",
+                "interval": 300,
+                "lazy": True,
+                "proxies": proxy_names
+            },
+            {
+                "name": "🎯 ARISTA CORE",
+                "type": "select",
+                "proxies": [
+                    "🚀 ARISTA LOW LATENCY",
+                    "🎬 ARISTA STREAM",
+                    "⚖️ ARISTA BALANCE",
+                    "DIRECT",
+                    "REJECT"
+                ]
+            }
+        ]
+
+        return groups
+
     def convert_source_configs(self, source_dir, output_dir, source_name):
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         os.makedirs(output_dir, exist_ok=True)
