@@ -461,15 +461,34 @@ class ConfigToJSONConverter:
             "dns": {
                 "servers": [
                     {
+                        "tag": "fakeip",
+                        "address": "fakeip"
+                    },
+                    {
                         "tag": "google",
-                        "address": "8.8.8.8"
+                        "address": "8.8.8.8",
+                        "address_resolver": "fakeip",
+                        "detour": "direct"
                     },
                     {
                         "tag": "cloudflare",
-                        "address": "1.1.1.1"
+                        "address": "1.1.1.1",
+                        "address_resolver": "fakeip",
+                        "detour": "direct"
                     }
                 ],
-                "final": "google"
+                "fakeip": {
+                    "enabled": True,
+                    "inet4_range": "198.18.0.0/15",
+                    "inet6_range": "fc00::/18"
+                },
+                "independent_cache": True,
+                "rules": [
+                    {
+                        "outbound": "proxy",
+                        "server": "fakeip"
+                    }
+                ]
             },
             "inbounds": [
                 {
