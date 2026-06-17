@@ -454,27 +454,26 @@ class ConfigToJSONConverter:
                 "outbounds": [{"type": "direct", "tag": "direct"}],
                 "route": {"rules": []}
             }
-        outbounds = proxies.copy()
         tags = [p["tag"] for p in proxies]
         return {
             "log": {"level": "info", "timestamp": True},
             "dns": {
                 "servers": [
                     {
-                        "tag": "fakeip",
-                        "address": "fakeip"
-                    },
-                    {
                         "tag": "google",
                         "address": "8.8.8.8",
-                        "address_resolver": "fakeip",
                         "detour": "direct"
                     },
                     {
                         "tag": "cloudflare",
                         "address": "1.1.1.1",
-                        "address_resolver": "fakeip",
                         "detour": "direct"
+                    },
+                    {
+                        "tag": "fakeip",
+                        "type": "fakeip",
+                        "inet4_range": "198.18.0.0/15",
+                        "inet6_range": "fc00::/18"
                     }
                 ],
                 "fakeip": {
@@ -485,8 +484,8 @@ class ConfigToJSONConverter:
                 "independent_cache": True,
                 "rules": [
                     {
-                        "outbound": "proxy",
-                        "server": "fakeip"
+                        "domain": ["geosite:private"],
+                        "server": "google"
                     }
                 ]
             },
@@ -504,7 +503,7 @@ class ConfigToJSONConverter:
                     "stack": "mixed"
                 }
             ],
-            "outbounds": outbounds + [
+            "outbounds": proxies + [
                 {"type": "direct", "tag": "direct"},
                 {"type": "block", "tag": "block"},
                 {
