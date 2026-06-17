@@ -1,3 +1,4 @@
+# .github/workflows/main.yml
 name: Update Arista Configs
 
 on:
@@ -44,6 +45,11 @@ jobs:
         rm -rf config.yaml/
         mkdir -p config.yaml
 
+    - name: Clean old json files
+      run: |
+        rm -rf config.json/
+        mkdir -p config.json
+
     - name: Run Telegram Config Extractor
       run: python telegram_extractor.py
       timeout-minutes: 20
@@ -57,6 +63,9 @@ jobs:
 
     - name: Convert to YAML (Clash Meta)
       run: python convert_to_yaml.py
+
+    - name: Convert to JSON (Sing-Box)
+      run: python convert_to_json.py
 
     - name: Create summary
       run: |
