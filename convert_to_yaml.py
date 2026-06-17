@@ -347,51 +347,102 @@ class ConfigToYAMLConverter:
                 all_configs[category] = configs
         return all_configs
     
+    def distribute_configs_to_tiers(self, configs, category):
+        tiered_configs = {tier: [] for tier in self.tiers}
+        
+        if not configs:
+            return tiered_configs
+        
+        vless_configs = []
+        other_configs = []
+        
+        for config in configs:
+            if config.startswith('vless://'):
+                vless_configs.append(config)
+            else:
+                other_configs.append(config)
+        
+        total_configs = len(configs)
+        total_tiers = len(self.tiers)
+        
+        if total_configs < total_tiers:
+            for i, config in enumerate(configs):
+                tiered_configs[self.tiers[i]].append(config)
+            return tiered_configs
+        
+        configs_per_tier = total_configs // total_tiers
+        remainder = total_configs % total_tiers
+        
+        all_configs_list = vless_configs + other_configs
+        
+        start_idx = 0
+        for i, tier in enumerate(self.tiers):
+            count = configs_per_tier
+            if i < remainder:
+                count += 1
+            
+            if count > 0 and start_idx < len(all_configs_list):
+                end_idx = min(start_idx + count, len(all_configs_list))
+                tiered_configs[tier] = all_configs_list[start_idx:end_idx]
+                start_idx = end_idx
+        
+        return tiered_configs
+    
     def convert_source_configs(self, source_dir, output_dir, source_name):
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         os.makedirs(output_dir, exist_ok=True)
+        
+        all_categories_configs = {}
         
         for category in self.categories:
             cat_dir = os.path.join(source_dir, category)
             if not os.path.exists(cat_dir):
                 continue
             
+            all_configs = []
             for tier_file in os.listdir(cat_dir):
                 if tier_file.endswith('.txt'):
-                    tier_name = tier_file.replace('.txt', '')
                     filepath = os.path.join(cat_dir, tier_file)
                     configs = self.read_config_file(filepath)
-                    
-                    if not configs:
-                        continue
-                    
-                    clash_configs = []
-                    failed = 0
-                    for idx, config in enumerate(configs):
-                        converted = self.convert_config_to_clashmeta(config, idx)
-                        if converted:
-                            clash_configs.append(converted)
-                        else:
-                            failed += 1
-                    
-                    if not clash_configs:
-                        continue
-                    
-                    output_subdir = os.path.join(output_dir, category)
-                    os.makedirs(output_subdir, exist_ok=True)
-                    
-                    output_filename = os.path.join(output_subdir, f"{tier_name}.yaml")
-                    
-                    yaml_content = {
-                        'proxies': clash_configs
-                    }
-                    
-                    with open(output_filename, 'w', encoding='utf-8') as f:
-                        f.write(f"# {source_name.upper()} - {category.upper()} - Tier {tier_name}\n")
-                        f.write(f"# Updated: {timestamp}\n")
-                        f.write(f"# Count: {len(clash_configs)}\n")
-                        f.write(f"# Failed conversions: {failed}\n\n")
-                        yaml.dump(yaml_content, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+                    all_configs.extend(configs)
+            
+            if all_configs:
+                all_categories_configs[category] = all_configs
+        
+        for category, configs in all_categories_configs.items():
+            tiered_configs = self.distribute_configs_to_tiers(configs, category)
+            
+            for tier, tier_configs in tiered_configs.items():
+                if not tier_configs:
+                    continue
+                
+                clash_configs = []
+                failed = 0
+                for idx, config in enumerate(tier_configs):
+                    converted = self.convert_config_to_clashmeta(config, idx)
+                    if converted:
+                        clash_configs.append(converted)
+                    else:
+                        failed += 1
+                
+                if not clash_configs:
+                    continue
+                
+                output_subdir = os.path.join(output_dir, category)
+                os.makedirs(output_subdir, exist_ok=True)
+                
+                output_filename = os.path.join(output_subdir, f"{tier}.yaml")
+                
+                yaml_content = {
+                    'proxies': clash_configs
+                }
+                
+                with open(output_filename, 'w', encoding='utf-8') as f:
+                    f.write(f"# {source_name.upper()} - {category.upper()} - Tier {tier}\n")
+                    f.write(f"# Updated: {timestamp}\n")
+                    f.write(f"# Count: {len(clash_configs)}\n")
+                    f.write(f"# Failed conversions: {failed}\n\n")
+                    yaml.dump(yaml_content, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
         
         self.generate_summary_yaml(source_dir, output_dir, source_name)
     
@@ -407,12 +458,20 @@ class ConfigToYAMLConverter:
             cat_dir = os.path.join(source_dir, category)
             if os.path.exists(cat_dir):
                 category_data = {}
+                all_configs = []
                 for tier_file in os.listdir(cat_dir):
                     if tier_file.endswith('.txt'):
                         tier_name = tier_file.replace('.txt', '')
                         filepath = os.path.join(cat_dir, tier_file)
                         configs = self.read_config_file(filepath)
-                        category_data[tier_name] = len(configs)
+                        all_configs.extend(configs)
+                if all_configs:
+                    category_data['total'] = len(all_configs)
+                    category_data['tiers'] = {}
+                    tiered_configs = self.distribute_configs_to_tiers(all_configs, category)
+                    for tier, tier_configs in tiered_configs.items():
+                        if tier_configs:
+                            category_data['tiers'][str(tier)] = len(tier_configs)
                 if category_data:
                     summary_data['categories'][category] = category_data
         
@@ -493,7 +552,7 @@ def main():
         converter = ConfigToYAMLConverter()
         converter.convert_all()
     except Exception as e:
-        print(f"❌ ERROR: {e}")
+        print(f"ERROR: {e}")
 
 if __name__ == "__main__":
     main()
