@@ -56,27 +56,73 @@ class ConfigToYAMLConverter:
 
     def decode_ss_config(self, ss_url):
         try:
-            if not ss_url.startswith('ss://'):
+            if not ss_url.startswith("ss://"):
                 return None
-            if not ss_url.replace('ss://', '').split('#')[0].startswith('@') and not ss_url.replace('ss://', '').split('#')[0].startswith('http'):
-                encoded_part = ss_url.replace('ss://', '').split('#')[0]
-                if '@' in encoded_part:
-                    method_password, server_port = encoded_part.split('@')
-                    try:
-                        decoded_method_password = base64.b64decode(method_password + '=' * (4 - len(method_password) % 4)).decode('utf-8')
-                        method, password = decoded_method_password.split(':', 1)
-                        server, port = server_port.split(':')
-                        name = ss_url.split('#')[1] if len(ss_url.split('#')) > 1 else ""
+
+            raw = ss_url[5:]
+            raw = raw.split("#")[0]
+            raw = raw.split("?")[0]
+
+            try:
+                padding = "=" * ((4 - len(raw) % 4) % 4)
+                decoded = base64.b64decode(raw + padding).decode("utf-8")
+
+                if "@" in decoded:
+                    creds, server_port = decoded.rsplit("@", 1)
+
+                    if ":" in creds and ":" in server_port:
+                        method, password = creds.split(":", 1)
+                        server, port = server_port.rsplit(":", 1)
+
                         return {
-                            'method': method,
-                            'password': password,
-                            'server': server,
-                            'port': int(port) if port else 443,
-                            'name': unquote(name)
+                            "method": method.strip(),
+                            "password": password,
+                            "server": server.strip(),
+                            "port": int(port),
+                            "name": self.get_original_tag(ss_url)
                         }
-                    except:
-                        return None
+            except:
+                pass
+
+            if "@" in raw:
+                encoded_part, server_port = raw.rsplit("@", 1)
+
+                try:
+                    padding = "=" * ((4 - len(encoded_part) % 4) % 4)
+                    decoded = base64.b64decode(
+                        encoded_part + padding
+                    ).decode("utf-8")
+
+                    method, password = decoded.split(":", 1)
+                    server, port = server_port.rsplit(":", 1)
+
+                    return {
+                        "method": method.strip(),
+                        "password": password,
+                        "server": server.strip(),
+                        "port": int(port),
+                        "name": self.get_original_tag(ss_url)
+                    }
+                except:
+                    pass
+
+            if "@" in raw and ":" in raw:
+                creds, server_port = raw.rsplit("@", 1)
+
+                if ":" in creds and ":" in server_port:
+                    method, password = creds.split(":", 1)
+                    server, port = server_port.rsplit(":", 1)
+
+                    return {
+                        "method": method.strip(),
+                        "password": password,
+                        "server": server.strip(),
+                        "port": int(port),
+                        "name": self.get_original_tag(ss_url)
+                    }
+
             return None
+
         except:
             return None
 
@@ -170,15 +216,45 @@ class ConfigToYAMLConverter:
         if not decoded:
             return None
 
+        password = str(decoded.get("password", "")).strip()
+        cipher = str(decoded.get("method", "")).strip()
+        server = str(decoded.get("server", "")).strip()
+        port = decoded.get("port")
+
+        if not password:
+            return None
+
+        if not cipher:
+            return None
+
+        if not server:
+            return None
+
+        if not isinstance(port, int):
+            return None
+
+        if port <= 0 or port > 65535:
+            return None
+
         original_name = decoded.get('name') or "Shadowsocks"
         config_name = f"{original_name} #{index + 1}"
 
         allowed_ciphers = [
-            'aes-128-gcm', 'aes-256-gcm', 'chacha20-ietf-poly1305',
-            'aes-128-cfb', 'aes-256-cfb', 'chacha20', 'chacha20-ietf'
+            'aes-128-gcm',
+            'aes-192-gcm',
+            'aes-256-gcm',
+            'aes-128-cfb',
+            'aes-192-cfb',
+            'aes-256-cfb',
+            'chacha20',
+            'chacha20-ietf',
+            'chacha20-ietf-poly1305',
+            'xchacha20-ietf-poly1305',
+            '2022-blake3-aes-128-gcm',
+            '2022-blake3-aes-256-gcm',
+            '2022-blake3-chacha20-poly1305'
         ]
 
-        cipher = decoded.get('method')
         if cipher not in allowed_ciphers:
             return None
 
