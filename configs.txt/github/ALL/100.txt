@@ -1,29 +1,30 @@
 # GITHUB - Balanced Tier 100 - ALL
-# Updated: 2026-06-17 19:28:23
+# Updated: 2026-06-17 19:56:27
 # Count: 100
 
 trojan://humanity@45.80.111.7:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&sni=www.calmlunch.com#T.ME: @aristapnel
 trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
 trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls&sni=51.75.86.196&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
 trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
-trojan://4c3164ee-abcf-4091-abea-d1cd4937a68d@store.ubi.com:443?allowInsecure=1&ed=2048&eh=Sec-WebSocket-Protocol&host=jy.hhllfly.kdns.fr&path=/&sni=jy.hhllfly.kdns.fr&type=ws#T.ME: @aristapnel
+trojan://4c3164ee-abcf-4091-abea-d1cd4937a68d@da.mfa.gov.ua:443?security=tls&sni=jy.hhllfly.kdns.fr&alpn=http/1.1&type=ws&host=jy.hhllfly.kdns.fr&path=/?ed=2048#T.ME: @aristapnel
+trojan://4c3164ee-abcf-4091-abea-d1cd4937a68d@mfa.gov.ua:443?security=tls&sni=jy.hhllfly.kdns.fr&alpn=http/1.1&type=ws&host=jy.hhllfly.kdns.fr&path=/?ed=2048#T.ME: @aristapnel
+trojan://5JKj82yC2BNxy8LAZha8Gsj2BAexJJU7ttTfeFcuHzmLjAiZ@46.137.202.140:443?security=tls&sni=node1.bw8848.org&type=ws&host=node1.bw8848.org&path=/node1-node1-5sczzi#T.ME: @aristapnel
+trojan://5JKj82yC2BNxy8LAZha8Gsj2BAexJJU7ttTfeFcuHzmLjAiZ@46.137.202.140:443?security=tls&sni=node1.bw8848.org&type=ws&host=node1.bw8848.org&path=/node1-node1-5sczzi&allow_insecure=0#T.ME: @aristapnel
 trojan://8r%3C%5B9%27l6hAO%238ZQi@213.176.113.98:2053?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳+@WangCai2&allowInsecure=0#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=www.mesaly.click&alpn=http/1.1&fp=chrome&type=tcp&path=/#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=www.mesaly.click&fp=chrome&type=tcp&headerType=none&path=/#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=www.mesaly.click&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=www.mesaly.click&path=/#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=www.mesaly.click&type=tcp&headerType=none&path=/#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=www.mesaly.click&type=tcp&headerType=none&path=/&allow_insecure=0#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?security=tls&sni=www.mesaly.click&type=tcp&path=/&allow_insecure=0#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?sni=www.mesaly.click&fp=chrome&path=/#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?sni=www.mesaly.click&fp=chrome&type=tcp&path=/#T.ME: @aristapnel
-trojan://BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL@185.126.236.44:443?sni=www.mesaly.click&path=/#T.ME: @aristapnel
-trojan://Bhi3WHtOR7SGiDERv3KkOjhknaQNDWFm0NcmowUEsVE=@89.167.82.102:2080?security=none&type=tcp&path=/#T.ME: @aristapnel
-trojan://Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP@130.94.107.242:443?security=tls&fp=chrome&type=tcp&path=/&allow_insecure=1#T.ME: @aristapnel
-trojan://Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP@130.94.107.242:443?security=tls&path=/#T.ME: @aristapnel
-trojan://Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP@130.94.107.242:443?security=tls&sni=130.94.107.242&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
-trojan://Bt-qzyomC7g37TaHwvPSV0.YrNSxFmlvIP@130.94.107.242:443?security=tls&sni=130.94.107.242&path=/#T.ME: @aristapnel
+trojan://GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K@207.126.167.241:443?security=tls&sni=207.126.167.241&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
+trojan://Hb5cF_xvtAi-43ryfzWNXoNOzuNC4z44PV@130.94.65.195:443?security=tls&sni=130.94.65.195&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&fp=chrome&type=tcp&headerType=none&path=/#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=0#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&path=/#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&type=tcp&headerType=none&path=/&allow_insecure=0#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?security=tls&sni=ch-2.bexum.fun&type=tcp&path=/#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?sni=ch-2.bexum.fun&fp=chrome&path=/#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@46.8.113.142:443?sni=ch-2.bexum.fun&path=/#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@94.103.173.70:9443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=de-1.hysteria.ltd#T.ME: @aristapnel
+trojan://LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu@94.103.173.70:9443?security=tls&sni=de-1.hysteria.ltd&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=0#T.ME: @aristapnel
 hysteria2://18cf8030-1ceb-4b7d-8c0c-c036413c144e@202.61.205.86:4433?insecure=1&sni=de1.xiaoliyu.cyou#T.ME: @aristapnel
+hysteria2://dongtaiwang.com@62.210.10.108:22000?insecure=1&sni=www.microsoft.com#T.ME: @aristapnel
 hysteria2://dongtaiwang.com@62.210.124.146:22000?insecure=1&sni=www.microsoft.com#T.ME: @aristapnel
 hysteria2://zhangyang@130.61.50.75:6443?insecure=1&sni=dash.cloudflare.com#T.ME: @aristapnel
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@mumbai-3.nezhasu.com:443?sni=mumbai-3.nezhasu.com&insecure=1&mport=50000-65535#T.ME: @aristapnel
@@ -43,7 +44,6 @@ hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@mg.xn--mes13n8pi8x2b.shop:21349
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@mg.xn--mes13n8pi8x2b.shop:21639?mport=21001-21999&insecure=0#T.ME: @aristapnel
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@trq.xn--mes13n8pi8x2b.shop:21112?mport=21001-21999&insecure=0#T.ME: @aristapnel
 hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@trq.xn--mes13n8pi8x2b.shop:21910?mport=21001-21999&insecure=0#T.ME: @aristapnel
-hysteria2://642dc0b9-6481-4d84-ad60-3586e870f263@agt.xn--mes13n8pi8x2b.shop:21440?mport=21001-21999&insecure=0#T.ME: @aristapnel
 ss://YWVzLTI1Ni1nY206MTIz@61.171.92.202:1001#T.ME: @aristapnel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBSEZuOFJQRjJHU3hYNEJYOWk5YTE2@62.133.60.43:36456#T.ME: @aristapnel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6eXp1SjJINFRwNUNyOFQ5bm5QS3Yy@89.185.84.185:443#T.ME: @aristapnel

@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 500
-// Updated: 2026-06-17 19:31:28
+// Updated: 2026-06-17 19:59:39
 // Count: 496
 
 {
@@ -25,10 +25,13 @@
       "type": "tun",
       "tag": "tun-in",
       "interface_name": "singbox-tun",
-      "inet4_address": "172.19.0.1/30",
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
       "auto_route": true,
       "strict_route": true,
-      "stack": "system"
+      "stack": "mixed"
     }
   ],
   "outbounds": [
@@ -4767,248 +4770,29 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #239",
-      "server": "158.160.50.102",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
+      "server": "89.22.238.213",
+      "server_port": 46209,
+      "uuid": "00000000-0000-4000-8000-000000000000",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
+        "server_name": "g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
+          "fingerprint": "chrome"
         }
       },
-      "flow": "xtls-rprx-vision"
+      "transport": {
+        "type": "ws",
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev"
+        }
+      }
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #240",
-      "server": "158.160.50.102",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "sso.passport.yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #241",
-      "server": "158.160.50.102",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.max.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #242",
-      "server": "185.22.235.222",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #243",
-      "server": "185.22.235.222",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #244",
-      "server": "185.22.235.222",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "sso.passport.yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #245",
-      "server": "185.22.235.222",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.max.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #246",
-      "server": "51.250.82.20",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #247",
-      "server": "84.201.172.95",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #248",
-      "server": "84.201.172.95",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #249",
-      "server": "84.201.172.95",
-      "server_port": 443,
-      "uuid": "00694321-8701-40de-895d-75c06c81be5a",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.max.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #250",
       "server": "172.67.195.229",
       "server_port": 443,
       "uuid": "00e94078-bb1e-49aa-8567-e1b3b2843150",
@@ -5031,76 +4815,165 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #251",
-      "server": "104.16.150.228",
-      "server_port": 2096,
-      "uuid": "0137ab09-0728-4c44-8dc4-f2ac1847bffd",
+      "tag": "T.ME: @aristapnel #241",
+      "server": "212.193.153.170",
+      "server_port": 443,
+      "uuid": "03780d5d-a279-4a9f-acb7-a557cc342f66",
       "tls": {
         "enabled": true,
-        "server_name": "cfoo-n0d.pages.dev",
+        "server_name": "s54021.cdn.ngenix.net",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
+          "fingerprint": "edge"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/proxyip=159.60.146.82,159.60.146.81",
+        "path": "/v1/data/sync/",
         "headers": {
-          "Host": "cfoo-n0d.pages.dev"
+          "Host": "212.193.153.170"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #252",
-      "server": "104.18.36.245",
-      "server_port": 2053,
-      "uuid": "0137ab09-0728-4c44-8dc4-f2ac1847bffd",
+      "tag": "T.ME: @aristapnel #242",
+      "server": "51.250.102.69",
+      "server_port": 443,
+      "uuid": "03780d5d-a279-4a9f-acb7-a557cc342f66",
       "tls": {
         "enabled": true,
-        "server_name": "cfoo-n0d.pages.dev",
+        "server_name": "cdp.x5.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "cfoo-n0d.pages.dev"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #253",
-      "server": "104.19.41.46",
-      "server_port": 2083,
-      "uuid": "0137ab09-0728-4c44-8dc4-f2ac1847bffd",
+      "tag": "T.ME: @aristapnel #243",
+      "server": "51.250.103.104",
+      "server_port": 443,
+      "uuid": "03780d5d-a279-4a9f-acb7-a557cc342f66",
       "tls": {
         "enabled": true,
-        "server_name": "cfoo-n0d.pages.dev",
+        "server_name": "cdp.x5.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "cfoo-n0d.pages.dev"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #254",
+      "tag": "T.ME: @aristapnel #244",
+      "server": "51.250.106.87",
+      "server_port": 443,
+      "uuid": "03780d5d-a279-4a9f-acb7-a557cc342f66",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #245",
+      "server": "51.250.108.162",
+      "server_port": 443,
+      "uuid": "03780d5d-a279-4a9f-acb7-a557cc342f66",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #246",
+      "server": "51.250.24.222",
+      "server_port": 443,
+      "uuid": "03780d5d-a279-4a9f-acb7-a557cc342f66",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #247",
+      "server": "51.250.97.18",
+      "server_port": 443,
+      "uuid": "03780d5d-a279-4a9f-acb7-a557cc342f66",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #248",
       "server": "46.246.97.218",
       "server_port": 2052,
       "uuid": "037b730a-ea28-5191-ad7c-3424be5efe2e",
@@ -5117,22 +4990,149 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #255",
-      "server": "144.124.228.113",
+      "tag": "T.ME: @aristapnel #249",
+      "server": "ov-italy1.09vpn.com",
+      "server_port": 80,
+      "uuid": "049e56d8-0ba0-49e3-b764-ee04122b9f00",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "ov-italy1.09vpn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #250",
+      "server": "ov-italy1.09vpn.com",
+      "server_port": 80,
+      "uuid": "049e56d8-0ba0-49e3-b764-ee04122b9f00",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "ov-italy1.09vpn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #251",
+      "server": "cdn.trakin.ir",
       "server_port": 443,
-      "uuid": "039a1658-e86e-475f-a3a4-67cc249acada",
+      "uuid": "0519589c-306e-4678-aa6b-b60f58f5352f",
       "tls": {
         "enabled": true,
-        "server_name": "nl3.panel11.ru",
+        "server_name": "cdn.trakin.ir",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cdn.trakin.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #252",
+      "server": "158.160.17.171",
+      "server_port": 443,
+      "uuid": "06ffe2a5-90db-438a-8524-b2f7123c51b3",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4",
-          "short_id": "e069bfaf9ba2069c"
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #253",
+      "server": "51.250.4.238",
+      "server_port": 443,
+      "uuid": "06ffe2a5-90db-438a-8524-b2f7123c51b3",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #254",
+      "server": "51.250.47.193",
+      "server_port": 443,
+      "uuid": "06ffe2a5-90db-438a-8524-b2f7123c51b3",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v6rib0-2FxBd1MnBxdylbIRIhvXywSj56QEtCkaEuBo",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #255",
+      "server": "51.250.47.193",
+      "server_port": 443,
+      "uuid": "06ffe2a5-90db-438a-8524-b2f7123c51b3",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
         }
       },
       "flow": "xtls-rprx-vision"
@@ -5140,36 +5140,46 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #256",
-      "server": "ov-italy1.09vpn.com",
-      "server_port": 80,
-      "uuid": "049e56d8-0ba0-49e3-b764-ee04122b9f00",
+      "server": "84.201.153.33",
+      "server_port": 443,
+      "uuid": "06ffe2a5-90db-438a-8524-b2f7123c51b3",
       "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {
-          "Host": "ov-italy1.09vpn.com"
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v6rib0-2FxBd1MnBxdylbIRIhvXywSj56QEtCkaEuBo",
+          "short_id": "27e53bbcab7593d7"
         }
-      }
+      },
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #257",
-      "server": "ov-italy1.09vpn.com",
-      "server_port": 80,
-      "uuid": "049e56d8-0ba0-49e3-b764-ee04122b9f00",
+      "server": "84.201.153.33",
+      "server_port": 443,
+      "uuid": "06ffe2a5-90db-438a-8524-b2f7123c51b3",
       "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {
-          "Host": "ov-italy1.09vpn.com"
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
         }
-      }
+      },
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
@@ -5245,21 +5255,20 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #261",
-      "server": "193.233.89.194",
+      "server": "45.89.63.95",
       "server_port": 443,
-      "uuid": "0afe8434-7b68-48a3-a96f-509f7af15e5e",
+      "uuid": "0c29e923-168d-46f2-baab-eaad11c15f69",
       "tls": {
         "enabled": true,
-        "server_name": "ru-streaming.barryvpn.com",
+        "server_name": "node1.food38.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "u1QltI2SnUX48F-cqulaVojcSLadC9I1Vt8gOqnFTB4",
-          "short_id": "0123456789abcdef"
+          "public_key": "h2dJU4U9vJd5hxxrtjbW0pkn2B4h2w7IkheY_BHtlkM"
         }
       },
       "flow": "xtls-rprx-vision"
@@ -5267,29 +5276,537 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #262",
-      "server": "216.24.57.6",
-      "server_port": 8443,
-      "uuid": "12cb0a24-0438-4980-8617-9c93205895fa",
+      "server": "185.91.52.217",
+      "server_port": 1444,
+      "uuid": "0c45bec7-ac8d-4ec6-8489-d4c821b07804",
       "tls": {
         "enabled": true,
-        "server_name": "kakoolnews.dontstealkakoolnews.workers.dev",
+        "server_name": "ads.x5.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "kakoolnews.dontstealkakoolnews.workers.dev"
-        }
+        "type": "grpc",
+        "service_name": "grpc-vk"
       }
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #263",
+      "server": "185.91.52.217",
+      "server_port": 1444,
+      "uuid": "0c45bec7-ac8d-4ec6-8489-d4c821b07804",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "e67fb918ed6b9ffb"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #264",
+      "server": "185.91.52.217",
+      "server_port": 1446,
+      "uuid": "0c45bec7-ac8d-4ec6-8489-d4c821b07804",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #265",
+      "server": "185.91.53.53",
+      "server_port": 1443,
+      "uuid": "0c45bec7-ac8d-4ec6-8489-d4c821b07804",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "e67fb918ed6b9ffb"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #266",
+      "server": "185.91.53.53",
+      "server_port": 1443,
+      "uuid": "0c45bec7-ac8d-4ec6-8489-d4c821b07804",
+      "tls": {
+        "enabled": true,
+        "server_name": "avatars.mds.yandex.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #267",
+      "server": "5.188.114.178",
+      "server_port": 443,
+      "uuid": "0ea8bd3e-4812-4bc5-b75e-3e181629d0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "eda.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+          "short_id": "75f67f6360c74009"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #268",
+      "server": "84.201.177.246",
+      "server_port": 3000,
+      "uuid": "0ea8bd3e-4812-4bc5-b75e-3e181629d0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "eda.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+          "short_id": "52d25a9b6eef53fc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #269",
+      "server": "84.201.177.246",
+      "server_port": 3000,
+      "uuid": "0ea8bd3e-4812-4bc5-b75e-3e181629d0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "eda.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+          "short_id": "a13c4184c8e60ccb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #270",
+      "server": "84.201.177.246",
+      "server_port": 3002,
+      "uuid": "0ea8bd3e-4812-4bc5-b75e-3e181629d0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloud.mail.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+          "short_id": "4290504c2519791b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #271",
+      "server": "84.201.177.246",
+      "server_port": 3002,
+      "uuid": "0ea8bd3e-4812-4bc5-b75e-3e181629d0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloud.mail.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+          "short_id": "75f67f6360c74009"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #272",
+      "server": "84.201.177.246",
+      "server_port": 3002,
+      "uuid": "0ea8bd3e-4812-4bc5-b75e-3e181629d0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloud.mail.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+          "short_id": "9fea04bb0545cac5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #273",
+      "server": "84.201.177.246",
+      "server_port": 3002,
+      "uuid": "0ea8bd3e-4812-4bc5-b75e-3e181629d0b5",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloud.mail.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XQR4nMq5aBnJ4h1RTCRRJdkdtO0Mtitt1cDtY0whkBI",
+          "short_id": "a13c4184c8e60ccb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #274",
+      "server": "158.160.17.171",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #275",
+      "server": "158.160.17.171",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #276",
+      "server": "185.229.9.16",
+      "server_port": 49001,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Zd4UabMvO_1QQny7BzwBZa7T3eeY1GXC7MKZprZ-pGY",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #277",
+      "server": "51.250.4.238",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vk.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #278",
+      "server": "51.250.4.238",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vk.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #279",
+      "server": "51.250.4.238",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #280",
+      "server": "51.250.47.193",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v6rib0-2FxBd1MnBxdylbIRIhvXywSj56QEtCkaEuBo",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #281",
+      "server": "51.250.47.193",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #282",
+      "server": "84.201.153.33",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "v6rib0-2FxBd1MnBxdylbIRIhvXywSj56QEtCkaEuBo",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #283",
+      "server": "84.201.153.33",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #284",
+      "server": "84.201.153.33",
+      "server_port": 443,
+      "uuid": "11d56158-c326-4b8c-81e6-cac89d09d6d6",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #285",
+      "server": "de2.niekotin.de",
+      "server_port": 80,
+      "uuid": "12e2b366-6426-4e09-9c6f-9c894262b923",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "de2.niekotin.de"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #286",
       "server": "159.89.87.21",
       "server_port": 28190,
       "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
@@ -5310,29 +5827,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #264",
-      "server": "193.168.46.180",
-      "server_port": 443,
-      "uuid": "1623e64e-7032-4925-9d17-47eb99cd89f6",
-      "tls": {
-        "enabled": true,
-        "server_name": "rruu.persik.host",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
-          "short_id": "c1a7e9b4711d5f60"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #265",
+      "tag": "T.ME: @aristapnel #287",
       "server": "108.165.236.144",
       "server_port": 2040,
       "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
@@ -5353,7 +5848,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #266",
+      "tag": "T.ME: @aristapnel #288",
       "server": "96.126.129.195",
       "server_port": 2040,
       "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
@@ -5374,7 +5869,334 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #267",
+      "tag": "T.ME: @aristapnel #289",
+      "server": "185.91.52.217",
+      "server_port": 1443,
+      "uuid": "17923a0e-51a6-4388-a28f-7125429195cd",
+      "tls": {
+        "enabled": true,
+        "server_name": "avatars.mds.yandex.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #290",
+      "server": "185.91.52.217",
+      "server_port": 1444,
+      "uuid": "17923a0e-51a6-4388-a28f-7125429195cd",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #291",
+      "server": "185.91.53.53",
+      "server_port": 1443,
+      "uuid": "17923a0e-51a6-4388-a28f-7125429195cd",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #292",
+      "server": "158.160.128.13",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #293",
+      "server": "158.160.192.93",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #294",
+      "server": "158.160.62.53",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #295",
+      "server": "185.130.114.211",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #296",
+      "server": "185.130.115.132",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #297",
+      "server": "37.9.4.160",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PL09r78ubjFaOILv5x6HPsCZeTdwhlRb3tuDY5vASwQ"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #298",
+      "server": "5.188.115.98",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #299",
+      "server": "51.250.47.219",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #300",
+      "server": "84.201.159.182",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #301",
+      "server": "84.201.164.236",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #302",
+      "server": "89.208.210.165",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #303",
+      "server": "89.208.210.216",
+      "server_port": 443,
+      "uuid": "193b4e39-8c3c-4428-92a9-ad211c18679a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #304",
       "server": "seti.wizardp.org",
       "server_port": 2045,
       "uuid": "1b5a4488-d2c1-495b-af79-99534e5b1bd3",
@@ -5398,7 +6220,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #268",
+      "tag": "T.ME: @aristapnel #305",
       "server": "155.212.182.19",
       "server_port": 443,
       "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
@@ -5419,83 +6241,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #269",
-      "server": "51.250.106.87",
-      "server_port": 443,
-      "uuid": "1d958c21-6aab-4f78-be7d-b9c672ce9278",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #270",
-      "server": "51.250.108.162",
-      "server_port": 443,
-      "uuid": "1d958c21-6aab-4f78-be7d-b9c672ce9278",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #271",
-      "server": "51.250.24.222",
-      "server_port": 443,
-      "uuid": "1d958c21-6aab-4f78-be7d-b9c672ce9278",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #272",
-      "server": "ara.public.lat",
-      "server_port": 58748,
-      "uuid": "21e22226-0b96-4b4e-9a91-5c7f9e3f1760",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #273",
+      "tag": "T.ME: @aristapnel #306",
       "server": "152.228.162.19",
       "server_port": 80,
       "uuid": "25f86cb1-2140-4085-abcb-c3a0ea7a4be0",
@@ -5512,17 +6258,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #274",
-      "server": "91.107.174.146",
-      "server_port": 14815,
-      "uuid": "29b2695f-dcc2-489c-bc43-5b6be1c06bc6",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #275",
+      "tag": "T.ME: @aristapnel #307",
       "server": "nuclear.us.kg",
       "server_port": 443,
       "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
@@ -5545,7 +6281,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #276",
+      "tag": "T.ME: @aristapnel #308",
       "server": "45.152.67.34",
       "server_port": 47488,
       "uuid": "2c36bf33-1ec0-45e8-84af-84eeccd56ca5",
@@ -5555,182 +6291,73 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #277",
-      "server": "158.160.109.80",
+      "tag": "T.ME: @aristapnel #309",
+      "server": "62.113.43.195",
       "server_port": 443,
-      "uuid": "2da30c03-9bf4-48e4-b5e3-64b6c1fcfd6b",
+      "uuid": "2fa628ea-fcd4-4b0e-a9a0-fbb7ab620ea2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
+          "short_id": "abbcd128"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #310",
+      "server": "62.113.43.195",
+      "server_port": 443,
+      "uuid": "2fa628ea-fcd4-4b0e-a9a0-fbb7ab620ea2",
       "tls": {
         "enabled": true,
         "server_name": "api-maps.yandex.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0X4VZ0-ZF7MNOIDAwtSGPRO0syd_iroNSZZL61s71TI",
-          "short_id": "7ada97ab"
+          "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
+          "short_id": "abbcd128"
         }
       },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #278",
-      "server": "158.160.147.122",
+      "tag": "T.ME: @aristapnel #311",
+      "server": "62.113.43.195",
       "server_port": 443,
-      "uuid": "2da30c03-9bf4-48e4-b5e3-64b6c1fcfd6b",
+      "uuid": "2fa628ea-fcd4-4b0e-a9a0-fbb7ab620ea2",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "eh.vk.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "AvSwsAIp3t2sTvNDZwTPkbcanvu9wtvLyZ6FCzIM-Rk",
-          "short_id": "7ada97abaa"
+          "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
+          "short_id": "abbcd128"
         }
       },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #279",
-      "server": "158.160.53.173",
-      "server_port": 443,
-      "uuid": "2da30c03-9bf4-48e4-b5e3-64b6c1fcfd6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
-          "short_id": "bd3cda1117aa"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #280",
-      "server": "51.250.26.148",
-      "server_port": 443,
-      "uuid": "2da30c03-9bf4-48e4-b5e3-64b6c1fcfd6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
-          "short_id": "bd3cda1117aa"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #281",
-      "server": "51.250.7.246",
-      "server_port": 443,
-      "uuid": "2da30c03-9bf4-48e4-b5e3-64b6c1fcfd6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "AvSwsAIp3t2sTvNDZwTPkbcanvu9wtvLyZ6FCzIM-Rk",
-          "short_id": "7ada97abaa"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #282",
-      "server": "84.201.159.233",
-      "server_port": 443,
-      "uuid": "2da30c03-9bf4-48e4-b5e3-64b6c1fcfd6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
-          "short_id": "bd3cda1117aa"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #283",
-      "server": "84.201.165.188",
-      "server_port": 443,
-      "uuid": "2da30c03-9bf4-48e4-b5e3-64b6c1fcfd6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
-          "short_id": "bd3cda1117aa"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "GunService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #284",
+      "tag": "T.ME: @aristapnel #312",
       "server": "193.233.23.196",
       "server_port": 26048,
       "uuid": "3007b043-acdf-43a4-900e-c7c015406f89",
@@ -5740,24 +6367,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #285",
-      "server": "185.226.140.140",
-      "server_port": 8880,
-      "uuid": "30fcec7f-164b-465c-87f4-b93784a6056b",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "azsv1.drpingservice.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #286",
+      "tag": "T.ME: @aristapnel #313",
       "server": "server1.azparadox.ir",
       "server_port": 8880,
       "uuid": "30fcec7f-164b-465c-87f4-b93784a6056b",
@@ -5774,339 +6384,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #287",
-      "server": "46.8.209.215",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ZlXBEYDy1NPe1mLvq7j8CCB9fBIaIvc8X3UZsbVxNT8",
-          "short_id": "ae03e6ef452252e0"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #288",
-      "server": "46.8.209.224",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ZlXBEYDy1NPe1mLvq7j8CCB9fBIaIvc8X3UZsbVxNT8",
-          "short_id": "ae03e6ef452252e0"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #289",
-      "server": "51.250.83.32",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "lM4aY7R07Gem9x-TKqvCuKcZSLuZU-_2lyZqxmQLHDs",
-          "short_id": "a9e95077bdf34209"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #290",
-      "server": "51.250.83.32",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "a-pxMyDrgkZ4eAM_I7k0mJiBn3AN0eyqeiSGtV03F1U",
-          "short_id": "d30f4e10dc056830"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #291",
-      "server": "51.250.95.42",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "73LOtZvtJoUx42LIIHdr6GTrzZkA_5RJy_olEG2qQXQ",
-          "short_id": "e11822a0958dd1a3"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #292",
-      "server": "51.250.95.42",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qpyc7QJdCOHqHOkdzoQeH7leZKi8c_ldUAhPmxImWFo",
-          "short_id": "e11822a0958dd1a3"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #293",
-      "server": "62.152.58.205",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Rde4-AW3R30RbpIkfiRcPdFalUsLAUdgerk2IYjwkBA",
-          "short_id": "d8b81daaad76dc9c"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #294",
-      "server": "62.152.58.207",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Rde4-AW3R30RbpIkfiRcPdFalUsLAUdgerk2IYjwkBA",
-          "short_id": "d8b81daaad76dc9c"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #295",
-      "server": "62.152.58.208",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Rde4-AW3R30RbpIkfiRcPdFalUsLAUdgerk2IYjwkBA",
-          "short_id": "d8b81daaad76dc9c"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #296",
-      "server": "84.201.131.127",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RJtIKw17_0x-zmAL0vL4FrgeKqxHt2Faai-oSTBPmWI",
-          "short_id": "ef276a7580e24ac8"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #297",
-      "server": "84.201.136.40",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "73LOtZvtJoUx42LIIHdr6GTrzZkA_5RJy_olEG2qQXQ",
-          "short_id": "e11822a0958dd1a3"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #298",
-      "server": "84.201.136.40",
-      "server_port": 443,
-      "uuid": "318bf1c8-40e2-4339-b193-f52a3cbe960f",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RJtIKw17_0x-zmAL0vL4FrgeKqxHt2Faai-oSTBPmWI",
-          "short_id": "ef276a7580e24ac8"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #299",
-      "server": "162.159.232.250",
-      "server_port": 443,
-      "uuid": "31ad2842-0081-4d9d-8c92-f186fb342a39",
-      "tls": {
-        "enabled": true,
-        "server_name": "NoIsY-fieLD-E5d2.EhsANMLahoRy.wOrKERs.dEv",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiQXdEWWZLek8xMzNibjJxIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560",
-        "headers": {
-          "Host": "noisy-field-e5d2.ehsanmlahory.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #300",
-      "server": "51.250.4.111",
-      "server_port": 10003,
-      "uuid": "335a5214-4fa4-4d5e-9077-f2ccc0830f46",
-      "tls": {
-        "enabled": true,
-        "server_name": "login.vk.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zEw1LJUh2-801TFaI0WRxryd4lmjKazvB3s9-TnaWCM",
-          "short_id": "39b50f32"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #301",
-      "server": "s1.meoshop.ir",
-      "server_port": 2053,
-      "uuid": "36a41d68-7ee1-4eac-80de-76848f5879da",
-      "tls": {
-        "enabled": true,
-        "server_name": "server.meoshop.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #302",
+      "tag": "T.ME: @aristapnel #314",
       "server": "128.204.223.94",
       "server_port": 9815,
       "uuid": "37a0bd7c-8b9f-4693-8916-bd1e2da0a817",
@@ -6123,7 +6401,183 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #303",
+      "tag": "T.ME: @aristapnel #315",
+      "server": "176.109.94.36",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #316",
+      "server": "176.109.94.36",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #317",
+      "server": "178.250.243.15",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #318",
+      "server": "185.22.235.47",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #319",
+      "server": "194.55.239.241",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #320",
+      "server": "194.55.239.241",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #321",
+      "server": "194.55.239.241",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #322",
+      "server": "46.8.209.183",
+      "server_port": 443,
+      "uuid": "3800ceb1-2e97-464a-aeb3-aa064225af19",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "a9c4f17e3b62d8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #323",
       "server": "121.127.43.215",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6139,7 +6593,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #304",
+      "tag": "T.ME: @aristapnel #324",
       "server": "152.233.28.196",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6155,7 +6609,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #305",
+      "tag": "T.ME: @aristapnel #325",
       "server": "152.233.28.198",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6174,7 +6628,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #306",
+      "tag": "T.ME: @aristapnel #326",
       "server": "152.233.35.228",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6190,7 +6644,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #307",
+      "tag": "T.ME: @aristapnel #327",
       "server": "169.150.228.24",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6206,7 +6660,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #308",
+      "tag": "T.ME: @aristapnel #328",
       "server": "169.150.245.5",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6222,7 +6676,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #309",
+      "tag": "T.ME: @aristapnel #329",
       "server": "178.249.213.177",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6238,7 +6692,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #310",
+      "tag": "T.ME: @aristapnel #330",
       "server": "185.229.191.10",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6254,7 +6708,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #311",
+      "tag": "T.ME: @aristapnel #331",
       "server": "185.229.191.11",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6270,7 +6724,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #312",
+      "tag": "T.ME: @aristapnel #332",
       "server": "185.229.191.130",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6286,7 +6740,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #313",
+      "tag": "T.ME: @aristapnel #333",
       "server": "185.229.191.149",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6302,7 +6756,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #314",
+      "tag": "T.ME: @aristapnel #334",
       "server": "185.229.191.170",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6318,7 +6772,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #315",
+      "tag": "T.ME: @aristapnel #335",
       "server": "185.229.191.171",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6334,7 +6788,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #316",
+      "tag": "T.ME: @aristapnel #336",
       "server": "185.229.191.183",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6350,7 +6804,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #317",
+      "tag": "T.ME: @aristapnel #337",
       "server": "185.229.191.47",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6366,7 +6820,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #318",
+      "tag": "T.ME: @aristapnel #338",
       "server": "185.229.191.53",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6382,7 +6836,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #319",
+      "tag": "T.ME: @aristapnel #339",
       "server": "185.229.191.54",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6398,7 +6852,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #320",
+      "tag": "T.ME: @aristapnel #340",
       "server": "185.229.191.56",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6414,7 +6868,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #321",
+      "tag": "T.ME: @aristapnel #341",
       "server": "185.229.191.72",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6430,7 +6884,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #322",
+      "tag": "T.ME: @aristapnel #342",
       "server": "195.181.173.194",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6446,7 +6900,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #323",
+      "tag": "T.ME: @aristapnel #343",
       "server": "195.181.173.199",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6465,7 +6919,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #324",
+      "tag": "T.ME: @aristapnel #344",
       "server": "207.211.214.42",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6481,7 +6935,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #325",
+      "tag": "T.ME: @aristapnel #345",
       "server": "79.127.227.18",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6497,7 +6951,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #326",
+      "tag": "T.ME: @aristapnel #346",
       "server": "84.17.37.19",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6513,7 +6967,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #327",
+      "tag": "T.ME: @aristapnel #347",
       "server": "84.17.55.241",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6529,7 +6983,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #328",
+      "tag": "T.ME: @aristapnel #348",
       "server": "ams1.fromblancwithlove.com",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6545,7 +6999,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #329",
+      "tag": "T.ME: @aristapnel #349",
       "server": "uk1.fromblancwithlove.com",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -6561,7 +7015,132 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #330",
+      "tag": "T.ME: @aristapnel #350",
+      "server": "185.91.52.217",
+      "server_port": 1444,
+      "uuid": "3b83bc60-c354-406f-af4d-08bcaad5f3b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #351",
+      "server": "185.91.52.217",
+      "server_port": 1444,
+      "uuid": "3b83bc60-c354-406f-af4d-08bcaad5f3b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "e67fb918ed6b9ffb"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #352",
+      "server": "185.91.52.217",
+      "server_port": 1446,
+      "uuid": "3b83bc60-c354-406f-af4d-08bcaad5f3b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "844352756c1fabba"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #353",
+      "server": "185.91.53.53",
+      "server_port": 1443,
+      "uuid": "3b83bc60-c354-406f-af4d-08bcaad5f3b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "e67fb918ed6b9ffb"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #354",
+      "server": "185.91.53.53",
+      "server_port": 1443,
+      "uuid": "3b83bc60-c354-406f-af4d-08bcaad5f3b2",
+      "tls": {
+        "enabled": true,
+        "server_name": "avatars.mds.yandex.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
+          "short_id": "e67fb918ed6b9ffb"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-vk"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #355",
       "server": "104.20.32.49",
       "server_port": 2083,
       "uuid": "3bad1d20-8601-49be-86a2-2141d21dec99",
@@ -6584,105 +7163,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #331",
-      "server": "212.193.152.65",
-      "server_port": 443,
-      "uuid": "3c533416-8852-4f1a-befa-23289b2f32d1",
-      "tls": {
-        "enabled": true,
-        "server_name": "s86255.cdn.ngenix.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1/data/sync/",
-        "headers": {
-          "Host": "212.193.152.65"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #332",
-      "server": "212.193.152.65",
-      "server_port": 443,
-      "uuid": "3c533416-8852-4f1a-befa-23289b2f32d1",
-      "tls": {
-        "enabled": true,
-        "server_name": "s86255.cdn.ngenix.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1/data/sync/",
-        "headers": {
-          "Host": "212.193.152.65"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #333",
-      "server": "212.193.152.65",
-      "server_port": 443,
-      "uuid": "3c533416-8852-4f1a-befa-23289b2f32d1",
-      "tls": {
-        "enabled": true,
-        "server_name": "s86255.cdn.ngenix.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1/data/sync/",
-        "headers": {
-          "Host": "212.193.152.65"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #334",
-      "server": "37.220.163.233",
-      "server_port": 443,
-      "uuid": "3c533416-8852-4f1a-befa-23289b2f32d1",
-      "tls": {
-        "enabled": true,
-        "server_name": "s86255.cdn.ngenix.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1/data/sync/",
-        "headers": {
-          "Host": "37.220.163.233"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #335",
-      "server": "213.199.39.156",
-      "server_port": 30001,
-      "uuid": "3e5da4f6-93c4-4701-911b-1a5091d2430f",
+      "tag": "T.ME: @aristapnel #356",
+      "server": "116.206.124.228",
+      "server_port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "tls": {
         "enabled": false
       },
@@ -6690,82 +7174,33 @@
         "type": "ws",
         "path": "/ws",
         "headers": {
-          "Host": "213.199.39.156"
+          "Host": "aIs.SpEeDtEsT.nEt"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #336",
-      "server": "78.41.111.87",
-      "server_port": 443,
-      "uuid": "3ef5d13f-1c1a-45dc-bd69-7b126a8a063f",
-      "tls": {
-        "enabled": true,
-        "server_name": "s22244.cdn.ngenix.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "h3",
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/intoweb",
-        "headers": {
-          "Host": "78.41.111.87"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #337",
-      "server": "sc-thenetherlands1.09vpn.com",
+      "tag": "T.ME: @aristapnel #357",
+      "server": "v2ray.simspeedup.com",
       "server_port": 80,
-      "uuid": "40cc9b52-25b8-4cd5-8b45-715ae26e6baf",
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "tls": {
         "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vless/",
+        "path": "/ws",
         "headers": {
-          "Host": "sc-thenetherlands1.09vpn.com"
+          "Host": "aIs.SpEeDtEsT.nEt"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #338",
-      "server": "51.250.15.175",
-      "server_port": 443,
-      "uuid": "418892f6-b90b-40ab-a75f-4a0af5209c4f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #339",
+      "tag": "T.ME: @aristapnel #358",
       "server": "193.168.46.180",
       "server_port": 443,
-      "uuid": "41edb379-ce12-4d0a-9386-77915ed3677a",
+      "uuid": "3c59f204-75be-462d-a8df-32f544eff096",
       "tls": {
         "enabled": true,
         "server_name": "rruu.persik.host",
@@ -6784,37 +7219,139 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #340",
-      "server": "46.4.162.63",
+      "tag": "T.ME: @aristapnel #359",
+      "server": "213.199.39.156",
+      "server_port": 30001,
+      "uuid": "3e5da4f6-93c4-4701-911b-1a5091d2430f",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "213.199.39.156"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #360",
+      "server": "sc-thenetherlands1.09vpn.com",
+      "server_port": 80,
+      "uuid": "40cc9b52-25b8-4cd5-8b45-715ae26e6baf",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "sc-thenetherlands1.09vpn.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #361",
+      "server": "217.16.29.23",
       "server_port": 443,
-      "uuid": "44ec80fc-b6f4-42a4-b587-18c97200764a",
+      "uuid": "4288b4c1-36b3-488f-84e8-3776b8d7e7d4",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DmpMjyYBIU4KdMNY-0M8TxX5OBrQQ1A5E28Y9_-VQDk",
+          "short_id": "aaaa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "mtdklsqa"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #362",
+      "server": "84.201.138.228",
+      "server_port": 443,
+      "uuid": "43e1373c-ca2c-5c20-ad1d-3b34ce61025e",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xH7l_4uFbE9sPqEMbSc4UD46w9Uvh4HKE6AzZFVz5gI"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #363",
+      "server": "176.108.243.74",
+      "server_port": 220,
+      "uuid": "457d9c9f-6b8a-45d5-97aa-58ec708fc1c3",
       "tls": {
         "enabled": false
       }
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #341",
-      "server": "45.205.0.55",
-      "server_port": 443,
-      "uuid": "44f7eb71-de22-4a9c-8d5a-64fb7115c82f",
+      "tag": "T.ME: @aristapnel #364",
+      "server": "176.108.243.74",
+      "server_port": 230,
+      "uuid": "457d9c9f-6b8a-45d5-97aa-58ec708fc1c3",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #365",
+      "server": "176.108.243.74",
+      "server_port": 770,
+      "uuid": "457d9c9f-6b8a-45d5-97aa-58ec708fc1c3",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #366",
+      "server": "47.79.149.248",
+      "server_port": 38388,
+      "uuid": "45c8d20e-0222-4b16-8d21-37318456b980",
       "tls": {
         "enabled": true,
-        "server_name": "panel.fredomiran.com",
+        "server_name": "itunes.apple.com",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      }
+        "reality": {
+          "enabled": true,
+          "public_key": "xHaPe5SLprSSqGccSor5d3tCRuwyowBwFeYrVXoSz3w",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      },
+      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #342",
+      "tag": "T.ME: @aristapnel #367",
       "server": "15.204.97.195",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6836,7 +7373,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #343",
+      "tag": "T.ME: @aristapnel #368",
       "server": "15.204.97.197",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6858,7 +7395,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #344",
+      "tag": "T.ME: @aristapnel #369",
       "server": "15.204.97.198",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6880,7 +7417,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #345",
+      "tag": "T.ME: @aristapnel #370",
       "server": "15.204.97.206",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6902,7 +7439,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #346",
+      "tag": "T.ME: @aristapnel #371",
       "server": "15.204.97.214",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6924,7 +7461,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #347",
+      "tag": "T.ME: @aristapnel #372",
       "server": "15.204.97.216",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6946,7 +7483,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #348",
+      "tag": "T.ME: @aristapnel #373",
       "server": "15.204.97.219",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6968,7 +7505,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #349",
+      "tag": "T.ME: @aristapnel #374",
       "server": "51.158.206.103",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -6990,7 +7527,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #350",
+      "tag": "T.ME: @aristapnel #375",
       "server": "51.158.206.12",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7012,7 +7549,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #351",
+      "tag": "T.ME: @aristapnel #376",
       "server": "51.158.206.25",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7034,7 +7571,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #352",
+      "tag": "T.ME: @aristapnel #377",
       "server": "51.158.206.26",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7056,7 +7593,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #353",
+      "tag": "T.ME: @aristapnel #378",
       "server": "51.158.206.80",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7078,7 +7615,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #354",
+      "tag": "T.ME: @aristapnel #379",
       "server": "51.158.206.87",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7100,7 +7637,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #355",
+      "tag": "T.ME: @aristapnel #380",
       "server": "51.158.206.8",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7122,7 +7659,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #356",
+      "tag": "T.ME: @aristapnel #381",
       "server": "51.158.206.93",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7144,7 +7681,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #357",
+      "tag": "T.ME: @aristapnel #382",
       "server": "51.158.206.96",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7166,7 +7703,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #358",
+      "tag": "T.ME: @aristapnel #383",
       "server": "51.158.206.97",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7188,7 +7725,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #359",
+      "tag": "T.ME: @aristapnel #384",
       "server": "51.158.206.98",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -7210,148 +7747,13 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #360",
-      "server": "51.250.106.87",
-      "server_port": 443,
-      "uuid": "4a3d2cbe-72f6-43de-a5c8-ad07f8abe494",
+      "tag": "T.ME: @aristapnel #385",
+      "server": "172.67.73.139",
+      "server_port": 2096,
+      "uuid": "4b2d8858-7e05-45ff-815d-e772942ea2ce",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #361",
-      "server": "51.250.108.162",
-      "server_port": 443,
-      "uuid": "4a3d2cbe-72f6-43de-a5c8-ad07f8abe494",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #362",
-      "server": "51.250.24.222",
-      "server_port": 443,
-      "uuid": "4a3d2cbe-72f6-43de-a5c8-ad07f8abe494",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #363",
-      "server": "172.64.32.75",
-      "server_port": 443,
-      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
-      "tls": {
-        "enabled": true,
-        "server_name": "amoosamiii.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/poiuyws",
-        "headers": {
-          "Host": "amoosamiii.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #364",
-      "server": "betty.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
-      "tls": {
-        "enabled": true,
-        "server_name": "amoosamiii.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/poiuyws",
-        "headers": {
-          "Host": "amoosamiii.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #365",
-      "server": "betty.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
-      "tls": {
-        "enabled": true,
-        "server_name": "amoosamiii.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/poiuyws",
-        "headers": {
-          "Host": "amoosamiii.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #366",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "4fcb91d0-bbc4-480c-b362-216d4a79bb5c",
-      "tls": {
-        "enabled": true,
-        "server_name": "default.ssl.fastly.net",
+        "server_name": "lively-shadow-093d.alixray.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -7362,135 +7764,167 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "pan3.global.ssl.fastly.net"
+          "Host": "lively-shadow-093d.alixray.workers.dev"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #367",
-      "server": "185.130.114.211",
+      "tag": "T.ME: @aristapnel #386",
+      "server": "185.229.9.32",
       "server_port": 443,
-      "uuid": "51a13d51-a970-42c2-896f-17fc8e37af9e",
+      "uuid": "4cfb3834-d259-41fb-ad20-380f53e485ec",
       "tls": {
         "enabled": true,
-        "server_name": "yandex.ru",
+        "server_name": "api.ok.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "I_mMGeQ8r529dq2LjFUzv0nb74zuux2zGWT2RfKuE14",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #387",
+      "server": "185.229.9.8",
+      "server_port": 443,
+      "uuid": "4cfb3834-d259-41fb-ad20-380f53e485ec",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #388",
+      "server": "158.160.17.171",
+      "server_port": 443,
+      "uuid": "4d1fceed-5e21-4f64-88c7-bbd86f18adf4",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #389",
+      "server": "51.250.47.193",
+      "server_port": 443,
+      "uuid": "4d1fceed-5e21-4f64-88c7-bbd86f18adf4",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #390",
+      "server": "84.201.153.33",
+      "server_port": 443,
+      "uuid": "4d1fceed-5e21-4f64-88c7-bbd86f18adf4",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #391",
+      "server": "betty.ns.cloudflare.com",
+      "server_port": 443,
+      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
+      "tls": {
+        "enabled": true,
+        "server_name": "amoosamiii.net",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
         }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #368",
-      "server": "185.130.115.132",
-      "server_port": 443,
-      "uuid": "51a13d51-a970-42c2-896f-17fc8e37af9e",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #369",
-      "server": "84.201.172.121",
-      "server_port": 443,
-      "uuid": "51a13d51-a970-42c2-896f-17fc8e37af9e",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #370",
-      "server": "89.208.210.165",
-      "server_port": 443,
-      "uuid": "51a13d51-a970-42c2-896f-17fc8e37af9e",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #371",
-      "server": "89.208.210.216",
-      "server_port": 443,
-      "uuid": "51a13d51-a970-42c2-896f-17fc8e37af9e",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WrPShaEtQUXeKeyWDuELzBsd_ygDsU-k2bL1Avi13xI"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #372",
-      "server": "104.21.7.133",
-      "server_port": 80,
-      "uuid": "53342b53-157e-4475-9f3a-40439434e689",
-      "tls": {
-        "enabled": false
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/poiuyws",
         "headers": {
-          "Host": "c.iamdt.dpdns.org"
+          "Host": "amoosamiii.net"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #373",
+      "tag": "T.ME: @aristapnel #392",
+      "server": "31.59.36.107",
+      "server_port": 443,
+      "uuid": "4f51ca84-43ea-4087-b8a2-938e0ccbe27a",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mDDDyruO33nuqcTS7pZOjd9oOpDHUf0aEv2TQ1DFGV4"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #393",
       "server": "79.127.196.11",
       "server_port": 8443,
       "uuid": "55f7d143-a594-4a91-b030-f227039f85ef",
@@ -7509,7 +7943,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #374",
+      "tag": "T.ME: @aristapnel #394",
       "server": "cdg-1.fromblancwithlove.com",
       "server_port": 8443,
       "uuid": "55f7d143-a594-4a91-b030-f227039f85ef",
@@ -7528,7 +7962,229 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #375",
+      "tag": "T.ME: @aristapnel #395",
+      "server": "158.160.109.80",
+      "server_port": 443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0X4VZ0-ZF7MNOIDAwtSGPRO0syd_iroNSZZL61s71TI",
+          "short_id": "7ada97ab"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #396",
+      "server": "158.160.147.122",
+      "server_port": 443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AvSwsAIp3t2sTvNDZwTPkbcanvu9wtvLyZ6FCzIM-Rk",
+          "short_id": "7ada97abaa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #397",
+      "server": "158.160.53.173",
+      "server_port": 443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
+          "short_id": "bd3cda1117aa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #398",
+      "server": "31.129.42.125",
+      "server_port": 8443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dPXfrAC0Vcq2522VqYkyq-iALA91M13_YvPhm4G3S3E",
+          "short_id": "7ada97aa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #399",
+      "server": "37.9.4.37",
+      "server_port": 8443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OjsQ5qMS7KeQAE3jG1XbDzGrXPuGMZB5riVmfza8CiA",
+          "short_id": "11a397aa"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #400",
+      "server": "51.250.26.148",
+      "server_port": 443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
+          "short_id": "bd3cda1117aa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #401",
+      "server": "51.250.7.246",
+      "server_port": 443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AvSwsAIp3t2sTvNDZwTPkbcanvu9wtvLyZ6FCzIM-Rk",
+          "short_id": "7ada97abaa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #402",
+      "server": "84.201.159.233",
+      "server_port": 443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
+          "short_id": "bd3cda1117aa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #403",
+      "server": "84.201.165.188",
+      "server_port": 443,
+      "uuid": "57f4bb23-9815-46cf-a1de-e155aad524bc",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DpJfEeCD3JpT18qNZQbNzi-tye_6ibubpKNIf6lonB8",
+          "short_id": "bd3cda1117aa"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #404",
       "server": "104.16.7.70",
       "server_port": 8080,
       "uuid": "5854d471-23a6-4c97-a398-95f483f885b0",
@@ -7538,7 +8194,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #376",
+      "tag": "T.ME: @aristapnel #405",
       "server": "cf.008500.xyz",
       "server_port": 443,
       "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
@@ -7561,49 +8217,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #377",
-      "server": "193.168.46.180",
-      "server_port": 443,
-      "uuid": "5e779a9b-fcf7-4c9c-ab7d-1f78e5328e63",
-      "tls": {
-        "enabled": true,
-        "server_name": "rruu.persik.host",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
-          "short_id": "c1a7e9b4711d5f60"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #378",
-      "server": "varzesh3.com",
-      "server_port": 80,
-      "uuid": "5f1eb446-5104-41cb-a3e2-27a1f9e7f060",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sajjad.panivo.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #379",
+      "tag": "T.ME: @aristapnel #406",
       "server": "130.193.56.148",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-11-1.nodes.ac",
@@ -7622,10 +8239,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #380",
+      "tag": "T.ME: @aristapnel #407",
       "server": "130.193.56.208",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-11-2.nodes.ac",
@@ -7644,10 +8261,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #381",
+      "tag": "T.ME: @aristapnel #408",
       "server": "178.154.204.218",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-4-5.nodes.ac",
@@ -7666,10 +8283,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #382",
+      "tag": "T.ME: @aristapnel #409",
       "server": "178.154.204.55",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-4-3.nodes.ac",
@@ -7688,10 +8305,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #383",
+      "tag": "T.ME: @aristapnel #410",
       "server": "178.154.204.65",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-4-4.nodes.ac",
@@ -7710,10 +8327,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #384",
+      "tag": "T.ME: @aristapnel #411",
       "server": "178.154.215.113",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-4-1.legendary.ac",
@@ -7732,10 +8349,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #385",
+      "tag": "T.ME: @aristapnel #412",
       "server": "178.154.227.129",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-4-2.nodes.ac",
@@ -7754,58 +8371,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #386",
-      "server": "213.226.112.213",
-      "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-7-5.nodes.ac",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sXOFKo2LTiE3qg7Z68FIiwTYvhNNSAOTx9AYMuUoUnk",
-          "short_id": "07d3a29177aefcb6"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #387",
-      "server": "37.220.163.248",
-      "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "s72534.cdn.ngenix.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1/data/sync/",
-        "headers": {
-          "Host": "37.220.163.248"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #388",
+      "tag": "T.ME: @aristapnel #413",
       "server": "37.9.4.224",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-2-1.legendary.ac",
@@ -7824,35 +8393,13 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #389",
-      "server": "45.11.26.234",
-      "server_port": 8443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-7-6.nodes.ac",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QxW0nwrOXYHuEeL4PXObUDEackg-ebQ_9Vgl01IwsxM",
-          "short_id": "77173c666c84bec1"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #390",
-      "server": "46.254.17.72",
+      "tag": "T.ME: @aristapnel #414",
+      "server": "51.250.114.26",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
-        "server_name": "wl-1-1.legendary.ac",
+        "server_name": "wl-6-2.nodes.ac",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -7860,62 +8407,18 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "Ce2abow3fU3pN2_mlX3uJW93sBMgTI9qNo5q7_EgFTA",
-          "short_id": "c4a70eddb745b1ea"
+          "public_key": "HHmhCp_qS_hIgIniZwaNwqI5CFH2_QmES4dFO41BRWo",
+          "short_id": "64038de1ca7aad86"
         }
       },
       "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #391",
-      "server": "51.250.33.25",
-      "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-6-5.nodes.ac",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "c8Sx7-8OcvtHEbVU59r-9DQrNdSI91GbMaHR-du4BxA",
-          "short_id": "b7b3ff64ca530808"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #392",
-      "server": "51.250.73.47",
-      "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-6-1.nodes.ac",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "uofZM1SG_RthhSONWy50U6cQ5m3kXy-sglwY0CANfi8",
-          "short_id": "468d8ab371f8f563"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #393",
+      "tag": "T.ME: @aristapnel #415",
       "server": "51.250.81.9",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-6-4.nodes.ac",
@@ -7934,10 +8437,32 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #394",
+      "tag": "T.ME: @aristapnel #416",
+      "server": "51.250.88.243",
+      "server_port": 443,
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-6-3.nodes.ac",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HXP9HKqhQvwTwh0cgddJ3c3VND1lwRYRXgKfW1XPaX4",
+          "short_id": "bf0c3248f61fe277"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #417",
       "server": "62.152.56.73",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-12.nodes.ac",
@@ -7956,10 +8481,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #395",
+      "tag": "T.ME: @aristapnel #418",
       "server": "62.152.58.114",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-13-1.nodes.ac",
@@ -7978,10 +8503,10 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #396",
+      "tag": "T.ME: @aristapnel #419",
       "server": "95.183.11.123",
       "server_port": 443,
-      "uuid": "6006c576-f1f8-44ba-8106-32c2753c5a4e",
+      "uuid": "5e833694-1d4b-479c-bf55-25b592136829",
       "tls": {
         "enabled": true,
         "server_name": "wl-8-1.nodes.ac",
@@ -8000,7 +8525,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #397",
+      "tag": "T.ME: @aristapnel #420",
       "server": "185.162.229.50",
       "server_port": 8880,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -8017,8 +8542,8 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #398",
-      "server": "45.85.118.50",
+      "tag": "T.ME: @aristapnel #421",
+      "server": "185.193.28.30",
       "server_port": 8880,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
@@ -8026,513 +8551,117 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "vms.lifetime55.workers.dev"
+          "Host": "vms.lifetime07.workers.dev"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #399",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #400",
-      "server": "45.12.75.242",
-      "server_port": 26424,
-      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
-          "short_id": "23103e1e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #401",
-      "server": "client.jison.ir",
-      "server_port": 443,
-      "uuid": "64647238-c6a2-4142-8c74-c1be239140ab",
-      "tls": {
-        "enabled": true,
-        "server_name": "fty.jison.ir",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "h3",
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "sdt.jison.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #402",
-      "server": "103.112.71.228",
-      "server_port": 443,
-      "uuid": "665c11ef-4723-4396-a8a1-45d013e68e6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "bootnl1.strangerwhale.fun",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #403",
-      "server": "144.31.171.249",
-      "server_port": 443,
-      "uuid": "665c11ef-4723-4396-a8a1-45d013e68e6b",
-      "tls": {
-        "enabled": true,
-        "server_name": "bootpl1.strangerwhale.fun",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #404",
-      "server": "panel.dibaux.ir",
-      "server_port": 80,
-      "uuid": "69330ab9-eb51-4bb6-9c07-3f2401c476af",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/stream",
-        "headers": {
-          "Host": "panel.dibaux.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #405",
-      "server": "104.18.237.216",
-      "server_port": 80,
-      "uuid": "69d38faa-21a1-4d18-82cb-796a942c181b",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sfsl.ardomains1.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #406",
-      "server": "158.160.17.171",
-      "server_port": 443,
-      "uuid": "6c6c170e-0b40-49d1-8d0e-4ffa2442a60a",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #407",
-      "server": "185.229.9.16",
-      "server_port": 49001,
-      "uuid": "6c6c170e-0b40-49d1-8d0e-4ffa2442a60a",
-      "tls": {
-        "enabled": true,
-        "server_name": "m.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Zd4UabMvO_1QQny7BzwBZa7T3eeY1GXC7MKZprZ-pGY",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #408",
-      "server": "51.250.4.238",
-      "server_port": 443,
-      "uuid": "6c6c170e-0b40-49d1-8d0e-4ffa2442a60a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.vk.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #409",
-      "server": "51.250.4.238",
-      "server_port": 443,
-      "uuid": "6c6c170e-0b40-49d1-8d0e-4ffa2442a60a",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #410",
-      "server": "51.250.47.193",
-      "server_port": 443,
-      "uuid": "6c6c170e-0b40-49d1-8d0e-4ffa2442a60a",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "v6rib0-2FxBd1MnBxdylbIRIhvXywSj56QEtCkaEuBo",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #411",
-      "server": "51.250.47.193",
-      "server_port": 443,
-      "uuid": "6c6c170e-0b40-49d1-8d0e-4ffa2442a60a",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #412",
-      "server": "84.201.153.33",
-      "server_port": 443,
-      "uuid": "6c6c170e-0b40-49d1-8d0e-4ffa2442a60a",
-      "tls": {
-        "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
-          "short_id": "27e53bbcab7593d7"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #413",
-      "server": "51.250.102.69",
-      "server_port": 443,
-      "uuid": "6c9d2357-271a-4315-a907-0dc5dd051a97",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #414",
-      "server": "51.250.102.69",
-      "server_port": 443,
-      "uuid": "6c9d2357-271a-4315-a907-0dc5dd051a97",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #415",
-      "server": "51.250.106.87",
-      "server_port": 443,
-      "uuid": "6c9d2357-271a-4315-a907-0dc5dd051a97",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #416",
-      "server": "51.250.108.162",
-      "server_port": 443,
-      "uuid": "6c9d2357-271a-4315-a907-0dc5dd051a97",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #417",
-      "server": "51.250.24.222",
-      "server_port": 443,
-      "uuid": "6c9d2357-271a-4315-a907-0dc5dd051a97",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #418",
-      "server": "51.250.102.69",
-      "server_port": 443,
-      "uuid": "6da38cd3-8cb7-4dae-8868-f83f782391bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #419",
-      "server": "51.250.106.87",
-      "server_port": 443,
-      "uuid": "6da38cd3-8cb7-4dae-8868-f83f782391bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #420",
-      "server": "51.250.108.162",
-      "server_port": 443,
-      "uuid": "6da38cd3-8cb7-4dae-8868-f83f782391bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #421",
-      "server": "51.250.24.222",
-      "server_port": 443,
-      "uuid": "6da38cd3-8cb7-4dae-8868-f83f782391bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      },
-      "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #422",
+      "server": "92.53.189.40",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "vms.lifetime19.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #423",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ya.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #424",
+      "server": "45.12.75.242",
+      "server_port": 26424,
+      "uuid": "633f424e-2b11-48da-a6b3-a849dd71456f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ya.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0",
+          "short_id": "23103e1e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #425",
+      "server": "162.159.43.233",
+      "server_port": 443,
+      "uuid": "6bc1bd81-b763-4213-80ad-4586224e3079",
+      "tls": {
+        "enabled": true,
+        "server_name": "tohidza.et6m22266a.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tohidza.et6m22266a.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #426",
+      "server": "104.17.122.123",
+      "server_port": 2083,
+      "uuid": "6c22648a-18f5-4249-9ace-72a1639d4190",
+      "tls": {
+        "enabled": true,
+        "server_name": "ziba.velizor.ir",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #427",
       "server": "185.143.234.235",
       "server_port": 8880,
       "uuid": "6f4478b4-a854-4b08-bfc8-fb750010bfa8",
@@ -8549,7 +8678,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #423",
+      "tag": "T.ME: @aristapnel #428",
       "server": "ps.topmarket1.ir",
       "server_port": 8880,
       "uuid": "6f4478b4-a854-4b08-bfc8-fb750010bfa8",
@@ -8566,7 +8695,90 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #424",
+      "tag": "T.ME: @aristapnel #429",
+      "server": "ps.topmarket1.ir",
+      "server_port": 8880,
+      "uuid": "6f4478b4-a854-4b08-bfc8-fb750010bfa8",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/DL?ed=2053",
+        "headers": {
+          "Host": "ps.topmarket1.ir"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #430",
+      "server": "158.160.17.171",
+      "server_port": 443,
+      "uuid": "7099a4e8-a8ab-441a-ac51-1504692b3940",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #431",
+      "server": "51.250.47.193",
+      "server_port": 443,
+      "uuid": "7099a4e8-a8ab-441a-ac51-1504692b3940",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #432",
+      "server": "84.201.153.33",
+      "server_port": 443,
+      "uuid": "7099a4e8-a8ab-441a-ac51-1504692b3940",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #433",
       "server": "proxy.wastech.org",
       "server_port": 443,
       "uuid": "7131f38f-9a4a-4e38-ae1d-aa9e132265ea",
@@ -8582,30 +8794,33 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #425",
-      "server": "108.162.195.45",
+      "tag": "T.ME: @aristapnel #434",
+      "server": "93.93.88.78",
       "server_port": 443,
-      "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
+      "uuid": "7133139a-eb5d-41ee-8ba7-fa2a37095038",
       "tls": {
         "enabled": true,
-        "server_name": "picassooo.info",
+        "server_name": "s75524.cdn.ngenix.net",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
+          "fingerprint": "edge"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
-        "path": "/aymdlws",
+        "path": "/v1/data/sync/",
         "headers": {
-          "Host": "picassooo.info"
+          "Host": "93.93.88.78"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #426",
+      "tag": "T.ME: @aristapnel #435",
       "server": "162.159.44.45",
       "server_port": 443,
       "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
@@ -8628,7 +8843,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #427",
+      "tag": "T.ME: @aristapnel #436",
       "server": "172.64.35.45",
       "server_port": 443,
       "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
@@ -8651,7 +8866,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #428",
+      "tag": "T.ME: @aristapnel #437",
       "server": "172.64.35.45",
       "server_port": 443,
       "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
@@ -8674,30 +8889,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #429",
-      "server": "172.64.35.45",
-      "server_port": 443,
-      "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
-      "tls": {
-        "enabled": true,
-        "server_name": "picassooo.info",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aymdlws",
-        "headers": {
-          "Host": "picassooo.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #430",
+      "tag": "T.ME: @aristapnel #438",
       "server": "188.114.97.6",
       "server_port": 443,
       "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
@@ -8720,7 +8912,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #431",
+      "tag": "T.ME: @aristapnel #439",
       "server": "199.181.197.46",
       "server_port": 443,
       "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
@@ -8743,7 +8935,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #432",
+      "tag": "T.ME: @aristapnel #440",
       "server": "cosmin.ns.cloudflare.com",
       "server_port": 443,
       "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
@@ -8766,30 +8958,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #433",
-      "server": "cosmin.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "7270612b-49f6-4b04-999c-34d8263da767",
-      "tls": {
-        "enabled": true,
-        "server_name": "picassooo.info",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aymdlws",
-        "headers": {
-          "Host": "picassooo.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #434",
+      "tag": "T.ME: @aristapnel #441",
       "server": "91.107.190.49",
       "server_port": 1080,
       "uuid": "727bec5f-6077-48cb-a722-0217cb627982",
@@ -8811,7 +8980,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #435",
+      "tag": "T.ME: @aristapnel #442",
       "server": "91.107.190.49",
       "server_port": 2026,
       "uuid": "727bec5f-6077-48cb-a722-0217cb627982",
@@ -8833,7 +9002,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #436",
+      "tag": "T.ME: @aristapnel #443",
       "server": "91.107.190.49",
       "server_port": 2096,
       "uuid": "727bec5f-6077-48cb-a722-0217cb627982",
@@ -8855,7 +9024,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #437",
+      "tag": "T.ME: @aristapnel #444",
       "server": "91.107.190.49",
       "server_port": 4043,
       "uuid": "727bec5f-6077-48cb-a722-0217cb627982",
@@ -8877,7 +9046,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #438",
+      "tag": "T.ME: @aristapnel #445",
       "server": "91.107.190.49",
       "server_port": 443,
       "uuid": "727bec5f-6077-48cb-a722-0217cb627982",
@@ -8899,7 +9068,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #439",
+      "tag": "T.ME: @aristapnel #446",
       "server": "91.107.190.49",
       "server_port": 8080,
       "uuid": "727bec5f-6077-48cb-a722-0217cb627982",
@@ -8921,7 +9090,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #440",
+      "tag": "T.ME: @aristapnel #447",
       "server": "91.107.190.49",
       "server_port": 8880,
       "uuid": "727bec5f-6077-48cb-a722-0217cb627982",
@@ -8943,7 +9112,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #441",
+      "tag": "T.ME: @aristapnel #448",
       "server": "144.31.217.99",
       "server_port": 443,
       "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
@@ -8964,7 +9133,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #442",
+      "tag": "T.ME: @aristapnel #449",
       "server": "150.241.101.222",
       "server_port": 443,
       "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
@@ -8985,7 +9154,28 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #443",
+      "tag": "T.ME: @aristapnel #450",
+      "server": "150.241.103.208",
+      "server_port": 443,
+      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #451",
       "server": "2.26.88.109",
       "server_port": 443,
       "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
@@ -9006,28 +9196,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #444",
-      "server": "2.26.88.109",
-      "server_port": 443,
-      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #445",
+      "tag": "T.ME: @aristapnel #452",
       "server": "31.76.53.0",
       "server_port": 443,
       "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
@@ -9048,7 +9217,451 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #446",
+      "tag": "T.ME: @aristapnel #453",
+      "server": "217.16.27.113",
+      "server_port": 443,
+      "uuid": "76d779e9-cda2-4291-b70a-e9a9fced195d",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU",
+          "short_id": "a1b2c3d4e5"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #454",
+      "server": "217.16.27.113",
+      "server_port": 443,
+      "uuid": "76d779e9-cda2-4291-b70a-e9a9fced195d",
+      "tls": {
+        "enabled": true,
+        "server_name": "eh.vk.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU",
+          "short_id": "a1b2c3d4e5"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #455",
+      "server": "217.16.27.113",
+      "server_port": 443,
+      "uuid": "76d779e9-cda2-4291-b70a-e9a9fced195d",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU",
+          "short_id": "a1b2c3d4e5"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #456",
+      "server": "104.16.150.7",
+      "server_port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "fgnix832fx.fx6hsv0.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "fgnix832fx.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #457",
+      "server": "172.64.52.175",
+      "server_port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "fgnix832fx.fx6hsv0.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "fgnix832fx.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #458",
+      "server": "172.64.52.30",
+      "server_port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "fgnix832fx.fx6hsv0.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "fgnix832fx.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #459",
+      "server": "172.64.53.74",
+      "server_port": 443,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "fgnix832fx.fx6hsv0.ccwu.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "fgnix832fx.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #460",
+      "server": "158.160.47.144",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #461",
+      "server": "158.160.47.144",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #462",
+      "server": "158.160.47.144",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "sso.passport.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #463",
+      "server": "158.160.47.144",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.max.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #464",
+      "server": "185.22.235.219",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #465",
+      "server": "185.22.235.219",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #466",
+      "server": "185.22.235.219",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "sso.passport.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #467",
+      "server": "185.22.235.219",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.max.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #468",
+      "server": "51.250.82.20",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #469",
+      "server": "84.201.174.157",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #470",
+      "server": "84.201.174.157",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #471",
+      "server": "84.201.174.157",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "sso.passport.yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #472",
+      "server": "84.201.174.157",
+      "server_port": 443,
+      "uuid": "7927093a-6ba0-4b08-acab-491f76bf784f",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.max.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #473",
       "server": "193.200.16.127",
       "server_port": 2052,
       "uuid": "7a5cd520-f42a-5190-802f-d2cf86772c95",
@@ -9065,29 +9678,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #447",
-      "server": "193.168.46.180",
-      "server_port": 443,
-      "uuid": "7b49a4db-807b-406e-aa11-966ad2f4edba",
-      "tls": {
-        "enabled": true,
-        "server_name": "rruu.persik.host",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY",
-          "short_id": "c1a7e9b4711d5f60"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #448",
+      "tag": "T.ME: @aristapnel #474",
       "server": "python-graysongon.wasmer.app",
       "server_port": 443,
       "uuid": "7bd180e8-1142-4387-93f5-03e8d750a896",
@@ -9110,7 +9701,30 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #449",
+      "tag": "T.ME: @aristapnel #475",
+      "server": "rvg2-production.up.railway.app",
+      "server_port": 443,
+      "uuid": "7c352f3b-6535-788f-fb0c-f28a76d6deb6",
+      "tls": {
+        "enabled": true,
+        "server_name": "rvg2-production.up.railway.app",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/7c352f3b-6535-788f-fb0c-f28a76d6deb6",
+        "headers": {
+          "Host": "rvg2-production.up.railway.app"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #476",
       "server": "rvg2-production.up.railway.app",
       "server_port": 443,
       "uuid": "7c352f3b-6535-788f-fb0c-f28a76d6deb6",
@@ -9136,7 +9750,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #450",
+      "tag": "T.ME: @aristapnel #477",
       "server": "57.129.41.216",
       "server_port": 80,
       "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
@@ -9153,7 +9767,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #451",
+      "tag": "T.ME: @aristapnel #478",
       "server": "ov-germany1.09vpn.com",
       "server_port": 80,
       "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
@@ -9170,7 +9784,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #452",
+      "tag": "T.ME: @aristapnel #479",
       "server": "37.114.48.146",
       "server_port": 9443,
       "uuid": "7d876627-abf5-4865-8ff4-03f37d49de5d",
@@ -9187,7 +9801,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #453",
+      "tag": "T.ME: @aristapnel #480",
       "server": "bero-3.bexum.fun",
       "server_port": 9443,
       "uuid": "7d876627-abf5-4865-8ff4-03f37d49de5d",
@@ -9204,7 +9818,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #454",
+      "tag": "T.ME: @aristapnel #481",
       "server": "it-8.flowersred.ru",
       "server_port": 443,
       "uuid": "82a7f52c-f047-4f8c-b913-3ea1f29bdb38",
@@ -9225,47 +9839,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #455",
-      "server": "31.56.117.211",
-      "server_port": 443,
-      "uuid": "835989bc-f82c-4ae5-93d8-77bcb63105b3",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "31.56.117.211"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #456",
-      "server": "162.159.44.7",
-      "server_port": 2053,
-      "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-      "tls": {
-        "enabled": true,
-        "server_name": "josni.hoyes.cloudns.ch",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "josni.hoyes.cloudns.ch"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #457",
+      "tag": "T.ME: @aristapnel #482",
       "server": "josni.hoyes.cloudns.ch",
       "server_port": 2053,
       "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
@@ -9288,32 +9862,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #458",
-      "server": "81.163.22.106",
-      "server_port": 27443,
-      "uuid": "8406f1c5-8332-40fc-8408-669fc6761f52",
-      "tls": {
-        "enabled": true,
-        "server_name": "avatars.mds.yandex.net",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg",
-          "short_id": "844352756c1fabba"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc-vk"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #459",
+      "tag": "T.ME: @aristapnel #483",
       "server": "188.114.97.7",
       "server_port": 2083,
       "uuid": "8525fe74-67e6-4a55-8a26-95f227bd1384",
@@ -9336,29 +9885,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #460",
-      "server": "62.113.43.195",
-      "server_port": 443,
-      "uuid": "853e8fcd-d9d8-4d67-95f7-fb0cc08a09fd",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RJETAkoZ6lowmwc5f0HtPy00c3dfojqQuypriLExXRE",
-          "short_id": "abbcd128"
-        }
-      },
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #461",
+      "tag": "T.ME: @aristapnel #484",
       "server": "bm.xq-vpn.com",
       "server_port": 80,
       "uuid": "85b62084-d81e-52cd-a016-944f261d34a0",
@@ -9368,13 +9895,13 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #462",
-      "server": "217.16.27.113",
+      "tag": "T.ME: @aristapnel #485",
+      "server": "109.205.63.187",
       "server_port": 443,
-      "uuid": "8c0a7487-a3d3-4608-b3c7-bb3199d35219",
+      "uuid": "89dd47b1-5677-44e6-85fc-7e52d4a2addc",
       "tls": {
         "enabled": true,
-        "server_name": "5post-gate.x5.ru",
+        "server_name": "nl-rh-modx.webedg.net",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -9382,21 +9909,41 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU",
-          "short_id": "a1b2c3d4e5"
+          "public_key": "_1Z829fxl3oG_04DtAWpNtPbnwu0Y4n8C7bIwgCi8ww"
         }
       },
       "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #463",
-      "server": "217.16.27.113",
+      "tag": "T.ME: @aristapnel #486",
+      "server": "nl-rh-modx.webedg.net",
       "server_port": 443,
-      "uuid": "8c0a7487-a3d3-4608-b3c7-bb3199d35219",
+      "uuid": "89dd47b1-5677-44e6-85fc-7e52d4a2addc",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "nl-rh-modx.webedg.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_1Z829fxl3oG_04DtAWpNtPbnwu0Y4n8C7bIwgCi8ww"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #487",
+      "server": "45.91.55.232",
+      "server_port": 7443,
+      "uuid": "8bbf020e-653f-4a82-9900-1214e4e37dab",
+      "tls": {
+        "enabled": true,
+        "server_name": "rutube.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -9404,15 +9951,74 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "AiG06E-jizo9xtBbulKQvdQqhZfobZJBTQIKkaDjaiU",
-          "short_id": "a1b2c3d4e5"
+          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
+          "short_id": "be0ce047"
         }
       },
       "flow": "xtls-rprx-vision"
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #464",
+      "tag": "T.ME: @aristapnel #488",
+      "server": "45.91.55.232",
+      "server_port": 7443,
+      "uuid": "8bbf020e-653f-4a82-9900-1214e4e37dab",
+      "tls": {
+        "enabled": true,
+        "server_name": "rutube.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
+          "short_id": "be0ce047"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #489",
+      "server": "173.245.59.14",
+      "server_port": 2053,
+      "uuid": "8cf1e524-ce8c-4c63-8440-3ecd687f5e8d",
+      "tls": {
+        "enabled": true,
+        "server_name": "still-lake-3cf7.dls2026.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "still-lake-3cf7.dls2026.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #490",
+      "server": "sca16.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "tls": {
+        "enabled": false
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "GunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #491",
       "server": "sca21.myfymain.com",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -9426,7 +10032,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #465",
+      "tag": "T.ME: @aristapnel #492",
       "server": "sca26.myfymain.com",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
@@ -9440,21 +10046,21 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #466",
-      "server": "158.160.17.171",
+      "tag": "T.ME: @aristapnel #493",
+      "server": "185.229.9.32",
       "server_port": 443,
-      "uuid": "9083b37f-7a68-4bc4-9932-1306ac5a62ec",
+      "uuid": "910bce9e-9205-4ec6-80ea-0f1ad629fabb",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
+        "server_name": "api.ok.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I",
+          "public_key": "I_mMGeQ8r529dq2LjFUzv0nb74zuux2zGWT2RfKuE14",
           "short_id": "27e53bbcab7593d7"
         }
       },
@@ -9462,21 +10068,21 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #467",
-      "server": "84.201.153.33",
+      "tag": "T.ME: @aristapnel #494",
+      "server": "185.229.9.32",
       "server_port": 443,
-      "uuid": "9083b37f-7a68-4bc4-9932-1306ac5a62ec",
+      "uuid": "910bce9e-9205-4ec6-80ea-0f1ad629fabb",
       "tls": {
         "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
+        "server_name": "www.vk.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM",
+          "public_key": "bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0",
           "short_id": "27e53bbcab7593d7"
         }
       },
@@ -9484,7 +10090,29 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #468",
+      "tag": "T.ME: @aristapnel #495",
+      "server": "185.229.9.32",
+      "server_port": 443,
+      "uuid": "910bce9e-9205-4ec6-80ea-0f1ad629fabb",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r6LKP3g2W5ruKICTDfH8rwM1PbMjdcgHU7cG6jppxTs",
+          "short_id": "27e53bbcab7593d7"
+        }
+      },
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #496",
       "server": "87.120.93.240",
       "server_port": 443,
       "uuid": "91e120bc-159a-4390-b4e1-197b19602ea0",
@@ -9501,7 +10129,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #469",
+      "tag": "T.ME: @aristapnel #497",
       "server": "87.120.93.242",
       "server_port": 443,
       "uuid": "91e120bc-159a-4390-b4e1-197b19602ea0",
@@ -9518,23 +10146,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #470",
-      "server": "162.249.126.198",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn9-33.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #471",
+      "tag": "T.ME: @aristapnel #498",
       "server": "162.249.126.204",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
@@ -9550,39 +10162,7 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #472",
-      "server": "162.249.126.37",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #473",
-      "server": "162.249.126.39",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #474",
+      "tag": "T.ME: @aristapnel #499",
       "server": "162.249.126.67",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
@@ -9598,413 +10178,13 @@
     },
     {
       "type": "vless",
-      "tag": "T.ME: @aristapnel #475",
+      "tag": "T.ME: @aristapnel #500",
       "server": "162.249.126.68",
       "server_port": 8443,
       "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
       "tls": {
         "enabled": true,
         "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #476",
-      "server": "162.249.126.69",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #477",
-      "server": "162.249.126.70",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn9-33.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #478",
-      "server": "162.249.126.71",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #479",
-      "server": "162.249.126.72",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #480",
-      "server": "162.249.126.73",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #481",
-      "server": "162.249.126.74",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #482",
-      "server": "162.249.126.75",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #483",
-      "server": "162.249.126.75",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-39.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #484",
-      "server": "162.249.126.76",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #485",
-      "server": "162.249.126.77",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #486",
-      "server": "162.249.126.83",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #487",
-      "server": "46.229.243.124",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn9-33.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #488",
-      "server": "46.229.243.130",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #489",
-      "server": "46.229.243.131",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #490",
-      "server": "46.229.243.132",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-39.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #491",
-      "server": "46.229.243.132",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-39.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #492",
-      "server": "46.229.243.133",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #493",
-      "server": "46.229.243.134",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #494",
-      "server": "46.229.243.135",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #495",
-      "server": "46.229.243.136",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #496",
-      "server": "46.229.243.137",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #497",
-      "server": "46.229.243.138",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-09.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #498",
-      "server": "46.229.243.139",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #499",
-      "server": "46.229.243.144",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn3-87.vk-cdnvideo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #500",
-      "server": "46.229.243.69",
-      "server_port": 8443,
-      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn7-39.vk-cdnvideo.com",
         "insecure": false,
         "utls": {
           "enabled": true,

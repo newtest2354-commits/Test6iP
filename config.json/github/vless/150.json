@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 150
-// Updated: 2026-06-17 19:31:28
+// Updated: 2026-06-17 19:59:39
 // Count: 149
 
 {
@@ -25,10 +25,13 @@
       "type": "tun",
       "tag": "tun-in",
       "interface_name": "singbox-tun",
-      "inet4_address": "172.19.0.1/30",
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
       "auto_route": true,
       "strict_route": true,
-      "stack": "system"
+      "stack": "mixed"
     }
   ],
   "outbounds": [
