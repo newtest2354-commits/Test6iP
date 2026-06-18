@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier ALL
-// Updated: 2026-06-18 11:49:54
+// Updated: 2026-06-18 12:33:14
 // Count: 4
 
 {
@@ -47,15 +47,15 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #13",
-      "server": "3.8.48.222",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "dada1203"
+      "tag": "ARISTA #12",
+      "server": "82.38.31.7",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #34",
+      "tag": "ARISTA #27",
       "server": "admin.c1.havij.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -63,7 +63,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #35",
+      "tag": "ARISTA #28",
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -71,11 +71,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #55",
-      "server": "82.38.31.7",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "tag": "ARISTA #49",
+      "server": "3.8.48.222",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "dada1203"
     },
     {
       "type": "direct",
@@ -87,70 +87,23 @@
     },
     {
       "type": "urltest",
-      "tag": "🚀 ARISTA LOW LATENCY",
+      "tag": "🚀 ARISTA AUTO",
       "outbounds": [
-        "ARISTA #13",
-        "ARISTA #34",
-        "ARISTA #35",
-        "ARISTA #55"
+        "ARISTA #12",
+        "ARISTA #27",
+        "ARISTA #28",
+        "ARISTA #49"
       ],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50,
-      "idle_timeout": "30m",
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "2m",
+      "tolerance": 30,
+      "idle_timeout": "0m",
       "interrupt_exist_connections": true
-    },
-    {
-      "type": "selector",
-      "tag": "🎬 ARISTA STREAM",
-      "outbounds": [
-        "ARISTA #13",
-        "ARISTA #34",
-        "ARISTA #35",
-        "ARISTA #55"
-      ],
-      "default": "ARISTA #13",
-      "interrupt_exist_connections": true
-    },
-    {
-      "type": "selector",
-      "tag": "⚖️ ARISTA BALANCE",
-      "outbounds": [
-        "ARISTA #13",
-        "ARISTA #34",
-        "ARISTA #35",
-        "ARISTA #55"
-      ],
-      "default": "ARISTA #13"
-    },
-    {
-      "type": "selector",
-      "tag": "🛡 ARISTA BACKUP",
-      "outbounds": [
-        "🚀 ARISTA LOW LATENCY",
-        "ARISTA #13",
-        "ARISTA #34",
-        "ARISTA #35",
-        "ARISTA #55"
-      ],
-      "default": "🚀 ARISTA LOW LATENCY"
-    },
-    {
-      "type": "selector",
-      "tag": "🎯 ARISTA CORE",
-      "outbounds": [
-        "🚀 ARISTA LOW LATENCY",
-        "🎬 ARISTA STREAM",
-        "⚖️ ARISTA BALANCE",
-        "🛡 ARISTA BACKUP",
-        "direct"
-      ],
-      "default": "🚀 ARISTA LOW LATENCY"
     }
   ],
   "route": {
     "auto_detect_interface": true,
-    "final": "🎯 ARISTA CORE",
+    "final": "🚀 ARISTA AUTO",
     "default_domain_resolver": "cloudflare",
     "rules": [
       {
