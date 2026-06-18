@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier ALL
-// Updated: 2026-06-18 06:32:56
+// Updated: 2026-06-18 07:12:23
 // Count: 4
 
 {
@@ -18,15 +18,8 @@
         "tag": "cloudflare",
         "type": "udp",
         "server": "1.1.1.1"
-      },
-      {
-        "tag": "fakeip",
-        "type": "fakeip",
-        "inet4_range": "198.18.0.0/15",
-        "inet6_range": "fc00::/18"
       }
     ],
-    "independent_cache": true,
     "rules": [
       {
         "domain": [
@@ -53,25 +46,7 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #10",
-      "server": "3.8.48.222",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "dada1203",
-      "domain_resolver": "dns"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #62",
-      "server": "82.38.31.7",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-      "domain_resolver": "dns"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ARISTA #64",
+      "tag": "ARISTA #29",
       "server": "admin.c1.havij.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -80,11 +55,29 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #65",
+      "tag": "ARISTA #30",
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "W74XFALLLuw6m5IA",
+      "domain_resolver": "dns"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #55",
+      "server": "3.8.48.222",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "dada1203",
+      "domain_resolver": "dns"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #65",
+      "server": "82.38.31.7",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
       "domain_resolver": "dns"
     },
     {
@@ -99,34 +92,31 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        "ARISTA #10",
-        "ARISTA #62",
-        "ARISTA #64",
+        "ARISTA #29",
+        "ARISTA #30",
+        "ARISTA #55",
         "ARISTA #65",
         "direct"
       ],
-      "default": "ARISTA #10",
-      "domain_resolver": "dns"
+      "default": "ARISTA #29"
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "ARISTA #10",
-        "ARISTA #62",
-        "ARISTA #64",
+        "ARISTA #29",
+        "ARISTA #30",
+        "ARISTA #55",
         "ARISTA #65"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
-      "tolerance": 50,
-      "domain_resolver": "dns"
+      "tolerance": 50
     }
   ],
   "route": {
     "auto_detect_interface": true,
     "final": "proxy",
-    "default_domain_resolver": "dns",
     "rules": [
       {
         "action": "hijack-dns"

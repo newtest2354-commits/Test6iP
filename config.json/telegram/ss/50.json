@@ -1,6 +1,6 @@
 // TELEGRAM - SS - Tier 50
-// Updated: 2026-06-18 06:32:56
-// Count: 1
+// Updated: 2026-06-18 07:12:23
+// Count: 2
 
 {
   "log": {
@@ -18,15 +18,8 @@
         "tag": "cloudflare",
         "type": "udp",
         "server": "1.1.1.1"
-      },
-      {
-        "tag": "fakeip",
-        "type": "fakeip",
-        "inet4_range": "198.18.0.0/15",
-        "inet6_range": "fc00::/18"
       }
     ],
-    "independent_cache": true,
     "rules": [
       {
         "domain": [
@@ -53,11 +46,20 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #10",
-      "server": "3.8.48.222",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "dada1203",
+      "tag": "ARISTA #29",
+      "server": "admin.c1.havij.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1kVr0KATIJI7mwOF",
+      "domain_resolver": "dns"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #30",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "W74XFALLLuw6m5IA",
       "domain_resolver": "dns"
     },
     {
@@ -72,28 +74,27 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        "ARISTA #10",
+        "ARISTA #29",
+        "ARISTA #30",
         "direct"
       ],
-      "default": "ARISTA #10",
-      "domain_resolver": "dns"
+      "default": "ARISTA #29"
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "ARISTA #10"
+        "ARISTA #29",
+        "ARISTA #30"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
-      "tolerance": 50,
-      "domain_resolver": "dns"
+      "tolerance": 50
     }
   ],
   "route": {
     "auto_detect_interface": true,
     "final": "proxy",
-    "default_domain_resolver": "dns",
     "rules": [
       {
         "action": "hijack-dns"
