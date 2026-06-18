@@ -441,44 +441,13 @@ class ConfigToJSONConverter:
         return [
             {
                 "type": "urltest",
-                "tag": "🚀 ARISTA LOW LATENCY",
+                "tag": "🚀 ARISTA AUTO",
                 "outbounds": proxy_tags,
-                "url": "https://www.gstatic.com/generate_204",
-                "interval": "3m",
-                "tolerance": 50,
-                "idle_timeout": "30m",
+                "url": "http://www.gstatic.com/generate_204",
+                "interval": "2m",
+                "tolerance": 30,
+                "idle_timeout": "0m",
                 "interrupt_exist_connections": True
-            },
-            {
-                "type": "selector",
-                "tag": "🎬 ARISTA STREAM",
-                "outbounds": proxy_tags,
-                "default": proxy_tags[0],
-                "interrupt_exist_connections": True
-            },
-            {
-                "type": "selector",
-                "tag": "⚖️ ARISTA BALANCE",
-                "outbounds": proxy_tags,
-                "default": proxy_tags[0]
-            },
-            {
-                "type": "selector",
-                "tag": "🛡 ARISTA BACKUP",
-                "outbounds": ["🚀 ARISTA LOW LATENCY"] + proxy_tags,
-                "default": "🚀 ARISTA LOW LATENCY"
-            },
-            {
-                "type": "selector",
-                "tag": "🎯 ARISTA CORE",
-                "outbounds": [
-                    "🚀 ARISTA LOW LATENCY",
-                    "🎬 ARISTA STREAM",
-                    "⚖️ ARISTA BALANCE",
-                    "🛡 ARISTA BACKUP",
-                    "direct"
-                ],
-                "default": "🚀 ARISTA LOW LATENCY"
             }
         ]
 
@@ -556,7 +525,7 @@ class ConfigToJSONConverter:
 
             "route": {
                 "auto_detect_interface": True,
-                "final": "🎯 ARISTA CORE",
+                "final": "🚀 ARISTA AUTO",
                 "default_domain_resolver": "cloudflare",
                 "rules": [
                     {
