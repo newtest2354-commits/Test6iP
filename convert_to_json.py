@@ -432,35 +432,6 @@ class ConfigToJSONConverter:
         except Exception as e:
             return None
 
-    def build_proxy_groups(self, all_proxies):
-        proxy_tags = [p["tag"] for p in all_proxies if p.get("tag")]
-
-        if not proxy_tags:
-            return []
-
-        return [
-            {
-                "type": "urltest",
-                "tag": "🚀 ARISTA AUTO BEST",
-                "outbounds": proxy_tags,
-                "url": "http://www.gstatic.com/generate_204",
-                "interval": "2m",
-                "tolerance": 30,
-                "idle_timeout": "20m",
-                "interrupt_exist_connections": True
-            },
-            {
-                "type": "urltest",
-                "tag": "🎯 ARISTA MANUAL TESTED",
-                "outbounds": proxy_tags,
-                "url": "http://www.gstatic.com/generate_204",
-                "interval": "3m",
-                "tolerance": 50,
-                "idle_timeout": "20m",
-                "interrupt_exist_connections": True
-            }
-        ]
-
     def convert_config_to_singbox(self, config_str: str, index: int) -> Optional[Dict]:
         if config_str.startswith('vless://'):
             return self.vless_to_singbox(index, config_str)
@@ -488,10 +459,12 @@ class ConfigToJSONConverter:
         for p in proxies:
             if not isinstance(p, dict):
                 continue
-            cleaned_proxies.append(dict(p))
+            p = dict(p)
+            p.pop("domain_resolver", None)
+            p.pop("default_domain_resolver", None)
+            cleaned_proxies.append(p)
 
         tags = [p.get("tag") for p in cleaned_proxies if p.get("tag")]
-        proxy_groups = self.build_proxy_groups(cleaned_proxies)
 
         return {
             "log": {
@@ -530,12 +503,26 @@ class ConfigToJSONConverter:
 
             "outbounds": cleaned_proxies + [
                 {"type": "direct", "tag": "direct"},
-                {"type": "block", "tag": "block"}
-            ] + proxy_groups,
+                {"type": "block", "tag": "block"},
+                {
+                    "type": "selector",
+                    "tag": "proxy",
+                    "outbounds": tags + ["direct"],
+                    "default": tags[0] if tags else "direct"
+                },
+                {
+                    "type": "urltest",
+                    "tag": "auto",
+                    "outbounds": tags,
+                    "url": "http://www.gstatic.com/generate_204",
+                    "interval": "5m",
+                    "tolerance": 50
+                }
+            ],
 
             "route": {
                 "auto_detect_interface": True,
-                "final": "🚀 ARISTA AUTO BEST",
+                "final": "proxy",
                 "default_domain_resolver": "cloudflare",
                 "rules": [
                     {
