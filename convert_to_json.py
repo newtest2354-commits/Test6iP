@@ -432,6 +432,55 @@ class ConfigToJSONConverter:
         except Exception as e:
             return None
 
+    def build_proxy_groups(self, all_proxies):
+        proxy_tags = [p["tag"] for p in all_proxies if p.get("tag")]
+
+        if not proxy_tags:
+            return []
+
+        return [
+            {
+                "type": "urltest",
+                "tag": "🚀 ARISTA LOW LATENCY",
+                "url": "http://www.gstatic.com/generate_204",
+                "interval": "300s",
+                "tolerance": 50,
+                "idle_timeout": "30s",
+                "outbounds": proxy_tags
+            },
+            {
+                "type": "selector",
+                "tag": "🎬 ARISTA STREAM",
+                "outbounds": proxy_tags,
+                "default": proxy_tags[0]
+            },
+            {
+                "type": "load_balance",
+                "tag": "⚖️ ARISTA BALANCE",
+                "strategy": "consistent_hashing",
+                "outbounds": proxy_tags
+            },
+            {
+                "type": "selector",
+                "tag": "🛡 ARISTA BACKUP",
+                "outbounds": proxy_tags,
+                "default": proxy_tags[0]
+            },
+            {
+                "type": "selector",
+                "tag": "🎯 ARISTA CORE",
+                "outbounds": [
+                    "🚀 ARISTA LOW LATENCY",
+                    "🎬 ARISTA STREAM",
+                    "⚖️ ARISTA BALANCE",
+                    "🛡 ARISTA BACKUP",
+                    "direct",
+                    "block"
+                ],
+                "default": "🚀 ARISTA LOW LATENCY"
+            }
+        ]
+
     def convert_config_to_singbox(self, config_str: str, index: int) -> Optional[Dict]:
         if config_str.startswith('vless://'):
             return self.vless_to_singbox(index, config_str)
@@ -465,6 +514,7 @@ class ConfigToJSONConverter:
             cleaned_proxies.append(p)
 
         tags = [p.get("tag") for p in cleaned_proxies if p.get("tag")]
+        proxy_groups = self.build_proxy_groups(cleaned_proxies)
 
         return {
             "log": {
@@ -503,26 +553,12 @@ class ConfigToJSONConverter:
 
             "outbounds": cleaned_proxies + [
                 {"type": "direct", "tag": "direct"},
-                {"type": "block", "tag": "block"},
-                {
-                    "type": "selector",
-                    "tag": "proxy",
-                    "outbounds": tags + ["direct"],
-                    "default": tags[0] if tags else "direct"
-                },
-                {
-                    "type": "urltest",
-                    "tag": "auto",
-                    "outbounds": tags,
-                    "url": "http://www.gstatic.com/generate_204",
-                    "interval": "5m",
-                    "tolerance": 50
-                }
-            ],
+                {"type": "block", "tag": "block"}
+            ] + proxy_groups,
 
             "route": {
                 "auto_detect_interface": True,
-                "final": "proxy",
+                "final": "🎯 ARISTA CORE",
                 "default_domain_resolver": "cloudflare",
                 "rules": [
                     {
