@@ -1,5 +1,5 @@
 // GITHUB - TROJAN - Tier 50
-// Updated: 2026-06-18 08:48:35
+// Updated: 2026-06-18 09:16:06
 // Count: 50
 
 {
@@ -27,7 +27,8 @@
         ],
         "server": "google"
       }
-    ]
+    ],
+    "final": "cloudflare"
   },
   "inbounds": [
     {
@@ -986,6 +987,7 @@
   "route": {
     "auto_detect_interface": true,
     "final": "proxy",
+    "default_domain_resolver": "cloudflare",
     "rules": [
       {
         "action": "hijack-dns"

@@ -1,5 +1,5 @@
 // GITHUB - TROJAN - Tier 200
-// Updated: 2026-06-18 08:48:35
+// Updated: 2026-06-18 09:16:06
 // Count: 200
 
 {
@@ -27,7 +27,8 @@
         ],
         "server": "google"
       }
-    ]
+    ],
+    "final": "cloudflare"
   },
   "inbounds": [
     {
@@ -3891,6 +3892,54 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #193",
+      "server": "130.94.78.17",
+      "server_port": 443,
+      "password": "PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v",
+      "tls": {
+        "enabled": true,
+        "server_name": "130.94.78.17",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #194",
+      "server": "18.157.199.79",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "18.157.199.79",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #195",
+      "server": "18.197.78.165",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "18.197.78.165",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "T.ME: @aristapnel #196",
       "server": "45.130.125.156",
       "server_port": 8080,
       "password": "VN3zRAL4Hq",
@@ -3907,23 +3956,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #194",
-      "server": "188.253.12.90",
-      "server_port": 46424,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.01.naiun.bilibili.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #195",
+      "tag": "T.ME: @aristapnel #197",
       "server": "185.137.157.59",
       "server_port": 443,
       "password": "fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX",
@@ -3939,7 +3972,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #196",
+      "tag": "T.ME: @aristapnel #198",
       "server": "38.54.13.189",
       "server_port": 443,
       "password": "lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi",
@@ -3955,7 +3988,7 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #197",
+      "tag": "T.ME: @aristapnel #199",
       "server": "188.253.12.93",
       "server_port": 48697,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef",
@@ -3971,45 +4004,13 @@
     },
     {
       "type": "trojan",
-      "tag": "T.ME: @aristapnel #198",
+      "tag": "T.ME: @aristapnel #200",
       "server": "207.126.167.241",
       "server_port": 443,
       "password": "GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K",
       "tls": {
         "enabled": true,
         "server_name": "207.126.167.241",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #199",
-      "server": "103.125.219.70",
-      "server_port": 443,
-      "password": "s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I",
-      "tls": {
-        "enabled": true,
-        "server_name": "103.125.219.70",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "T.ME: @aristapnel #200",
-      "server": "130.94.94.15",
-      "server_port": 443,
-      "password": "tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR",
-      "tls": {
-        "enabled": true,
-        "server_name": "130.94.94.15",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -4446,6 +4447,7 @@
   "route": {
     "auto_detect_interface": true,
     "final": "proxy",
+    "default_domain_resolver": "cloudflare",
     "rules": [
       {
         "action": "hijack-dns"

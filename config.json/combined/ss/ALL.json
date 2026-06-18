@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier ALL
-// Updated: 2026-06-18 08:48:34
+// Updated: 2026-06-18 09:16:05
 // Count: 4
 
 {
@@ -27,7 +27,8 @@
         ],
         "server": "google"
       }
-    ]
+    ],
+    "final": "cloudflare"
   },
   "inbounds": [
     {
@@ -46,15 +47,15 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #23",
-      "server": "82.38.31.7",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "tag": "ARISTA #13",
+      "server": "3.8.48.222",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "dada1203"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #33",
+      "tag": "ARISTA #61",
       "server": "admin.c1.havij.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -62,7 +63,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #34",
+      "tag": "ARISTA #62",
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -70,11 +71,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #35",
-      "server": "3.8.48.222",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "dada1203"
+      "tag": "ARISTA #68",
+      "server": "82.38.31.7",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "direct",
@@ -88,22 +89,22 @@
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        "ARISTA #23",
-        "ARISTA #33",
-        "ARISTA #34",
-        "ARISTA #35",
+        "ARISTA #13",
+        "ARISTA #61",
+        "ARISTA #62",
+        "ARISTA #68",
         "direct"
       ],
-      "default": "ARISTA #23"
+      "default": "ARISTA #13"
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "ARISTA #23",
-        "ARISTA #33",
-        "ARISTA #34",
-        "ARISTA #35"
+        "ARISTA #13",
+        "ARISTA #61",
+        "ARISTA #62",
+        "ARISTA #68"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -113,6 +114,7 @@
   "route": {
     "auto_detect_interface": true,
     "final": "proxy",
+    "default_domain_resolver": "cloudflare",
     "rules": [
       {
         "action": "hijack-dns"
