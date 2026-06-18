@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 300
-// Updated: 2026-06-18 14:26:46
+// Updated: 2026-06-18 15:29:54
 // Count: 298
 
 {
@@ -11,13 +11,13 @@
     "servers": [
       {
         "type": "udp",
-        "tag": "quad9",
-        "server": "9.9.9.9"
+        "tag": "google",
+        "server": "8.8.8.8"
       },
       {
         "type": "udp",
-        "tag": "google",
-        "server": "8.8.8.8"
+        "tag": "google2",
+        "server": "8.8.4.4"
       },
       {
         "type": "local",
@@ -26,18 +26,14 @@
     ],
     "rules": [
       {
-        "outbound": "any",
-        "server": "quad9"
-      },
-      {
         "domain": [
           "geosite:private"
         ],
+        "action": "route",
         "server": "local"
       }
     ],
-    "final": "quad9",
-    "strategy": "prefer_ipv4"
+    "final": "google"
   },
   "inbounds": [
     {
@@ -6724,16 +6720,17 @@
   ],
   "route": {
     "auto_detect_interface": true,
-    "final": "🚀 ARISTA AUTO BEST",
     "default_domain_resolver": {
-      "server": "quad9",
+      "server": "google",
       "strategy": "prefer_ipv4"
     },
+    "final": "🚀 ARISTA AUTO BEST",
     "rules": [
       {
         "action": "sniff"
       },
       {
+        "protocol": "dns",
         "action": "hijack-dns"
       }
     ]

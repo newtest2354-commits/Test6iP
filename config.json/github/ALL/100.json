@@ -1,5 +1,5 @@
 // GITHUB - ALL - Tier 100
-// Updated: 2026-06-18 14:26:46
+// Updated: 2026-06-18 15:29:54
 // Count: 80
 
 {
@@ -11,13 +11,13 @@
     "servers": [
       {
         "type": "udp",
-        "tag": "quad9",
-        "server": "9.9.9.9"
+        "tag": "google",
+        "server": "8.8.8.8"
       },
       {
         "type": "udp",
-        "tag": "google",
-        "server": "8.8.8.8"
+        "tag": "google2",
+        "server": "8.8.4.4"
       },
       {
         "type": "local",
@@ -26,18 +26,14 @@
     ],
     "rules": [
       {
-        "outbound": "any",
-        "server": "quad9"
-      },
-      {
         "domain": [
           "geosite:private"
         ],
+        "action": "route",
         "server": "local"
       }
     ],
-    "final": "quad9",
-    "strategy": "prefer_ipv4"
+    "final": "google"
   },
   "inbounds": [
     {
@@ -951,28 +947,6 @@
     {
       "type": "vmess",
       "tag": "T.ME: @aristapnel #73",
-      "server": "23.138.148.96",
-      "server_port": 25213,
-      "uuid": "17301584-89b6-4ce3-f0df-ada8184ff58e",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #74",
-      "server": "23.141.204.132",
-      "server_port": 29633,
-      "uuid": "0685a0bf-2413-45d2-dc00-c0281387c247",
-      "security": "auto",
-      "tls": {
-        "enabled": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "T.ME: @aristapnel #75",
       "server": "uk.vpnjantit.com",
       "server_port": 10000,
       "uuid": "3c05ef9e-6582-11f1-a6e5-1727059cff63",
@@ -990,10 +964,32 @@
     },
     {
       "type": "vmess",
-      "tag": "T.ME: @aristapnel #76",
+      "tag": "T.ME: @aristapnel #74",
+      "server": "65.109.221.245",
+      "server_port": 33366,
+      "uuid": "2ee7eb26-8118-4d0a-a300-8d0edcfde6e5",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #75",
       "server": "89.167.82.102",
       "server_port": 4443,
       "uuid": "88553247-c1c8-4e80-9db6-56bff7efc33b",
+      "security": "auto",
+      "tls": {
+        "enabled": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "T.ME: @aristapnel #76",
+      "server": "nlt.reata.ir",
+      "server_port": 1020,
+      "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
       "security": "auto",
       "tls": {
         "enabled": false
@@ -1665,16 +1661,17 @@
   ],
   "route": {
     "auto_detect_interface": true,
-    "final": "🚀 ARISTA AUTO BEST",
     "default_domain_resolver": {
-      "server": "quad9",
+      "server": "google",
       "strategy": "prefer_ipv4"
     },
+    "final": "🚀 ARISTA AUTO BEST",
     "rules": [
       {
         "action": "sniff"
       },
       {
+        "protocol": "dns",
         "action": "hijack-dns"
       }
     ]

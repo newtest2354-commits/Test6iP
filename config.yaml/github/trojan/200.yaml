@@ -1,5 +1,5 @@
 # GITHUB - TROJAN - Tier 200
-# Updated: 2026-06-18 14:23:38
+# Updated: 2026-06-18 15:27:16
 # Count: 194
 
 proxies:
@@ -2600,15 +2600,19 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #200'
   type: trojan
-  server: 130.94.78.17
-  port: 443
-  password: PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v
-  network: tcp
+  server: 45.130.125.156
+  port: 8080
+  password: VN3zRAL4Hq
+  network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 130.94.78.17
+  servername: s3.aananas.ir
   client-fingerprint: chrome
+  ws-opts:
+    path: /da
+    headers:
+      Host: 45.130.125.156
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
