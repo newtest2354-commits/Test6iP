@@ -1,5 +1,5 @@
 // TELEGRAM - SS - Tier ALL
-// Updated: 2026-06-18 09:45:28
+// Updated: 2026-06-18 11:01:48
 // Count: 4
 
 {
@@ -47,15 +47,15 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #1",
-      "server": "3.8.48.222",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "dada1203"
+      "tag": "ARISTA #26",
+      "server": "82.38.31.7",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #4",
+      "tag": "ARISTA #34",
       "server": "admin.c1.havij.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -63,7 +63,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #5",
+      "tag": "ARISTA #35",
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
@@ -71,11 +71,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #58",
-      "server": "82.38.31.7",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "tag": "ARISTA #45",
+      "server": "3.8.48.222",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "dada1203"
     },
     {
       "type": "direct",
@@ -93,44 +93,44 @@
       "tolerance": 50,
       "idle_timeout": "30s",
       "outbounds": [
-        "ARISTA #1",
-        "ARISTA #4",
-        "ARISTA #5",
-        "ARISTA #58"
+        "ARISTA #26",
+        "ARISTA #34",
+        "ARISTA #35",
+        "ARISTA #45"
       ]
     },
     {
       "type": "selector",
       "tag": "🎬 ARISTA STREAM",
       "outbounds": [
-        "ARISTA #1",
-        "ARISTA #4",
-        "ARISTA #5",
-        "ARISTA #58"
+        "ARISTA #26",
+        "ARISTA #34",
+        "ARISTA #35",
+        "ARISTA #45"
       ],
-      "default": "ARISTA #1"
+      "default": "ARISTA #26"
     },
     {
       "type": "load_balance",
       "tag": "⚖️ ARISTA BALANCE",
       "strategy": "consistent_hashing",
       "outbounds": [
-        "ARISTA #1",
-        "ARISTA #4",
-        "ARISTA #5",
-        "ARISTA #58"
+        "ARISTA #26",
+        "ARISTA #34",
+        "ARISTA #35",
+        "ARISTA #45"
       ]
     },
     {
       "type": "selector",
       "tag": "🛡 ARISTA BACKUP",
       "outbounds": [
-        "ARISTA #1",
-        "ARISTA #4",
-        "ARISTA #5",
-        "ARISTA #58"
+        "ARISTA #26",
+        "ARISTA #34",
+        "ARISTA #35",
+        "ARISTA #45"
       ],
-      "default": "ARISTA #1"
+      "default": "ARISTA #26"
     },
     {
       "type": "selector",
