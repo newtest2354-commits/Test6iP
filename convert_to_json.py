@@ -478,16 +478,28 @@ class ConfigToJSONConverter:
     def build_singbox_config(self, proxies: List[Dict]) -> Dict:
         if not proxies:
             return {
-                "log": {"level": "info", "timestamp": True},
+                "log": {
+                    "level": "info",
+                    "timestamp": True
+                },
                 "inbounds": [],
-                "outbounds": [{"type": "direct", "tag": "direct"}],
-                "route": {"final": "direct", "rules": []}
+                "outbounds": [
+                    {
+                        "type": "direct",
+                        "tag": "direct"
+                    }
+                ],
+                "route": {
+                    "final": "direct",
+                    "rules": []
+                }
             }
 
-        cleaned_proxies = []
-        for p in proxies:
-            if isinstance(p, dict):
-                cleaned_proxies.append(dict(p))
+        cleaned_proxies = [
+            dict(p)
+            for p in proxies
+            if isinstance(p, dict)
+        ]
 
         proxy_groups = self.build_proxy_groups(cleaned_proxies)
 
@@ -496,36 +508,38 @@ class ConfigToJSONConverter:
                 "level": "info",
                 "timestamp": True
             },
+
             "dns": {
                 "servers": [
-                    {
-                        "type": "udp",
-                        "tag": "quad9",
-                        "server": "9.9.9.9"
-                    },
                     {
                         "type": "udp",
                         "tag": "google",
                         "server": "8.8.8.8"
                     },
                     {
+                        "type": "udp",
+                        "tag": "google2",
+                        "server": "8.8.4.4"
+                    },
+                    {
                         "type": "local",
                         "tag": "local"
                     }
                 ],
+
                 "rules": [
                     {
-                        "outbound": "any",
-                        "server": "quad9"
-                    },
-                    {
-                        "domain": ["geosite:private"],
+                        "domain": [
+                            "geosite:private"
+                        ],
+                        "action": "route",
                         "server": "local"
                     }
                 ],
-                "final": "quad9",
-                "strategy": "prefer_ipv4"
+
+                "final": "google"
             },
+
             "inbounds": [
                 {
                     "type": "tun",
@@ -540,22 +554,38 @@ class ConfigToJSONConverter:
                     "stack": "mixed"
                 }
             ],
-            "outbounds": cleaned_proxies + [
-                {"type": "direct", "tag": "direct"},
-                {"type": "block", "tag": "block"}
-            ] + proxy_groups,
+
+            "outbounds": (
+                cleaned_proxies
+                + [
+                    {
+                        "type": "direct",
+                        "tag": "direct"
+                    },
+                    {
+                        "type": "block",
+                        "tag": "block"
+                    }
+                ]
+                + proxy_groups
+            ),
+
             "route": {
                 "auto_detect_interface": True,
-                "final": "🚀 ARISTA AUTO BEST",
+
                 "default_domain_resolver": {
-                    "server": "quad9",
+                    "server": "google",
                     "strategy": "prefer_ipv4"
                 },
+
+                "final": "🚀 ARISTA AUTO BEST",
+
                 "rules": [
                     {
                         "action": "sniff"
                     },
                     {
+                        "protocol": "dns",
                         "action": "hijack-dns"
                     }
                 ]
