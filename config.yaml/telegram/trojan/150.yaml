@@ -1,6 +1,6 @@
-# TELEGRAM - TROJAN - Tier ALL
+# TELEGRAM - TROJAN - Tier 150
 # Updated: 2026-06-18 11:46:56
-# Count: 150
+# Count: 149
 
 proxies:
 - name: 'ARISTA #1'
@@ -1962,21 +1962,6 @@ proxies:
     path: '%2Fed%3Dmitivpn'
     headers:
       Host: s1.mitivpn.de.ssl.global.fastly.co.iranpoems.ir
-- name: 'ARISTA #151'
-  type: trojan
-  server: 104.19.229.21
-  port: 443
-  password: mitivpn
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: gamingdll.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: '%2Fed%3Dmitivpn'
-    headers:
-      Host: gamingdll.ir
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
@@ -2135,7 +2120,6 @@ proxy-groups:
   - 'ARISTA #148'
   - 'ARISTA #149'
   - 'ARISTA #150'
-  - 'ARISTA #151'
 - name: 🎬 ARISTA STREAM
   type: fallback
   url: http://www.gstatic.com/generate_204

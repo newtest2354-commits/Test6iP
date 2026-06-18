@@ -1,5 +1,5 @@
 // GITHUB - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-18 11:01:49
+// Updated: 2026-06-18 11:49:55
 // Count: 31
 
 {
@@ -476,10 +476,6 @@
     {
       "type": "urltest",
       "tag": "🚀 ARISTA LOW LATENCY",
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "300s",
-      "tolerance": 50,
-      "idle_timeout": "30s",
       "outbounds": [
         "T.ME: @aristapnel #1",
         "T.ME: @aristapnel #2",
@@ -512,7 +508,12 @@
         "T.ME: @aristapnel #29",
         "T.ME: @aristapnel #30",
         "T.ME: @aristapnel #31"
-      ]
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m",
+      "interrupt_exist_connections": true
     },
     {
       "type": "selector",
@@ -550,49 +551,12 @@
         "T.ME: @aristapnel #30",
         "T.ME: @aristapnel #31"
       ],
-      "default": "T.ME: @aristapnel #1"
-    },
-    {
-      "type": "load_balance",
-      "tag": "⚖️ ARISTA BALANCE",
-      "strategy": "consistent_hashing",
-      "outbounds": [
-        "T.ME: @aristapnel #1",
-        "T.ME: @aristapnel #2",
-        "T.ME: @aristapnel #3",
-        "T.ME: @aristapnel #4",
-        "T.ME: @aristapnel #5",
-        "T.ME: @aristapnel #6",
-        "T.ME: @aristapnel #7",
-        "T.ME: @aristapnel #8",
-        "T.ME: @aristapnel #9",
-        "T.ME: @aristapnel #10",
-        "T.ME: @aristapnel #11",
-        "T.ME: @aristapnel #12",
-        "T.ME: @aristapnel #13",
-        "T.ME: @aristapnel #14",
-        "T.ME: @aristapnel #15",
-        "T.ME: @aristapnel #16",
-        "T.ME: @aristapnel #17",
-        "T.ME: @aristapnel #18",
-        "T.ME: @aristapnel #19",
-        "T.ME: @aristapnel #20",
-        "T.ME: @aristapnel #21",
-        "T.ME: @aristapnel #22",
-        "T.ME: @aristapnel #23",
-        "T.ME: @aristapnel #24",
-        "T.ME: @aristapnel #25",
-        "T.ME: @aristapnel #26",
-        "T.ME: @aristapnel #27",
-        "T.ME: @aristapnel #28",
-        "T.ME: @aristapnel #29",
-        "T.ME: @aristapnel #30",
-        "T.ME: @aristapnel #31"
-      ]
+      "default": "T.ME: @aristapnel #1",
+      "interrupt_exist_connections": true
     },
     {
       "type": "selector",
-      "tag": "🛡 ARISTA BACKUP",
+      "tag": "⚖️ ARISTA BALANCE",
       "outbounds": [
         "T.ME: @aristapnel #1",
         "T.ME: @aristapnel #2",
@@ -630,14 +594,52 @@
     },
     {
       "type": "selector",
+      "tag": "🛡 ARISTA BACKUP",
+      "outbounds": [
+        "🚀 ARISTA LOW LATENCY",
+        "T.ME: @aristapnel #1",
+        "T.ME: @aristapnel #2",
+        "T.ME: @aristapnel #3",
+        "T.ME: @aristapnel #4",
+        "T.ME: @aristapnel #5",
+        "T.ME: @aristapnel #6",
+        "T.ME: @aristapnel #7",
+        "T.ME: @aristapnel #8",
+        "T.ME: @aristapnel #9",
+        "T.ME: @aristapnel #10",
+        "T.ME: @aristapnel #11",
+        "T.ME: @aristapnel #12",
+        "T.ME: @aristapnel #13",
+        "T.ME: @aristapnel #14",
+        "T.ME: @aristapnel #15",
+        "T.ME: @aristapnel #16",
+        "T.ME: @aristapnel #17",
+        "T.ME: @aristapnel #18",
+        "T.ME: @aristapnel #19",
+        "T.ME: @aristapnel #20",
+        "T.ME: @aristapnel #21",
+        "T.ME: @aristapnel #22",
+        "T.ME: @aristapnel #23",
+        "T.ME: @aristapnel #24",
+        "T.ME: @aristapnel #25",
+        "T.ME: @aristapnel #26",
+        "T.ME: @aristapnel #27",
+        "T.ME: @aristapnel #28",
+        "T.ME: @aristapnel #29",
+        "T.ME: @aristapnel #30",
+        "T.ME: @aristapnel #31"
+      ],
+      "default": "🚀 ARISTA LOW LATENCY"
+    },
+    {
+      "type": "selector",
       "tag": "🎯 ARISTA CORE",
       "outbounds": [
         "🚀 ARISTA LOW LATENCY",
         "🎬 ARISTA STREAM",
         "⚖️ ARISTA BALANCE",
         "🛡 ARISTA BACKUP",
-        "direct",
-        "block"
+        "direct"
       ],
       "default": "🚀 ARISTA LOW LATENCY"
     }

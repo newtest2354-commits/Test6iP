@@ -1,5 +1,5 @@
 // COMBINED - SS - Tier ALL
-// Updated: 2026-06-18 11:01:48
+// Updated: 2026-06-18 11:49:54
 // Count: 4
 
 {
@@ -47,11 +47,11 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #26",
-      "server": "82.38.31.7",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "tag": "ARISTA #13",
+      "server": "3.8.48.222",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "dada1203"
     },
     {
       "type": "shadowsocks",
@@ -71,11 +71,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #45",
-      "server": "3.8.48.222",
-      "server_port": 80,
-      "method": "aes-256-gcm",
-      "password": "dada1203"
+      "tag": "ARISTA #55",
+      "server": "82.38.31.7",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "direct",
@@ -88,49 +88,52 @@
     {
       "type": "urltest",
       "tag": "🚀 ARISTA LOW LATENCY",
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "300s",
-      "tolerance": 50,
-      "idle_timeout": "30s",
       "outbounds": [
-        "ARISTA #26",
+        "ARISTA #13",
         "ARISTA #34",
         "ARISTA #35",
-        "ARISTA #45"
-      ]
+        "ARISTA #55"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m",
+      "interrupt_exist_connections": true
     },
     {
       "type": "selector",
       "tag": "🎬 ARISTA STREAM",
       "outbounds": [
-        "ARISTA #26",
+        "ARISTA #13",
         "ARISTA #34",
         "ARISTA #35",
-        "ARISTA #45"
+        "ARISTA #55"
       ],
-      "default": "ARISTA #26"
+      "default": "ARISTA #13",
+      "interrupt_exist_connections": true
     },
     {
-      "type": "load_balance",
+      "type": "selector",
       "tag": "⚖️ ARISTA BALANCE",
-      "strategy": "consistent_hashing",
       "outbounds": [
-        "ARISTA #26",
+        "ARISTA #13",
         "ARISTA #34",
         "ARISTA #35",
-        "ARISTA #45"
-      ]
+        "ARISTA #55"
+      ],
+      "default": "ARISTA #13"
     },
     {
       "type": "selector",
       "tag": "🛡 ARISTA BACKUP",
       "outbounds": [
-        "ARISTA #26",
+        "🚀 ARISTA LOW LATENCY",
+        "ARISTA #13",
         "ARISTA #34",
         "ARISTA #35",
-        "ARISTA #45"
+        "ARISTA #55"
       ],
-      "default": "ARISTA #26"
+      "default": "🚀 ARISTA LOW LATENCY"
     },
     {
       "type": "selector",
@@ -140,8 +143,7 @@
         "🎬 ARISTA STREAM",
         "⚖️ ARISTA BALANCE",
         "🛡 ARISTA BACKUP",
-        "direct",
-        "block"
+        "direct"
       ],
       "default": "🚀 ARISTA LOW LATENCY"
     }
