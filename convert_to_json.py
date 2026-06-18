@@ -442,29 +442,31 @@ class ConfigToJSONConverter:
             {
                 "type": "urltest",
                 "tag": "🚀 ARISTA LOW LATENCY",
-                "url": "http://www.gstatic.com/generate_204",
-                "interval": "300s",
+                "outbounds": proxy_tags,
+                "url": "https://www.gstatic.com/generate_204",
+                "interval": "3m",
                 "tolerance": 50,
-                "idle_timeout": "30s",
-                "outbounds": proxy_tags
+                "idle_timeout": "30m",
+                "interrupt_exist_connections": True
             },
             {
                 "type": "selector",
                 "tag": "🎬 ARISTA STREAM",
                 "outbounds": proxy_tags,
-                "default": proxy_tags[0]
+                "default": proxy_tags[0],
+                "interrupt_exist_connections": True
             },
             {
-                "type": "load_balance",
+                "type": "selector",
                 "tag": "⚖️ ARISTA BALANCE",
-                "strategy": "consistent_hashing",
-                "outbounds": proxy_tags
+                "outbounds": proxy_tags,
+                "default": proxy_tags[0]
             },
             {
                 "type": "selector",
                 "tag": "🛡 ARISTA BACKUP",
-                "outbounds": proxy_tags,
-                "default": proxy_tags[0]
+                "outbounds": ["🚀 ARISTA LOW LATENCY"] + proxy_tags,
+                "default": "🚀 ARISTA LOW LATENCY"
             },
             {
                 "type": "selector",
@@ -474,8 +476,7 @@ class ConfigToJSONConverter:
                     "🎬 ARISTA STREAM",
                     "⚖️ ARISTA BALANCE",
                     "🛡 ARISTA BACKUP",
-                    "direct",
-                    "block"
+                    "direct"
                 ],
                 "default": "🚀 ARISTA LOW LATENCY"
             }
@@ -508,10 +509,7 @@ class ConfigToJSONConverter:
         for p in proxies:
             if not isinstance(p, dict):
                 continue
-            p = dict(p)
-            p.pop("domain_resolver", None)
-            p.pop("default_domain_resolver", None)
-            cleaned_proxies.append(p)
+            cleaned_proxies.append(dict(p))
 
         tags = [p.get("tag") for p in cleaned_proxies if p.get("tag")]
         proxy_groups = self.build_proxy_groups(cleaned_proxies)
