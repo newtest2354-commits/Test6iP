@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 150
-// Updated: 2026-06-18 13:10:28
+// Updated: 2026-06-18 13:31:51
 // Count: 149
 
 {
@@ -3190,8 +3190,8 @@
       "tag": "block"
     },
     {
-      "type": "urltest",
-      "tag": "🚀 ARISTA AUTO BEST",
+      "type": "selector",
+      "tag": "proxy",
       "outbounds": [
         "T.ME: @aristapnel #1",
         "T.ME: @aristapnel #2",
@@ -3341,17 +3341,14 @@
         "T.ME: @aristapnel #147",
         "T.ME: @aristapnel #148",
         "T.ME: @aristapnel #149",
-        "T.ME: @aristapnel #150"
+        "T.ME: @aristapnel #150",
+        "direct"
       ],
-      "url": "http://www.gstatic.com/generate_204",
-      "interval": "2m",
-      "tolerance": 30,
-      "idle_timeout": "20m",
-      "interrupt_exist_connections": true
+      "default": "T.ME: @aristapnel #1"
     },
     {
       "type": "urltest",
-      "tag": "🎯 ARISTA MANUAL TESTED",
+      "tag": "auto",
       "outbounds": [
         "T.ME: @aristapnel #1",
         "T.ME: @aristapnel #2",
@@ -3504,15 +3501,13 @@
         "T.ME: @aristapnel #150"
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50,
-      "idle_timeout": "20m",
-      "interrupt_exist_connections": true
+      "interval": "5m",
+      "tolerance": 50
     }
   ],
   "route": {
     "auto_detect_interface": true,
-    "final": "🚀 ARISTA AUTO BEST",
+    "final": "proxy",
     "default_domain_resolver": "cloudflare",
     "rules": [
       {
