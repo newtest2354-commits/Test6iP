@@ -1,5 +1,5 @@
 // GITHUB - TROJAN - Tier 200
-// Updated: 2026-06-18 16:05:38
+// Updated: 2026-06-18 20:51:49
 // Count: 200
 
 {
@@ -4067,17 +4067,16 @@
     {
       "type": "trojan",
       "tag": "T.ME: @aristapnel #200",
-      "server": "45.130.125.156",
-      "server_port": 8080,
-      "password": "VN3zRAL4Hq",
+      "server": "15.188.249.44",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
       "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/da",
-        "headers": {
-          "Host": "45.130.125.156"
+        "enabled": true,
+        "server_name": "15.188.249.44",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
