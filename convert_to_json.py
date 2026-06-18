@@ -519,7 +519,16 @@ class ConfigToJSONConverter:
                 "auto_detect_interface": True,
                 "final": "proxy",
                 "rules": [
-                    {"action": "hijack-dns"}
+                    {"action": "hijack-dns"},
+                    {
+                        "type": "logical",
+                        "mode": "or",
+                        "rules": [
+                            {"domain_suffix": ["google.com", "youtube.com", "telegram.org"]},
+                            {"domain_keyword": ["google", "youtube", "telegram"]}
+                        ],
+                        "outbound": "proxy"
+                    }
                 ]
             }
         }
