@@ -1,11 +1,41 @@
 # GITHUB - ALL - Tier 50
-# Updated: 2026-06-18 12:30:13
-# Count: 48
+# Updated: 2026-06-18 13:07:54
+# Count: 49
 
 proxies:
 - name: 'T.ME: @aristapnel #1'
   type: trojan
-  server: 45.80.111.7
+  server: 152.67.210.234
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: tjsp.hhxaf.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+- name: 'T.ME: @aristapnel #2'
+  type: trojan
+  server: 104.17.25.173
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.multiplydose.com
+- name: 'T.ME: @aristapnel #3'
+  type: trojan
+  server: 188.114.98.0
   port: 443
   password: humanity
   network: ws
@@ -18,87 +48,96 @@ proxies:
     path: '%2Fassignment'
     headers:
       Host: www.calmlunch.com
-- name: 'T.ME: @aristapnel #3'
-  type: trojan
-  server: 51.75.86.196
-  port: 55646
-  password: 03mpolj39zyewzufal2r
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 51.75.86.196
-  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #4'
   type: trojan
-  server: 51.75.86.196
-  port: 55646
-  password: 03mpolj39zyewzufal2r
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 51.75.86.196
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #5'
-  type: trojan
-  server: 51.75.86.196
-  port: 55646
-  password: 03mpolj39zyewzufal2r
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 51.75.86.196
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #7'
-  type: trojan
-  server: 213.176.113.98
-  port: 2053
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 198.62.62.23
+  port: 443
+  password: humanity
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
+  servername: www.calmlunch.com
   client-fingerprint: chrome
   ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
+    path: '%2Fassignment'
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      Host: www.calmlunch.com
+- name: 'T.ME: @aristapnel #5'
+  type: trojan
+  server: 104.21.37.101
+  port: 443
+  password: '%{q'
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: LUmOscoNfig.codmDemOnYt1.WORKeRS.DEV
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2FeyJqdW5rIjoia3lhOG5VQlY2NU1tZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560'
+    headers:
+      Host: LUmOscoNfig.codmDemOnYt1.WORKeRS.DEV
+- name: 'T.ME: @aristapnel #6'
+  type: trojan
+  server: 104.21.70.127
+  port: 443
+  password: 63c392c7d53c
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: BpB-bDFD94cC.ULtdataC005.woRkErs.DEV
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2FeyJqdW5rIjoidkMySGZZY24iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560'
+    headers:
+      Host: BpB-bDFD94cC.ULtdataC005.woRkErs.DEV
+- name: 'T.ME: @aristapnel #7'
+  type: trojan
+  server: 172.67.155.199
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.calmloud.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.calmloud.com
 - name: 'T.ME: @aristapnel #8'
   type: trojan
-  server: 185.126.236.44
+  server: 188.114.97.6
   port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
+  password: humanity
+  network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.mesaly.click
+  servername: www.calmloud.com
   client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.calmloud.com
 - name: 'T.ME: @aristapnel #9'
   type: trojan
-  server: 185.126.236.44
+  server: 104.18.152.229
   port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
+  password: humanity
+  network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.mesaly.click
+  servername: www.calmloud.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #10'
-  type: trojan
-  server: 185.126.236.44
-  port: 443
-  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.mesaly.click
-  client-fingerprint: chrome
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.calmloud.com
 - name: 'T.ME: @aristapnel #11'
   type: hysteria2
   server: 202.61.205.86
@@ -195,21 +234,13 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #21'
   type: ss
-  server: 61.171.92.202
-  port: 1001
-  cipher: aes-256-gcm
-  password: '123'
-  udp: true
-  tcp-fast-open: true
-- name: 'T.ME: @aristapnel #22'
-  type: ss
   server: 62.133.60.43
   port: 36456
   cipher: chacha20-ietf-poly1305
   password: AHFn8RPF2GSxX4BX9i9a16
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #23'
+- name: 'T.ME: @aristapnel #22'
   type: ss
   server: 89.185.84.185
   port: 443
@@ -217,7 +248,7 @@ proxies:
   password: zyzuJ2H4Tp5Cr8T9nnPKv2
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #24'
+- name: 'T.ME: @aristapnel #23'
   type: ss
   server: 62.133.60.43
   port: 36456
@@ -225,7 +256,7 @@ proxies:
   password: OV8W2iqb56WrreJE0psqm5
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #25'
+- name: 'T.ME: @aristapnel #24'
   type: ss
   server: 89.185.84.185
   port: 443
@@ -233,7 +264,7 @@ proxies:
   password: c0rALV8bvjaRHD1hg8SmuN
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #26'
+- name: 'T.ME: @aristapnel #25'
   type: ss
   server: 46.246.97.195
   port: 23931
@@ -241,7 +272,7 @@ proxies:
   password: omCK6FBFuN5SGgX0gClju9
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #27'
+- name: 'T.ME: @aristapnel #26'
   type: ss
   server: 51.195.119.47
   port: 1080
@@ -249,7 +280,7 @@ proxies:
   password: qXvO7zYU7KeaB0Md7DQLow
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #28'
+- name: 'T.ME: @aristapnel #27'
   type: ss
   server: 95.164.123.197
   port: 36611
@@ -257,7 +288,7 @@ proxies:
   password: OhHa5AsD1WcV61f15843WK
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #29'
+- name: 'T.ME: @aristapnel #28'
   type: ss
   server: 171.22.254.129
   port: 990
@@ -265,12 +296,20 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
   tcp-fast-open: true
-- name: 'T.ME: @aristapnel #30'
+- name: 'T.ME: @aristapnel #29'
   type: ss
   server: 45.87.175.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #30'
+  type: ss
+  server: 77.83.246.74
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: BcqAH98TZvAocGMYkQzyc1
   udp: true
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #31'
@@ -650,13 +689,14 @@ proxy-groups:
   timeout: 3000
   proxies: &id001
   - 'T.ME: @aristapnel #1'
+  - 'T.ME: @aristapnel #2'
   - 'T.ME: @aristapnel #3'
   - 'T.ME: @aristapnel #4'
   - 'T.ME: @aristapnel #5'
+  - 'T.ME: @aristapnel #6'
   - 'T.ME: @aristapnel #7'
   - 'T.ME: @aristapnel #8'
   - 'T.ME: @aristapnel #9'
-  - 'T.ME: @aristapnel #10'
   - 'T.ME: @aristapnel #11'
   - 'T.ME: @aristapnel #12'
   - 'T.ME: @aristapnel #13'
