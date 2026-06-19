@@ -1,6 +1,6 @@
 // TELEGRAM - SS - Tier 50
-// Updated: 2026-06-18 20:51:49
-// Count: 1
+// Updated: 2026-06-19 05:29:30
+// Count: 2
 
 {
   "log": {
@@ -52,7 +52,15 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "ARISTA #1",
+      "tag": "ARISTA #11",
+      "server": "82.38.31.7",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ARISTA #34",
       "server": "3.8.48.222",
       "server_port": 80,
       "method": "aes-256-gcm",
@@ -70,7 +78,8 @@
       "type": "urltest",
       "tag": "🚀 ARISTA AUTO BEST",
       "outbounds": [
-        "ARISTA #1"
+        "ARISTA #11",
+        "ARISTA #34"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "2m",
@@ -82,7 +91,8 @@
       "type": "urltest",
       "tag": "🎯 ARISTA MANUAL TESTED",
       "outbounds": [
-        "ARISTA #1"
+        "ARISTA #11",
+        "ARISTA #34"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "3m",

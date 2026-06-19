@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 250
-// Updated: 2026-06-18 20:51:49
+// Updated: 2026-06-19 05:29:31
 // Count: 248
 
 {
@@ -4913,65 +4913,72 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #244",
-      "server": "130.193.56.148",
+      "server": "78.41.111.87",
       "server_port": 443,
-      "uuid": "07a29bb2-fca8-4cdf-a9b6-b762f4228454",
+      "uuid": "079d687d-6c5b-4a0c-bd83-22eee8384d88",
       "tls": {
         "enabled": true,
-        "server_name": "wl-11-1.nodes.ac",
+        "server_name": "s22244.cdn.ngenix.net",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
-        "reality": {
-          "enabled": true,
-          "public_key": "aslw-Ex_i_q59e0eu126qM7UnEHhlpKuz8vMN-ibjkw",
-          "short_id": "3130197867c23edb"
-        }
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ]
       },
-      "flow": "xtls-rprx-vision"
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/intoweb",
+        "headers": {
+          "Host": "78.41.111.87"
+        }
+      }
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #245",
-      "server": "130.193.56.208",
-      "server_port": 443,
-      "uuid": "07a29bb2-fca8-4cdf-a9b6-b762f4228454",
+      "server": "ov-canada1.09vpn.com",
+      "server_port": 8443,
+      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
       "tls": {
         "enabled": true,
-        "server_name": "wl-11-2.nodes.ac",
+        "server_name": "ov-canada1.09vpn.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "UfrA4c5fjRVKJTtAiDOd9lEdmkgfZBSTm9bSMzC4zCg",
-          "short_id": "c792be29a38dbefe"
+          "fingerprint": "chrome"
         }
       },
-      "flow": "xtls-rprx-vision"
+      "transport": {
+        "type": "ws",
+        "path": "/vless/",
+        "headers": {
+          "Host": "ov-canada1.09vpn.com"
+        }
+      }
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #246",
-      "server": "178.154.204.218",
+      "server": "138.124.52.85",
       "server_port": 443,
-      "uuid": "07a29bb2-fca8-4cdf-a9b6-b762f4228454",
+      "uuid": "09a4bf7f-f997-4174-8bef-9fab75aa186e",
       "tls": {
         "enabled": true,
-        "server_name": "wl-4-5.nodes.ac",
+        "server_name": "www.google.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ymfAk3W8rkjPYqsb5LTZePsR7GazEk4tBGTrAn-44Ro",
-          "short_id": "3f7738018d03aebe"
+          "public_key": "K7v4Rsxa-9lBsD_IQrzXREfIME_bFmwELHQAE3Yp1ng",
+          "short_id": "b9988c11"
         }
       },
       "flow": "xtls-rprx-vision"
@@ -4979,65 +4986,71 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #247",
-      "server": "178.154.204.55",
-      "server_port": 443,
-      "uuid": "07a29bb2-fca8-4cdf-a9b6-b762f4228454",
+      "server": "193.233.244.8",
+      "server_port": 8544,
+      "uuid": "0dd1365f-4765-4502-a20d-1e09516ae8f5",
       "tls": {
         "enabled": true,
-        "server_name": "wl-4-3.nodes.ac",
+        "server_name": "www.microsoft.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ljUVISw0FlRCXDz6xRTVnmms_IfVrIFLJ5bg81MDNQY",
-          "short_id": "7171871f66279d10"
+          "public_key": "4IOWxdtudwyVdmZl1Z2CINSbYHgMk94Bet0hVlgkrXo",
+          "short_id": "c4e8a1f29b3d6075"
         }
       },
-      "flow": "xtls-rprx-vision"
+      "transport": {
+        "type": "grpc",
+        "service_name": "service"
+      }
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #248",
-      "server": "178.154.204.65",
-      "server_port": 443,
-      "uuid": "07a29bb2-fca8-4cdf-a9b6-b762f4228454",
+      "server": "193.233.244.8",
+      "server_port": 8549,
+      "uuid": "0dd1365f-4765-4502-a20d-1e09516ae8f5",
       "tls": {
         "enabled": true,
-        "server_name": "wl-4-4.nodes.ac",
+        "server_name": "www.microsoft.com",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "FVceIo73-WJfacwis9bRlQ7wEYbQuN4N25oWQlmdwl0",
-          "short_id": "bfb16f73e35be2da"
+          "public_key": "4IOWxdtudwyVdmZl1Z2CINSbYHgMk94Bet0hVlgkrXo",
+          "short_id": "c4e8a1f29b3d6075"
         }
       },
-      "flow": "xtls-rprx-vision"
+      "transport": {
+        "type": "grpc",
+        "service_name": "service"
+      }
     },
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #249",
-      "server": "178.154.215.113",
+      "server": "51.250.23.0",
       "server_port": 443,
-      "uuid": "07a29bb2-fca8-4cdf-a9b6-b762f4228454",
+      "uuid": "0e86bcd6-9b31-4cbc-b4f4-bc85f3c5f5d5",
       "tls": {
         "enabled": true,
-        "server_name": "wl-4-1.legendary.ac",
+        "server_name": "ads.x5.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "E-nzKjkLlehnOE5Lub_r6tCOQcvnxVaSAETjFHESciw",
-          "short_id": "30e93292b543f308"
+          "public_key": "Gql4XdwbUI6AuYYKX9qk_WfkazHKASdmqBdAkPhh9yA",
+          "short_id": "6da54564c7a566d1"
         }
       },
       "flow": "xtls-rprx-vision"
@@ -5045,12 +5058,12 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #250",
-      "server": "178.154.227.129",
+      "server": "51.250.23.0",
       "server_port": 443,
-      "uuid": "07a29bb2-fca8-4cdf-a9b6-b762f4228454",
+      "uuid": "0e86bcd6-9b31-4cbc-b4f4-bc85f3c5f5d5",
       "tls": {
         "enabled": true,
-        "server_name": "wl-4-2.nodes.ac",
+        "server_name": "ads.x5.ru",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -5058,8 +5071,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "Yoh3T5ra4qSt7RebGXUM1xB1HUdIQPSzoxJkfxk-eTk",
-          "short_id": "6cafe8ea554e106b"
+          "public_key": "Gql4XdwbUI6AuYYKX9qk_WfkazHKASdmqBdAkPhh9yA",
+          "short_id": "6da54564c7a566d1"
         }
       },
       "flow": "xtls-rprx-vision"

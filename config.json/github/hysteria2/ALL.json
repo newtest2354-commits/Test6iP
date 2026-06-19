@@ -1,5 +1,5 @@
 // GITHUB - HYSTERIA2 - Tier ALL
-// Updated: 2026-06-18 20:51:49
+// Updated: 2026-06-19 05:29:31
 // Count: 31
 
 {
@@ -411,11 +411,18 @@
       "tag": "T.ME: @aristapnel #28",
       "server": "news.dd.msk.su",
       "server_port": 443,
-      "password": "odtx99ails7bjez4",
+      "password": "lak374gtxzrxz241",
       "tls": {
         "enabled": true,
         "server_name": "news.dd.msk.su",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "alpn": [
+          "h3"
+        ]
       },
       "obfs": {
         "type": "salamander",
@@ -425,17 +432,24 @@
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #29",
-      "server": "reddeadfan.rd-team.ru",
-      "server_port": 2026,
-      "password": "rstnnl2705",
+      "server": "social.klipp.su",
+      "server_port": 443,
+      "password": "lak374gtxzrxz241",
       "tls": {
         "enabled": true,
-        "server_name": "reddeadfan.rd-team.ru",
-        "insecure": true
+        "server_name": "social.klipp.su",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "alpn": [
+          "h3"
+        ]
       },
       "obfs": {
         "type": "salamander",
-        "password": "FxZylbqClUqVqAs2nezW9kPyFb2edZ2"
+        "password": "3sv5vpdl9xr84lyb"
       }
     },
     {
@@ -443,31 +457,45 @@
       "tag": "T.ME: @aristapnel #30",
       "server": "musicclips.videolinks.ru",
       "server_port": 8443,
-      "password": "rstnnl2705",
+      "password": "lak374gtxzrxz241",
       "tls": {
         "enabled": true,
         "server_name": "musicclips.videolinks.ru",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "alpn": [
+          "h3"
+        ]
       },
       "obfs": {
         "type": "salamander",
-        "password": "hH0l2Acqz3RtodoSCNCpNJqDSZtp4Qw"
+        "password": "8zzng75tz4tf82pj"
       }
     },
     {
       "type": "hysteria2",
       "tag": "T.ME: @aristapnel #31",
       "server": "nrealistic.nn-foto.ru",
-      "server_port": 8932,
-      "password": "rstnnl2705",
+      "server_port": 1935,
+      "password": "lak374gtxzrxz241",
       "tls": {
         "enabled": true,
         "server_name": "nrealistic.nn-foto.ru",
-        "insecure": true
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "alpn": [
+          "h3"
+        ]
       },
       "obfs": {
         "type": "salamander",
-        "password": "CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W"
+        "password": "lhfl2z9mjngb7csh"
       }
     },
     {
