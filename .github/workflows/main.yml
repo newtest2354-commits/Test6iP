@@ -37,7 +37,7 @@ jobs:
     - name: Clean old config files
       run: |
         rm -rf configs.txt/
-        mkdir -p configs.txt/telegram configs.txt/github configs.txt/combined
+        mkdir -p configs.txt/telegram configs.txt/github configs.txt/combined configs.txt/country
 
     - name: Clean old yaml files
       run: |
@@ -59,6 +59,9 @@ jobs:
 
     - name: Combine Configs
       run: python combine_configs.py
+
+    - name: Classify Configs by Country
+      run: python country_classifier.py
 
     - name: Convert to YAML (Clash Meta)
       run: python convert_to_yaml.py
