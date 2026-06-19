@@ -1,8 +1,7 @@
 # GITHUB - Balanced Tier 50 - ALL
-# Updated: 2026-06-19 11:08:05
+# Updated: 2026-06-19 15:53:20
 # Count: 50
 
-trojan://%{q@104.21.37.101:443?path=/eyJqdW5rIjoia3lhOG5VQlY2NU1tZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560&security=tls&alpn=http/1.1&host=lumosconfig.codmdemonyt1.workers.dev&fp=chrome&allowinsecure=0&type=ws&sni=LUmOscoNfig.codmDemOnYt1.WORKeRS.DEV#T.ME: @aristapnel
 trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
 trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls&sni=51.75.86.196&fp=chrome&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
 trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
@@ -12,16 +11,17 @@ trojan://4f4d1167-ef14-4304-9bce-0740472503ef@103.177.136.44:46424?security=tls&
 trojan://4f4d1167-ef14-4304-9bce-0740472503ef@103.177.136.45:45619?security=tls&sni=fr.01.naiun.bilibili.com&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
 trojan://4f4d1167-ef14-4304-9bce-0740472503ef@103.177.136.45:48697?security=tls&sni=gh.01.naiun.bilibili.com&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
 trojan://4f4d1167-ef14-4304-9bce-0740472503ef@188.253.12.90:45619?security=tls&sni=fr.01.naiun.bilibili.com&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
+trojan://4f4d1167-ef14-4304-9bce-0740472503ef@188.253.12.93:45619?security=tls&sni=fr.01.naiun.bilibili.com&type=tcp&headerType=none&path=/&allow_insecure=1#T.ME: @aristapnel
 hysteria2://18cf8030-1ceb-4b7d-8c0c-c036413c144e@202.61.205.86:4433?insecure=1&sni=de1.xiaoliyu.cyou#T.ME: @aristapnel
 hysteria2://dongtaiwang.com@62.210.124.146:22000?insecure=1&sni=www.microsoft.com#T.ME: @aristapnel
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@3.66.236.81:443?insecure=1#T.ME: @aristapnel
+hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@3.79.47.137:443?insecure=1#T.ME: @aristapnel
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@vpn-de-002.fastervpn.world:443?insecure=1#T.ME: @aristapnel
-hysteria2://zhangyang@130.61.50.75:6443?insecure=1&sni=dash.cloudflare.com#T.ME: @aristapnel
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@mumbai-3.nezhasu.com:443?sni=mumbai-3.nezhasu.com&insecure=1&mport=50000-65535#T.ME: @aristapnel
 hysteria2://e42a38c4-4bea-42d6-90f1-3076e12f8c51@lsdg1.lansecs.top:58338?sni=lsdg1.lansecs.top&insecure=1#T.ME: @aristapnel
 hysteria2://80747420-96c4-4a2f-83e6-eea4e46beb09@70.34.215.221:20335?sni=drhystuichdfy.samanidempire.org&obfs=salamander&obfs-password=U1wBrYQyFm&insecure=1#T.ME: @aristapnel
 hysteria2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@dir.cybsecguru.com:35000?sni=jnir.pichondan.com&obfs=salamander&obfs-password=%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi&insecure=1#T.ME: @aristapnel
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@falankefu1.nezhasu.com:443?sni=falankefu1.nezhasu.com&insecure=1&mport=50000-65535#T.ME: @aristapnel
-hysteria2://e42a38c4-4bea-42d6-90f1-3076e12f8c51@lsus3.lansecs.top:58338?sni=lsus3.lansecs.top&insecure=1#T.ME: @aristapnel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBSEZuOFJQRjJHU3hYNEJYOWk5YTE2@62.133.60.43:36456#T.ME: @aristapnel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6eXp1SjJINFRwNUNyOFQ5bm5QS3Yy@89.185.84.185:443#T.ME: @aristapnel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPVjhXMmlxYjU2V3JyZUpFMHBzcW01@62.133.60.43:36456#T.ME: @aristapnel

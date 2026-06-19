@@ -1,8 +1,19 @@
 # GITHUB - ALL - Tier 50
-# Updated: 2026-06-19 11:08:20
-# Count: 49
+# Updated: 2026-06-19 15:53:34
+# Count: 50
 
 proxies:
+- name: 'T.ME: @aristapnel #1'
+  type: trojan
+  server: 51.75.86.196
+  port: 55646
+  password: 03mpolj39zyewzufal2r
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 51.75.86.196
+  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #2'
   type: trojan
   server: 51.75.86.196
@@ -27,17 +38,6 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #4'
   type: trojan
-  server: 51.75.86.196
-  port: 55646
-  password: 03mpolj39zyewzufal2r
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 51.75.86.196
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #5'
-  type: trojan
   server: 103.177.136.41
   port: 46424
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -47,7 +47,7 @@ proxies:
   tcp-fast-open: true
   servername: de.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #6'
+- name: 'T.ME: @aristapnel #5'
   type: trojan
   server: 103.177.136.42
   port: 48697
@@ -58,7 +58,7 @@ proxies:
   tcp-fast-open: true
   servername: gh.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #7'
+- name: 'T.ME: @aristapnel #6'
   type: trojan
   server: 103.177.136.44
   port: 46424
@@ -69,7 +69,7 @@ proxies:
   tcp-fast-open: true
   servername: de.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #8'
+- name: 'T.ME: @aristapnel #7'
   type: trojan
   server: 103.177.136.45
   port: 45619
@@ -80,7 +80,7 @@ proxies:
   tcp-fast-open: true
   servername: fr.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #9'
+- name: 'T.ME: @aristapnel #8'
   type: trojan
   server: 103.177.136.45
   port: 48697
@@ -91,9 +91,20 @@ proxies:
   tcp-fast-open: true
   servername: gh.01.naiun.bilibili.com
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #10'
+- name: 'T.ME: @aristapnel #9'
   type: trojan
   server: 188.253.12.90
+  port: 45619
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: fr.01.naiun.bilibili.com
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #10'
+  type: trojan
+  server: 188.253.12.93
   port: 45619
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   network: tcp
@@ -122,6 +133,24 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #13'
   type: hysteria2
+  server: 3.66.236.81
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 3.66.236.81
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #14'
+  type: hysteria2
+  server: 3.79.47.137
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: 3.79.47.137
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #15'
+  type: hysteria2
   server: vpn-de-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -129,16 +158,7 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #14'
-  type: hysteria2
-  server: 130.61.50.75
-  port: 6443
-  password: zhangyang
-  sni: 130.61.50.75
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #15'
+- name: 'T.ME: @aristapnel #16'
   type: hysteria2
   server: mumbai-3.nezhasu.com
   port: 443
@@ -147,7 +167,7 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #16'
+- name: 'T.ME: @aristapnel #17'
   type: hysteria2
   server: lsdg1.lansecs.top
   port: 58338
@@ -156,7 +176,7 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #17'
+- name: 'T.ME: @aristapnel #18'
   type: hysteria2
   server: 70.34.215.221
   port: 20335
@@ -167,7 +187,7 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: U1wBrYQyFm
-- name: 'T.ME: @aristapnel #18'
+- name: 'T.ME: @aristapnel #19'
   type: hysteria2
   server: dir.cybsecguru.com
   port: 35000
@@ -178,21 +198,12 @@ proxies:
   client-fingerprint: chrome
   obfs: salamander
   obfs-password: '%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-- name: 'T.ME: @aristapnel #19'
+- name: 'T.ME: @aristapnel #20'
   type: hysteria2
   server: falankefu1.nezhasu.com
   port: 443
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   sni: falankefu1.nezhasu.com
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #20'
-  type: hysteria2
-  server: lsus3.lansecs.top
-  port: 58338
-  password: e42a38c4-4bea-42d6-90f1-3076e12f8c51
-  sni: lsus3.lansecs.top
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -641,6 +652,7 @@ proxy-groups:
   lazy: true
   timeout: 3000
   proxies: &id001
+  - 'T.ME: @aristapnel #1'
   - 'T.ME: @aristapnel #2'
   - 'T.ME: @aristapnel #3'
   - 'T.ME: @aristapnel #4'
