@@ -32,7 +32,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 pyyaml httpx
+        pip install requests beautifulsoup4 pyyaml
 
     - name: Clean old config files
       run: |
@@ -48,6 +48,11 @@ jobs:
       run: |
         rm -rf config.json/
         mkdir -p config.json
+
+    - name: Clean old flagged files
+      run: |
+        rm -rf configs-flagged/
+        mkdir -p configs-flagged
 
     - name: Run Telegram Config Extractor
       run: python telegram_extractor.py
@@ -66,8 +71,8 @@ jobs:
     - name: Convert to JSON (Sing-Box)
       run: python convert_to_json.py
 
-    - name: Run Proxy Quality Checker
-      run: python proxy_checker.py
+    - name: Flag Configs
+      run: python flag_configs.py
 
     - name: Create summary
       run: |
