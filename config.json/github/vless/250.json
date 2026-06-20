@@ -1,5 +1,5 @@
 // GITHUB - VLESS - Tier 250
-// Updated: 2026-06-20 03:49:58
+// Updated: 2026-06-20 04:42:00
 // Count: 248
 
 {
@@ -4955,6 +4955,62 @@
     {
       "type": "vless",
       "tag": "T.ME: @aristapnel #248",
+      "server": "195.208.65.181",
+      "server_port": 443,
+      "uuid": "01005da0-a8c3-48d7-9e9b-c24d0d046ff1",
+      "tls": {
+        "enabled": true,
+        "server_name": "s22244.cdn.ngenix.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/auweb",
+        "headers": {
+          "Host": "195.208.65.181"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #249",
+      "server": "195.208.65.181",
+      "server_port": 443,
+      "uuid": "01005da0-a8c3-48d7-9e9b-c24d0d046ff1",
+      "tls": {
+        "enabled": true,
+        "server_name": "s22244.cdn.ngenix.net",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/estweb",
+        "headers": {
+          "Host": "195.208.65.181"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "T.ME: @aristapnel #250",
       "server": "144.124.228.113",
       "server_port": 443,
       "uuid": "039a1658-e86e-475f-a3a4-67cc249acada",
@@ -4973,40 +5029,6 @@
         }
       },
       "flow": "xtls-rprx-vision"
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #249",
-      "server": "ov-italy1.09vpn.com",
-      "server_port": 80,
-      "uuid": "049e56d8-0ba0-49e3-b764-ee04122b9f00",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {
-          "Host": "ov-italy1.09vpn.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "T.ME: @aristapnel #250",
-      "server": "ov-italy1.09vpn.com",
-      "server_port": 80,
-      "uuid": "049e56d8-0ba0-49e3-b764-ee04122b9f00",
-      "tls": {
-        "enabled": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {
-          "Host": "ov-italy1.09vpn.com"
-        }
-      }
     },
     {
       "type": "direct",

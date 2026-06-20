@@ -1,5 +1,5 @@
 # GITHUB - Tier 250 - VLESS
-# Updated: 2026-06-20 03:46:19
+# Updated: 2026-06-20 04:38:43
 # Count: 250
 
 vless://a44e0875-210f-4941-9062-89b6361a14c6@94.131.123.167:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=apple.com&security=reality&pbk=i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4&sid=8bcfe256cf216fd8#T.ME: @aristapnel
@@ -249,6 +249,6 @@ vless://f7e3ff36-276c-4477-b6d4-47257500d869@skk.moe:443?path=%2F%3Fed%3D3000&se
 vless://f7e3ff36-276c-4477-b6d4-47257500d869@141.193.213.10:443?path=%2F%3Fed%3D3000&security=tls&encryption=none&insecure=0&host=pon.antalmani.mm.am&fp=firefox&type=ws&allowInsecure=0&sni=pon.antalmani.mm.am#T.ME: @aristapnel
 vless://f7e3ff36-276c-4477-b6d4-47257500d869@199.181.197.176:443?path=%2F%3Fed%3D3000&security=tls&encryption=none&insecure=0&host=pon.antalmani.mm.am&fp=firefox&type=ws&allowInsecure=0&sni=pon.antalmani.mm.am#T.ME: @aristapnel
 vless://00e94078-bb1e-49aa-8567-e1b3b2843150@172.67.195.229:443?allowInsecure=1&encryption=none&fp=chrome&host=rapid-hat-441d.platovpn.workers.dev&path=/&security=tls&sni=rapid-hat-441d.platovpn.workers.dev&type=ws#T.ME: @aristapnel
+vless://01005da0-a8c3-48d7-9e9b-c24d0d046ff1@195.208.65.181:443?encryption=none&type=ws&security=tls&path=/api/v2/auweb&fp=chrome&sni=s22244.cdn.ngenix.net&alpn=h3,h2,http/1.1#T.ME: @aristapnel
+vless://01005da0-a8c3-48d7-9e9b-c24d0d046ff1@195.208.65.181:443?encryption=none&type=ws&security=tls&path=/api/v2/estweb&fp=chrome&sni=s22244.cdn.ngenix.net&alpn=h3,h2,http/1.1#T.ME: @aristapnel
 vless://039a1658-e86e-475f-a3a4-67cc249acada@144.124.228.113:443?security=reality&encryption=none&pbk=odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=nl3.panel11.ru&sid=e069bfaf9ba2069c#T.ME: @aristapnel
-vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?path=/vless/&encryption=none&type=ws#T.ME: @aristapnel
-vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?encryption=none&path=/vless/&security=none&type=ws#T.ME: @aristapnel

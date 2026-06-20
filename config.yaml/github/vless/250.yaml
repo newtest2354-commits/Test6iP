@@ -1,5 +1,5 @@
 # GITHUB - VLESS - Tier 250
-# Updated: 2026-06-20 03:46:30
+# Updated: 2026-06-20 04:38:53
 # Count: 250
 
 proxies:
@@ -4457,6 +4457,48 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
 - name: 'T.ME: @aristapnel #248'
   type: vless
+  server: 195.208.65.181
+  port: 443
+  uuid: 01005da0-a8c3-48d7-9e9b-c24d0d046ff1
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: s22244.cdn.ngenix.net
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /api/v2/auweb
+    headers:
+      Host: s22244.cdn.ngenix.net
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #249'
+  type: vless
+  server: 195.208.65.181
+  port: 443
+  uuid: 01005da0-a8c3-48d7-9e9b-c24d0d046ff1
+  network: ws
+  tls: true
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: s22244.cdn.ngenix.net
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /api/v2/estweb
+    headers:
+      Host: s22244.cdn.ngenix.net
+    max-early-data: 2048
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 'T.ME: @aristapnel #250'
+  type: vless
   server: 144.124.228.113
   port: 443
   uuid: 039a1658-e86e-475f-a3a4-67cc249acada
@@ -4474,42 +4516,6 @@ proxies:
   reality-opts:
     public-key: odHeTqoDcoPA6jeZStmaFPqoFg0ZiWwOKREEB0X-ez4
     short-id: e069bfaf9ba2069c
-- name: 'T.ME: @aristapnel #249'
-  type: vless
-  server: ov-italy1.09vpn.com
-  port: 80
-  uuid: 049e56d8-0ba0-49e3-b764-ee04122b9f00
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ov-italy1.09vpn.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-italy1.09vpn.com
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: 'T.ME: @aristapnel #250'
-  type: vless
-  server: ov-italy1.09vpn.com
-  port: 80
-  uuid: 049e56d8-0ba0-49e3-b764-ee04122b9f00
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: ov-italy1.09vpn.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: ov-italy1.09vpn.com
-    max-early-data: 2048
-    early-data-header-name: Sec-WebSocket-Protocol
 proxy-groups:
 - name: 🚀 ARISTA LOW LATENCY
   type: url-test
