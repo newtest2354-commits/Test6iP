@@ -8,6 +8,7 @@ import requests
 from datetime import datetime
 from urllib.parse import urlparse, unquote, quote
 from collections import defaultdict
+import time
 
 class ConfigFlagger:
     def __init__(self):
@@ -24,18 +25,40 @@ class ConfigFlagger:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
+        self.country_configs = defaultdict(lambda: defaultdict(list))
+        self.all_flagged_configs = []
 
     def get_country_by_ip(self, ip):
         if ip in self.geo_cache:
             return self.geo_cache[ip]
-        try:
-            r = self.session.get(f"https://ipwhois.app/json/{ip}", timeout=5)
-            if r.status_code == 200:
-                code = r.json().get("country_code", "unknown").lower()
-                self.geo_cache[ip] = code
-                return code
-        except:
-            pass
+        
+        services = [
+            f"https://ipapi.co/{ip}/country/",
+            f"https://ipinfo.io/{ip}/country",
+            f"https://api.ipregistry.co/{ip}?key=tryout"
+        ]
+        
+        for service in services:
+            try:
+                r = self.session.get(service, timeout=5)
+                if r.status_code == 200:
+                    if 'ipapi.co' in service:
+                        code = r.text.strip().lower()
+                    elif 'ipinfo.io' in service:
+                        code = r.text.strip().lower()
+                    elif 'ipregistry.co' in service:
+                        data = r.json()
+                        code = data.get('location', {}).get('country', {}).get('code', 'unknown').lower()
+                    else:
+                        code = 'unknown'
+                    
+                    if code and code != 'unknown' and len(code) == 2:
+                        self.geo_cache[ip] = code
+                        return code
+            except:
+                continue
+            time.sleep(0.5)
+        
         self.geo_cache[ip] = "unknown"
         return "unknown"
 
@@ -125,30 +148,36 @@ class ConfigFlagger:
         try:
             host, port = self.extract_host_port(config_str)
             if not host:
-                return config_str
+                return config_str, 'unknown'
+            
             ip = self.resolve_host(host)
             country = self.get_country_by_ip(ip)
             flag = self.country_flag(country)
             original_tag = self.get_original_tag(config_str)
+            
             if original_tag:
                 new_tag = f"{flag} {original_tag}"
             else:
                 new_tag = f"{flag} Config"
+            
+            flagged_config = config_str
             if config_str.startswith('vmess://'):
                 try:
                     decoded = base64.b64decode(config_str.replace('vmess://', '')).decode('utf-8')
                     cfg = json.loads(decoded)
                     cfg['ps'] = new_tag
-                    return 'vmess://' + base64.b64encode(json.dumps(cfg, ensure_ascii=False).encode()).decode()
+                    flagged_config = 'vmess://' + base64.b64encode(json.dumps(cfg, ensure_ascii=False).encode()).decode()
                 except:
                     pass
-            if '#' in config_str:
+            elif '#' in config_str:
                 base = config_str.split('#', 1)[0]
-                return f"{base}#{quote(new_tag)}"
+                flagged_config = f"{base}#{quote(new_tag)}"
             else:
-                return f"{config_str}#{quote(new_tag)}"
+                flagged_config = f"{config_str}#{quote(new_tag)}"
+            
+            return flagged_config, country
         except:
-            return config_str
+            return config_str, 'unknown'
 
     def read_config_file(self, filepath):
         if not os.path.exists(filepath):
@@ -197,14 +226,18 @@ class ConfigFlagger:
             for tier_name, configs in tier_files.items():
                 flagged_configs = []
                 for config in configs:
-                    flagged = self.flag_config(config)
+                    flagged, country = self.flag_config(config)
                     flagged_configs.append(flagged)
+                    self.all_flagged_configs.append(flagged)
+                    if country != 'unknown':
+                        self.country_configs[country][category].append(flagged)
 
                 output_filename = os.path.join(output_cat_dir, f"{tier_name}.txt")
                 title = f"Flagged {category.upper()} - Tier {tier_name}"
                 self.write_config_file(output_filename, title, flagged_configs, len(flagged_configs), timestamp)
 
         self.process_all_tiers(timestamp)
+        self.process_country_folders(timestamp)
 
     def process_all_tiers(self, timestamp):
         all_dir = os.path.join(self.source_dir, 'ALL')
@@ -224,16 +257,45 @@ class ConfigFlagger:
                 tier_name = tier_file.replace('.txt', '')
                 flagged_configs = []
                 for config in configs:
-                    flagged = self.flag_config(config)
+                    flagged, country = self.flag_config(config)
                     flagged_configs.append(flagged)
+                    self.all_flagged_configs.append(flagged)
+                    if country != 'unknown':
+                        self.country_configs[country]['ALL'].append(flagged)
 
                 output_filename = os.path.join(output_all_dir, f"{tier_name}.txt")
                 title = f"Flagged ALL - Tier {tier_name}"
                 self.write_config_file(output_filename, title, flagged_configs, len(flagged_configs), timestamp)
 
+    def process_country_folders(self, timestamp):
+        country_output_dir = os.path.join(self.output_dir, 'by_country')
+        os.makedirs(country_output_dir, exist_ok=True)
+
+        for country, categories in self.country_configs.items():
+            country_dir = os.path.join(country_output_dir, country)
+            os.makedirs(country_dir, exist_ok=True)
+
+            all_country_configs = []
+            for category, configs in categories.items():
+                if configs:
+                    filename = os.path.join(country_dir, f"{category}.txt")
+                    title = f"Country {country.upper()} - {category.upper()}"
+                    self.write_config_file(filename, title, configs, len(configs), timestamp)
+                    all_country_configs.extend(configs)
+
+            if all_country_configs:
+                filename = os.path.join(country_dir, "all.txt")
+                title = f"Country {country.upper()} - ALL"
+                self.write_config_file(filename, title, all_country_configs, len(all_country_configs), timestamp)
+
+        if self.all_flagged_configs:
+            filename = os.path.join(self.output_dir, "all_flagged.txt")
+            title = "All Flagged Configs"
+            self.write_config_file(filename, title, self.all_flagged_configs, len(self.all_flagged_configs), timestamp)
+
     def run(self):
         print("=" * 60)
-        print("CONFIG FLAGGER")
+        print("CONFIG FLAGGER WITH COUNTRY DETECTION")
         print("=" * 60)
         print(f"Input directory: {self.source_dir}")
         print(f"Output directory: {self.output_dir}")
@@ -242,6 +304,16 @@ class ConfigFlagger:
         try:
             self.process_source()
             print(f"\n✅ Flagged configs saved to {self.output_dir}/")
+            print(f"✅ Country-based configs saved to {self.output_dir}/by_country/")
+            
+            if self.country_configs:
+                print(f"\n📊 Countries detected: {len(self.country_configs)}")
+                for country in sorted(self.country_configs.keys()):
+                    total = sum(len(c) for c in self.country_configs[country].values())
+                    print(f"  {self.country_flag(country)} {country.upper()}: {total} configs")
+            else:
+                print("\n⚠️ No countries detected! Check your internet connection or API access.")
+                
         except Exception as e:
             print(f"\n❌ ERROR: {e}")
 
