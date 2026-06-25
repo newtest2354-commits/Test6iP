@@ -27,7 +27,7 @@ for asn in ASNS:
                 continue
 
             try:
-                ipaddress.ip_network(prefix)
+                ipaddress.ip_network(prefix, strict=False)
                 prefixes.add(prefix)
             except Exception:
                 pass
@@ -38,8 +38,16 @@ for asn in ASNS:
 prefixes = sorted(
     prefixes,
     key=lambda x: (
-        int(ipaddress.ip_network(x).network_address),
-        ipaddress.ip_network(x).prefixlen
+        int(
+            ipaddress.ip_network(
+                x,
+                strict=False
+            ).network_address
+        ),
+        ipaddress.ip_network(
+            x,
+            strict=False
+        ).prefixlen
     )
 )
 
