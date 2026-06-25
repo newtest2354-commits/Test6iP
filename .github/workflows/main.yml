@@ -31,11 +31,14 @@ jobs:
 
       - name: Commit Changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add ipv4-aggregated.txt
 
-          git diff --cached --quiet || git commit -m "update ipv4"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "update ipv4"
+            git push
+          fi
