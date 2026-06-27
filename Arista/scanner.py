@@ -679,6 +679,15 @@ def fp_worker(
     except:
         pass
 
+    geo_cache = load_geo_cache()
+    geo = geo_cache.get(ip)
+    if geo is None:
+        geo = geo_lookup(ip)
+        geo_cache[ip] = geo
+        save_geo_cache(geo_cache)
+
+    provider = geo.get("provider", "")
+
     cdn = detect_cdn(
         ip=ip,
         port=port,
@@ -691,7 +700,8 @@ def fp_worker(
         ),
         alpn=tls_info.get(
             "alpn"
-        )
+        ),
+        provider=provider
     )
 
     return (
