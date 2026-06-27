@@ -73,7 +73,59 @@ def parse_line_to_dict(line):
         score = extract_score_from_line(line)
         tcp = extract_tcp_from_line(line)
         ttfb = extract_ttfb_from_line(line)
-        return {"ip": ip, "port": port, "score": score, "tcp": tcp, "ttfb": ttfb}
+        
+        proto = "unknown"
+        if '[PROTO=' in line:
+            proto = line.split('[PROTO=')[1].split(']')[0]
+        
+        reliability = "0"
+        if '[REL=' in line:
+            reliability = line.split('[REL=')[1].split(']')[0]
+        
+        cdn = "unknown"
+        if '[CDN=' in line:
+            cdn = line.split('[CDN=')[1].split(']')[0]
+        
+        domain = "-"
+        if '[DOMAIN=' in line:
+            domain = line.split('[DOMAIN=')[1].split(']')[0]
+        
+        sni = "-"
+        if '[SNI=' in line:
+            sni = line.split('[SNI=')[1].split(']')[0]
+        
+        city = "-"
+        if '[City=' in line:
+            city = line.split('[City=')[1].split(']')[0]
+        
+        country = "-"
+        if '[Country=' in line:
+            country = line.split('[Country=')[1].split(']')[0]
+        
+        provider = "-"
+        if '[Provider=' in line:
+            provider = line.split('[Provider=')[1].split(']')[0]
+        
+        asn = ""
+        if '[ASN=' in line:
+            asn = line.split('[ASN=')[1].split(']')[0]
+        
+        return {
+            "ip": ip,
+            "port": port,
+            "score": score,
+            "tcp": tcp,
+            "ttfb": ttfb,
+            "proto": proto,
+            "reliability": reliability,
+            "cdn": cdn,
+            "domain": domain,
+            "sni": sni,
+            "city": city,
+            "country": country,
+            "provider": provider,
+            "asn": asn
+        }
     except:
         return None
 
@@ -329,7 +381,11 @@ def rank_results():
                 'reliability': 0.5,
                 'cdn': 'unknown',
                 'country': 'Unknown',
-                'provider': 'Unknown'
+                'provider': 'Unknown',
+                'sni': '-',
+                'city': '-',
+                'asn': '',
+                'domain': '-'
             })
 
     ranked.sort(
