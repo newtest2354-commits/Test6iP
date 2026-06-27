@@ -115,7 +115,6 @@ def clean_stage_files():
 def clean_output_files():
     files_to_clean = [
         "output/results.txt",
-        "output/best_ips.txt",
         "output/domains_raw.txt",
         "output/domains.txt",
         "output/live_bank.txt",
@@ -167,14 +166,10 @@ def split_file(
 
     if cursor >= total:
         print("=" * 60)
-        print("ALL IPS COMPLETED - RESTARTING FROM BEGINNING")
+        print("ALL IPS COMPLETED - SCAN FINISHED")
         print("=" * 60)
-        
-        clean_output_files()
-        clean_stage_files()
-        
-        reset_cursor()
-        cursor = 0
+        write_lines(OUTPUT_FILE, [])
+        return OUTPUT_FILE
 
     available_ips = []
     line_idx = 0
@@ -200,12 +195,6 @@ def split_file(
         pass
 
     if not available_ips:
-        if cursor >= total:
-            print("RESTARTING SCAN CYCLE")
-            reset_cursor()
-            clean_stage_files()
-            clean_output_files()
-            return split_file(infile)
         print("NO NEW IPS AVAILABLE")
         write_lines(OUTPUT_FILE, [])
         return OUTPUT_FILE
