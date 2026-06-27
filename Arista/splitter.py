@@ -12,6 +12,7 @@ from cache import load_cache, already_scanned, save_cache, clear_cache
 
 INPUT_FILE = "output/clean_ips.txt"
 OUTPUT_FILE = "output/current_part.txt"
+BEST_FILE = "output/best_ips.txt"
 
 
 def load_config():
@@ -158,6 +159,8 @@ def split_file(
 
     cursor = load_cursor()
 
+    print(f"[SPLITTER] TOTAL_IPS={total} CURRENT_CURSOR={cursor} PROGRESS={round((cursor/total)*100, 2)}%")
+
     clean_stage_files()
 
     clear_cache()
@@ -166,8 +169,15 @@ def split_file(
 
     if cursor >= total:
         print("=" * 60)
-        print("ALL IPS COMPLETED - SCAN FINISHED")
+        print(f"[SPLITTER] ALL IPS COMPLETED! cursor={cursor} >= total={total}")
+        print("[SPLITTER] SCAN FINISHED - NO MORE IPS TO SCAN")
         print("=" * 60)
+        if os.path.exists(BEST_FILE):
+            best_size = os.path.getsize(BEST_FILE)
+            best_lines = count_lines(BEST_FILE)
+            print(f"[SPLITTER] best_ips.txt SIZE={best_size} bytes LINES={best_lines}")
+        else:
+            print("[SPLITTER] best_ips.txt NOT FOUND")
         write_lines(OUTPUT_FILE, [])
         return OUTPUT_FILE
 
@@ -195,7 +205,7 @@ def split_file(
         pass
 
     if not available_ips:
-        print("NO NEW IPS AVAILABLE")
+        print("[SPLITTER] NO NEW IPS AVAILABLE")
         write_lines(OUTPUT_FILE, [])
         return OUTPUT_FILE
 
@@ -217,11 +227,7 @@ def split_file(
     if percent > 100:
         percent = 100
 
-    print(
-        f"TOTAL={total} "
-        f"NEW={len(available_ips)} "
-        f"PROGRESS={percent}%"
-    )
+    print(f"[SPLITTER] BATCH_SIZE={len(available_ips)} NEW_CURSOR={next_cursor} PROGRESS={percent}%")
 
     return OUTPUT_FILE
 
