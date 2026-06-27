@@ -131,6 +131,32 @@ def load_tls_sni():
     return sni_map
 
 
+def load_tcp_latency():
+    tcp_map = {}
+
+    if not os.path.exists(TLS_FILE):
+        return tcp_map
+
+    try:
+        with open(TLS_FILE, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+
+                parts = line.split(":")
+                if len(parts) >= 3:
+                    ip = parts[0]
+                    port = parts[1]
+                    latency = parts[2]
+                    key = f"{ip}:{port}"
+                    tcp_map[key] = latency
+    except:
+        pass
+
+    return tcp_map
+
+
 def load_geo_city():
     city_map = {}
 
@@ -207,6 +233,7 @@ def rank_results():
     domains_ips = load_domains_ips()
     sni_map = load_tls_sni()
     city_map = load_geo_city()
+    tcp_map = load_tcp_latency()
 
     ranked = []
 
@@ -250,6 +277,7 @@ def rank_results():
         provider = item.get("provider", "-")
 
         sni = sni_map.get(key, "-")
+        tcp_latency = tcp_map.get(key, "N/A")
 
         city = city_map.get(ip, "-")
 
@@ -265,6 +293,7 @@ def rank_results():
             f'[IP: {ip}]',
             f'[PORT: {port}]',
             f'[SCORE={item["score"]}]',
+            f'[TCP={tcp_latency}ms]',
             f'[TTFB={item.get("ttfb", "-")}ms]',
             f'[PROTO={item.get("proto", "-")}]',
             f'[REL={item.get("reliability", "-")}]',
