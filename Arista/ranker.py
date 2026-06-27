@@ -150,7 +150,7 @@ def load_tcp_latency():
                     port = parts[1]
                     latency = parts[2]
                     key = f"{ip}:{port}"
-                    tcp_map[key] = latency
+                    tcp_map[key] = int(latency) if latency.isdigit() else 9999
     except:
         pass
 
@@ -227,6 +227,26 @@ def extract_ttfb_from_line(line):
         return 9999
 
 
+def extract_tcp_from_line(line):
+    try:
+        tcp_match = line.split('[TCP=')[1].split('ms')[0]
+        return int(tcp_match) if tcp_match.isdigit() else 9999
+    except:
+        return 9999
+
+
+def parse_line_to_dict(line):
+    try:
+        ip = line.split('[IP: ')[1].split(']')[0]
+        port = int(line.split('[PORT: ')[1].split(']')[0])
+        score = extract_score_from_line(line)
+        tcp = extract_tcp_from_line(line)
+        ttfb = extract_ttfb_from_line(line)
+        return {"ip": ip, "port": port, "score": score, "tcp": tcp, "ttfb": ttfb, "line": line}
+    except:
+        return None
+
+
 def rank_results():
     data = load_results()
     domains_set = load_domains_raw()
@@ -239,6 +259,7 @@ def rank_results():
 
     for item in data:
         item["score"] = score(item)
+        item["tcp"] = tcp_map.get(f"{item['ip']}:{item['port']}", 9999)
         ranked.append(item)
 
     existing_ips = {item['ip'] for item in ranked}
@@ -249,6 +270,7 @@ def rank_results():
                 'ip': ip,
                 'port': 443,
                 'score': 5,
+                'tcp': tcp_map.get(f"{ip}:443", 9999),
                 'ttfb': 500,
                 'proto': 'unknown',
                 'reliability': 0.5,
@@ -259,6 +281,7 @@ def rank_results():
 
     ranked.sort(
         key=lambda x: (
+            x.get("tcp", 9999),
             -x["score"],
             x.get("ttfb", 9999),
             x.get("port", 65535)
@@ -277,7 +300,7 @@ def rank_results():
         provider = item.get("provider", "-")
 
         sni = sni_map.get(key, "-")
-        tcp_latency = tcp_map.get(key, "N/A")
+        tcp_latency = item.get("tcp", "N/A")
 
         city = city_map.get(ip, "-")
 
@@ -320,22 +343,44 @@ def rank_results():
         new_lines.append(line)
 
     old_lines = []
+    old_ips = {}
     if os.path.exists(BEST_FILE):
         try:
             with open(BEST_FILE, "r", encoding="utf-8") as f:
-                old_lines = f.readlines()
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    parsed = parse_line_to_dict(line)
+                    if parsed:
+                        old_lines.append(line)
+                        key = f"{parsed['ip']}:{parsed['port']}"
+                        old_ips[key] = parsed
         except:
             pass
 
-    combined = new_lines + old_lines
+    combined_dict = {}
 
-    combined.sort(
-        key=lambda x: (-extract_score_from_line(x), extract_ttfb_from_line(x))
+    for line in new_lines:
+        parsed = parse_line_to_dict(line)
+        if parsed:
+            key = f"{parsed['ip']}:{parsed['port']}"
+            combined_dict[key] = parsed
+
+    for key, parsed in old_ips.items():
+        if key not in combined_dict:
+            combined_dict[key] = parsed
+
+    combined = sorted(
+        combined_dict.values(),
+        key=lambda x: (x["tcp"], -x["score"], x["ttfb"], x["port"])
     )
+
+    combined_lines = [item["line"] for item in combined]
 
     unique_ips = set()
     unique_lines = []
-    for line in combined:
+    for line in combined_lines:
         if '[IP: ' in line:
             ip_match = line.split('[IP: ')[1].split(']')[0]
             if ip_match not in unique_ips:
@@ -344,22 +389,22 @@ def rank_results():
         else:
             unique_lines.append(line)
 
-    combined = unique_lines
+    combined_lines = unique_lines
 
-    current_size_mb = get_file_size_mb(combined)
+    current_size_mb = get_file_size_mb(combined_lines)
 
     if current_size_mb > MAX_BEST_IPS_SIZE_MB:
-        print(f"FILE SIZE {current_size_mb:.2f}MB EXCEEDED {MAX_BEST_IPS_SIZE_MB}MB! REMOVING LOWEST SCORE ENTRIES...")
-        while current_size_mb > MAX_BEST_IPS_SIZE_MB and len(combined) > 100:
-            removed = combined.pop()
-            current_size_mb = get_file_size_mb(combined)
-            print(f"REMOVED LOW SCORE ENTRY... NEW SIZE: {current_size_mb:.2f}MB")
+        print(f"FILE SIZE {current_size_mb:.2f}MB EXCEEDED {MAX_BEST_IPS_SIZE_MB}MB! REMOVING WORST TCP ENTRIES...")
+        while current_size_mb > MAX_BEST_IPS_SIZE_MB and len(combined_lines) > 100:
+            removed = combined_lines.pop()
+            current_size_mb = get_file_size_mb(combined_lines)
+            print(f"REMOVED HIGH TCP ENTRY... NEW SIZE: {current_size_mb:.2f}MB")
 
     with open(BEST_FILE, "w", encoding="utf-8") as f:
-        f.writelines(combined)
+        f.writelines(combined_lines)
 
     print(f"BEST_IPS_SIZE: {current_size_mb:.2f}MB")
-    print(f"BEST_IPS_LINES: {len(combined)}")
+    print(f"BEST_IPS_LINES: {len(combined_lines)}")
     print(f"RANKED={len(ranked)} DOMAINS={len(domains_set)} DOMAIN_IPS={len(domains_ips)}")
 
 
