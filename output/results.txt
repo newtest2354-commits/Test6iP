@@ -1,2 +1,2 @@
-1.0.171.182|443|200|1072|http/1.1|1.0|0|cloudflare|Thailand|TOT Public Co. Ltd.
-1.0.171.157|443|302|640|http/1.1|1.0|0|cloudflare|Thailand|TOT Public Co. Ltd.
+1.0.203.122|443|200|1570|http/1.1|1.0|0|cloudflare|Thailand|TOT Public Co. Ltd.
+1.0.198.100|443|200|794|http/1.1|1.0|0|cloudflare|Thailand|TOT Public Co. Ltd.
