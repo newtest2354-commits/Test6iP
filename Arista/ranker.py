@@ -229,8 +229,10 @@ def extract_ttfb_from_line(line):
 
 def extract_tcp_from_line(line):
     try:
-        tcp_match = line.split('[TCP=')[1].split('ms')[0]
-        return int(tcp_match) if tcp_match.isdigit() else 9999
+        tcp_part = line.split('[TCP=')[1].split(']')[0]
+        if tcp_part == "DOMAIN":
+            return 9999
+        return int(tcp_part.replace('ms', '')) if tcp_part.replace('ms', '').isdigit() else 9999
     except:
         return 9999
 
@@ -301,6 +303,11 @@ def rank_results():
 
         sni = sni_map.get(key, "-")
         tcp_latency = item.get("tcp", "N/A")
+        
+        if tcp_latency == 9999:
+            tcp_display = "DOMAIN"
+        else:
+            tcp_display = f"{tcp_latency}ms"
 
         city = city_map.get(ip, "-")
 
@@ -316,7 +323,7 @@ def rank_results():
             f'[IP: {ip}]',
             f'[PORT: {port}]',
             f'[SCORE={item["score"]}]',
-            f'[TCP={tcp_latency}ms]',
+            f'[TCP={tcp_display}]',
             f'[TTFB={item.get("ttfb", "-")}ms]',
             f'[PROTO={item.get("proto", "-")}]',
             f'[REL={item.get("reliability", "-")}]',
