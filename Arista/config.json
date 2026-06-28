@@ -4,7 +4,7 @@
     ],
     "ports": [80, 443, 8080, 8443, 2052, 2053, 2083, 2087, 2095, 2096],
     "threads": 400,
-    "batch_size": 2000,
+    "batch_size": 500,
     "retries": 2,
     "timeout": 3,
     "latency_limit_ms": 500,
