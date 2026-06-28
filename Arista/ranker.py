@@ -1,7 +1,6 @@
 import os
 import json
 import re
-import socket
 
 RESULT_FILE = "output/results.txt"
 BEST_FILE = "output/best_ips.txt"
@@ -278,39 +277,18 @@ def parse_line_to_dict(line):
         return None
 
 
-def resolve_ptr(ip):
-    try:
-        host = socket.gethostbyaddr(ip)[0]
-        if host and "." in host:
-            return host.lower()
-    except:
-        pass
-    return None
-
-
 def find_domain_for_ip(ip, domains_set, sni_map, port):
     key = f"{ip}:{port}"
     sni = sni_map.get(key, "")
 
-    if sni:
-        for d in sorted(domains_set):
+    if sni and sni != "-" and "." in sni:
+        for d in list(domains_set)[:100]:
             if d in sni or sni in d:
                 return d
 
-    for d in sorted(domains_set):
+    for d in list(domains_set)[:100]:
         if d in ip:
             return d
-
-    for d in sorted(domains_set):
-        try:
-            if ip == socket.gethostbyname(d):
-                return d
-        except:
-            pass
-
-    ptr_domain = resolve_ptr(ip)
-    if ptr_domain:
-        return ptr_domain
 
     if sni and sni != "-" and "." in sni:
         return sni
