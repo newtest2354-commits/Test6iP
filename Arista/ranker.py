@@ -310,6 +310,8 @@ def rank_results():
             x.get("tcp", 9999),
             -x["score"],
             x.get("ttfb", 9999),
+            -x.get("reliability", 0),
+            0 if x.get("proto", "").lower() == "h2" else 1,
             x.get("port", 65535)
         )
     )
@@ -408,7 +410,14 @@ def rank_results():
 
     combined = sorted(
         combined_dict.values(),
-        key=lambda x: (x["tcp"], -x["score"], x["ttfb"], x["port"])
+        key=lambda x: (
+            x["tcp"],
+            -x["score"],
+            x["ttfb"],
+            -x.get("reliability", 0),
+            0 if x.get("proto", "").lower() == "h2" else 1,
+            x["port"]
+        )
     )
 
     combined_lines = [item["line"] for item in combined]
