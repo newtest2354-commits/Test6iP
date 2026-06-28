@@ -1,0 +1,12 @@
+1111-releases.cloudflareclient.com
+blog.cloudflare.com
+cloudflare.com
+developers.cloudflare.com
+family.cloudflare-dns.com
+itunes.apple.com
+ogp.me
+one.one.one.one
+pkg.cloudflareclient.com
+play.google.com
+security.cloudflare-dns.com
+www.w3.org
