@@ -297,18 +297,19 @@ def rank_results():
 
     for ip in domains_ips:
         if ip not in existing_ips:
-            ranked.append({
+            temp_item = {
                 'ip': ip,
                 'port': 443,
-                'score': 5,
-                'tcp': tcp_map.get(f"{ip}:443", 9999),
                 'ttfb': 500,
                 'proto': 'unknown',
                 'reliability': 0.5,
                 'cdn': 'unknown',
                 'country': 'Unknown',
                 'provider': 'Unknown'
-            })
+            }
+            temp_item["score"] = score(temp_item)
+            temp_item["tcp"] = tcp_map.get(f"{ip}:443", 9999)
+            ranked.append(temp_item)
 
     ranked.sort(
         key=lambda x: (
