@@ -1,9 +1,11 @@
 e.day
 hj50ac9nwcc.sn.mynetname.net
+node-hvz.pool-1-0.dynamic.nt-isp.net
 node-hwj.pool-1-0.dynamic.nt-isp.net
 node-hxp.pool-1-0.dynamic.nt-isp.net
 node-hye.pool-1-0.dynamic.nt-isp.net
 node-hyu.pool-1-0.dynamic.nt-isp.net
+node-hyw.pool-1-0.dynamic.nt-isp.net
 node-iei.pool-1-0.dynamic.nt-isp.net
 node-ieu.pool-1-0.dynamic.nt-isp.net
 node-igc.pool-1-0.dynamic.nt-isp.net
