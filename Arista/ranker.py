@@ -10,164 +10,91 @@ TLS_FILE = "output/tls_live.txt"
 GEO_FILE = "output/geo_cache.json"
 
 KNOWN_CDN_BONUS = 2
-H2_BONUS = 3
-RELIABILITY_BONUS = 8
-
-FAST_TTFB_BONUS = 4
-MID_TTFB_BONUS = 2
-SLOW_TTFB_BONUS = 1
-
 STABLE_PORTS = {443, 2053, 2083, 2087, 2096, 8443}
-STABLE_PORT_BONUS = 1
-
 MAX_BEST_IPS_SIZE_MB = 50
-
 
 def parse_line(line):
     line = line.strip()
-
     if not line:
         return None
-
     parts = line.split("|")
-
     if len(parts) < 10:
         return None
-
     try:
-        port = int(parts[1])
+        return {
+            "ip": parts[0],
+            "port": int(parts[1]),
+            "status": int(parts[2]) if parts[2].isdigit() else 0,
+            "ttfb": int(parts[3]) if parts[3].isdigit() else 9999,
+            "proto": parts[4],
+            "reliability": float(parts[5]) if parts[5].replace('.', '').isdigit() else 0,
+            "ws": parts[6],
+            "cdn": parts[7],
+            "country": parts[8],
+            "provider": parts[9]
+        }
     except:
         return None
-
-    try:
-        status = int(parts[2])
-    except:
-        status = 0
-
-    try:
-        ttfb = int(parts[3])
-    except:
-        ttfb = 9999
-
-    try:
-        reliability = float(parts[5])
-    except:
-        reliability = 0
-
-    return {
-        "ip": parts[0],
-        "port": port,
-        "status": status,
-        "ttfb": ttfb,
-        "proto": parts[4],
-        "reliability": reliability,
-        "ws": parts[6],
-        "cdn": parts[7],
-        "country": parts[8],
-        "provider": parts[9]
-    }
-
 
 def load_results():
     data = []
     seen = set()
-
     try:
         with open(RESULT_FILE, "r", encoding="utf-8") as f:
             for line in f:
                 item = parse_line(line)
-                if not item:
-                    continue
-
-                key = f'{item["ip"]}:{item["port"]}'
-                if key in seen:
-                    continue
-
-                seen.add(key)
-                data.append(item)
+                if item:
+                    key = f'{item["ip"]}:{item["port"]}'
+                    if key not in seen:
+                        seen.add(key)
+                        data.append(item)
     except:
         pass
-
     return data
 
-
 def load_domains_ips():
-    ips = set()
     if not os.path.exists(DOMAINS_IPS_FILE):
-        return ips
+        return set()
     try:
         with open(DOMAINS_IPS_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line:
-                    ips.add(line)
+            return {line.strip() for line in f if line.strip()}
     except:
-        pass
-    return ips
-
+        return set()
 
 def load_tls_sni():
     sni_map = {}
-
     if not os.path.exists(TLS_FILE):
         return sni_map
-
     try:
         with open(TLS_FILE, "r", encoding="utf-8") as f:
             for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-
-                parts = line.split(":")
+                parts = line.strip().split(":")
                 if len(parts) >= 5:
-                    ip = parts[0]
-                    port = parts[1]
-                    sni = parts[4]
-                    key = f"{ip}:{port}"
-                    sni_map[key] = sni
+                    sni_map[f"{parts[0]}:{parts[1]}"] = parts[4]
     except:
         pass
-
     return sni_map
-
 
 def load_tcp_latency():
     tcp_map = {}
-
     if not os.path.exists(TLS_FILE):
         return tcp_map
-
     try:
         with open(TLS_FILE, "r", encoding="utf-8") as f:
             for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-
-                parts = line.split(":")
+                parts = line.strip().split(":")
                 if len(parts) >= 3:
-                    ip = parts[0]
-                    port = parts[1]
-                    latency = parts[2]
-                    key = f"{ip}:{port}"
-                    match = re.search(r'(\d+)', latency)
-                    if match:
-                        tcp_map[key] = int(match.group(1))
-                    else:
-                        tcp_map[key] = 9999
+                    match = re.search(r'(\d+)', parts[2])
+                    tcp_map[f"{parts[0]}:{parts[1]}"] = int(match.group(1)) if match else 9999
     except:
         pass
-
     return tcp_map
 
-
-def load_geo_city():
+def load_geo_data():
     city_map = {}
-
+    asn_map = {}
     if not os.path.exists(GEO_FILE):
-        return city_map
-
+        return city_map, asn_map
     try:
         with open(GEO_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -176,350 +103,81 @@ def load_geo_city():
                     city = info.get("city", "")
                     if city and city != "Unknown":
                         city_map[ip] = city
-    except:
-        pass
-
-    return city_map
-
-
-def load_geo_asn():
-    asn_map = {}
-
-    if not os.path.exists(GEO_FILE):
-        return asn_map
-
-    try:
-        with open(GEO_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            for ip, info in data.items():
-                if isinstance(info, dict):
                     asn = info.get("asn", "")
                     if asn and asn != "Unknown":
                         asn_map[ip] = asn
     except:
         pass
-
-    return asn_map
-
+    return city_map, asn_map
 
 def load_domains_raw():
-    domains = set()
-
     if not os.path.exists(DOMAINS_RAW_FILE):
-        return domains
-
+        return set()
     try:
         with open(DOMAINS_RAW_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line:
-                    domains.add(line.lower())
+            return {line.strip().lower() for line in f if line.strip()}
     except:
-        pass
-
-    return domains
-
+        return set()
 
 def get_port_type(port):
-    if port in {443, 8443, 2053, 2083, 2087, 2096}:
+    if port in STABLE_PORTS:
         return "HTTPS"
     elif port in {80, 8080}:
         return "HTTP"
-    else:
-        return "UNKNOWN"
-
-
-def get_file_size_mb(lines):
-    total = 0
-    for line in lines:
-        total += len(line.encode('utf-8'))
-    return total / (1024 * 1024)
-
+    return "UNKNOWN"
 
 def extract_score_from_line(line):
     try:
-        score_match = line.split('[SCORE=')[1].split(']')[0]
-        return int(score_match)
+        return int(line.split('[SCORE=')[1].split(']')[0])
     except:
         return 0
 
-
 def extract_ttfb_from_line(line):
     try:
-        ttfb_match = line.split('[TTFB=')[1].split('ms')[0]
-        return int(ttfb_match)
+        return int(line.split('[TTFB=')[1].split('ms')[0])
     except:
         return 9999
-
 
 def extract_tcp_from_line(line):
     try:
         tcp_part = line.split('[TCP=')[1].split(']')[0]
-        if tcp_part == "DOMAIN" or tcp_part == "timeout":
+        if tcp_part in ("DOMAIN", "timeout"):
             return 9999
         match = re.search(r'(\d+)', tcp_part)
-        if match:
-            return int(match.group(1))
-        return 9999
+        return int(match.group(1)) if match else 9999
     except:
         return 9999
-
 
 def parse_line_to_dict(line):
     try:
         ip = line.split('[IP: ')[1].split(']')[0]
         port = int(line.split('[PORT: ')[1].split(']')[0])
-        score = extract_score_from_line(line)
-        tcp = extract_tcp_from_line(line)
-        ttfb = extract_ttfb_from_line(line)
-        return {"ip": ip, "port": port, "score": score, "tcp": tcp, "ttfb": ttfb, "line": line}
+        return {
+            "ip": ip,
+            "port": port,
+            "score": extract_score_from_line(line),
+            "tcp": extract_tcp_from_line(line),
+            "ttfb": extract_ttfb_from_line(line),
+            "line": line
+        }
     except:
         return None
-
 
 def find_domain_for_ip(ip, domains_set, sni_map, port):
     key = f"{ip}:{port}"
     sni = sni_map.get(key, "")
-
-    if sni and sni != "-" and "." in sni:
-        for d in list(domains_set)[:100]:
-            if d in sni or sni in d:
+    if sni:
+        sni_lower = sni.lower()
+        for d in domains_set:
+            if d in sni_lower:
                 return d
-
-    for d in list(domains_set)[:100]:
+    for d in domains_set:
         if d in ip:
             return d
-
-    if sni and sni != "-" and "." in sni:
-        return sni
-
     return "-"
 
-
-def rank_results():
-    data = load_results()
-    domains_set = load_domains_raw()
-    domains_ips = load_domains_ips()
-    sni_map = load_tls_sni()
-    city_map = load_geo_city()
-    asn_map = load_geo_asn()
-    tcp_map = load_tcp_latency()
-
-    ranked = []
-
-    for item in data:
-        item["score"] = score(item)
-        item["tcp"] = tcp_map.get(f"{item['ip']}:{item['port']}", 9999)
-        ranked.append(item)
-
-    existing_ips = {item['ip'] for item in ranked}
-
-    for ip in domains_ips:
-        if ip not in existing_ips:
-            found = False
-            for item in data:
-                if item['ip'] == ip:
-                    temp_item = item.copy()
-                    temp_item["score"] = score(temp_item)
-                    temp_item["tcp"] = tcp_map.get(f"{ip}:{temp_item['port']}", 9999)
-                    ranked.append(temp_item)
-                    found = True
-                    break
-            
-            if not found:
-                temp_item = {
-                    'ip': ip,
-                    'port': 443,
-                    'ttfb': 9999,
-                    'proto': 'unknown',
-                    'reliability': 0,
-                    'cdn': 'unknown',
-                    'country': 'Unknown',
-                    'provider': 'Unknown'
-                }
-                temp_item["score"] = 0
-                temp_item["tcp"] = tcp_map.get(f"{ip}:443", 9999)
-                ranked.append(temp_item)
-
-    ranked.sort(
-        key=lambda x: (
-            -x["score"],
-            x.get("tcp", 9999),
-            x.get("ttfb", 9999),
-            -x.get("reliability", 0),
-            x.get("port", 65535)
-        )
-    )
-
-    os.makedirs("output", exist_ok=True)
-
-    new_lines = []
-    for item in ranked:
-        ip = item["ip"]
-        port = item["port"]
-        key = f"{ip}:{port}"
-
-        country = item.get("country", "-")
-        provider = item.get("provider", "-")
-
-        sni = sni_map.get(key, "-")
-        tcp_latency = item.get("tcp", "N/A")
-
-        if tcp_latency == 9999:
-            tcp_display = "timeout"
-        else:
-            tcp_display = f"{tcp_latency}ms"
-
-        city = city_map.get(ip, "-")
-        asn = asn_map.get(ip, "")
-
-        port_type = get_port_type(port)
-
-        domain = find_domain_for_ip(ip, domains_set, sni_map, port)
-
-        parts = [
-            f'[IP: {ip}]',
-            f'[PORT: {port}]',
-            f'[SCORE={item["score"]}]',
-            f'[TCP={tcp_display}]',
-            f'[TTFB={item.get("ttfb", "-")}ms]',
-            f'[PROTO={item.get("proto", "-")}]',
-            f'[REL={item.get("reliability", "-")}]',
-            f'[CDN={item.get("cdn", "-")}]',
-            f'[TYPE={port_type}]'
-        ]
-
-        if domain and domain != "-":
-            parts.append(f'[DOMAIN={domain}]')
-
-        if sni and sni != "-":
-            parts.append(f'[SNI={sni}]')
-
-        if city and city != "-" and city != "Unknown":
-            parts.append(f'[City={city}]')
-
-        if country and country != "-" and country != "Unknown":
-            parts.append(f'[Country={country}]')
-
-        if provider and provider != "-" and provider != "Unknown":
-            parts.append(f'[Provider={provider}]')
-
-        if asn and asn != "Unknown":
-            parts.append(f'[ASN={asn}]')
-
-        line = " ".join(parts) + "\n"
-        new_lines.append(line)
-
-    old_lines = []
-    old_ips = {}
-    if os.path.exists(BEST_FILE):
-        try:
-            with open(BEST_FILE, "r", encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()
-                    if not line:
-                        continue
-                    parsed = parse_line_to_dict(line)
-                    if parsed:
-                        old_lines.append(line)
-                        key = f"{parsed['ip']}:{parsed['port']}"
-                        old_ips[key] = parsed
-        except:
-            pass
-
-    combined_dict = {}
-
-    for line in new_lines:
-        parsed = parse_line_to_dict(line)
-        if parsed:
-            key = f"{parsed['ip']}:{parsed['port']}"
-            combined_dict[key] = parsed
-
-    for key, parsed in old_ips.items():
-        if key not in combined_dict:
-            combined_dict[key] = parsed
-
-    combined = sorted(
-        combined_dict.values(),
-        key=lambda x: (
-            -x["score"],
-            x["tcp"],
-            x["ttfb"],
-            -x.get("reliability", 0),
-            x["port"]
-        )
-    )
-
-    combined_lines = [item["line"] for item in combined]
-
-    unique_ips = set()
-    unique_lines = []
-    for line in combined_lines:
-        if '[IP: ' in line:
-            ip_match = line.split('[IP: ')[1].split(']')[0]
-            if ip_match not in unique_ips:
-                unique_ips.add(ip_match)
-                unique_lines.append(line)
-        else:
-            unique_lines.append(line)
-
-    combined_lines = unique_lines
-
-    current_size_mb = get_file_size_mb(combined_lines)
-
-    if current_size_mb > MAX_BEST_IPS_SIZE_MB:
-        print(f"FILE SIZE {current_size_mb:.2f}MB EXCEEDED {MAX_BEST_IPS_SIZE_MB}MB! REMOVING LOWEST SCORE ENTRIES...")
-        while current_size_mb > MAX_BEST_IPS_SIZE_MB and len(combined_lines) > 100:
-            removed = combined_lines.pop()
-            current_size_mb = get_file_size_mb(combined_lines)
-            print(f"REMOVED LOWEST SCORE ENTRY... NEW SIZE: {current_size_mb:.2f}MB")
-
-    with open(BEST_FILE, "w", encoding="utf-8") as f:
-        for line in combined_lines:
-            f.write(line.rstrip("\n") + "\n")
-
-    print(f"BEST_IPS_SIZE: {current_size_mb:.2f}MB")
-    print(f"BEST_IPS_LINES: {len(combined_lines)}")
-    print(f"RANKED={len(ranked)} DOMAINS={len(domains_set)} DOMAIN_IPS={len(domains_ips)}")
-
-
-def ttfb_score(ttfb):
-    if ttfb <= 50:
-        return 8
-    elif ttfb <= 100:
-        return 7
-    elif ttfb <= 150:
-        return 6
-    elif ttfb <= 200:
-        return 5
-    elif ttfb <= 300:
-        return 4
-    elif ttfb <= 500:
-        return 2
-    else:
-        return 0
-
-
-def cdn_score(cdn):
-    if not cdn:
-        return 0
-    cdn = str(cdn).strip().lower()
-    if cdn == "unknown":
-        return 0
-    if cdn in ["cloudflare", "fastly", "akamai", "bunny", "gcore", "vercel", "cloudfront", "facebook", "google", "amazon", "microsoft", "twitter", "instagram", "youtube", "telegram"]:
-        return KNOWN_CDN_BONUS
-    return 0
-
-
-def port_score(port):
-    if port in STABLE_PORTS:
-        return STABLE_PORT_BONUS
-    return 0
-
-
-def score(item):
+def score_item(item):
     total = 0
-
     ttfb = item.get("ttfb", 9999)
     if ttfb <= 50:
         total += 8
@@ -552,11 +210,147 @@ def score(item):
     elif "http/1.1" in proto:
         total += 1
 
-    total += cdn_score(item.get("cdn", ""))
-    total += port_score(item.get("port", 0))
+    cdn = str(item.get("cdn", "")).strip().lower()
+    if cdn and cdn != "unknown" and cdn in ["cloudflare", "fastly", "akamai", "bunny", "gcore", "vercel", "cloudfront", "facebook", "google", "amazon", "microsoft", "twitter", "instagram", "youtube", "telegram"]:
+        total += KNOWN_CDN_BONUS
+
+    if item.get("port", 0) in STABLE_PORTS:
+        total += 1
 
     return total
 
+def rank_results():
+    data = load_results()
+    if not data:
+        print("NO DATA TO RANK")
+        return
+
+    domains_set = load_domains_raw()
+    domains_ips = load_domains_ips()
+    sni_map = load_tls_sni()
+    city_map, asn_map = load_geo_data()
+    tcp_map = load_tcp_latency()
+
+    ranked = []
+    for item in data:
+        item["score"] = score_item(item)
+        item["tcp"] = tcp_map.get(f"{item['ip']}:{item['port']}", 9999)
+        ranked.append(item)
+
+    existing_ips = {item['ip'] for item in ranked}
+    for ip in domains_ips:
+        if ip not in existing_ips:
+            found = False
+            for item in data:
+                if item['ip'] == ip:
+                    temp_item = item.copy()
+                    temp_item["score"] = score_item(temp_item)
+                    temp_item["tcp"] = tcp_map.get(f"{ip}:{temp_item['port']}", 9999)
+                    ranked.append(temp_item)
+                    found = True
+                    break
+            if not found:
+                ranked.append({
+                    'ip': ip,
+                    'port': 443,
+                    'ttfb': 9999,
+                    'proto': 'unknown',
+                    'reliability': 0,
+                    'cdn': 'unknown',
+                    'country': 'Unknown',
+                    'provider': 'Unknown',
+                    'score': 0,
+                    'tcp': tcp_map.get(f"{ip}:443", 9999)
+                })
+
+    ranked.sort(key=lambda x: (-x["score"], x.get("tcp", 9999), x.get("ttfb", 9999), -x.get("reliability", 0), x.get("port", 65535)))
+
+    os.makedirs("output", exist_ok=True)
+
+    new_lines = []
+    for item in ranked:
+        ip, port = item["ip"], item["port"]
+        key = f"{ip}:{port}"
+        sni = sni_map.get(key, "-")
+        tcp_latency = item.get("tcp", "N/A")
+        tcp_display = "timeout" if tcp_latency == 9999 else f"{tcp_latency}ms"
+        city = city_map.get(ip, "-")
+        asn = asn_map.get(ip, "")
+        port_type = get_port_type(port)
+        domain = find_domain_for_ip(ip, domains_set, sni_map, port)
+
+        parts = [
+            f'[IP: {ip}]',
+            f'[PORT: {port}]',
+            f'[SCORE={item["score"]}]',
+            f'[TCP={tcp_display}]',
+            f'[TTFB={item.get("ttfb", "-")}ms]',
+            f'[PROTO={item.get("proto", "-")}]',
+            f'[REL={item.get("reliability", "-")}]',
+            f'[CDN={item.get("cdn", "-")}]',
+            f'[TYPE={port_type}]'
+        ]
+
+        if domain and domain != "-":
+            parts.append(f'[DOMAIN={domain}]')
+        if sni and sni != "-":
+            parts.append(f'[SNI={sni}]')
+        if city and city != "-" and city != "Unknown":
+            parts.append(f'[City={city}]')
+        if item.get("country") and item["country"] != "-" and item["country"] != "Unknown":
+            parts.append(f'[Country={item["country"]}]')
+        if item.get("provider") and item["provider"] != "-" and item["provider"] != "Unknown":
+            parts.append(f'[Provider={item["provider"]}]')
+        if asn and asn != "Unknown":
+            parts.append(f'[ASN={asn}]')
+
+        new_lines.append(" ".join(parts) + "\n")
+
+    old_ips = {}
+    if os.path.exists(BEST_FILE):
+        try:
+            with open(BEST_FILE, "r", encoding="utf-8") as f:
+                for line in f:
+                    if parsed := parse_line_to_dict(line.strip()):
+                        old_ips[f"{parsed['ip']}:{parsed['port']}"] = parsed
+        except:
+            pass
+
+    combined_dict = {}
+    for line in new_lines:
+        if parsed := parse_line_to_dict(line):
+            combined_dict[f"{parsed['ip']}:{parsed['port']}"] = parsed
+
+    combined_dict.update(old_ips)
+
+    combined = sorted(
+        combined_dict.values(),
+        key=lambda x: (-x["score"], x["tcp"], x["ttfb"])
+    )
+
+    combined_lines = []
+    unique_ips = set()
+    for item in combined:
+        ip = item["ip"]
+        if ip not in unique_ips:
+            unique_ips.add(ip)
+            combined_lines.append(item["line"])
+
+    current_size_mb = sum(len(line.encode('utf-8')) for line in combined_lines) / (1024 * 1024)
+
+    if current_size_mb > MAX_BEST_IPS_SIZE_MB:
+        print(f"FILE SIZE {current_size_mb:.2f}MB EXCEEDED {MAX_BEST_IPS_SIZE_MB}MB! REMOVING LOWEST SCORE ENTRIES...")
+        while current_size_mb > MAX_BEST_IPS_SIZE_MB and len(combined_lines) > 100:
+            combined_lines.pop()
+            current_size_mb = sum(len(line.encode('utf-8')) for line in combined_lines) / (1024 * 1024)
+            print(f"REMOVED LOWEST SCORE ENTRY... NEW SIZE: {current_size_mb:.2f}MB")
+
+    with open(BEST_FILE, "w", encoding="utf-8") as f:
+        f.write("\n".join(combined_lines) + ("\n" if combined_lines else ""))
+
+    print(f"BEST_IPS_SIZE: {current_size_mb:.2f}MB")
+    print(f"BEST_IPS_LINES: {len(combined_lines)}")
+    print(f"RANKED={len(ranked)} DOMAINS={len(domains_set)} DOMAIN_IPS={len(domains_ips)}")
 
 if __name__ == "__main__":
     rank_results()
