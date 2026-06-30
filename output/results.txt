@@ -1,3 +1,8 @@
-1.1.116.71|443|403|317|http/1.1|1.0|0|cloudflare|Japan|i2ts
-1.1.116.11|443|404|489|http/1.1|1.0|0|cloudflare|Japan|i2ts
-1.1.116.22|443|400|488|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.117.184|443|401|397|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.117.190|443|401|446|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.117.1|443|302|614|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.117.81|443|302|580|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.117.2|443|302|599|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.117.85|443|302|567|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.117.192|443|200|451|http/1.1|1.0|0|cloudflare|Japan|i2ts
+1.1.118.122|443|401|578|http/1.1|1.0|0|cloudflare|Japan|i2ts
