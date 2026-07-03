@@ -1,3 +1,6 @@
+1-34-119-45.hinet-ip.hinet.net
 cdn.jsdelivr.net
-s165.203.21.1.fls.vectant.ne.jp
+s193.203.21.1.fls.vectant.ne.jp
+s226.203.21.1.fls.vectant.ne.jp
+s245.205.21.1.fls.vectant.ne.jp
 s62.203.21.1.fls.vectant.ne.jp
