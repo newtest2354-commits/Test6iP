@@ -1,4 +1,4 @@
-1-165-66-22.dynamic-ip.hinet.net
-1-170-132-150.dynamic-ip.hinet.net
-1-174-154-96.dynamic-ip.hinet.net
-lang.id
+1-163-10-230.dynamic-ip.hinet.net
+1-172-101-6.dynamic-ip.hinet.net
+example.com
+www.w3.org
