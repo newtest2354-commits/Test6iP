@@ -15,10 +15,15 @@
 1-34-96-181.hinet-ip.hinet.net
 bugs.debian.org
 cdn.jsdelivr.net
+fonts.googleapis.com
+gmpg.org
 httpd.apache.org
 jhensheng.com.tw
 n8n.io
+niderbright.com
 object.is
+schema.org
 this.media
 this.run
 www.w3.org
+yoast.com
