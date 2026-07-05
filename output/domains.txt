@@ -1,4 +1,9 @@
-1-162-102-44.dynamic-ip.hinet.net
-1-162-155-140.dynamic-ip.hinet.net
-1-162-177-59.dynamic-ip.hinet.net
+1-162-129-250.dynamic-ip.hinet.net
+1-162-184-116.dynamic-ip.hinet.net
+1-162-184-195.dynamic-ip.hinet.net
+1-162-184-230.dynamic-ip.hinet.net
+1-163-190-236.dynamic-ip.hinet.net
+1-163-252-233.dynamic-ip.hinet.net
+this.media
+www.draytek.com
 www.w3.org
