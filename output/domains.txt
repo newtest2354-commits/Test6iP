@@ -1,5 +1,4 @@
-1-163-229-74.dynamic-ip.hinet.net
-1-163-238-163.dynamic-ip.hinet.net
-1-163-243-9.dynamic-ip.hinet.net
-1-163-93-171.dynamic-ip.hinet.net
-www.w3.org
+1-164-173-97.dynamic-ip.hinet.net
+1-164-238-132.dynamic-ip.hinet.net
+1-164-99-144.dynamic-ip.hinet.net
+this.media
