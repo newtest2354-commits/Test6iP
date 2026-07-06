@@ -1,3 +1,10 @@
-1-168-144-151.dynamic-ip.hinet.net
-1-168-154-133.dynamic-ip.hinet.net
-1-168-44-183.dynamic-ip.hinet.net
+1-168-110-113.dynamic-ip.hinet.net
+1-168-125-223.dynamic-ip.hinet.net
+1-168-171-137.dynamic-ip.hinet.net
+1-168-223-3.dynamic-ip.hinet.net
+cdn.jsdelivr.net
+jplop.netlify.app
+schema.org
+users3.smartgb.com
+wisdom.nutc.edu.tw
+www.google.com

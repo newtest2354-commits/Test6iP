@@ -1,3 +1,4 @@
-1.168.44.183|443|200|399|h2|1.0|0|cloudflare|Taiwan|Chunghwa Telecom Co.,
-1.168.144.151|443|200|597|http/1.1|1.0|0|cloudflare|Taiwan|Chunghwa Telecom Co.,
-1.168.154.133|443|403|501|http/1.1|1.0|0|cloudflare|Taiwan|Chunghwa Telecom Co.,
+1.168.223.3|443|200|585|http/1.1|1.0|0|cloudflare|Taiwan|Chunghwa Telecom Co.,
+1.168.125.223|443|200|404|http/1.1|1.0|0|cloudflare|Taiwan|Chunghwa Telecom Co.,
+1.168.110.113|443|200|1038|http/1.1|1.0|0|cloudflare|Taiwan|Chunghwa Telecom Co.,
+1.168.171.137|443|200|587|http/1.1|1.0|0|cloudflare|Taiwan|Chunghwa Telecom Co.,
