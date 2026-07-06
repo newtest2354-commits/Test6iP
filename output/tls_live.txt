@@ -1,5 +1,9 @@
-1.170.116.94:443:196::cloudflare.com:
-1.170.78.132:443:195::cloudflare.com:
-1.169.133.242:8443:205::cloudflare.com:
-1.170.157.243:8443:203::cloudflare.com:
-1.170.23.32:8443:199::cloudflare.com:
+1.170.204.129:443:153::cloudflare.com:
+1.170.223.24:443:148::cloudflare.com:
+1.170.12.168:8443:142::cloudflare.com:
+1.170.72.107:8443:140::cloudflare.com:
+1.170.201.218:8443:148::cloudflare.com:
+1.170.143.208:8443:143::cloudflare.com:
+1.170.48.39:443:142:h2:cloudflare.com:
+1.170.195.144:8443:142::cloudflare.com:
+1.170.109.48:8443:142::cloudflare.com:
