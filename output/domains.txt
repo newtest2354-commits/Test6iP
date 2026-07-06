@@ -1,3 +1,4 @@
-1-169-251-122.dynamic-ip.hinet.net
-1-169-66-187.dynamic-ip.hinet.net
+1-170-116-94.dynamic-ip.hinet.net
+1-170-78-132.dynamic-ip.hinet.net
+go.microsoft.com
 www.w3.org
