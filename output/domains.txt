@@ -1,7 +1,2 @@
-1-173-156-118.dynamic-ip.hinet.net
-1-173-156-26.dynamic-ip.hinet.net
-1-173-156-92.dynamic-ip.hinet.net
-1-173-157-23.dynamic-ip.hinet.net
-1-173-157-79.dynamic-ip.hinet.net
-1-173-210-203.dynamic-ip.hinet.net
-www.w3.org
+1-173-157-123.dynamic-ip.hinet.net
+1-173-157-133.dynamic-ip.hinet.net
