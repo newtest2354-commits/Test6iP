@@ -1,7 +1,5 @@
-1.173.157.123:443:145::cloudflare.com:
-1.173.157.133:443:141:h2:cloudflare.com:
-1.173.157.209:8443:144::cloudflare.com:
-1.173.157.222:8443:142::www.cloudflare.com:
-1.174.252.43:8443:143::cloudflare.com:
-1.174.233.112:8443:144::cloudflare.com:
-1.174.85.3:8443:141::cloudflare.com:
+1.174.136.227:443:195::cloudflare.com:
+1.174.95.156:443:202:http/1.1:cloudflare.com:
+1.174.134.112:443:200::cloudflare.com:
+1.174.253.201:8443:207::cloudflare.com:
+1.174.184.41:8443:192::cloudflare.com:
