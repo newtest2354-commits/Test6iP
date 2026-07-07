@@ -1,4 +1,1 @@
-1-174-134-112.dynamic-ip.hinet.net
-1-174-136-227.dynamic-ip.hinet.net
-1-174-95-156.dynamic-ip.hinet.net
-www.w3.org
+1-175-185-104.dynamic-ip.hinet.net
