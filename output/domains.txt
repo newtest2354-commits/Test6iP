@@ -1,3 +1,8 @@
-1-172-196-23.dynamic-ip.hinet.net
-1-172-202-246.dynamic-ip.hinet.net
-www.w3.org
+1-172-112-245.dynamic-ip.hinet.net
+1-172-114-161.dynamic-ip.hinet.net
+1-172-141-52.dynamic-ip.hinet.net
+1-172-146-85.dynamic-ip.hinet.net
+1-172-151-228.dynamic-ip.hinet.net
+1-172-240-45.dynamic-ip.hinet.net
+object.is
+this.run
