@@ -1,1 +1,11 @@
-1-175-185-104.dynamic-ip.hinet.net
+1-175-144-183.dynamic-ip.hinet.net
+1-175-183-172.dynamic-ip.hinet.net
+1-175-230-162.dynamic-ip.hinet.net
+1-175-66-160.dynamic-ip.hinet.net
+1-175-68-172.dynamic-ip.hinet.net
+cdn.tailwindcss.com
+cdnjs.cloudflare.com
+fonts.googleapis.com
+kpdental.i234.me
+via.placeholder.com
+www.google.com
