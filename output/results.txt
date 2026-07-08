@@ -1,6 +1,4 @@
-1.178.10.5|443|404|298|h2|1.0|0|cloudflare|Germany|Amazon.com
-1.178.10.3|443|404|296|h2|1.0|0|cloudflare|Germany|Amazon.com
-1.178.10.4|443|404|308|h2|1.0|0|cloudflare|Germany|Amazon.com
-1.178.11.4|443|404|280|h2|1.0|0|cloudflare|Australia|Amazon.com
-1.178.11.3|443|404|278|h2|1.0|0|cloudflare|Australia|Amazon.com
-1.178.11.5|443|404|278|h2|1.0|0|cloudflare|Australia|Amazon.com
+1.178.17.2|443|404|320|http/1.1|1.0|0|cloudflare|Italy|Amazon.com
+1.178.17.1|443|404|328|h2|1.0|0|cloudflare|Italy|Amazon.com
+1.178.18.2|443|404|543|h2|1.0|0|cloudflare|South Africa|Amazon.com
+1.178.18.1|443|404|566|h2|1.0|0|cloudflare|South Africa|Amazon.com
