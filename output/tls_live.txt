@@ -1,7 +1,6 @@
-1.178.8.5:443:51:h2:cloudflare.com:
-1.178.8.3:443:51:h2:cloudflare.com:
-1.178.8.4:443:54:h2:cloudflare.com:
-1.178.9.5:443:36:h2:cloudflare.com:
-1.178.9.4:443:35:h2:cloudflare.com:
-1.178.9.7:443:36:h2:cloudflare.com:
-1.178.9.6:443:36:h2:cloudflare.com:
+1.178.10.5:443:153:h2:cloudflare.com:
+1.178.10.3:443:153:h2:cloudflare.com:
+1.178.10.4:443:157:h2:cloudflare.com:
+1.178.11.4:443:139:h2:cloudflare.com:
+1.178.11.3:443:139:h2:cloudflare.com:
+1.178.11.5:443:138:h2:cloudflare.com:
