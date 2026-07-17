@@ -1,5 +1,5 @@
-1.178.88.5|443|404|407|h2|1.0|0|cloudflare|India|Amazon.com
-1.178.88.3|443|404|406|h2|1.0|0|cloudflare|India|Amazon.com
-1.178.89.11|443|404|445|h2|1.0|0|cloudflare|Singapore|Amazon.com
-1.178.89.7|443|404|462|h2|1.0|0|cloudflare|Singapore|Amazon.com
-1.178.89.8|443|404|445|h2|1.0|0|cloudflare|Singapore|Amazon.com
+1.178.88.5|443|404|416|h2|1.0|0|cloudflare|India|Amazon.com
+1.178.88.3|443|404|490|h2|1.0|0|cloudflare|India|Amazon.com
+1.178.89.11|443|404|449|h2|1.0|0|cloudflare|Singapore|Amazon.com
+1.178.89.7|443|404|446|h2|1.0|0|cloudflare|Singapore|Amazon.com
+1.178.89.8|443|404|449|h2|1.0|0|cloudflare|Singapore|Amazon.com
