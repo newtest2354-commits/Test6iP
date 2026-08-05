@@ -1,2 +1,1 @@
-185.142.95.122|443|303|575|h2|1.0|0|cloudflare|Iran|HESABGAR-T
-185.142.95.98|443|404|789|http/1.1|1.0|0|cloudflare|Iran|HESABGAR-T
+92.114.22.31|443|302|616|http/1.1|1.0|0|cloudflare|Iran|Mobin Net Communication...

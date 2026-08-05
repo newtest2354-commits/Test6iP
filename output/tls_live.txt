@@ -1,2 +1,1 @@
-185.142.95.122:443:229:h2:cloudflare.com:
-185.142.95.98:443:227:h2:cloudflare.com:
+92.114.22.31:443:233::cloudflare.com:
