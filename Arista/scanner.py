@@ -8,6 +8,7 @@ from concurrent.futures import (
     wait,
     FIRST_COMPLETED
 )
+from threading import Lock
 
 from tls import tls_check
 from fingerprint import detect_cdn
@@ -131,7 +132,7 @@ def read_batches(
             if batch:
                 yield batch
 
-    except:
+    except Exception:
         return
 
 
@@ -144,7 +145,7 @@ def tcp_check(
     for _ in range(
         retries
     ):
-        start = time.time()
+        start = time.perf_counter()
 
         try:
             sock = socket.create_connection(
@@ -159,7 +160,7 @@ def tcp_check(
 
             latency = int(
                 (
-                    time.time()
+                    time.perf_counter()
                     - start
                 ) * 1000
             )
@@ -175,7 +176,7 @@ def tcp_check(
                 None
             )
 
-        except:
+        except Exception:
             continue
 
     return (
@@ -277,7 +278,7 @@ def tcp_scan(
                     continue
                 if not any(already_scanned(cache, ip, port) for port in ports):
                     all_ips.append(ip)
-    except:
+    except Exception:
         pass
 
     if not all_ips:
@@ -350,7 +351,7 @@ def tcp_scan(
                             stage_live.extend(
                                 res
                             )
-                    except:
+                    except Exception:
                         continue
 
         append_tcp_live(
@@ -388,7 +389,7 @@ def tls_worker(
             ":"
         )
         port = int(port)
-    except:
+    except Exception:
         return None
 
     timeout = 1.5
@@ -509,7 +510,7 @@ async def https_worker_async(
         ip = parts[0]
         port = int(parts[1])
 
-    except:
+    except Exception:
         return None
 
     timeout = min(
@@ -605,11 +606,14 @@ def https_scan():
         for i in range(0, len(tls_items), batch_size)
     ]
 
-    for batch in batches:
-        results = asyncio.run(run_batch(batch))
-        for res in results:
-            if res:
-                https_live.append(res)
+    async def process_batches():
+        for batch in batches:
+            results = await run_batch(batch)
+            for res in results:
+                if res:
+                    https_live.append(res)
+
+    asyncio.run(process_batches())
 
     append_https_live(
         https_live
@@ -621,7 +625,9 @@ def https_scan():
 
 
 def fp_worker(
-    item
+    item,
+    tls_lookup,
+    domains
 ):
     try:
         parts = item.split("|")
@@ -634,7 +640,7 @@ def fp_worker(
         reliability = parts[5]
         ws = parts[6]
 
-    except:
+    except Exception:
         return None
 
     meta = https_meta_get(
@@ -647,37 +653,10 @@ def fp_worker(
         {}
     )
 
-    tls_info = {}
-
-    try:
-        with open(
-            "output/tls_live.txt",
-            "r",
-            encoding="utf-8"
-        ) as f:
-
-            for line in f:
-
-                if line.startswith(
-                    f"{ip}:{port}"
-                ):
-
-                    tls_parts = line.strip().split(
-                        ":"
-                    )
-
-                    if len(tls_parts) >= 6:
-
-                        tls_info = {
-                            "alpn": tls_parts[3],
-                            "sni": tls_parts[4],
-                            "issuer": tls_parts[5]
-                        }
-
-                    break
-
-    except:
-        pass
+    tls_info = tls_lookup.get(
+        (ip, port),
+        {}
+    )
 
     geo_cache = load_geo_cache()
     geo = geo_cache.get(ip)
@@ -690,15 +669,10 @@ def fp_worker(
 
     sni = tls_info.get("sni", "")
     domain = None
-    try:
-        with open("output/domains_raw.txt", "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and line in sni:
-                    domain = line
-                    break
-    except:
-        pass
+    for d in domains:
+        if d and d in sni:
+            domain = d
+            break
 
     cdn = detect_cdn(
         ip=ip,
@@ -741,6 +715,35 @@ def fingerprint_scan():
         f"THREADS={threads}"
     )
 
+    tls_lookup = {}
+    try:
+        with open("output/tls_live.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                parts = line.split(":")
+                if len(parts) >= 6:
+                    ip = parts[0]
+                    port = int(parts[1])
+                    tls_lookup[(ip, port)] = {
+                        "alpn": parts[3],
+                        "sni": parts[4],
+                        "issuer": parts[5]
+                    }
+    except Exception:
+        pass
+
+    domains = []
+    try:
+        with open("output/domains_raw.txt", "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    domains.append(line)
+    except Exception:
+        pass
+
     fp_results = []
 
     with ThreadPoolExecutor(
@@ -748,7 +751,7 @@ def fingerprint_scan():
     ) as ex:
 
         for res in ex.map(
-            fp_worker,
+            lambda x: fp_worker(x, tls_lookup, domains),
             https_items
         ):
             if res:
@@ -767,7 +770,8 @@ def fingerprint_scan():
 
 def geo_worker(
     item,
-    geo_cache
+    geo_cache,
+    geo_lock
 ):
     try:
         parts = item.split("|")
@@ -781,7 +785,7 @@ def geo_worker(
         ws = parts[6]
         cdn = parts[7]
 
-    except:
+    except Exception:
         return None
 
     geo = geo_cache.get(
@@ -792,7 +796,8 @@ def geo_worker(
         geo = geo_lookup(
             ip
         )
-        geo_cache[ip] = geo
+        with geo_lock:
+            geo_cache[ip] = geo
 
     country = geo.get(
         "country",
@@ -831,6 +836,7 @@ def geo_scan():
     )
 
     geo_cache = load_geo_cache()
+    geo_lock = Lock()
     final = []
 
     with ThreadPoolExecutor(
@@ -841,7 +847,8 @@ def geo_scan():
             lambda x:
             geo_worker(
                 x,
-                geo_cache
+                geo_cache,
+                geo_lock
             ),
             fp_items
         ):
