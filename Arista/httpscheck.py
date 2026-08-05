@@ -17,7 +17,7 @@ async def tcp_connect_time(ip: str, port: int, timeout: float = 2) -> int | None
         writer.close()
         await writer.wait_closed()
         return elapsed
-    except:
+    except Exception:
         return None
 
 async def detect_alpn(ip: str, port: int, timeout: float = 2) -> str:
@@ -28,21 +28,22 @@ async def detect_alpn(ip: str, port: int, timeout: float = 2) -> str:
     ctx.verify_mode = ssl.CERT_NONE
     try:
         ctx.set_alpn_protocols(["h2", "http/1.1"])
-    except:
+    except Exception:
         pass
     try:
         start = time.perf_counter()
         reader, writer = await asyncio.wait_for(asyncio.open_connection(ip, port, ssl=ctx), timeout)
-        proto = writer.get_extra_info("ssl_object").selected_alpn_protocol()
+        ssl_obj = writer.get_extra_info("ssl_object")
+        proto = ssl_obj.selected_alpn_protocol() if ssl_obj else ""
         writer.close()
         await writer.wait_closed()
         return proto.lower() if proto else ""
-    except:
+    except Exception:
         return ""
 
 async def https_check(ip: str, port: int, timeout: float = 3, retries: int = 5) -> Tuple[bool, Dict[str, Any] | None]:
     scheme = scheme_for(port)
-    url = f"{scheme}://{ip}"
+    url = f"{scheme}://{ip}:{port}"
     ok_count = 0
     ttfb_list: List[int] = []
     connect_times: List[int] = []
@@ -68,15 +69,25 @@ async def https_check(ip: str, port: int, timeout: float = 3, retries: int = 5) 
         for _ in range(retries):
             try:
                 start = time.perf_counter()
-                async with session.get(url, headers=headers, allow_redirects=False, ssl=ssl_ctx) as resp:
-                    await resp.content.read(1)
-                    ttfb = int((time.perf_counter() - start) * 1000)
-                    final_status = resp.status
-                    final_headers = dict(resp.headers)
-                    status_codes.append(resp.status)
-                    ok_count += 1
-                    ttfb_list.append(ttfb)
-            except:
+                if scheme == "https":
+                    async with session.get(url, headers=headers, allow_redirects=False, ssl=ssl_ctx) as resp:
+                        await resp.content.read(1)
+                        ttfb = int((time.perf_counter() - start) * 1000)
+                        final_status = resp.status
+                        final_headers = dict(resp.headers)
+                        status_codes.append(resp.status)
+                        ok_count += 1
+                        ttfb_list.append(ttfb)
+                else:
+                    async with session.get(url, headers=headers, allow_redirects=False) as resp:
+                        await resp.content.read(1)
+                        ttfb = int((time.perf_counter() - start) * 1000)
+                        final_status = resp.status
+                        final_headers = dict(resp.headers)
+                        status_codes.append(resp.status)
+                        ok_count += 1
+                        ttfb_list.append(ttfb)
+            except Exception:
                 continue
 
     if ok_count == 0:
@@ -141,7 +152,13 @@ async def https_check(ip: str, port: int, timeout: float = 3, retries: int = 5) 
     }
 
 async def check_multiple_ips(ip_port_list: List[Tuple[str, int]]) -> Dict[Tuple[str,int], Tuple[bool, Dict[str, Any] | None]]:
-    tasks = [https_check(ip, port) for ip, port in ip_port_list]
+    semaphore = asyncio.Semaphore(50)
+    
+    async def limited_check(ip: str, port: int):
+        async with semaphore:
+            return await https_check(ip, port)
+    
+    tasks = [limited_check(ip, port) for ip, port in ip_port_list]
     results = await asyncio.gather(*tasks, return_exceptions=True)
     output = {}
     for (ip, port), res in zip(ip_port_list, results):
