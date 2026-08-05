@@ -1,7 +1,2 @@
-itunes.apple.com
-play.google.com
-www.google.com
-www.softether-download.com
-www.softether.org
-www.tp-link.com
+mail.adfa.ir
 www.w3.org
