@@ -29,6 +29,7 @@ linkoapp.click
 mailinabox.email
 my.bmi.ir
 navidbook.com
+niikmades.ir
 ogp.me
 openvpn.net
 oss.maxcdn.com
