@@ -1,3 +1,11 @@
-parskavosh.ir
-www.googletagmanager.com
+date.now
+google.ml
+google.sn
+nginx.com
+nginx.org
+performance.now
+react.dev
+schema.org
+www.google.com
+www.gstatic.com
 www.w3.org
