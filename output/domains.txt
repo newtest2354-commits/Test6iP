@@ -61,7 +61,6 @@ seosignal.net
 server.rainic.com
 span.social
 srv.mesrafsanjan.com
-srv1.jahankhahan.shop
 sstatic1.histats.com
 static.neshan.org
 static.tabangohar.com
