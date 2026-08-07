@@ -1,17 +1,1 @@
-docs.oracle.com
-example.com
-fonts.googleapis.com
-github.com
-gmpg.org
-instagram.com
-katonikhan.com
-mail.dongi.ir
-ogp.me
-schema.org
-server2.server-iran.com
-this.media
-www.enable-javascript.com
-www.example.com
-www.googletagmanager.com
-www.oracle.com
 www.w3.org
