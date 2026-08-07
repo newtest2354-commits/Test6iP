@@ -2,6 +2,7 @@ a.is
 about.gitlab.com
 amoraflower.shop
 api.nerkhpro.com
+app.element.io
 arturgit.ir
 behance.net
 besyar.design.school
@@ -10,8 +11,10 @@ bia2band.ir
 cafebazaar.ir
 cdn.jsdelivr.net
 cdn.prod.website-files.com
+cdn.tailwindcss.com
 cdn.yektanet.com
 cdnjs.cloudflare.com
+clipshare.ir
 commons-pages.search.show
 core.siz.ir
 d.plus
@@ -35,11 +38,13 @@ forum.gitlab.com
 fusca-template.webflow.io
 getbootstrap.com
 gitlab.sharifmind.ir
+gmail.com
 gmpg.org
 go.microsoft.com
 hooshyaar.io
 html5shiv.googlecode.com
 ihla.ir
+imixar.com
 index.id
 instagram.com
 instanceai.store
@@ -65,6 +70,7 @@ performance.now
 play.google.com
 py.siz.ir
 reactrouter.com
+reveal.in
 s.id
 s.w.org
 saffarigold.ir
@@ -77,6 +83,7 @@ subshop.ir
 support.plesk.com
 t.me
 tailwindcss.com
+tar.bz
 tehran.earth
 this.media
 toast.show
@@ -90,6 +97,8 @@ website.page
 www.goftino.com
 www.google-analytics.com
 www.googletagmanager.com
+www.gstatic.com
+www.recaptcha.net
 www.riffmax.com
 www.vajehyab.com
 www.w3.org
