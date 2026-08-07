@@ -1,1 +1,7 @@
-185.75.196.11|443|200|572|http/1.1|1.0|0|unknown|Iran|Sepehr Saye Ban...
+93.113.224.36|443|403|363|h2|1.0|0|cloudflare|Iran|Afranet
+93.113.224.35|443|502|427|h2|1.0|0|cloudflare|Iran|Afranet
+93.113.224.117|443|403|344|h2|1.0|0|cloudflare|Iran|Afranet
+93.113.224.37|443|403|425|http/1.1|1.0|0|cloudflare|Iran|Afranet
+93.113.224.116|443|302|483|http/1.1|1.0|0|cloudflare|Iran|Afranet
+93.113.224.118|443|403|363|h2|1.0|0|cloudflare|Iran|Afranet
+93.113.224.87|443|200|343|http/1.1|1.0|0|cloudflare|Iran|Afranet

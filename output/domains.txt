@@ -1,1 +1,4 @@
-www.w3.org
+assets.banimode.com
+www.banimode.com
+www.google-analytics.com
+www.googletagmanager.com
