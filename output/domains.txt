@@ -1,11 +1,3 @@
-admin.mnoo.ir
-aseman.mnoo.ir
-farzaneh.mnoo.ir
-files.mnoo.ir
-hasti.mnoo.ir
-meathous.mnoo.ir
-mnoo.ir
-nandis.mnoo.ir
-navid.mnoo.ir
-schema.org
+parskavosh.ir
+www.googletagmanager.com
 www.w3.org
