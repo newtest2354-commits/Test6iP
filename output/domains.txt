@@ -24,6 +24,7 @@ fonts.googleapis.com
 fonts.gstatic.com
 gitea.dev
 github.com
+gmail.com
 gmpg.org
 go.dev
 instagram.com
@@ -43,6 +44,7 @@ mail.shaterabbasco.ir
 mail.zirehapp.com
 mail1.sitaad.net
 matrix.org
+mesrafsanjan.com
 modiransakhteman.ir
 n8n.io
 nimkatsoft.ir
@@ -70,6 +72,7 @@ trustseal.e-rasaneh.ir
 twitter.com
 unicons.iconscout.com
 vilafarda.ir
+vinsign.ir
 web-gis.ir
 webmail.manamakian.com
 website.page
@@ -77,4 +80,6 @@ www.aparat.com
 www.catoo.ir
 www.google-analytics.com
 www.googletagmanager.com
+www.instagram.com
+www.mesrafsanjan.com
 www.w3.org
