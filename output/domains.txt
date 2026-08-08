@@ -1,2 +1,2 @@
-maghzinefit.ir
-schema.org
+go.microsoft.com
+www.w3.org
