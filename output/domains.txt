@@ -1,13 +1,9 @@
 amirrezadehghan.com
 amirrezadehghan.ir
-coreui.io
-fhco.ir
 fonts.bunny.net
 fonts.googleapis.com
 input.is
-it-co.ir
 kavimo.com
-mail.mahanbs.com
 mail.tsco.ir
 maxcdn.bootstrapcdn.com
 ogp.me
@@ -17,6 +13,7 @@ schema.org
 sokout.holoo.guru
 stream.karstarter.ir
 telegram.me
+three.holoo.guru
 trustseal.enamad.ir
 two.holoo.guru
 www.google.com
