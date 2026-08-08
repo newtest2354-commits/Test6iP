@@ -1,4 +1,11 @@
-www.google.com
-www.softether-download.com
-www.softether.org
+fonts.googleapis.com
+fonts.gstatic.com
+github.com
+gmail.com
+i.ibb.co
+link.id
+natanmalanka.com
+schema.org
+store.nat2k15.xyz
+www.linkedin.com
 www.w3.org
