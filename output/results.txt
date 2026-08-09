@@ -1,6 +1,8 @@
-94.184.36.98|443|302|465|http/1.1|1.0|0|cloudflare|Iran|Telecommunication Co. of Iran
-94.184.36.19|443|307|463|http/1.1|1.0|0|cloudflare|Iran|Telecommunication Co. of Iran
-94.184.33.134|443|200|560|h2|1.0|0|cloudflare|Iran|Cloudinow
-94.184.4.11|443|200|645|http/1.1|1.0|0|cloudflare|Iran|Saeid Shahrokhi
-94.184.4.11|8080|400|564|http|1.0|0|cloudflare|Iran|Saeid Shahrokhi
-94.184.210.155|443|401|451|http/1.1|1.0|0|cloudflare|Iran|IPM/IRANET address
+94.184.11.72|2083|404|334|http/1.1|1.0|0|cloudflare|Iran|FanAvaran Mihan Mizban PJSC
+94.184.11.72|2087|404|345|http/1.1|1.0|0|cloudflare|Iran|FanAvaran Mihan Mizban PJSC
+94.184.176.129|443|200|720|http/1.1|1.0|0|cloudflare|Iran|Khajeh Nasir Toosi University
+94.184.18.212|443|403|777|http/1.1|1.0|0|cloudflare|Iran|Tejarat Electronic Nojhan...
+94.184.18.212|2053|404|350|http/1.1|1.0|0|cloudflare|Iran|Tejarat Electronic Nojhan...
+94.184.18.212|2096|404|328|http/1.1|1.0|0|cloudflare|Iran|Tejarat Electronic Nojhan...
+94.184.11.56|2096|404|351|http/1.1|1.0|0|cloudflare|Iran|FanAvaran Mihan Mizban PJSC
+94.184.18.206|443|200|414|h2|1.0|0|cloudflare|Iran|Tejarat Electronic Nojhan...

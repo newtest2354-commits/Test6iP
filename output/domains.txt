@@ -1,4 +1,4 @@
-fonts.googleapis.com
-fonts.gstatic.com
-se1.hep.ipm.ir
-yourcompany.com
+event.page
+init.es
+static.129.176.184.94.clients.kntu.ac.ir
+www.w3.org
