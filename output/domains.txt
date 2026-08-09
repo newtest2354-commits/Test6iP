@@ -5,7 +5,6 @@ mail.pakshoma.com
 mikrotik.com
 mt.lv
 this.media
-www.citrix.com
 www.enable-javascript.com
 www.google.com
 www.hilavis.com
