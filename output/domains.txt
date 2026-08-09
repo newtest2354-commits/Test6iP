@@ -5,7 +5,6 @@ cdnjs.cloudflare.com
 clinicsaayeh.ir
 fonts.googleapis.com
 fonts.gstatic.com
-mail.jibakapp.com
 music.vina.vision
 novido.ir
 performance.now
