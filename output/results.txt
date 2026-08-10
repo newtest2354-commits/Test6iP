@@ -1,1 +1,1 @@
-2.186.117.210|443|200|1295|http/1.1|1.0|0|fastly|Iran|Information Tech Co.
+2.186.117.210|443|200|1295|http/1.1|1.0|0|unknown|Iran|Information Tech Co.

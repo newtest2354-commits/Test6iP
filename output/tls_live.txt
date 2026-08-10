@@ -1,1 +1,3 @@
-2.186.117.210:443:285::cdn.fastly.net:
+188.0.255.26:443:278::cloudflare.com:
+188.0.255.180:443:291::cloudflare.com:
+188.0.255.78:443:313::cloudflare.com:
