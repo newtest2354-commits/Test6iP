@@ -1,4 +1,3 @@
-fonts.gstatic.com
 mikrotik.com
 wiki.mikrotik.com
 window.name
