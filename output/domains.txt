@@ -1,0 +1,10 @@
+asp.net
+cloudcp.mahannet.ir
+cloudmahan.com
+example.com
+my.mahannet.ir
+mycloud.mahannet.ir
+nginx.com
+nginx.org
+www.googletagmanager.com
+www.w3.org
