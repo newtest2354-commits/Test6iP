@@ -1,12 +1,1 @@
-31.170.50.52:443:182::cloudflare.com:
-31.170.49.223:443:200::cloudflare.com:
-31.170.50.45:443:184:h2:cloudflare.com:
-31.170.49.255:443:198::cloudflare.com:
-31.170.49.139:443:195::cloudflare.com:
-31.170.50.204:443:190::cloudflare.com:
-31.170.50.93:443:197:http/1.1:cloudflare.com:
-31.170.50.93:2083:186::cloudflare.com:
-31.170.50.93:2087:324::cloudflare.com:
-31.170.50.93:2096:184::cloudflare.com:
-31.170.50.240:443:198::cloudflare.com:
-31.170.49.204:8443:222:h2:www.cloudflare.com:
+2.186.117.210:443:285::cdn.fastly.net:
