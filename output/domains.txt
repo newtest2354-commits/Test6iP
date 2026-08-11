@@ -1,3 +1,10 @@
-nginx.com
-nginx.org
+agw.refahtech.ir
+arshinzaminkoosha.ir
+iran.ir
+itunes.apple.com
+play.google.com
+refahtech.ir
+schema.org
+www.ubnt.com
 www.w3.org
+yoast.com
