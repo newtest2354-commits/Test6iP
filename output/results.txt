@@ -1,1 +1,18 @@
-5.42.223.10|443|200|706|http/1.1|1.0|0|cloudflare|Iran|Patron Tech Persia
+31.47.51.227|2096|404|408|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.45.51|2053|404|574|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.45.51|2096|403|562|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.55.195|443|200|560|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.46.145|443|301|579|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.46.88|443|403|483|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.32.146|443|200|530|http/1.1|1.0|0|cloudflare|Iran|Afranet
+31.47.46.148|443|301|413|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.46.228|443|301|430|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.51.205|2053|404|421|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.51.205|2083|404|401|h2|1.0|0|cloudflare|Iran|AFranet Co
+31.47.51.205|2096|404|401|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.51.191|2096|404|494|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.36.22|443|302|420|http/1.1|1.0|0|cloudflare|Iran|Afranet Co
+31.47.46.102|443|302|445|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.46.139|443|301|495|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
+31.47.46.117|443|403|633|h2|1.0|0|cloudflare|Iran|AFranet Co
+31.47.54.130|443|200|816|http/1.1|1.0|0|cloudflare|Iran|AFranet Co
