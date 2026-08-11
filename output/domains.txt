@@ -1,7 +1,6 @@
-browsehappy.com
-cdnjs.cloudflare.com
-github.com
-html5boilerplate.com
-performance.now
-react.dev
-static.sabaidea.cloud
+instagram.com
+nshn.ir
+rapidpars.com
+www.bigbluebutton.org
+www.gnu.org
+www.w3.org
