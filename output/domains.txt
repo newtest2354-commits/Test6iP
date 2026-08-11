@@ -1,3 +1,14 @@
-help.mikrotik.com
-mikrotik.com
-mt.lv
+achareh.co
+bbb.pmpiran.com
+date.now
+getbootstrap.com
+github.com
+google.ml
+google.sn
+lh3.googleusercontent.com
+s3.achareh.co
+schema.org
+www.google-analytics.com
+www.google.com
+www.gstatic.com
+www.w3.org
