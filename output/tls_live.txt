@@ -1,3 +1,5 @@
-188.211.8.228:443:219:h2:cloudflare.com:
-188.211.8.230:443:222::cloudflare.com:
-188.211.9.248:443:205::cloudflare.com:
+185.51.40.19:443:197::cloudflare.com:
+185.51.40.18:443:207::cloudflare.com:
+185.51.40.49:80:391:http/1.1:cloudflare.com:
+185.51.40.48:80:390:http/1.1:cloudflare.com:
+185.51.40.31:80:393:http/1.1:cloudflare.com:
