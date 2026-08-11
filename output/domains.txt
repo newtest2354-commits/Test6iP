@@ -1,8 +1,3 @@
-cookie-cdn.cookiepro.com
-this.media
-www.aradsolution.com
-www.google.com
-www.poupack.com
-www.softether-download.com
-www.softether.org
+nginx.com
+nginx.org
 www.w3.org
