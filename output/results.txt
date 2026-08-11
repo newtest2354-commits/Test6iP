@@ -1,1 +1,1 @@
-5.42.223.10|443|200|470|http/1.1|1.0|0|cloudflare|Iran|Patron Tech Persia
+5.42.223.10|443|200|706|http/1.1|1.0|0|cloudflare|Iran|Patron Tech Persia
