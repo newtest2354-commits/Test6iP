@@ -1,5 +1,12 @@
-fpdownload.macromedia.com
-style.top
-swflash.cab
-www.macromedia.com
+cdn.jsdelivr.net
+github.com
+go.microsoft.com
+kb.mrlicense.net
+purl.eligrey.com
+raw.github.com
+server.ramintaban.ir
+server1.hvachouse.ir
+stuartk.com
+this.media
+www.manageengine.com
 www.w3.org

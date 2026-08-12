@@ -1,3 +1,25 @@
-188.136.133.65|443|200|803|http/1.1|1.0|0|cloudflare|Iran|Ariana Gostar Spadana's
-188.136.133.51|443|200|730|http/1.1|1.0|0|cloudflare|Iran|Ariana Gostar Spadana's
-188.136.133.83|443|200|981|http/1.1|1.0|0|cloudflare|Iran|Ariana Gostar Spadana's
+45.94.255.3|443|404|539|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.26|443|404|530|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.254.69|443|301|494|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.254.70|443|301|458|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.20|443|200|557|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.16|443|404|540|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.21|443|404|504|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.14|443|403|493|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.25|443|404|476|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.29|443|200|575|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.23|443|404|522|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.74|443|400|585|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.7|443|404|467|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.27|443|200|494|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.24|443|404|486|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.75|443|400|503|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.10|443|200|522|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.12|443|200|606|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.22|443|404|494|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.186|443|200|640|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.180|443|200|1028|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.184|443|200|1422|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.189|443|200|566|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.220|443|404|647|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+45.94.255.181|8443|200|868|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
