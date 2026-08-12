@@ -1,2 +1,5 @@
-185.11.176.202|8443|200|1271|http/1.1|1.0|0|cloudflare|Iran|Khalij Fars Ettela Resan LTD
-185.11.178.26|443|404|1223|http/1.1|1.0|0|cloudflare|Iran|Khalij Fars Ettela Resan LTD
+185.255.88.15|443|200|655|http/1.1|1.0|0|cloudflare|Iran|Green Web Samaneh Novin PJSC
+185.255.88.5|443|200|1075|http/1.1|1.0|0|cloudflare|Iran|Green Web Samaneh Novin PJSC
+185.255.88.18|443|200|411|h2|1.0|0|cloudflare|Iran|Green Web Samaneh Novin PJSC
+185.255.88.13|443|200|627|http/1.1|1.0|0|cloudflare|Iran|Green Web Samaneh Novin PJSC
+185.255.88.24|443|200|411|http/1.1|1.0|0|cloudflare|Iran|Green Web Samaneh Novin PJSC
