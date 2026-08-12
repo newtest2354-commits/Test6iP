@@ -1,6 +1,12 @@
-instagram.com
-nshn.ir
-rapidpars.com
-www.bigbluebutton.org
-www.gnu.org
+cdn.jsdelivr.net
+gmpg.org
+ogp.me
+parsanoor.net
+porsline-simg-dev.s3.ir-thr-at1.arvanstorage.ir
+porsline.com
+porsline.ir
+porslinedev.ir
+rankmath.com
+schema.org
+unpkg.com
 www.w3.org
