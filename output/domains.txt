@@ -1,5 +1,4 @@
-instagram.com
-linkedin.com
-schema.org
-twitter.com
+drsaaz.com
+gmpg.org
+www.mdaemon.com
 www.w3.org
