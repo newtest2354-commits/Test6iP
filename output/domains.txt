@@ -1,1 +1,8 @@
-galaxy.asemanhost.com
+cdn.jsdelivr.net
+code.jquery.com
+domain.com
+iraniantsp.ir
+mail.eniac-tech.com
+widget-react.raychat.io
+www.googletagmanager.com
+www.w3.org
