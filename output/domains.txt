@@ -1,2 +1,1 @@
-vm2987.euhosted.com
-www.w3.org
+iana.org
