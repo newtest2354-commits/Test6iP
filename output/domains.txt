@@ -1,2 +1,8 @@
-netgate.com
-pfsense.org
+cdn.jsdelivr.net
+cdn.rudderlabs.com
+fonts.googleapis.com
+fonts.gstatic.com
+itk.maynd.ir
+s3.thr1.sotoon.ir
+schema.org
+www.w3.org
