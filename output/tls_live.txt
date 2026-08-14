@@ -1,3 +1,5 @@
-77.238.113.88:443:212::cloudflare.com:
-77.238.112.223:443:302::cloudflare.com:
-77.238.114.117:443:228::cloudflare.com:
+37.202.189.201:443:263::cloudflare.com:
+37.202.171.17:443:257::cloudflare.com:
+37.202.184.118:8080:271::cloudflare.com:
+37.202.154.27:443:275::cloudflare.com:
+37.202.152.62:443:280::cloudflare.com:
