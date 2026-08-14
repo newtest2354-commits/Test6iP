@@ -1,3 +1,3 @@
-81.90.157.30|8443|200|408|http/1.1|1.0|0|cloudflare|Iran|Afranet Co
-81.90.157.46|443|302|1127|http/1.1|1.0|0|cloudflare|Iran|Afranet
-81.90.157.46|8443|200|518|http/1.1|1.0|0|cloudflare|Iran|Afranet
+81.90.157.30|8443|200|408|http/1.1|1.0|0|unknown|Iran|Afranet Co
+81.90.157.46|443|302|1127|http/1.1|1.0|0|unknown|Iran|Afranet
+81.90.157.46|8443|200|518|http/1.1|1.0|0|unknown|Iran|Afranet
