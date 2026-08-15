@@ -1,6 +1,1 @@
-185.129.237.117:443:214::cloudflare.com:
-185.129.237.14:443:245::www.cloudflare.com:
-185.129.237.120:443:262::cloudflare.com:
-185.129.237.15:443:254::cloudflare.com:
-185.129.238.32:443:209::cloudflare.com:
-185.129.238.40:443:227::cloudflare.com:
+188.0.253.245:443:192::cloudflare.com:
