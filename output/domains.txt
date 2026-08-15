@@ -1,7 +1,1 @@
-dhsauthportalext.dhs.gov
-files.buildwithfern.com
-idme.docs.buildwithfern.com
-login.gov
-ok10static2.oktacdn.com
 www.w3.org
-x2flogin.okta.com

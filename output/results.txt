@@ -1,19 +1,5 @@
-172.65.184.190|443|302|791|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.76|443|403|757|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.76|8443|403|749|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.76|2053|403|796|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.76|2083|403|731|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.76|2087|403|740|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.76|2096|403|784|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.64.156.80|443|403|642|h2|1.0|0|cloudflare|Canada|Cloudflare
-172.64.156.80|8443|403|592|h2|1.0|0|cloudflare|Canada|Cloudflare
-172.64.156.80|2053|403|599|h2|1.0|0|cloudflare|Canada|Cloudflare
-172.64.156.80|2083|403|626|h2|1.0|0|cloudflare|Canada|Cloudflare
-172.64.156.80|2087|403|574|h2|1.0|0|cloudflare|Canada|Cloudflare
-172.64.156.80|2096|403|614|h2|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.120|443|403|192|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.120|8443|403|387|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.120|2053|403|294|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.120|2083|403|140|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.120|2087|403|405|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
-172.66.138.120|2096|403|114|http/1.1|1.0|0|cloudflare|Canada|Cloudflare
+185.129.237.117|443|200|1127|http/1.1|1.0|0|cloudflare|Iran|Enteghal Dadeh Mahan Co. PJSC
+185.129.237.120|443|200|1075|http/1.1|1.0|0|cloudflare|Iran|Enteghal Dadeh Mahan Co. PJSC
+185.129.237.15|443|200|1130|http/1.1|1.0|0|cloudflare|Iran|Enteghal Dadeh Mahan Co. PJSC
+185.129.238.32|443|200|1696|http/1.1|1.0|0|cloudflare|Iran|Enteghal Dadeh Mahan Co. PJSC
+185.129.238.40|443|200|1073|http/1.1|1.0|0|cloudflare|Iran|Enteghal Dadeh Mahan Co. PJSC
