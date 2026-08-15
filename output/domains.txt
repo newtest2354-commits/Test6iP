@@ -1,8 +1,5 @@
-academy.kasraco.net
-docs.marcopacs.com
-kasraco.net
-kb.marcopacs.com
-lego.web
-www.kasraco.ir
-www.marcopacs.com
+haveibeenpwned.com
+link.id
+mail.makan-system.ir
+upgrade.yubico.com
 www.w3.org
