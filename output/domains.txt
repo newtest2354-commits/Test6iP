@@ -81,7 +81,6 @@
 88-129-162-193.static.hostiran.name
 abarrayan.com
 about.gitlab.com
-apam-co.com
 api.w.org
 app.element.io
 app.najva.com
@@ -92,7 +91,6 @@ cdn.kavenegar.com
 cdn.navatel.ir
 commons-pages.search.show
 community.jitsi.org
-darabcrane.ir
 daroo.plus
 date.now
 drhrizadi.ir
@@ -109,7 +107,6 @@ grafana.com
 gravatar.com
 images.unsplash.com
 instagram.com
-instanceai.store
 ir.linkedin.com
 irannovin.net
 istaserver-ir.ir
@@ -135,7 +132,6 @@ play.google.com
 preview.keenthemes.com
 pro.fontawesome.com
 ptr.showtick.org
-s.w.org
 schema.org
 sentry.hamfa.org
 sentry.io
