@@ -1,20 +1,13 @@
-103.216.62.68|443|501|470|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.97|443|200|599|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.203|443|302|414|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.102|443|303|548|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.102|8443|303|543|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.146|443|200|495|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.165|443|404|474|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.162|443|200|492|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.171|443|302|852|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.172|443|302|539|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.58|443|200|493|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.50|443|200|407|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.42|443|200|480|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.82|443|404|753|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.133|443|200|809|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.132|443|500|819|http/1.1|0.5|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.61.174|443|200|392|http/1.1|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.179|443|200|396|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.181|443|404|466|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
-103.216.62.182|443|200|422|h2|1.0|0|cloudflare|Iran|Sindad Network Tech PJSC
+217.11.27.131|443|404|679|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.27.139|443|302|375|http/1.1|1.0|0|cloudflare|Iran|AFRANET Co
+217.11.27.163|443|404|695|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.27.164|443|301|730|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.27.116|443|403|837|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.27.117|443|403|864|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.27.22|443|301|573|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.27.190|443|301|756|http/1.1|1.0|0|cloudflare|Iran|AFRANET Co
+217.11.28.53|443|403|705|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.28.50|8443|200|905|http/1.1|0.5|0|cloudflare|Iran|Afranet
+217.11.28.2|443|200|491|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.28.74|2096|404|371|http/1.1|1.0|0|cloudflare|Iran|Afranet
+217.11.28.35|8443|200|476|http/1.1|1.0|0|cloudflare|Iran|AFRANET Co.
