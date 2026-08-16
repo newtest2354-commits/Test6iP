@@ -1,9 +1,0 @@
-cp.irvm.org
-my.parsabr.com
-oss.maxcdn.com
-parsabr.com
-performance.now
-react.dev
-schema.org
-t.me
-www.w3.org
