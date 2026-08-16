@@ -1,1 +1,1 @@
-94.183.129.253|443|200|963|http/1.1|1.0|0|cloudflare|Iran|Aria Shatel PJSC
+94.183.129.253|443|200|680|http/1.1|1.0|0|cloudflare|Iran|Aria Shatel PJSC
