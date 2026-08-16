@@ -1,2 +1,2 @@
-185.246.6.66:443:208:http/1.1:cloudflare.com:
-185.246.6.98:443:205::cloudflare.com:
+92.42.51.237:443:229::cloudflare.com:
+92.42.53.18:443:207::cloudflare.com:

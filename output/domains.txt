@@ -1,2 +1,3 @@
-mail.kavianpetro.com
+a.ylad.ir
+go.microsoft.com
 www.w3.org
