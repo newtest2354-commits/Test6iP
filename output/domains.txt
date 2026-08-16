@@ -1,4 +1,3 @@
-777premium.co
 adminlte.io
 affine.pro
 agorbana.com
@@ -8,6 +7,7 @@ api.w.org
 app.affine.pro
 app.khanetala.ir
 artfest.ir
+asp.net
 bahonarkaraj.ir
 bamdad.studio
 bim-led.com
@@ -17,6 +17,7 @@ cdn.jsdelivr.net
 digikalaads.com
 eclipse.org
 ecstatic-greider.195-88-208-125.plesk.page
+firehose.us-west-2.amazonaws.com
 flask.palletsprojects.com
 fonts.googleapis.com
 fonts.gstatic.com
@@ -39,6 +40,8 @@ mail.tpciran.com
 mailu.io
 maps.app.goo.gl
 movento.ir
+mtashilgar.com
+musing-leakey.195-88-208-17.plesk.page
 password.email
 pex-net.com
 pex-net.org
@@ -48,6 +51,7 @@ qbank24.ir
 qmb.ir
 razan.studio
 replay.hematitegold.com
+s34.picofile.com
 samsoonet.com
 schema.org
 sentry.io
@@ -57,6 +61,7 @@ static.openreplay.com
 statics.hematitegold.com
 support.plesk.com
 t.me
+talieghbali.com
 telegram.me
 trustseal.enamad.ir
 uat-proxy.plesk.com
