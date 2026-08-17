@@ -5,11 +5,8 @@ fonts.googleapis.com
 fonts.gstatic.com
 item.id
 mail.fceo.ir
-schema.org
 srv.magnet-store.com
-tazminhesab.com
 tip.style.top
 www.altn.com
-www.googletagmanager.com
 www.tazminhesab.com
 www.w3.org
