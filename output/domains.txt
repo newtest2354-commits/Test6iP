@@ -1,15 +1,1 @@
-date.now
-docs.marcopacs.com
-google.ml
-google.sn
-kb.marcopacs.com
-lh3.googleusercontent.com
-schema.org
-this.media
-uploadkon.ir
-www.google.com
-www.gstatic.com
-www.marcopacs.com
-www.softether-download.com
-www.softether.org
 www.w3.org
