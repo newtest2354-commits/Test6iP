@@ -1,12 +1,3 @@
-cdn.coollabs.io
-cdn.jsdelivr.net
-coolify.io
-fonts.googleapis.com
-fonts.gstatic.com
-item.id
-mail.fceo.ir
-srv.magnet-store.com
-tip.style.top
-www.altn.com
-www.tazminhesab.com
-www.w3.org
+10.1.dev
+meeting.scu.ac.ir
+www.adobeconnect.com
