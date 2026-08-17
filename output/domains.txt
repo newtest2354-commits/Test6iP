@@ -1,11 +1,3 @@
-api.w.org
-cdn.rudderlabs.com
-fonts.googleapis.com
-gmpg.org
-js.stripe.com
-karmaniamotors.ir
-mail.shetab.net
-ogp.me
-shetab.net
-www.7soft.biz
-www.w3.org
+help.mikrotik.com
+mikrotik.com
+mt.lv
