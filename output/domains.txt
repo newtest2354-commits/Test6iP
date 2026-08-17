@@ -1,12 +1,10 @@
 646412051774-us2b37q6futpg9p81nv8efvd4o4h2uld.apps.googleusercontent.com
 about.gitlab.com
-bistoontools.com
 bluyar.com
 commons-pages.search.show
 date.now
 fonts.googleapis.com
 forum.gitlab.com
-gmpg.org
 humansignal.com
 iranazfa.ir
 jaws-project.com
@@ -18,7 +16,6 @@ neon.dev
 ogp.me
 oss.maxcdn.com
 portalmine.com
-rankmath.com
 s1.skyroom.ir
 schema.org
 shenasaan.ir
