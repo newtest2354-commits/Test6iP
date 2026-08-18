@@ -1,12 +1,1 @@
-2fwww.googleapis.com
-457987718661-kq4t3h3jh7td3m6mcrl5auvbocmvli4k.apps.googleusercontent.com
-about.gitea.com
-accounts.google.com
-auth2.bitrix24.net
-code.gitea.io
-crm.vertical33.ru
-docs.gitea.com
-github.com
-go.dev
-helpdesk.bitrix24.ru
-nglk.efir-murom.ru
+www.w3.org
