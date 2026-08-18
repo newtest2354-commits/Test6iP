@@ -1,10 +1,5 @@
-docs.marcopacs.com
-kb.marcopacs.com
-lms.ieht-gtc.ir
-www.bigbluebutton.org
-www.gnu.org
-www.google.com
-www.marcopacs.com
-www.softether-download.com
-www.softether.org
+asfood.co
+bnaco.com
+schema.org
+this.media
 www.w3.org
