@@ -1,12 +1,6 @@
-about.gitlab.com
-commons-pages.search.show
-fonts.googleapis.com
-forum.gitlab.com
-go.microsoft.com
-neon.dev
-o1047380.ingest.sentry.io
+input.is
 ogp.me
-oss.maxcdn.com
-www.issabel.org
-www.opensource.org
+rms.mrc.ir
+www.google.com
+www.mozilla.org
 www.w3.org
