@@ -1,6 +1,12 @@
-azmoon.um.ac.ir
-cdn.jsdelivr.net
-openapi-gateway.um.ac.ir
-upmc10.um.ac.ir
-webmail.um.ac.ir
+about.gitlab.com
+commons-pages.search.show
+fonts.googleapis.com
+forum.gitlab.com
+go.microsoft.com
+neon.dev
+o1047380.ingest.sentry.io
+ogp.me
+oss.maxcdn.com
+www.issabel.org
+www.opensource.org
 www.w3.org
