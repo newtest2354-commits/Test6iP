@@ -6,9 +6,7 @@ auth2.bitrix24.net
 code.gitea.io
 crm.vertical33.ru
 docs.gitea.com
-fmdx.org
 github.com
 go.dev
 helpdesk.bitrix24.ru
 nglk.efir-murom.ru
-www.w3.org
