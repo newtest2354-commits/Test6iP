@@ -1,0 +1,5 @@
+fonts.googleapis.com
+fonts.gstatic.com
+performance.now
+react.dev
+v.media
