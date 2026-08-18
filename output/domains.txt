@@ -1,5 +1,6 @@
-asfood.co
-bnaco.com
-schema.org
-this.media
+azmoon.um.ac.ir
+cdn.jsdelivr.net
+openapi-gateway.um.ac.ir
+upmc10.um.ac.ir
+webmail.um.ac.ir
 www.w3.org

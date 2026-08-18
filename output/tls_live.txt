@@ -1,12 +1,5 @@
-89.32.197.44:443:265:h2:cloudflare.com:
-89.32.196.155:443:300::cloudflare.com:
-89.32.197.22:443:294::cloudflare.com:
-89.32.197.58:443:293::cloudflare.com:
-89.32.197.115:443:264::cloudflare.com:
-89.32.197.168:443:269::cloudflare.com:
-89.32.197.98:443:281:h2:cloudflare.com:
-89.32.197.218:443:270::cloudflare.com:
-89.32.197.250:443:284::cloudflare.com:
-89.32.197.179:443:271:h2:cloudflare.com:
-89.32.197.233:443:288::cloudflare.com:
-95.215.160.22:443:247:h2:cloudflare.com:
+185.84.220.22:443:176::cloudflare.com:
+185.84.220.47:443:171::cloudflare.com:
+46.100.250.115:80:182::cloudflare.com:
+185.84.220.129:443:172::cloudflare.com:
+185.84.220.144:443:181::cloudflare.com:
