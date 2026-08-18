@@ -1,2 +1,2 @@
-23.151.48.7|443|404|287|http/1.1|1.0|0|cloudflare|Canada|Tech North Solutions
-23.151.48.16|443|200|243|http/1.1|1.0|0|cloudflare|Canada|Tech North Solutions
+23.151.48.7|443|404|310|http/1.1|1.0|0|cloudflare|Canada|Tech North Solutions
+23.151.48.16|443|200|262|http/1.1|1.0|0|cloudflare|Canada|Tech North Solutions
