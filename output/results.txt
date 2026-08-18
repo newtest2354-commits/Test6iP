@@ -1,10 +1,2 @@
-46.231.235.6|443|301|377|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.235.79|443|200|1005|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.235.81|443|200|1014|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.235.87|443|403|694|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.235.92|443|403|711|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.235.30|8443|200|821|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.236.19|443|200|449|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.236.6|443|200|789|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.236.40|443|200|417|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
-46.231.236.53|443|200|933|http/1.1|1.0|0|cloudflare|Germany|MARCANT AG
+185.46.219.32|443|302|1033|http/1.1|1.0|0|cloudflare|Iran|Shabakeh Gostar Shahriyar...
+185.46.219.173|443|200|406|http/1.1|1.0|0|cloudflare|Iran|Shabakeh Gostar Shahriyar...

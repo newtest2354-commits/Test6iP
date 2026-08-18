@@ -1,4 +1,3 @@
-mccp235-006.dialin.marcant.net
-mccp235-030.dialin.marcant.net
-wikipedia.org
+email.assa-co.com
+www.vmware.com
 www.w3.org
