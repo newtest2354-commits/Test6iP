@@ -1,6 +1,0 @@
-input.is
-ogp.me
-rms.mrc.ir
-www.google.com
-www.mozilla.org
-www.w3.org
