@@ -27,8 +27,6 @@ gmpg.org
 hb.wpmucdn.com
 inrs.gouv.tg
 investissement.gouv.tg
-ipdcp.gouv.tg
-ipdcp.tg
 jo.gouv.tg
 maps.googleapis.com
 nextcloud.com
