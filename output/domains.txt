@@ -1,7 +1,6 @@
 ajax.googleapis.com
 allomongarageafrica.com
 amenagement.gouv.tg
-anid.gouv.tg
 api.w.org
 bigsur-admin.rag-cloud-ch.hosteur.com
 btea.gouv.tg
@@ -13,7 +12,6 @@ cdnjs.cloudflare.com
 chartegraphique.gouv.tg
 clientside.no
 code.jquery.com
-commerce.gouv.tg
 datalab.gouv.tg
 diplomatie.gouv.tg
 docs.nextcloud.com
@@ -30,14 +28,16 @@ investissement.gouv.tg
 ipdcp.gouv.tg
 ipdcp.tg
 jo.gouv.tg
-link.is
+maps.googleapis.com
 nextcloud.com
 node38404-fosem.rag-cloud-ch.hosteur.com
 ogp.me
 opendata.gouv.tg
 pmads.gouv.tg
 presidenceduconseil.gouv.tg
+purl.org
 rankmath.com
+rdfs.org
 s.w.org
 schema.org
 secure.gravatar.com
@@ -48,9 +48,9 @@ stats.wp.com
 test-migration.rag-cloud-ch.hosteur.com
 togo.gouv.tg
 tourisme.gouv.tg
-upf.gouv.tg
 use.typekit.net
 wordpress.org
+www.drupal.org
 www.enable-javascript.com
 www.facebook.com
 www.googletagmanager.com
@@ -63,4 +63,5 @@ www.wikidata.org
 www.youtube.com
 www.zend.com
 x.com
+xmlns.com
 yoast.com
