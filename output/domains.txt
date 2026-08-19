@@ -1,1 +1,4 @@
-nebula.zyxel.com
+fonts.googleapis.com
+manaedge.ir
+panel.goldengaming.ir
+www.w3.org
