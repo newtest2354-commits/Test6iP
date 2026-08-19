@@ -1,6 +1,5 @@
 7707070.xyz
 assets.plesk.com
-cdn.jsdelivr.net
 celltis.fr
 cryptpad.fr
 cryptpad.org
@@ -9,7 +8,6 @@ docs.plesk.com
 github.com
 go.microsoft.com
 ip62.163-5-214.hosted-by.nitro-cloud.com
-mosciski.celeb-o-rama.com
 opencollective.com
 support.plesk.com
 talk.plesk.com
