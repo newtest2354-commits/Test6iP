@@ -1,4 +1,6 @@
-dhcp-24-53-253-180.cable.user.start.ca
-dhcp-24-53-253-181.cable.user.start.ca
-dhcp-24-53-255-19.cable.user.start.ca
-dhcp-24-53-255-34.cable.user.start.ca
+outdatedbrowser.com
+support.sangoma.com
+www.freepbx.org
+www.gnu.org
+www.googletagmanager.com
+www.sangoma.com

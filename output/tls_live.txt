@@ -1,4 +1,1 @@
-24.53.253.181:8443:30::cloudflare.com:
-24.53.253.180:8443:32::cloudflare.com:
-24.53.255.19:8443:39::cloudflare.com:
-24.53.255.34:8443:38::cloudflare.com:
+62.182.91.254:443:182::cloudflare.com:
