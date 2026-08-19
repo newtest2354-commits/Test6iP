@@ -1,25 +1,25 @@
-37.46.63.84|443|404|429|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.84|8443|400|267|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.34|8443|200|400|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
-37.46.62.165|443|200|391|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.62.161|443|403|687|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.62.158|443|403|582|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.23|443|302|678|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
-37.46.63.145|443|200|541|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
-37.46.63.200|443|404|334|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.62.190|443|200|833|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.25|443|404|461|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
-37.46.63.133|443|200|377|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.62.170|443|302|332|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.62.176|443|403|378|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.42|443|302|640|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.85|443|200|436|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.54|443|302|357|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.83|443|302|559|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
-37.46.63.163|443|401|821|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
-37.46.63.230|443|200|506|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
-37.46.63.230|8443|200|370|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
-146.19.12.140|80|302|377|http|1.0|0|cloudflare|Turkey|Veganet Teknolojileri ve...
-146.19.12.140|443|503|272|h2|1.0|0|cloudflare|Turkey|Veganet Teknolojileri ve...
-146.19.12.134|443|404|319|http/1.1|1.0|0|cloudflare|Turkey|Veganet Teknolojileri ve...
-146.19.12.144|443|301|272|http/1.1|1.0|0|cloudflare|Turkey|NCLOUD
+37.46.63.84|443|404|397|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.84|8443|400|346|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.34|8443|200|543|h2|1.0|0|cloudflare|Russia|SEVEREN
+37.46.62.165|443|200|411|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.62.161|443|403|786|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.62.158|443|403|816|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.23|443|302|704|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
+37.46.63.145|443|200|441|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
+37.46.63.200|443|404|499|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.62.190|443|200|1049|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.25|443|404|454|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
+37.46.63.133|443|200|468|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.62.170|443|302|446|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.62.176|443|403|413|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.42|443|302|797|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.85|443|200|494|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.54|443|302|457|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.83|443|302|763|http/1.1|1.0|0|cloudflare|Russia|JSC "Severen-Telecom"
+37.46.63.163|443|401|501|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
+37.46.63.230|443|200|458|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
+37.46.63.230|8443|200|519|http/1.1|1.0|0|cloudflare|Russia|SEVEREN
+146.19.12.140|80|302|506|http|1.0|0|cloudflare|Turkey|Veganet Teknolojileri ve...
+146.19.12.140|443|503|394|h2|1.0|0|cloudflare|Turkey|Veganet Teknolojileri ve...
+146.19.12.134|443|404|385|http/1.1|1.0|0|cloudflare|Turkey|Veganet Teknolojileri ve...
+146.19.12.144|443|301|358|http/1.1|1.0|0|cloudflare|Turkey|NCLOUD
