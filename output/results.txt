@@ -1,20 +1,5 @@
-77.247.183.8|443|403|367|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.7|443|403|400|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.9|443|403|448|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.11|443|403|367|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.18|443|403|338|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.19|443|403|455|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.219|443|200|436|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.215|443|301|360|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.213|443|301|348|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.216|443|301|278|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.211|443|302|502|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.214|443|404|396|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.225|443|401|494|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.182.217|443|301|369|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.81|443|403|410|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.66|443|403|347|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.74|443|403|436|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.78|443|403|416|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.90|443|403|484|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
-77.247.183.84|443|403|387|http/1.1|1.0|0|cloudflare|Netherlands|NFOrce Entertainment BV
+80.79.79.10|443|503|450|http/1.1|1.0|0|cloudflare|Russia|"OBIT"
+80.79.79.106|443|302|327|http/1.1|1.0|0|cloudflare|Russia|"OBIT"
+80.79.79.245|443|302|434|h2|1.0|0|cloudflare|Russia|"OBIT"
+80.79.79.242|443|302|407|h2|1.0|0|cloudflare|Russia|"OBIT"
+80.79.79.199|443|302|801|http/1.1|1.0|0|cloudflare|Russia|"OBIT"
