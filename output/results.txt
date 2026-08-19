@@ -1,5 +1,5 @@
-160.238.54.102|443|200|232|h2|1.0|0|cloudflare|France|Ipeva Sarl
-160.238.54.107|443|200|226|h2|1.0|0|cloudflare|France|Ipeva Sarl
-160.238.54.108|443|200|233|h2|1.0|0|cloudflare|France|Ipeva Sarl
-160.238.54.110|443|200|233|h2|1.0|0|cloudflare|France|Ipeva Sarl
-160.238.55.192|8443|200|464|http/1.1|1.0|0|cloudflare|France|Ipeva Sarl
+83.220.131.125|443|301|305|http/1.1|1.0|0|cloudflare|Germany|PlusServer GmbH
+83.220.132.224|443|301|604|http/1.1|1.0|0|cloudflare|Germany|PlusServer GmbH
+83.220.134.41|443|404|306|h2|1.0|0|cloudflare|Germany|PlusServer GmbH
+83.220.130.68|443|200|464|http/1.1|1.0|0|cloudflare|Germany|PlusServer GmbH
+83.220.130.45|443|200|954|http/1.1|1.0|0|cloudflare|Germany|PlusServer GmbH
