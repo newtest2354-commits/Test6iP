@@ -1,12 +1,1 @@
-docs.nextcloud.com
-mail.genestelecom.ca
-mail.mailme.ca
-mail.mks-mc.com
-nextcloud.com
-phali-opt30-2.cust.smartspb.net
-phali-opt30-3.cust.smartspb.net
-phali-opt30-4.cust.smartspb.net
-ui.design
-www.enable-javascript.com
 www.w3.org
-zg.at
