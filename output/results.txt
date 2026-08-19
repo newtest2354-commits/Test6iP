@@ -1,5 +1,5 @@
-80.79.79.10|443|503|450|http/1.1|1.0|0|unknown|Russia|"OBIT"
-80.79.79.106|443|302|327|http/1.1|1.0|0|unknown|Russia|"OBIT"
-80.79.79.245|443|302|434|h2|1.0|0|unknown|Russia|"OBIT"
-80.79.79.242|443|302|407|h2|1.0|0|unknown|Russia|"OBIT"
-80.79.79.199|443|302|801|http/1.1|1.0|0|unknown|Russia|"OBIT"
+160.238.54.102|443|200|232|h2|1.0|0|cloudflare|France|Ipeva Sarl
+160.238.54.107|443|200|226|h2|1.0|0|cloudflare|France|Ipeva Sarl
+160.238.54.108|443|200|233|h2|1.0|0|cloudflare|France|Ipeva Sarl
+160.238.54.110|443|200|233|h2|1.0|0|cloudflare|France|Ipeva Sarl
+160.238.55.192|8443|200|464|http/1.1|1.0|0|cloudflare|France|Ipeva Sarl

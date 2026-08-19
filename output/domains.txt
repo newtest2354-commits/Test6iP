@@ -1,4 +1,5 @@
-enable-javascript.com
-mail.arti-m.ru
-mail.niic-spektr.ru
-owncloud.com
+ip-102.net-160-238-54.rev.ipeva.net
+ip-107.net-160-238-54.rev.ipeva.net
+ip-108.net-160-238-54.rev.ipeva.net
+ip-110.net-160-238-54.rev.ipeva.net
+ip-192.net-160-238-55.rev.ipeva.net
