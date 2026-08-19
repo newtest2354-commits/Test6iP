@@ -1,6 +1,3 @@
-outdatedbrowser.com
-support.sangoma.com
-www.freepbx.org
-www.gnu.org
-www.googletagmanager.com
-www.sangoma.com
+git.chukotka.ru
+lk.rt.ru
+mt-pppoe.kanchalan.chukotka.ru
