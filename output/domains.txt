@@ -1,6 +1,7 @@
 ajax.googleapis.com
 allomongarageafrica.com
 amenagement.gouv.tg
+anid.gouv.tg
 api.w.org
 bigsur-admin.rag-cloud-ch.hosteur.com
 btea.gouv.tg
@@ -12,6 +13,7 @@ cdnjs.cloudflare.com
 chartegraphique.gouv.tg
 clientside.no
 code.jquery.com
+commerce.gouv.tg
 datalab.gouv.tg
 diplomatie.gouv.tg
 docs.nextcloud.com
