@@ -47,7 +47,6 @@ instanceai.store
 itsmavara.com
 kit.fontawesome.com
 lh3.googleusercontent.com
-lib.arvancloud.ir
 linkedin.com
 mail.daramet.com
 mail.dfmrendering.com
@@ -80,11 +79,12 @@ t.me
 telegram.org
 this.media
 toffeepetshop.com
+trustseal.enamad.ir
 twitter.com
 unpkg.com
-wa.me
 www.adobeconnect.com
 www.bigbluebutton.org
+www.biscunut.com
 www.clarity.ms
 www.enable-javascript.com
 www.facebook.com
