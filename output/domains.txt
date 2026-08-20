@@ -1,7 +1,1 @@
-dspace.susu.ac.ru
-dspace.susu.ru
-examsrv.susu.ru
-gate.lib.susu.ac.ru
-goskey-dev.susu.ru
-main.ait.susu.ac.ru
-prima.susu.ac.ru
+24-153-105-75.cpe.axion.ca
