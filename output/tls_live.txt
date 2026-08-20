@@ -1,4 +1,4 @@
-37.220.31.93:8080:82:h2:cloudflare.com:
-37.220.10.228:443:82:http/1.1:cloudflare.com:
-37.220.3.133:443:83:h2:cloudflare.com:
-37.220.3.135:443:82:http/1.1:cloudflare.com:
+45.90.161.1:443:111:http/1.1:cloudflare.com:
+45.90.161.13:80:112:h2:cloudflare.com:
+45.90.161.13:443:111:h2:cloudflare.com:
+147.215.150.81:443:118:h2:cloudflare.com:

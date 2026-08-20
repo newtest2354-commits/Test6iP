@@ -1,9 +1,5 @@
-37-220-10-228.lg.looking.house
-aphrodite-gr.com
-d7f502dd226820cd13aee7948af735b9.ip.looking.house
-fonts.googleapis.com
-fonts.gstatic.com
-looking.house
-schema.org
-uapeer.eu
-vds.uapeer.eu
+github.com
+grafana.com
+grafana.monitoring.wow.f2.rip
+typo3.org
+www.w3.org

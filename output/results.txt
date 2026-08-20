@@ -1,4 +1,4 @@
-37.220.31.93|8080|400|161|http|1.0|0|cloudflare|UK|Iomart Cloud Svc. Ltd.
-37.220.10.228|443|301|201|http/1.1|1.0|0|cloudflare|UK|Iomart Cloud Svc. Ltd.
-37.220.3.133|443|200|161|h2|1.0|0|cloudflare|UK|Iomart Cloud Svc. Ltd.
-37.220.3.135|443|301|1325|http/1.1|1.0|0|cloudflare|UK|Iomart Cloud Svc. Ltd.
+45.90.161.1|443|302|304|http/1.1|1.0|0|cloudflare|France|Sapinet SAS
+45.90.161.13|80|404|217|http|1.0|0|cloudflare|France|Sapinet SAS
+45.90.161.13|443|404|303|h2|1.0|0|cloudflare|France|Sapinet SAS
+147.215.150.81|443|500|652|h2|1.0|0|cloudflare|France|ESIEE-NOISYLEGRAND
