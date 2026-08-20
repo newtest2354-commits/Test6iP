@@ -1,1 +1,9 @@
+docs.nextcloud.com
+github.com
+itunes.apple.com
+mail.it-secure.waw.pl
 nebula.zyxel.com
+nextcloud.com
+play.google.com
+www.enable-javascript.com
+www.w3.org
