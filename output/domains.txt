@@ -1,5 +1,1 @@
-docs.nextcloud.com
-mailhost.hansteinsand.de
-nextcloud.com
-www.enable-javascript.com
-www.w3.org
+nebula.zyxel.com
