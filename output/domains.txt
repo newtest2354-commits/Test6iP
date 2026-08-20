@@ -1,5 +1,7 @@
-github.com
-grafana.com
-grafana.monitoring.wow.f2.rip
-typo3.org
-www.w3.org
+dspace.susu.ac.ru
+dspace.susu.ru
+examsrv.susu.ru
+gate.lib.susu.ac.ru
+goskey-dev.susu.ru
+main.ait.susu.ac.ru
+prima.susu.ac.ru
