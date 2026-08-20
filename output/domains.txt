@@ -1,2 +1,4 @@
-www.clarity.ms
-www.ernestech.com
+cloud.parsys.com
+parsysassist.freshdesk.com
+rta.cloud.parsys.com
+www.w3.org
