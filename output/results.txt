@@ -1,1 +1,1 @@
-130.254.91.24|443|503|594|http/1.1|1.0|0|cloudflare|Netherlands|Ubisoft Entertainment
+23.134.252.1|443|301|204|h2|1.0|0|cloudflare|USA|ErnesTech LLC
