@@ -1,6 +1,3 @@
-irp22.eternoclserver.org
-itunes.apple.com
-mail.tournamentland.ir
-play.google.com
-www.ubnt.com
+net2.csx.pl
+this.media
 www.w3.org
