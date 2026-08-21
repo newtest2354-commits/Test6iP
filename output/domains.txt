@@ -1,3 +1,0 @@
-net2.csx.pl
-this.media
-www.w3.org

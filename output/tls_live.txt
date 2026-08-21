@@ -1,6 +1,1 @@
-91.90.183.82:443:163:h2:cloudflare.com:
-91.90.183.114:443:163:http/1.1:cloudflare.com:
-91.90.183.108:443:172:h2:cloudflare.com:
-91.90.183.228:443:164:h2:cloudflare.com:
-91.90.183.109:443:165:h2:cloudflare.com:
-91.90.184.182:443:164:h2:cloudflare.com:
+62.49.80.174:443:133:http/1.1:cloudflare.com:

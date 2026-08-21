@@ -1,5 +1,1 @@
-91.90.183.82|443|200|438|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.183.114|443|404|321|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.183.228|443|404|635|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.183.109|443|503|661|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.184.182|443|404|635|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
+62.49.80.174|443|200|376|http/1.1|1.0|0|cloudflare|UK|Vodafone BB
