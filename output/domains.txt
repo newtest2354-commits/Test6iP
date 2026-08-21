@@ -1,2 +1,3 @@
-go.microsoft.com
+maxcdn.bootstrapcdn.com
+ogp.me
 www.w3.org
