@@ -6,7 +6,7 @@ chat.barsamasa.ir
 cocoon.org
 core.telegram.org
 deserver.parsdnszone.com
-e24.ycpi.deb.yahoo.com
+e11.ycpi.deb.yahoo.com
 en.wikipedia.org
 geo.yahoo.com
 mail.tehranmedix.com
