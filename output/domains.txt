@@ -20,7 +20,7 @@ datechime.com
 dedicated.sollutium.com
 discord.gg
 docs.nextcloud.com
-e1.ycpi.amb.yahoo.com
+e20.ycpi.deb.yahoo.com
 example.com
 fonts.googleapis.com
 fonts.gstatic.com
@@ -30,7 +30,6 @@ gmpg.org
 google.ml
 google.sn
 hegmann.alexander-uhrig.de
-hemeda.dental-pro.online
 hgtyhbg.videomakers.com
 javfactory.club
 jhgfdrtyhg.slsx.com
