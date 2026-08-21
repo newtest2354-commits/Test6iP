@@ -1,2 +1,1 @@
-80.75.156.164|443|302|230|h2|1.0|0|cloudflare|France|Cloud Temple SAS
-80.75.156.165|443|404|328|http/1.1|1.0|0|cloudflare|France|Cloud Temple SAS
+89.104.170.139|443|200|174|h2|1.0|0|cloudflare|Canada|i3D.net B.V

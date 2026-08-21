@@ -1,3 +1,2 @@
-maxcdn.bootstrapcdn.com
-ogp.me
-www.w3.org
+fonts.googleapis.com
+fonts.gstatic.com
