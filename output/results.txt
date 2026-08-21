@@ -1,5 +1,5 @@
-91.90.183.82|443|200|322|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.183.114|443|404|236|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.183.228|443|404|476|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.183.109|443|503|489|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
-91.90.184.182|443|404|468|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
+91.90.183.82|443|200|392|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
+91.90.183.114|443|404|292|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
+91.90.183.228|443|404|591|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
+91.90.183.109|443|503|584|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
+91.90.184.182|443|404|582|http/1.1|1.0|0|cloudflare|Poland|3S S.A. LIR
