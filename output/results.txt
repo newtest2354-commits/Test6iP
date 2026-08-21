@@ -1,117 +1,17 @@
-62.138.16.83|443|301|859|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.83|8443|200|1554|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.152|443|404|1613|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.54|443|303|1129|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.54|8443|303|1112|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.70|443|303|919|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.70|8443|303|1014|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.67|443|303|630|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.67|8443|303|579|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.166|443|303|630|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.166|8443|303|910|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.61|443|303|811|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.61|8443|303|632|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.208|443|200|876|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.110|443|303|1016|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.110|8443|303|1079|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.107|443|303|1233|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.107|8443|303|503|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.106|443|303|672|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.106|8443|303|1039|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.229|443|404|1494|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.229|2087|200|1306|http/1.1|0.5|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.228|443|303|494|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.228|8443|303|894|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.232|443|303|502|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.232|8443|303|1208|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.156|443|303|794|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.156|8443|303|919|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.144|443|303|1127|http/1.1|0.5|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.144|8443|303|1205|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.219|443|303|999|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.219|8443|303|947|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.253|443|303|697|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.253|8443|303|627|h2|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.230|443|303|939|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.230|8443|303|930|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.58|443|403|667|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.55|443|200|1321|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.165|443|403|480|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.56|80|404|573|http|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.56|443|503|1025|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.97|443|200|362|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.197|443|200|633|http/1.1|0.5|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.153|443|200|873|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.207|443|200|944|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.254|443|200|701|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.248|443|200|602|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.209|443|200|670|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.221|443|200|565|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.84|443|200|554|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.226|443|200|749|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.187|443|200|1187|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.90|443|200|715|http/1.1|0.5|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.90|2083|200|1395|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.90|2087|200|1146|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.90|2096|200|1139|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.243|443|303|890|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.243|8443|303|899|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.169|443|200|489|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.169|2083|200|1419|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.169|2087|200|1223|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.169|2096|200|1527|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.180|443|200|608|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.180|8080|400|735|http|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.68|443|303|720|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.68|8443|303|800|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.104|443|303|613|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.104|8443|303|529|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.100|443|303|799|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.100|8443|303|426|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.174|443|200|857|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.174|8080|400|778|http|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.137|443|303|737|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.137|8443|303|782|h2|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.167|443|200|1586|http/1.1|0.5|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.167|8443|200|1173|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.195|443|303|1071|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.195|8443|303|638|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.163|443|200|922|http/1.1|0.5|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.163|8080|400|1175|http|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.196|443|303|622|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.196|8443|303|919|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.189|443|303|816|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.189|8443|303|893|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.210|443|303|546|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.210|8443|303|1004|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.202|443|200|324|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.202|8443|303|782|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.214|443|303|745|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.214|8443|303|590|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.244|443|303|375|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.244|8443|303|681|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.60|80|404|240|http|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.60|443|503|532|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.64|443|404|557|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.87|8443|404|1311|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.102|443|403|687|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.91|443|200|662|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.103|443|307|349|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.171|443|200|376|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.190|443|200|508|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.194|443|302|508|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.172|443|302|323|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.211|443|303|437|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.182|443|200|611|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.205|443|503|435|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.222|443|200|422|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.204|443|403|417|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.236|443|200|336|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.242|443|403|297|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.53|443|400|445|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.95|443|400|435|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.88|443|200|333|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.89|443|400|499|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.143|443|404|574|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.184|443|400|420|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
-62.138.16.193|443|400|428|http/1.1|1.0|0|cloudflare|France|velia.net Netdienste GmbH
+95.38.48.68|443|302|580|http/1.1|1.0|0|cloudflare|Iran|Fanava Group
+95.38.176.104|443|404|391|h2|1.0|0|cloudflare|Iran|ABRARVAN
+95.38.186.115|80|404|310|http|1.0|0|cloudflare|Iran|ABRARVAN
+95.38.186.115|443|503|380|http/1.1|1.0|0|cloudflare|Iran|ABRARVAN
+95.38.159.38|443|200|715|http/1.1|1.0|0|cloudflare|Iran|Respina Networks & Beyond PJSC
+95.38.197.88|443|404|356|h2|1.0|0|cloudflare|Iran|Atrin Information &...
+95.38.197.88|8443|404|356|h2|1.0|0|cloudflare|Iran|Atrin Information &...
+95.38.197.88|2053|404|352|h2|1.0|0|cloudflare|Iran|Atrin Information &...
+95.38.197.88|2083|404|346|h2|1.0|0|cloudflare|Iran|Atrin Information &...
+95.38.197.88|2087|404|364|h2|1.0|0|cloudflare|Iran|Atrin Information &...
+95.38.164.167|443|404|381|h2|1.0|0|cloudflare|Iran|ABRARVAN
+95.38.189.215|443|200|558|h2|1.0|0|cloudflare|Iran|ABRARVAN
+95.38.199.57|443|200|698|http/1.1|1.0|0|cloudflare|Iran|Fanava Group
+95.38.209.3|443|404|357|h2|1.0|0|cloudflare|Iran|Respina Networks & Beyond PJSC
+95.38.209.3|2083|200|434|h2|1.0|0|cloudflare|Iran|Respina Networks & Beyond PJSC
+95.38.209.3|2087|200|863|http/1.1|1.0|0|cloudflare|Iran|Respina Networks & Beyond PJSC
+95.38.209.3|2096|200|846|http/1.1|1.0|0|cloudflare|Iran|Respina Networks & Beyond PJSC
