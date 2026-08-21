@@ -1,4 +1,4 @@
-27.54.69.195:443:198::cloudflare.com:
-27.54.69.213:443:196::cloudflare.com:
-27.54.70.133:443:196::cloudflare.com:
-27.54.69.200:8443:207::cloudflare.com:
+109.109.32.230:8443:177:http/1.1:cloudflare.com:
+109.109.62.27:8443:182:http/1.1:cloudflare.com:
+212.98.207.189:443:131:h2:cloudflare.com:
+109.109.50.183:443:181::cloudflare.com:
