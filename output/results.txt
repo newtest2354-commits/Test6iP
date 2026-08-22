@@ -1,42 +1,15 @@
-151.237.237.125|443|302|538|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.125|2083|200|1408|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.125|2087|302|651|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.125|2096|200|719|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.193|443|200|459|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.126|443|403|480|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.114|443|200|814|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.123|443|301|513|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.244|443|404|677|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-23.137.140.41|443|302|466|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-151.237.237.215|8443|303|648|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.243|443|303|602|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.243|8443|303|604|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.105|443|200|467|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-23.137.140.11|443|200|359|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.6|443|200|339|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.16|443|200|352|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.8|443|200|365|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.20|443|301|487|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.52|80|302|332|http|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.52|443|200|455|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.56|80|200|300|http|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.56|443|200|461|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.53|80|200|367|http|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.53|443|200|387|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-151.237.237.103|443|200|472|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.110|443|200|486|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.112|443|200|499|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.113|443|302|599|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.121|443|200|479|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.138|443|200|505|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.67|443|200|597|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.120|443|403|465|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.109|443|200|479|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.115|80|404|341|http|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.115|443|404|446|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.118|443|200|486|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-151.237.237.209|443|200|519|http/1.1|1.0|0|cloudflare|Turkey|Netdirekt A.S.
-23.137.140.4|443|301|280|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.14|443|200|133|h2|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.13|443|302|287|h2|1.0|0|cloudflare|USA|IPM Computers LLC
-23.137.140.15|443|200|325|http/1.1|1.0|0|cloudflare|USA|IPM Computers LLC
+83.136.160.72|443|400|852|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.69|443|301|282|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.70|443|302|409|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.74|443|403|400|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.68|443|200|283|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.88|443|200|601|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.85|443|302|372|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.100|443|302|301|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.86|443|200|381|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.76|443|301|433|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.89|443|200|355|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.67|80|302|214|http|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.67|443|404|292|h2|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.84|443|404|609|http/1.1|1.0|0|cloudflare|France|KEYYO SA
+83.136.160.75|443|403|445|http/1.1|1.0|0|cloudflare|France|KEYYO SA
