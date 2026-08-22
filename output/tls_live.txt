@@ -1,6 +1,2 @@
-45.135.105.77:443:143:http/1.1:cloudflare.com:
-45.135.105.78:443:142::cloudflare.com:
-45.135.105.73:443:143:h2:cloudflare.com:
-45.135.105.252:443:142::cloudflare.com:
-45.135.106.145:443:131:h2:cloudflare.com:
-45.135.106.150:443:134:h2:cloudflare.com:
+82.148.56.57:443:90:h2:cloudflare.com:
+82.148.63.18:443:98:h2:cloudflare.com:

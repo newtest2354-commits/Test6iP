@@ -1,4 +1,2 @@
-docs.atlassian.com
-jira.greenbone.net
-secinfo.greenbone.net
-u0022sd.customer.notifications.suppress.welcome.email
+go.microsoft.com
+www.w3.org
