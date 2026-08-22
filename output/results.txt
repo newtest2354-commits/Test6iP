@@ -1,14 +1,28 @@
-62.213.98.85|443|200|489|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.115|443|400|683|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.116|443|403|891|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.206|443|403|647|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.203|443|403|648|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.62|443|302|696|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.130|443|403|903|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.174|443|200|638|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.172|443|301|602|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.97.246|443|302|884|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.213.98.67|443|301|711|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.114|443|200|443|h2|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.98.205|8443|403|650|http/1.1|1.0|0|cloudflare|Russia|Avantel-VirtualHosting
-62.213.99.66|443|200|355|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+83.97.16.70|443|302|318|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.98|443|401|474|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.74|443|403|336|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.84|443|302|381|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.82|443|200|418|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.73|443|301|464|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.93|443|404|396|h2|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.75|443|301|308|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.88|443|404|282|h2|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.90|443|404|345|h2|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.76|443|301|354|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.213|443|302|452|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.131|443|302|522|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.150|443|503|714|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.142|443|404|484|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.154|443|200|536|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.242|443|200|629|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.16.210|443|404|575|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.38|8443|302|355|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.37|8443|302|422|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.34|443|200|727|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.35|443|200|613|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.114|80|301|391|http|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.114|443|404|300|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.107|443|503|454|h2|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.150|443|302|399|h2|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.179|443|303|455|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
+83.97.17.85|443|200|291|http/1.1|1.0|0|cloudflare|UK|VeloxServ Comm.
