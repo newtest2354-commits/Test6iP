@@ -1,1 +1,7 @@
+14-201-1-183.static.tpgi.com.au
+14-201-1-45.static.tpgi.com.au
+14-201-1-90.static.tpgi.com.au
+apps.apple.com
+play.google.com
+www.tp-link.com
 www.w3.org
