@@ -1,2 +1,2 @@
-82.148.56.57|443|200|268|http/1.1|1.0|0|cloudflare|UK|FastNet International
-82.148.63.18|443|503|419|http/1.1|1.0|0|cloudflare|UK|FastNet International
+82.148.56.57|443|200|254|http/1.1|1.0|0|cloudflare|UK|FastNet International
+82.148.63.18|443|503|426|http/1.1|1.0|0|cloudflare|UK|FastNet International
