@@ -242,6 +242,7 @@ tech.lgbt
 techtop.com.au
 tessst-srv.equhost.com
 test.hampelgroup.net
+test.tandi.com.au
 tethys.dafleetservices.com.au
 theboatshed.3cx.com.au
 themadmexican.3cx.com.au
