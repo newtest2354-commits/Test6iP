@@ -1,9 +1,4 @@
-go.microsoft.com
-mail.ligaimed.ru
-nebula.zyxel.com
-privacy.lycorp.co.jp
-s.yimg.jp
-support.yahoo-net.jp
-www.lycorp.co.jp
-www.w3.org
-www.yahoo.co.jp
+fonts.googleapis.com
+fonts.gstatic.com
+my.kolt-internet.ru
+smotreshka.tv
