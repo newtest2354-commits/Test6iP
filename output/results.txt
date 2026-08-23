@@ -1,1 +1,1 @@
-104.128.240.33|8443|200|259|http/1.1|1.0|0|cloudflare|Canada|BCnet
+5.183.71.98|8443|200|869|http/1.1|1.0|0|cloudflare|Russia|CrystalNET Plus
