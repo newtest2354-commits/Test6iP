@@ -1,1 +1,10 @@
-60-240-196-117.tpgi.com.au
+about.gitlab.com
+commons-pages.search.show
+docs.linuxserver.io
+forum.gitlab.com
+github.com
+linuxserver.io
+ogp.me
+www.linuxserver.io
+www.w3.org
+www.webasyst.ru
