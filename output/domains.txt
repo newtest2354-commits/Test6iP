@@ -1,4 +1,0 @@
-fonts.googleapis.com
-fonts.gstatic.com
-my.kolt-internet.ru
-smotreshka.tv
