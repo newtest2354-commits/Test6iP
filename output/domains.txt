@@ -1,15 +1,1 @@
-apache.org
-centos.org
-example.com
-github.com
-go.microsoft.com
-grafana.com
-grafana.sa-apps.ru
-httpd.apache.org
-iloglobal.cache.cn
-mail.secret-agents.ru
-remote.axop.su
-www.centos.org
-www.example.com
-www.internic.net
-www.w3.org
+60-240-196-117.tpgi.com.au
