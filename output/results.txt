@@ -1,2 +1,2 @@
-62.155.163.171|443|403|783|http/1.1|1.0|0|cloudflare|Germany|Deutsche Telekom AG
-62.155.253.13|443|400|745|http/1.1|1.0|0|cloudflare|Germany|Deutsche Telekom AG
+62.155.163.171|443|403|568|http/1.1|1.0|0|cloudflare|Germany|Deutsche Telekom AG
+62.155.253.13|443|400|453|http/1.1|1.0|0|cloudflare|Germany|Deutsche Telekom AG
