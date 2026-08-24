@@ -1,13 +1,3 @@
-acct.name
-apache.org
-data.web
-example.com
-go.microsoft.com
-httpd.apache.org
-login.microsoftonline.com
-nginx.org
-rockylinux.org
-tile.openstreetmap.org
-unpkg.com
-www.apache.org
+noms43.tcc.on.ca
+roundcube.tcc.on.ca
 www.w3.org
