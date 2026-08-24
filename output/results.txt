@@ -1,1 +1,13 @@
-176.111.236.116|443|200|502|http/1.1|1.0|0|cloudflare|Poland|PPH Krawarkon Sp. z o.o.
+65.39.177.52|443|302|126|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.177.121|443|301|566|http/1.1|0.5|0|cloudflare|Canada|Aptum Technologies
+65.39.177.121|2083|200|406|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.177.121|2096|200|438|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.184.137|443|200|140|h2|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.184.137|2083|200|365|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.184.137|2096|200|366|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.177.74|443|200|126|h2|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.177.74|2083|200|399|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.177.74|2096|200|419|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.179.18|443|200|197|http/1.1|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.133.239|443|200|106|h2|1.0|0|cloudflare|Canada|Aptum Technologies
+65.39.133.239|8443|303|169|h2|1.0|0|cloudflare|Canada|Aptum Technologies
