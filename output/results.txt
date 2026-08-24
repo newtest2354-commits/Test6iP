@@ -1,2 +1,2 @@
-37.139.107.0|443|200|398|h2|1.0|0|cloudflare|Ukraine|Lancom
-37.139.107.101|8443|200|857|http/1.1|1.0|0|cloudflare|Ukraine|Lancom
+62.155.163.171|443|403|783|http/1.1|1.0|0|cloudflare|Germany|Deutsche Telekom AG
+62.155.253.13|443|400|745|http/1.1|1.0|0|cloudflare|Germany|Deutsche Telekom AG
