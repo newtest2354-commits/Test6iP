@@ -1,8 +1,3 @@
-cpanel.com
-gmail.com
-go.cpanel.net
-host.eziweb.ca
-n8n.io
-use.fontawesome.com
-wordpress.org
+lyferesort.ownerrelations.com
+www.aqtronix.com
 www.w3.org
