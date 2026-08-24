@@ -1,16 +1,1 @@
-autonawypadek.com.pl
-bezstrachu.info
-cloud.mmj.pl
-fonts.googleapis.com
-fonts.gstatic.com
-github.com
-gmpg.org
-gtm4wp.com
-mail.budzikt.pl
-mail.ittree.pl
-mail.mmj.pl
-nowe.autozastepcze.pl
-poczta.mmj.pl
-s.w.org
-www.w3.org
-zoraxy.aroz.org
+dyn-76-75-123-35.nexicom.net
