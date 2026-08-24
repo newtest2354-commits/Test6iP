@@ -1,1 +1,1 @@
-76.75.123.35|8443|200|109|http/1.1|1.0|0|cloudflare|Canada|Nexicom
+64.226.152.6|443|404|133|http/1.1|1.0|0|cloudflare|USA|Aptum Technologies
