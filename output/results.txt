@@ -1,55 +1,7 @@
-61.88.92.58|443|200|1301|http/1.1|1.0|0|cloudflare|Australia|Singtel Optus Pty
-85.95.244.3|443|301|1161|http/1.1|0.5|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.237.151|443|303|829|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.237.151|8443|303|803|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.252.194|8443|303|651|http/1.1|1.0|0|cloudflare|Turkey|INETMAR-IZMIR
-61.88.63.97|443|409|717|h2|1.0|0|cloudflare|Australia|SingTel Optus Pty
-85.95.242.171|443|301|1402|h2|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.242.171|2083|200|831|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.242.171|2087|200|1043|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.242.171|2096|200|1067|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.249.143|443|200|532|h2|1.0|0|cloudflare|Turkey|INETMAR-IZMIR
-85.95.249.143|2083|200|1063|http/1.1|1.0|0|cloudflare|Turkey|INETMAR-IZMIR
-85.95.249.143|2087|200|1109|http/1.1|1.0|0|cloudflare|Turkey|INETMAR-IZMIR
-85.95.249.143|2096|200|1026|http/1.1|1.0|0|cloudflare|Turkey|INETMAR-IZMIR
-85.95.239.216|443|303|847|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.239.216|8443|303|658|h2|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.249.98|8443|303|624|http/1.1|1.0|0|cloudflare|Turkey|INETMAR-IZMIR
-85.95.238.35|443|404|792|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.239.104|443|200|765|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.241.30|443|200|873|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.239.90|443|200|1029|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.240.161|443|200|696|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri A.S.
-85.95.251.225|80|404|294|http|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
-85.95.251.225|443|404|495|h2|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
-85.95.250.59|443|200|615|h2|1.0|0|cloudflare|Netherlands|Inetmar internet Hizmetleri...
-85.95.250.59|8443|200|688|http/1.1|1.0|0|cloudflare|Netherlands|Inetmar internet Hizmetleri...
-85.95.241.100|443|200|689|h2|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.241.100|2083|200|1227|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.241.100|2087|200|1088|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.241.100|2096|200|1202|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.225.10|443|200|504|h2|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
-85.95.225.10|2083|200|1107|http/1.1|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
-85.95.225.10|2087|200|1223|http/1.1|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
-85.95.225.10|2096|200|1111|http/1.1|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
-85.95.228.166|443|200|424|http/1.1|1.0|0|cloudflare|Cyprus|Inetmar internet Hizmetleri...
-85.95.228.166|2083|401|912|http/1.1|0.5|0|cloudflare|Cyprus|Inetmar internet Hizmetleri...
-85.95.228.166|2087|401|997|http/1.1|1.0|0|cloudflare|Cyprus|Inetmar internet Hizmetleri...
-85.95.228.166|2096|200|1052|http/1.1|1.0|0|cloudflare|Cyprus|Inetmar internet Hizmetleri...
-85.95.225.240|443|200|402|http/1.1|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
-85.95.243.40|443|200|1046|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.243.40|2096|200|1081|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.244.25|443|200|886|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.242.206|443|303|973|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.242.206|8443|303|712|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.241.6|443|200|612|h2|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.237.88|443|200|675|h2|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.241.76|8443|200|698|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.239.64|443|301|592|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.239.64|8443|303|646|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.242.33|443|303|810|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.242.33|8443|303|734|http/1.1|1.0|0|cloudflare|Turkey|Iksir Net Hizmetleri
-85.95.231.107|443|303|496|http/1.1|1.0|0|cloudflare|Cyprus|Inetmar internet Hizmetleri...
-85.95.231.107|8443|303|478|http/1.1|1.0|0|cloudflare|Cyprus|Inetmar internet Hizmetleri...
-85.95.237.184|443|303|647|http/1.1|1.0|0|cloudflare|Türkiye|Iksir Net Hizmetleri A.S.
-85.95.251.233|443|200|432|h2|1.0|0|cloudflare|Turkey|Inetmar internet Hizmetleri...
+193.108.213.18|443|200|480|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Halkbankasi A.S.
+193.108.213.20|443|200|486|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Halkbankasi A.S.
+193.108.213.10|443|502|794|h2|1.0|0|cloudflare|Turkey|Turkiye Halkbankasi A.S.
+193.108.213.14|443|200|1084|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Halkbankasi A.S.
+193.108.213.12|443|302|786|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Halkbankasi A.S.
+193.108.213.19|443|403|516|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Halkbankasi A.S.
+193.108.213.15|443|302|791|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Halkbankasi A.S.
