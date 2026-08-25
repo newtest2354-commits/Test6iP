@@ -1,0 +1,9 @@
+bugs.launchpad.net
+github.com
+httpd.apache.org
+launchpad.net
+manpages.debian.org
+securepoint.de
+sk-metall.freeddns.org
+www.w3.org
+zoraxy.aroz.org
