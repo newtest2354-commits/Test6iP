@@ -1,10 +1,5 @@
-ablelogisticservices.com
-fonts.googleapis.com
-fonts.gstatic.com
-github.com
-html5shim.googlecode.com
-parent.click
-pi-hole.net
-www.abc-informatique.com
-www.ablelogisticservices.com
+co.fo
+login.zscloud.net
+mobilisgtest.enerjisauretim.com
 www.w3.org
+www.w3c.org
