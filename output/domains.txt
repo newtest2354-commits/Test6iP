@@ -1,12 +1,1 @@
-artworkcenter.pl
-docs.nextcloud.com
-fonts.googleapis.com
-fonts.gstatic.com
-loxone.com
-nextcloud.com
-nginx.com
-nginx.org
-pim.loxone.com
-www.enable-javascript.com
-www.loxone.com
-www.w3.org
+host-31-14-30-29.icu.de
