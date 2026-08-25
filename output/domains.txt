@@ -1,6 +1,5 @@
-crew.iaa.ir
-iaa.ir
-wiki.centos.org
-www.axigen.com
-www.centos.org
+breva.over-link.net
+exchange13.over-link.net
+go.microsoft.com
+mail.afaghpetro.com
 www.w3.org
