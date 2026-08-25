@@ -1,8 +1,1 @@
-45.85.187.37:8080:146:http/1.1:cloudflare.com:
-45.85.187.39:443:148:h2:cloudflare.com:
-45.85.187.81:443:143:http/1.1:cloudflare.com:
-45.85.187.110:443:149::cloudflare.com:
-45.85.187.201:443:148:http/1.1:cloudflare.com:
-37.148.216.244:443:71:http/1.1:cloudflare.com:
-37.148.216.243:443:71:http/1.1:cloudflare.com:
-37.148.216.245:443:72:http/1.1:cloudflare.com:
+45.124.200.189:443:183:h2:cloudflare.com:

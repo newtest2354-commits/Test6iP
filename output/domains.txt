@@ -1,5 +1,1 @@
-app.tamarielys.cloud
-auth.lukit.pl
-fonts.googleapis.com
-fonts.gstatic.com
 www.w3.org
