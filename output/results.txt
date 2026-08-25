@@ -1,2 +1,2 @@
-24.153.99.186|443|404|259|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.153.99.242|443|200|118|h2|1.0|0|cloudflare|Canada|Cogeco Connexion inc
+24.153.99.186|443|404|370|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
+24.153.99.242|443|200|167|h2|1.0|0|cloudflare|Canada|Cogeco Connexion inc
