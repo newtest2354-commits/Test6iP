@@ -1,1 +1,2 @@
-64.226.152.6|443|404|228|http/1.1|1.0|0|cloudflare|USA|Aptum Technologies
+91.212.16.12|443|200|1079|http/1.1|1.0|0|cloudflare|Iran|Iran Aseman Airlines
+91.212.16.140|443|200|1080|h2|1.0|0|cloudflare|Iran|Iran Aseman Airlines
