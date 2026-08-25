@@ -1,5 +1,2 @@
-breva.over-link.net
-exchange13.over-link.net
-go.microsoft.com
-mail.afaghpetro.com
-www.w3.org
+console.info
+www.juniper.net
