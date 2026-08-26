@@ -1,14 +1,3 @@
-api.w.org
-cdn.jsdelivr.net
-cdn.tailwindcss.com
-com4asp.com
-go.microsoft.com
-mx01.exchange360.de
-neshan.org
-nshn.ir
-unpkg.com
-vakilrezamand.ir
-wikipedia.org
-www.citrix.com
-www.lancom-systems.de
+style.top
+this.id
 www.w3.org
