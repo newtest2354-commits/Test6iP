@@ -1,9 +1,5 @@
-bugs.launchpad.net
-go.microsoft.com
-httpd.apache.org
-launchpad.net
-mail.titan-l.ru
-manpages.debian.org
-smtp.delin.ru
-srv-ins-expe-01.insightgroup.ru
+matrix-net.pl
+matrix.suwalki.pl
+milky.mona.suwalki.pl
+radix.matrix-net.pl
 www.w3.org
