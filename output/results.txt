@@ -1,5 +1,12 @@
-85.185.104.7|443|404|819|http/1.1|1.0|0|cloudflare|Iran|Iran Telecommunication Co. PJS
-85.185.56.1|443|200|1918|http/1.1|1.0|0|cloudflare|Iran|Telecommunication Co. of Iran
-85.185.63.24|443|200|1882|http/1.1|1.0|0|cloudflare|Iran|Telecommunication Co. of Iran
-85.185.170.210|443|200|1225|http/1.1|1.0|0|cloudflare|Iran|DCI
-85.185.61.190|443|200|1892|http/1.1|1.0|0|cloudflare|Iran|DCI
+23.137.176.5|443|200|97|http/1.1|1.0|0|cloudflare|USA|Community Antenna Service
+62.32.95.86|443|301|645|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.204|443|403|461|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.205|443|200|316|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.203|443|403|470|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.164|443|200|426|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.206|443|403|491|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.209|443|200|374|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.210|80|404|225|http|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.210|443|404|308|h2|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.114|443|200|383|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.200|8443|400|482|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel

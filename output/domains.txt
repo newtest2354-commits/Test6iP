@@ -1,3 +1,9 @@
-style.top
-this.id
+bugs.launchpad.net
+go.microsoft.com
+httpd.apache.org
+launchpad.net
+mail.titan-l.ru
+manpages.debian.org
+smtp.delin.ru
+srv-ins-expe-01.insightgroup.ru
 www.w3.org
