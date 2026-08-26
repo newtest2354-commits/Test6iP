@@ -1,12 +1,12 @@
-23.137.176.5|443|200|316|http/1.1|1.0|0|cloudflare|USA|Community Antenna Service
-62.32.95.86|443|301|813|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.204|443|403|605|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.205|443|200|400|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.203|443|403|587|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.164|443|200|472|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.206|443|403|605|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.209|443|200|480|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.210|80|404|288|http|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.210|443|404|402|h2|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.114|443|200|488|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
-62.32.95.200|8443|400|605|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+23.137.176.5|443|200|97|http/1.1|1.0|0|cloudflare|USA|Community Antenna Service
+62.32.95.86|443|301|636|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.204|443|403|460|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.205|443|200|300|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.203|443|403|494|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.164|443|200|384|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.206|443|403|459|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.209|443|200|379|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.210|80|404|246|http|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.210|443|404|298|h2|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.114|443|200|433|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
+62.32.95.200|8443|400|468|http/1.1|1.0|0|cloudflare|Russia|JSC Avantel
