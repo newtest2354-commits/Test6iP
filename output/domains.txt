@@ -23,6 +23,7 @@ xdsl.45.129.217.148.srvc.fr
 xdsl.45.129.217.154.srvc.fr
 xdsl.45.129.217.158.srvc.fr
 xdsl.45.129.217.162.srvc.fr
+xdsl.45.129.217.166.srvc.fr
 xdsl.45.129.217.178.srvc.fr
 xdsl.45.129.217.198.srvc.fr
 xdsl.45.129.217.20.srvc.fr
