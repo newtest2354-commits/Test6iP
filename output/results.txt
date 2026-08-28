@@ -1,21 +1,10 @@
-88.135.184.96|443|200|584|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.96|8443|200|513|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-83.68.85.14|443|302|301|http/1.1|1.0|0|cloudflare|Poland|Multimedia Polska Sp. z o.o.
-88.135.184.79|443|200|262|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.93|443|302|363|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.49|8443|200|777|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.67|8443|200|572|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-83.68.95.229|80|200|418|http|1.0|0|cloudflare|Poland|Multimedia Polska S.A.
-88.135.184.114|8443|200|638|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.155|443|200|248|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.167|443|200|598|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.123|443|403|242|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.166|443|200|260|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.164|443|200|563|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.250|443|200|452|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-88.135.184.177|443|200|658|http/1.1|1.0|0|cloudflare|Poland|PPHU GoldNET Dariusz Pluta
-91.231.139.3|443|200|329|http/1.1|1.0|0|cloudflare|France|B&B HOTEL
-91.231.139.29|443|200|339|http/1.1|1.0|0|cloudflare|France|B&B HOTEL
-91.231.139.13|443|200|452|http/1.1|1.0|0|cloudflare|France|B&B HOTEL
-91.231.139.16|443|200|347|http/1.1|1.0|0|cloudflare|France|B&B HOTEL
-91.231.139.2|443|200|337|http/1.1|1.0|0|cloudflare|France|B&B HOTEL
+37.200.74.37|443|200|897|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.74.138|443|302|534|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.74.36|443|302|604|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.74.35|443|400|388|h2|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.74.38|443|200|419|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.75.210|443|400|460|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.75.123|443|200|433|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.75.124|443|302|294|h2|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.75.125|443|200|306|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
+37.200.75.126|443|200|283|http/1.1|1.0|0|cloudflare|Russia|ISP Podryad Nets
