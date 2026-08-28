@@ -1,11 +1,11 @@
 bitrix.legende-log.ru
 cdnjs.cloudflare.com
 docs.nextcloud.com
+ex.acvl.ru
 fonts.googleapis.com
 fonts.gstatic.com
 go.microsoft.com
 helpdesk.bitrix24.ru
-mail.acvl.ru
 mail.legende-log.ru
 metrika.store
 nextcloud.com
