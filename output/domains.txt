@@ -1,1 +1,5 @@
-farihi.ir
+docs.nextcloud.com
+github.com
+nextcloud.com
+nextcloudpi.com
+www.enable-javascript.com
