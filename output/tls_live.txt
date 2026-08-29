@@ -1,4 +1,13 @@
-82.115.216.67:443:134:h2:cloudflare.com:
-82.115.216.71:443:127:http/1.1:cloudflare.com:
-82.115.216.72:443:146:http/1.1:cloudflare.com:
-82.115.216.81:443:134:http/1.1:cloudflare.com:
+45.139.186.157:443:144::cloudflare.com:
+45.139.186.158:443:147::cloudflare.com:
+45.139.186.177:443:152:h2:cloudflare.com:
+45.139.186.148:443:147::cloudflare.com:
+45.139.186.147:443:149::cloudflare.com:
+45.139.186.204:443:143::cloudflare.com:
+45.139.186.199:443:148::cloudflare.com:
+45.139.186.202:443:149::cloudflare.com:
+45.139.186.149:443:147::cloudflare.com:
+45.139.186.45:443:149:http/1.1:cloudflare.com:
+45.139.186.100:443:145:h2:cloudflare.com:
+45.139.186.124:443:152:h2:cloudflare.com:
+45.139.186.176:443:144:h2:cloudflare.com:
