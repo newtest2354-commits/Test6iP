@@ -1,5 +1,7 @@
 docs.nextcloud.com
-github.com
+git.de.root.gy
+ju.vc
 nextcloud.com
-nextcloudpi.com
+webhost.de.root.gy
 www.enable-javascript.com
+yourls.ju.vc
