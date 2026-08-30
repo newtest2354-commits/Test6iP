@@ -22,7 +22,6 @@ apartamentyneno-makarska.eu
 apebp.bprohost.pl
 api.w.org
 arkadiuszstolecki.com
-armstark.hr
 assets.seedprod.com
 assurinvest.ch
 athleteam.pl
@@ -46,6 +45,7 @@ contrix.pl
 cpanel.com
 crapex.smarthost.pl
 customer.company
+czestochowa.zhp.pl
 d.constructor.name
 de.vidok.com
 div.tf
@@ -77,7 +77,6 @@ html5up.net
 hydraulik-wroclaw.com.pl
 i.4wzk.pl
 info.gda.pl
-invitejs.trustpilot.com
 it.vidok.com
 julzof.smarthost.pl
 kancelaria-pasik.pl
@@ -575,7 +574,6 @@ spolemczestochowa.pl
 spolemznaczyrazem.pl
 stajniaprimo.pl
 stat.4u.pl
-static.hotjar.com
 stresmisja.pl
 stresmisja.smarthost.swps.pl
 subsidium.biz
@@ -591,7 +589,6 @@ unpkg.com
 viapolonia.com
 vidok.com
 vidok.eu
-web-sdk.smartlook.com
 webcard.id
 winkler.com
 wizytowka.rzetelnafirma.pl
@@ -600,7 +597,6 @@ wszystkoociasteczkach.pl
 wup.bip.lubelskie.pl
 wuplublin.praca.gov.pl
 www.aginus.com.pl
-www.clarity.ms
 www.controlling-systems.pl
 www.czestochowa.spolem.org.pl
 www.e-elektron.pl
@@ -623,16 +619,8 @@ www.pinterest.com
 www.replicascalidad.com
 www.schema.org
 www.seodesignsolutions.com
-www.smarthost.al
-www.smarthost.com.de
-www.smarthost.eu
-www.smarthost.hr
-www.smarthost.mk
 www.smarthost.pl
-www.smarthost.ua
-www.smarthost.uk
 www.spolem.org.pl
-www.trustnet.pl
 www.viapolonia.com
 www.vimeo.com
 www.w3.org
