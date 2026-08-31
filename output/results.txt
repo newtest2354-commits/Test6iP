@@ -1,17 +1,5 @@
-46.31.210.230|443|200|242|h2|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.230|8443|200|254|h2|1.0|0|cloudflare|France|Foliateam Group
-46.31.211.50|443|200|255|h2|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.166|443|400|371|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.166|8443|404|473|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.54|443|200|307|h2|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.66|443|500|505|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.14|443|403|401|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.38|443|302|460|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.34|443|302|360|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.122|443|403|437|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.102|443|302|393|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.210.174|443|302|471|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.211.66|443|403|449|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.211.61|443|302|383|http/1.1|1.0|0|cloudflare|France|Foliateam Group
-46.31.211.190|443|200|754|http/1.1|0.5|0|cloudflare|France|Foliateam Group
-46.31.211.170|443|302|466|http/1.1|1.0|0|cloudflare|France|Foliateam Group
+27.32.54.106|443|200|1149|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+27.32.54.26|443|200|558|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+27.32.54.82|443|400|779|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+27.32.54.214|443|403|748|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+27.32.54.182|443|302|505|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
