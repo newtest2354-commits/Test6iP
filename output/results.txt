@@ -1,5 +1,1 @@
-27.32.54.106|443|200|958|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-27.32.54.26|443|200|458|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-27.32.54.82|443|400|650|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-27.32.54.214|443|403|621|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-27.32.54.182|443|302|432|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+155.133.63.136|8443|200|327|http/1.1|1.0|0|cloudflare|Poland|Jacek Pasek BRK...
