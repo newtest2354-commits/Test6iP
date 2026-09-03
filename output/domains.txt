@@ -1,2 +1,4 @@
-pelak.majlesicity.ir
+bugs.launchpad.net
+httpd.apache.org
+launchpad.net
 www.w3.org
