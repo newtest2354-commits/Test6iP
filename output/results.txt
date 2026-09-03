@@ -1,3 +1,5 @@
-45.85.80.18|443|403|510|http/1.1|1.0|0|cloudflare|France|Flex Network Sarl
-45.85.80.100|443|200|530|http/1.1|1.0|0|cloudflare|France|Flex Network Sarl
-45.85.80.216|443|200|608|http/1.1|1.0|0|cloudflare|France|Flex Network Sarl
+46.32.21.14|443|200|448|http/1.1|1.0|0|cloudflare|Iran|Tose'h Fanavari Ertebabat...
+85.95.209.250|443|403|185|http/1.1|1.0|0|cloudflare|France|Vialis Saem
+85.95.209.250|8443|404|188|http/1.1|1.0|0|cloudflare|France|Vialis Saem
+85.95.216.126|443|503|287|h2|1.0|0|cloudflare|France|Vialis Saem
+85.95.220.56|443|302|335|http/1.1|1.0|0|cloudflare|France|VIALIS
