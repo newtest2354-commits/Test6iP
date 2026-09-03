@@ -28,13 +28,11 @@ ec2-13-50-30-63.eu-north-1.compute.amazonaws.com
 ec2-13-51-155-174.eu-north-1.compute.amazonaws.com
 ec2-13-51-180-14.eu-north-1.compute.amazonaws.com
 ec2-13-51-214-255.eu-north-1.compute.amazonaws.com
-ec2-13-51-99-55.eu-north-1.compute.amazonaws.com
 ec2-13-52-122-65.us-west-1.compute.amazonaws.com
 ec2-13-52-19-165.us-west-1.compute.amazonaws.com
 ec2-13-52-196-39.us-west-1.compute.amazonaws.com
 ec2-13-52-210-1.us-west-1.compute.amazonaws.com
 ec2-13-52-72-164.us-west-1.compute.amazonaws.com
-ec2-13-53-106-66.eu-north-1.compute.amazonaws.com
 ec2-13-53-118-14.eu-north-1.compute.amazonaws.com
 ec2-13-53-208-153.eu-north-1.compute.amazonaws.com
 ec2-13-53-253-8.eu-north-1.compute.amazonaws.com
@@ -55,7 +53,6 @@ ec2-13-55-121-98.ap-southeast-2.compute.amazonaws.com
 ec2-13-55-176-242.ap-southeast-2.compute.amazonaws.com
 ec2-13-55-208-19.ap-southeast-2.compute.amazonaws.com
 ec2-13-55-217-30.ap-southeast-2.compute.amazonaws.com
-ec2-13-55-219-106.ap-southeast-2.compute.amazonaws.com
 ec2-13-55-235-231.ap-southeast-2.compute.amazonaws.com
 ec2-13-55-245-182.ap-southeast-2.compute.amazonaws.com
 ec2-13-55-3-92.ap-southeast-2.compute.amazonaws.com
