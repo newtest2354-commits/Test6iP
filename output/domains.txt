@@ -1,0 +1,7 @@
+fonts.googleapis.com
+neon.dev
+oss.maxcdn.com
+start.doradca.lublin.pl
+www.issabel.org
+www.opensource.org
+www.w3.org
