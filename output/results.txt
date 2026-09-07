@@ -1,30 +1,30 @@
-62.152.56.248|443|200|1357|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.59.184|443|302|462|h2|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.58.77|443|200|1098|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru
-62.152.58.123|443|200|463|h2|1.0|0|cloudflare|Russia|Datahouse.ru
-62.152.59.152|443|400|792|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.63.18|443|301|478|h2|1.0|0|cloudflare|Russia|Filanco ltd
-62.152.63.18|8443|200|594|http/1.1|1.0|0|cloudflare|Russia|Filanco ltd
-62.152.54.8|443|403|460|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.54.13|443|403|454|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.61.251|443|403|384|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.32.178|443|302|497|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.33.160|443|404|498|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.38.89|443|400|768|http/1.1|1.0|0|cloudflare|Russia|Filanco LLC
-62.152.39.13|80|404|280|http|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.39.13|443|404|403|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.56.250|443|403|594|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.60.26|443|200|1101|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.56.72|443|200|1600|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.56.112|443|200|485|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.56.136|443|404|503|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
-60.240.187.211|8443|200|940|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-62.152.38.244|443|200|871|http/1.1|1.0|0|cloudflare|Russia|Filanco LLC
-62.152.54.28|443|200|416|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.56.102|443|401|408|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.61.231|443|403|435|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
-62.152.42.145|443|400|631|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.32.120|443|200|818|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.63.24|443|401|442|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
-62.152.46.156|443|200|407|http/1.1|1.0|0|cloudflare|Russia|Filanco ltd
-62.152.59.27|443|302|508|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.56.248|443|200|1128|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.59.184|443|302|283|h2|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.58.77|443|200|1019|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru
+62.152.58.123|443|200|340|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru
+62.152.59.152|443|400|634|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.63.18|443|301|424|h2|1.0|0|cloudflare|Russia|Filanco ltd
+62.152.63.18|8443|200|544|http/1.1|1.0|0|cloudflare|Russia|Filanco ltd
+62.152.54.8|443|403|305|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.54.13|443|403|300|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.61.251|443|403|308|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.32.178|443|302|466|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.33.160|443|404|336|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.38.89|443|400|490|http/1.1|1.0|0|cloudflare|Russia|Filanco LLC
+62.152.39.13|80|404|260|http|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.39.13|443|404|303|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.56.250|443|403|348|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.60.26|443|200|803|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.56.72|443|200|1171|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.56.112|443|200|391|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.56.136|443|404|497|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
+60.240.187.211|8443|200|1106|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+62.152.38.244|443|200|659|http/1.1|1.0|0|cloudflare|Russia|Filanco LLC
+62.152.54.28|443|200|389|h2|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.56.102|443|401|264|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.61.231|443|403|279|http/1.1|1.0|0|cloudflare|Russia|Datahouse.ru network
+62.152.42.145|443|400|594|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.32.120|443|200|572|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.63.24|443|401|391|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
+62.152.46.156|443|200|399|http/1.1|1.0|0|cloudflare|Russia|Filanco ltd
+62.152.59.27|443|302|352|http/1.1|1.0|0|cloudflare|Russia|Citytelecom LLC
