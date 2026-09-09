@@ -1,6 +1,6 @@
 {
     "sources": [
-        "https://raw.githubusercontent.com/aristapanell-cell/Iran-IPv4-CIDRs/refs/heads/main/iran_ipv4.txt"
+        "https://github.com/new493370/CidRipv4/raw/refs/heads/main/iran_ipv4.txt"
     ],
     "ports": [80, 443, 8080, 8443, 2052, 2053, 2083, 2087, 2095, 2096],
     "threads": 400,
