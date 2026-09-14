@@ -1,566 +1,112 @@
-24.204.149.80|8443|403|1067|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.149.12|8443|403|1084|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.149.31|443|200|915|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.149.91|8443|200|987|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.150.53|8443|200|1259|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.150.242|8443|200|1018|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.152.94|443|302|1222|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.154.211|8443|200|1267|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.154.216|8443|200|1019|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.155.92|443|200|1063|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.156.248|8443|200|902|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.156.91|443|403|928|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.159.45|443|200|1028|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-24.204.159.135|443|200|1165|http/1.1|1.0|0|cloudflare|Canada|Cogeco Connexion inc
-45.14.124.156|443|403|1315|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.119|443|400|1093|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.170|443|200|624|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.18|443|200|1696|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.5|443|200|1921|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.6|443|200|1185|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.27|443|200|1497|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.8|443|200|1478|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.7|443|200|1155|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.1|443|200|1177|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.15|443|200|1160|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.10|443|200|1206|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.4|443|200|1148|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.3|443|200|1388|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.19|443|200|1190|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.30|443|200|1202|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.42|443|200|2030|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.32|443|200|1166|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.29|443|403|1333|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.45|443|200|1728|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.63|443|200|1266|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.23|443|200|1895|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.35|443|200|1862|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.47|443|200|1560|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.31|443|200|1562|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.61|443|200|1187|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.64|443|200|1156|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.49|443|200|1700|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.25|443|200|1808|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.78|443|200|1831|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.71|443|200|1364|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.87|443|200|1675|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.77|443|200|1665|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.46|443|200|1565|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.57|443|200|1597|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.80|443|200|1394|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.68|443|200|1593|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.60|443|200|1201|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.91|443|200|1552|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.58|443|200|1347|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.55|443|200|1340|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.106|443|200|1513|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.104|443|200|1609|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.84|443|200|1646|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.20|443|200|1658|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.37|443|200|1595|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.62|443|200|1347|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.67|443|200|1490|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.79|443|200|1603|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.53|443|200|1758|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.86|443|200|1529|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.75|443|200|1532|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.34|443|200|1443|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.100|443|200|1146|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.74|443|200|1355|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.98|443|200|1487|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.114|443|200|1570|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.59|443|200|1397|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.95|443|200|1634|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.96|443|200|1384|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.109|443|200|1450|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.85|443|200|1197|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.108|443|200|1586|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.41|443|200|1411|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.90|443|200|1543|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.81|443|200|1507|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.113|443|200|1403|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.83|443|200|1681|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.99|443|200|1190|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.125|443|200|1601|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.89|443|200|1380|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.70|443|200|1554|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.136|443|200|1427|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.123|443|200|1457|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.126|443|200|1354|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.124|443|200|1387|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.134|443|200|1681|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.110|443|200|1566|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.97|443|200|1570|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.112|443|200|1261|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.128|443|200|738|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.101|443|200|1230|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.137|443|200|1167|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.140|443|200|1533|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.153|443|200|1588|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.147|443|200|1159|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.141|443|200|1313|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.149|443|200|1259|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.130|443|200|1889|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.157|443|200|1411|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.142|443|200|1160|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.151|443|200|1155|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.103|443|200|1709|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.133|443|200|1168|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.121|443|200|1344|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.116|443|200|935|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.146|443|200|1176|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.135|443|200|1256|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.138|443|200|1611|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.139|443|200|758|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.164|443|200|1553|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.150|443|200|1307|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.132|443|200|1420|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.163|443|200|1572|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.2|443|200|1418|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.44|443|200|1619|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.12|443|200|1328|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.76|443|200|1184|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.168|443|200|1190|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.167|443|200|1420|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.169|443|200|1408|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.171|443|200|1326|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.173|443|200|1218|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.174|443|200|1541|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.175|443|200|1210|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.177|443|403|436|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.181|443|401|283|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.183|443|200|1238|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.182|443|200|1466|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.185|443|200|1456|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.184|443|200|1153|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.187|443|200|1570|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.188|443|200|1386|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.207|443|200|482|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.8|443|302|420|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.190|443|200|1298|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.226|443|200|782|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.193|443|200|1216|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.194|443|200|1549|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.197|443|200|1400|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.195|443|200|1639|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.198|443|200|1293|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.11|443|302|387|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.149|443|200|1220|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.204|443|200|1279|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.208|443|200|1248|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.214|443|200|1222|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.212|443|200|1206|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.213|443|200|1442|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.209|443|200|1300|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.220|443|200|1222|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.216|443|200|1564|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.224|443|200|1275|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.227|443|200|1194|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.226|443|200|1180|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.238|443|200|1322|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.236|443|200|912|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.250|443|200|619|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.234|443|200|1645|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.230|443|200|1481|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.228|443|200|1431|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.239|443|200|1240|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.233|443|200|1223|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.247|443|200|1176|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.249|443|200|1474|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.240|443|200|1285|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.12|443|200|1248|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.241|443|200|1352|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.7|443|200|1568|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.17|443|200|1234|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.1|443|200|1340|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.6|443|200|1382|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.243|443|200|1240|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.5|443|200|1414|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.253|443|200|1377|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.124.251|443|200|817|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.10|443|200|1363|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.16|443|200|1333|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.19|443|200|1515|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.3|443|200|1221|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.9|443|200|1458|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.22|443|200|1503|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.23|443|200|1201|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.24|443|200|1264|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.26|443|200|1657|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.35|443|200|1178|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.33|443|200|1359|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.36|443|200|1263|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.45|443|200|1213|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.42|443|200|1270|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.47|443|200|1236|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.39|443|200|1075|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.43|443|200|1358|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.34|443|200|2015|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.52|443|200|1201|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.38|443|200|1218|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.41|443|200|1601|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.54|443|200|1533|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.55|443|200|1039|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.56|443|200|1473|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.60|443|200|1308|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.61|443|200|1304|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.62|443|200|1305|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.63|443|200|1664|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.141|443|404|321|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.65|443|200|1182|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.64|443|200|1656|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.66|443|200|1585|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.67|443|200|1506|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.68|443|200|1641|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.69|443|200|1305|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.71|443|200|1565|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.72|443|200|1768|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.73|443|200|1512|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.75|443|200|1626|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.78|443|200|1504|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.79|443|200|1024|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.80|443|200|1403|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.86|443|200|1383|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.87|443|200|1061|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.89|443|200|1577|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.92|443|200|1607|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.85|443|200|1549|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.95|443|200|649|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.90|443|200|1730|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.93|443|200|1579|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.83|443|200|1243|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.94|443|200|1652|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.110|443|200|1541|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.100|443|200|1544|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.103|443|200|895|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.98|443|200|1391|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.112|443|200|1436|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.117|443|200|1739|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.116|443|200|1563|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.124|443|200|1299|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.115|443|200|1376|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.97|443|200|1623|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.106|443|200|1321|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.130|443|200|604|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.122|443|200|1330|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.136|443|200|1278|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.120|443|200|1255|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.144|443|200|1304|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.119|443|200|1450|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.137|443|200|1210|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.138|443|200|822|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.111|443|200|1211|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.114|443|200|1304|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.129|443|200|1615|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.132|443|200|792|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.101|443|200|1527|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.139|443|200|1678|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.128|443|200|1034|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.157|443|200|1009|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.155|443|200|1428|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.135|443|200|1241|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.146|443|200|1490|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.156|443|200|1225|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.161|443|200|1301|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.159|443|200|619|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.148|443|200|1555|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.175|443|200|1710|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.160|443|200|1519|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.162|443|200|1646|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.166|443|200|1346|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.145|443|200|564|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.167|443|200|1406|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.152|443|200|1188|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.173|443|200|1645|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.180|443|200|1405|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.183|443|200|1444|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.165|443|200|1263|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.174|443|200|1405|http/1.1|0.5|0|vercel|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.169|443|200|778|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.179|443|200|1063|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.178|443|200|1717|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.182|443|200|1683|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.181|443|200|1715|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.192|443|200|1186|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.195|443|200|1737|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.188|443|200|1423|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.189|443|200|1949|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.193|443|200|1514|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.194|443|200|1787|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.197|443|200|1514|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.191|443|200|1671|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.200|443|200|1477|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.203|443|200|1249|http/1.1|0.5|0|fastly|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.201|443|200|1620|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.207|443|200|1418|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.210|443|200|1646|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.211|443|200|768|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.208|443|200|1612|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.213|443|200|1020|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.214|443|200|843|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.215|443|200|1750|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.220|443|200|1170|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.223|443|200|1343|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.217|443|200|933|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.222|443|200|1552|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.227|443|200|1034|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.229|443|200|1764|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.233|443|200|1470|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.234|443|200|1086|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.235|443|200|1771|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.237|443|200|1750|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.238|443|200|1429|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.239|443|200|1679|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.240|443|200|1197|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.244|443|200|772|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.251|443|200|641|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.250|443|200|1642|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.252|443|200|1552|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.253|443|200|1156|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.2|443|200|858|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.125.254|443|200|1721|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.3|443|200|783|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.4|443|200|746|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.7|443|200|1639|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.9|443|200|1740|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.8|443|200|1247|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.5|443|200|1249|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.13|443|200|1456|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.12|443|200|1141|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.14|443|200|1087|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.16|443|200|1248|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.21|443|200|1934|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.15|443|200|1791|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.31|443|200|649|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.26|443|200|1521|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.27|443|200|1554|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.23|443|200|1597|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.33|443|200|1197|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.25|443|200|1248|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.11|443|200|954|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.20|443|200|1893|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.32|443|200|897|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.6|443|200|1094|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.29|443|200|1580|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.30|443|200|1266|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.34|443|200|739|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.28|443|200|1542|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.38|443|200|1514|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.37|443|200|1499|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.19|443|200|1725|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.45|443|200|991|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.44|443|200|808|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.43|443|200|576|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.53|443|200|1721|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.54|443|200|1013|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.55|443|200|1486|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.57|443|200|1639|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.58|443|200|1072|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.60|443|200|1194|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.61|443|200|798|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.62|443|200|785|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.158|443|200|275|h2|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.65|443|200|730|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.64|443|200|1616|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.68|443|200|1133|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.70|443|200|1500|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.71|443|200|1057|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.73|443|200|791|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.74|443|200|987|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.75|443|200|1186|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.77|443|200|1017|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.79|443|200|935|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.81|443|200|1578|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.80|443|200|1673|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.87|443|200|904|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.84|443|200|664|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.86|443|200|1718|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.88|443|200|1604|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.96|443|200|1657|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.103|443|200|1721|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.105|443|200|1722|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.95|443|200|1736|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.101|443|200|1597|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.114|443|200|1573|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.94|443|200|1418|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.110|443|200|1534|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.109|443|200|1745|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.102|443|200|1786|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.99|443|200|1146|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.112|443|200|2008|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.119|443|200|1561|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.115|443|200|1375|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.120|443|200|855|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.113|443|200|1634|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.106|443|200|1665|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.130|443|200|830|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.125|443|200|1505|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.133|443|200|1681|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.142|443|200|1441|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.144|443|200|1540|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.141|443|200|1549|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.129|443|200|579|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.143|443|200|1108|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.140|443|200|1720|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.145|443|200|1993|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.157|443|200|1668|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.155|443|200|1545|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.159|443|200|1639|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.153|443|200|1521|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.161|443|200|1032|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.160|443|200|869|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.164|443|200|1067|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.152|443|200|1699|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.168|443|200|960|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.167|443|200|1533|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.166|443|200|1085|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.163|443|200|1193|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.170|443|200|720|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.171|443|200|1029|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.174|443|200|978|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.176|443|200|863|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.172|443|200|1160|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.173|443|200|930|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.179|443|200|1264|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.184|443|200|886|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.175|443|200|1248|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.180|443|200|1163|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.192|443|200|1743|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.196|443|200|907|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.190|443|200|1468|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.193|443|200|1785|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.191|443|200|1857|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.200|443|200|1794|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.199|443|200|1596|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.201|443|200|1743|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.204|443|200|1121|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.203|443|200|1467|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.208|443|200|1622|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.209|443|200|1598|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.210|443|200|1208|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.211|443|200|999|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.212|443|200|1083|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.40|443|404|876|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.214|443|200|1285|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.218|443|200|1092|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.220|443|200|1207|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.222|443|200|1536|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.224|443|200|1759|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.228|443|200|949|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.225|443|200|1460|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.229|443|200|1549|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.234|443|200|1529|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.233|443|200|1733|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.230|443|200|1673|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.238|443|200|1024|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.241|443|200|750|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.239|443|200|1411|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.244|443|200|1255|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.235|443|200|1635|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.243|443|200|929|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.240|443|200|1423|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.249|443|200|1567|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.252|443|200|937|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.247|443|200|1902|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.248|443|200|691|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.254|443|200|699|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.126.253|443|200|1434|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.2|443|200|769|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.5|443|200|1453|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.3|443|200|798|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.9|443|200|669|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.11|443|200|728|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.10|443|200|807|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.13|443|200|1742|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.14|443|200|1052|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.15|443|200|813|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.17|443|200|724|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.18|443|200|980|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.8|443|200|1745|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.22|443|200|1639|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.27|443|200|875|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.31|443|200|1450|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.35|443|200|1165|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.39|443|200|1685|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.42|443|200|831|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.43|443|200|1070|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.44|443|200|1954|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.45|443|200|793|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.41|443|200|1549|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.46|443|200|904|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.59|443|200|1134|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.51|443|200|1714|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.61|443|200|1760|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.48|443|200|1100|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.50|443|200|1175|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.62|443|200|740|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.64|443|200|1585|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.47|443|200|1957|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.57|443|200|1040|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.69|443|200|613|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.68|443|200|1090|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.72|443|200|1884|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.76|443|200|861|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.79|443|200|1044|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.81|443|200|1199|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.82|443|200|1632|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.83|443|200|1451|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.84|443|200|999|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.85|443|200|1882|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.86|443|200|1571|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.89|443|200|1646|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.90|443|200|1002|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.92|443|200|1700|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-5.182.92.2|443|302|515|http/1.1|1.0|0|cloudflare|Russia|Expert PRO LLC
-5.182.92.2|8080|400|360|http|1.0|0|cloudflare|Russia|Expert PRO LLC
-45.14.127.93|443|200|1055|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.94|443|200|1895|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.95|443|200|1504|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.96|443|200|1252|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.100|443|200|1879|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.102|443|200|1236|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.107|443|200|927|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.106|443|200|1713|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.110|443|200|1624|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.114|443|200|1864|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.119|443|200|568|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.117|443|200|1939|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.121|443|200|1157|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.122|443|200|1173|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.124|443|200|1024|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.127|443|200|1527|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.129|443|200|1497|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.134|443|200|1730|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.132|443|200|1445|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.136|443|200|1856|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.146|443|200|1885|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.135|443|200|808|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.145|443|200|1542|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.137|443|200|1564|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.152|443|200|657|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.142|443|200|1841|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.158|443|200|1078|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.155|443|200|1052|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.156|443|200|885|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.154|443|200|1676|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.163|443|200|823|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.162|443|200|1075|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.160|443|200|1797|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.157|443|200|576|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.168|443|200|1966|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.169|443|200|1812|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.174|443|200|1450|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.175|443|200|748|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.177|443|200|1661|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.180|443|200|1931|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.171|443|200|1346|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.183|443|200|1173|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.184|443|200|1740|http/1.1|0.5|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.185|443|200|671|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.186|443|200|1128|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.188|443|200|966|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.187|443|200|883|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.189|443|200|1587|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.226|443|403|712|h2|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.230|443|403|787|h2|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
-45.14.127.248|443|200|769|http/1.1|1.0|0|cloudflare|Germany|TelemaxX Telekommunikation GmbH
+45.139.141.19|443|302|1051|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.34|443|200|1150|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.35|443|200|1038|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.38|443|200|1029|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.10|443|200|1057|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.18|443|200|985|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.30|443|200|1020|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.37|443|200|1014|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.141.25|443|200|980|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.142.10|443|301|777|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.142.10|8443|301|813|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.142.71|443|302|795|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.142.8|443|200|984|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.142.136|443|302|966|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.142.140|443|200|769|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+45.139.142.125|443|200|1021|http/1.1|1.0|0|cloudflare|Germany|JIntelligence GmbH
+83.229.26.18|443|400|1202|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.18|8443|400|920|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.44|443|400|1148|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.44|8443|400|967|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.32|443|400|1166|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.32|8443|400|938|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.22|443|400|1157|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.22|8443|400|957|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.16|443|400|1184|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.16|8443|400|830|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.36|443|400|997|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.36|8443|400|848|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.40|443|400|1015|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.40|8443|400|812|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.42|443|400|1121|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.42|8443|400|884|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.30|443|400|1059|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.30|8443|400|857|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.2|443|400|960|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.2|8443|400|839|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.38|443|400|988|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.38|8443|400|777|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.6|443|400|1041|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.6|8443|400|750|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.20|443|400|943|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.20|8443|400|670|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.24|443|400|1050|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.24|8443|400|553|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.48|443|400|934|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.48|8443|400|571|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.28|443|400|969|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.28|8443|400|580|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.14|443|400|1130|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.14|8443|400|768|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.10|443|400|978|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.10|8443|400|634|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.26|443|400|853|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.26|8443|400|624|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.46|443|400|951|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.46|8443|400|607|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.4|443|400|844|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.4|8443|400|616|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.34|443|400|1077|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.34|8443|400|562|http/1.1|1.0|0|cloudflare|USA|Clouvider Ltd.
+83.229.26.12|443|400|907|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.12|8443|400|661|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.8|443|400|799|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+83.229.26.8|8443|400|643|http/1.1|1.0|0|cloudflare|USA|Skyvision Networks Svc.
+91.234.44.3|443|200|1127|http/1.1|1.0|0|cloudflare|Poland|American Heart of Poland SA
+91.234.44.1|443|200|1056|http/1.1|1.0|0|cloudflare|Poland|American Heart of Poland SA
+91.234.44.2|443|200|1092|http/1.1|1.0|0|cloudflare|Poland|American Heart of Poland SA
+91.234.44.13|443|302|1118|http/1.1|1.0|0|cloudflare|Poland|American Heart of Poland SA
+91.90.172.45|443|302|836|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.172.13|443|200|934|h2|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.172.17|443|400|1208|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.172.125|443|400|1172|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.172.162|443|200|1101|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.173.188|443|302|1073|h2|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.173.187|443|301|940|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.173.99|8443|200|1289|http/1.1|0.5|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.173.100|8443|200|1346|http/1.1|0.5|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.173.137|443|200|870|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.173.154|8443|200|1487|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.62|443|200|827|h2|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.12|8443|200|1292|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.22|443|200|1232|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.22|8443|302|1512|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.7|443|403|764|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.148|443|200|1002|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.155|443|200|754|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.137|443|200|1179|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.97|8443|200|1340|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.94|8443|200|1382|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.158|443|404|773|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.167|443|302|868|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.183|443|200|823|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.179|443|200|748|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.172|443|200|819|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.180|443|200|712|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.170|8443|200|1421|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.174.164|8443|200|1259|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.2|443|200|887|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.33|8443|200|726|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.25|8443|200|831|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.29|8443|200|724|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.47|443|302|389|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.80|443|405|747|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.60|8443|200|700|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+91.90.175.130|443|200|780|http/1.1|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+64.191.40.37|443|301|230|http/1.1|1.0|0|cloudflare|Canada|Hamilton Community Enterprises
+91.90.175.231|443|404|364|h2|1.0|0|cloudflare|Poland|Connecta sp. z o.o.
+64.191.40.103|8080|400|220|http|1.0|0|cloudflare|Canada|Hamilton Community Enterprises
+64.191.40.181|443|302|221|http/1.1|1.0|0|cloudflare|Canada|Hamilton Community Enterprises
+64.191.40.186|443|200|244|http/1.1|1.0|0|cloudflare|Canada|Hamilton Community Enterprises
+64.191.40.190|443|200|244|http/1.1|1.0|0|cloudflare|Canada|Hamilton Community Enterprises
+64.191.40.214|443|200|235|http/1.1|1.0|0|cloudflare|Canada|Hamilton Community Enterprises
