@@ -1,125 +1,130 @@
-46.254.54.4|443|500|923|h2|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.17|443|303|1085|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.17|8443|303|849|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.14|443|303|1160|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.14|8443|303|795|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.16|443|303|1359|http/1.1|0.5|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.16|8443|303|1320|http/1.1|0.5|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.15|443|303|920|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.15|8443|303|690|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.5|443|303|1222|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.5|8443|303|732|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.54.30|443|200|1005|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.55.105|443|404|795|http/1.1|0.5|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-46.254.55.99|443|200|1046|http/1.1|1.0|0|cloudflare|Turkey|AA TELEKOMUNIKASYON BILISIM...
-185.169.180.60|443|200|1049|h2|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.60|2083|200|1513|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.60|2087|200|1207|http/1.1|0.5|0|cloudflare|Türkiye|Moon Dc
-185.169.180.60|2096|200|1328|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.34|443|403|981|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.34|8080|302|608|http|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.58|8080|404|975|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.56|443|200|821|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.56|8443|401|540|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.21|443|403|937|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.21|8080|302|989|http|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.52|443|403|848|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.52|8080|302|615|http|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.47|443|200|858|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.59|443|403|890|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.59|8080|302|1095|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.66|443|403|964|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.66|8080|302|731|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.104|443|200|784|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.29|443|200|1580|http/1.1|0.5|0|cloudflare|Türkiye|Moon Dc
-185.169.180.95|443|200|680|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.16|443|302|973|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.46|443|400|1085|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.105|443|200|1078|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.125|443|403|688|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.125|8080|302|722|http|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.123|80|404|652|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.123|443|503|589|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.134|443|302|416|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.131|443|400|1099|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.129|443|200|723|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.73|443|200|885|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.30|443|303|716|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.30|8443|303|1317|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.98|80|404|752|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.98|443|503|821|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.14|8080|400|1131|http|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.141|443|502|943|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.93|443|301|597|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.51|443|200|1196|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.63|443|200|519|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.91|443|200|1286|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.110|8443|302|1019|h2|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.121|8443|302|1275|http/1.1|0.5|0|cloudflare|Türkiye|Moon Dc
-185.169.180.122|443|303|493|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.122|8443|303|537|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.156|443|200|1106|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.159|443|200|627|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.173|443|200|849|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.167|443|200|1242|h2|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.124|443|404|893|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.128|443|403|999|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.203|443|200|597|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.203|2083|200|1165|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.203|2087|302|1062|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.203|2096|200|1029|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.182|443|303|532|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.182|8443|303|786|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.236|443|403|1017|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.236|8080|302|475|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.214|443|403|828|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.214|8080|302|1024|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.248|443|303|1054|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.248|8443|303|638|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.210|443|200|607|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.210|2096|404|637|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.252|443|403|857|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.252|8080|302|864|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.201|443|200|555|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.250|443|200|815|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.213|443|200|550|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.220|443|200|849|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.183|80|404|768|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.183|443|404|672|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.226|443|400|1265|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.249|80|404|510|http|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.249|443|503|439|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.188|443|200|514|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.185|443|200|822|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.227|443|301|679|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.143|443|200|1164|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.145|443|403|646|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.162|443|404|583|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.154|443|502|458|h2|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.174|443|301|379|h2|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.174|8443|302|455|h2|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.163|443|200|352|h2|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.168|443|200|645|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.171|443|406|581|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.244|443|200|338|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.180|443|200|415|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.190|443|302|395|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.191|443|200|536|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.180.184|443|200|344|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.237|443|404|414|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.221|443|302|304|h2|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.196|443|404|665|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.242|443|200|516|http/1.1|1.0|0|cloudflare|Türkiye|Moon Dc
-185.169.180.186|443|302|397|http/1.1|1.0|0|cloudflare|Türkiye|KEYUBU Net ve...
-185.169.181.111|443|200|556|http/1.1|1.0|0|cloudflare|Türkiye|Veganet Teknolojileri ve...
-185.169.182.214|443|404|683|http/1.1|1.0|0|cloudflare|Türkiye|Veganet Teknolojileri ve...
-85.222.192.84|443|200|444|http/1.1|1.0|0|cloudflare|Netherlands|WorldStream B.V.
-85.222.192.236|443|200|510|http/1.1|1.0|0|cloudflare|Netherlands|WorldStream B.V.
-85.222.194.7|443|200|412|http/1.1|1.0|0|cloudflare|Netherlands|WorldStream B.V.
-85.222.194.7|8443|200|675|http/1.1|1.0|0|cloudflare|Netherlands|WorldStream B.V.
-85.222.194.7|2087|200|412|http/1.1|1.0|0|cloudflare|Netherlands|WorldStream B.V.
-85.222.194.2|443|302|649|h2|1.0|0|cloudflare|Netherlands|Peter-Paul Maria Kurstjens
-85.222.194.6|443|200|418|http/1.1|1.0|0|cloudflare|Netherlands|WorldStream B.V.
-85.222.197.12|443|403|433|http/1.1|1.0|0|cloudflare|Netherlands|WorldStream B.V.
-85.222.197.49|443|404|1512|http/1.1|0.5|0|cloudflare|Netherlands|WorldStream B.V.
-45.91.156.72|443|403|544|http/1.1|1.0|0|cloudflare|Germany|SOPRADO GmbH
+62.73.6.79|443|200|523|http/1.1|1.0|0|cloudflare|France|NWC-Gr
+62.73.6.79|8443|303|759|http/1.1|1.0|0|cloudflare|France|NWC-Gr
+62.73.6.124|443|200|530|h2|1.0|0|cloudflare|France|NWC-Gr
+62.73.6.124|8443|303|779|h2|1.0|0|cloudflare|France|NWC-Gr
+85.184.228.8|443|200|606|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.4|443|404|901|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.5|443|200|708|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.65|443|200|780|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.146|443|401|737|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.129|443|401|723|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.186|443|200|745|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.166|443|200|723|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.198|443|200|730|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.203|443|200|722|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.193|443|200|737|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.204|443|200|620|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.197|443|200|684|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.185|443|200|787|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.194|443|200|691|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.196|443|200|809|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.188|443|404|745|http/1.1|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.187|443|404|823|http/1.1|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.199|443|200|659|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.208|443|200|652|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.206|443|200|766|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.220|443|200|571|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.5|443|200|900|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.205|443|200|730|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.207|443|200|701|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.224|443|200|584|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.211|443|404|794|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.4|443|404|939|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.228.219|443|200|627|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.8|443|200|715|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.65|443|200|810|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.129|443|401|796|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.146|443|401|902|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.185|443|200|831|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.207|443|200|882|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.186|443|200|755|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.166|443|200|757|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.187|443|404|951|http/1.1|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.198|443|200|888|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.194|443|200|803|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.203|443|200|730|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.206|443|200|799|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.188|443|404|909|http/1.1|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.224|443|200|750|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.211|443|404|882|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.197|443|200|854|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.193|443|200|870|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.199|443|200|794|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.220|443|200|701|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.219|443|200|754|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.204|443|200|789|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.205|443|200|715|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.208|443|200|764|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.229.196|443|200|836|h2|1.0|0|cloudflare|Singapore|Adyen N.V.
+85.184.230.2|443|404|846|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.3|443|200|707|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.4|443|401|766|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.61|443|200|786|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.71|443|200|664|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.64|443|404|1534|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.68|443|200|700|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.62|443|200|686|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.60|443|200|759|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.69|443|404|1439|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.63|443|200|753|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.95|443|200|657|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.67|443|200|732|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.91|443|404|894|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.92|443|200|804|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.70|443|200|765|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.66|443|200|663|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.96|443|200|740|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.97|443|401|701|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.100|443|200|734|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.146|443|503|1321|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.166|443|200|857|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.193|443|200|758|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.230.207|443|200|821|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.3|443|200|624|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.2|443|404|757|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.4|443|401|565|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.60|443|200|720|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.64|443|404|1467|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.70|443|200|702|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.67|443|200|588|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.62|443|200|672|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.66|443|200|660|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.71|443|200|610|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.69|443|404|1476|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.63|443|200|547|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.61|443|200|576|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.92|443|200|726|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.75|443|200|645|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.97|443|401|582|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.68|443|200|571|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.91|443|404|758|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.95|443|200|630|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.96|443|200|561|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.100|443|200|642|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.146|443|503|1209|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.166|443|200|738|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+85.184.231.207|443|200|639|h2|1.0|0|cloudflare|Australia|Adyen N.V.
+89.39.240.189|443|200|1011|http/1.1|1.0|0|cloudflare|Poland|POLINEO Sp. z o.o.
+89.39.240.189|8443|302|665|http/1.1|1.0|0|cloudflare|Poland|POLINEO Sp. z o.o.
+5.53.16.32|8443|403|1064|h2|1.0|0|cloudflare|Russia|Metroset
+5.53.16.24|443|200|928|h2|1.0|0|cloudflare|Russia|Metroset
+5.53.16.62|443|200|718|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.99|80|404|588|http|1.0|0|cloudflare|Russia|Metroset
+5.53.16.99|443|200|1033|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.132|443|404|1143|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.50|443|403|740|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.72|8443|200|1208|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.130|8443|404|751|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.174|443|200|951|h2|1.0|0|cloudflare|Russia|Metroset
+5.53.16.176|443|200|736|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.187|8443|302|1032|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.17.86|443|200|703|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.17.61|443|404|454|h2|1.0|0|cloudflare|Russia|Metroset
+5.53.16.235|443|200|877|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.17.70|443|400|979|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.16.250|443|200|662|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.17.0|443|400|1039|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.17.69|443|404|1093|h2|1.0|0|cloudflare|Russia|Metroset
+5.53.17.49|443|200|1144|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.17.32|443|404|711|http/1.1|1.0|0|cloudflare|Russia|Metroset
+5.53.17.28|80|200|940|http|1.0|0|cloudflare|Russia|Metroset
