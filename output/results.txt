@@ -1,205 +1,204 @@
-93.175.138.1|443|200|822|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.33|443|200|730|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.25|443|200|895|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.73|443|200|671|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.49|443|200|933|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.17|443|200|766|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.81|443|200|626|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.137.141|443|404|782|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.137.140|443|404|840|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.137.158|443|404|860|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.98|443|200|635|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.100|443|200|659|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.129|443|200|960|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.83|8443|200|618|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.221|443|200|737|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.209|443|200|871|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.249|443|200|864|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.153|443|200|964|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.241|443|200|707|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.145|443|200|987|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.217|443|200|926|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.177|443|200|572|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.225|443|200|579|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.122|443|400|1141|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-93.175.138.250|443|200|952|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
-188.132.152.22|443|200|519|h2|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.22|2083|200|1091|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.22|2087|200|1193|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.22|2096|200|1214|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.21|443|200|649|h2|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.21|2083|200|1429|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.21|2087|200|1275|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.21|2096|200|1236|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.23|443|200|558|h2|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.23|2083|200|1322|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.23|2087|200|1422|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.23|2096|200|1139|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.20|443|200|642|h2|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.20|2083|200|1327|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.20|2087|200|1344|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.20|2096|200|1047|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.19|2083|200|1060|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.19|2087|200|1289|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.19|2096|200|1153|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.7|443|200|873|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.34|443|200|475|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.3|443|200|657|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-188.132.152.2|443|200|767|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
-20.217.219.199|8443|200|843|http/1.1|1.0|0|cloudflare|Israel|Microsoft Corp.
-20.236.78.124|443|404|764|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.253.45.247|443|200|749|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.224.137.61|443|302|838|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
-20.254.201.198|443|400|836|http/1.1|1.0|0|cloudflare|UK|Microsoft Corp.
-20.194.186.52|443|401|812|h2|1.0|0|cloudflare|Japan|Microsoft Corp.
-20.203.0.10|443|404|1190|http/1.1|1.0|0|cloudflare|UAE|Microsoft Corp.
-20.255.152.198|443|200|1168|http/1.1|1.0|0|cloudflare|Hong Kong|Microsoft Corp.
-20.197.24.130|443|404|1241|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
-20.240.35.37|443|503|1292|http/1.1|1.0|0|cloudflare|Sweden|Microsoft Corp.
-20.251.72.146|443|401|951|h2|1.0|0|cloudflare|Norway|Microsoft Corp.
-20.241.227.60|443|503|974|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.220.11.165|443|200|736|http/1.1|1.0|0|cloudflare|Canada|Microsoft Corp.
-20.224.116.165|443|401|939|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
-20.201.224.25|443|404|939|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.196.221.157|443|302|845|http/1.1|1.0|0|cloudflare|South Korea|Microsoft Corp.
-20.239.50.211|8443|200|878|http/1.1|1.0|0|cloudflare|Hong Kong|Microsoft Corp.
-20.195.24.74|443|200|481|http/1.1|1.0|0|cloudflare|Singapore|Microsoft Corp.
-20.253.16.1|443|400|819|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.232.221.54|443|400|803|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.243.104.42|8443|200|870|http/1.1|1.0|0|cloudflare|Japan|Microsoft Corp.
-20.243.16.230|443|200|795|http/1.1|1.0|0|cloudflare|Japan|Microsoft Corp.
-20.221.10.241|443|503|962|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.213.241.228|443|401|903|http/1.1|1.0|0|cloudflare|Australia|Microsoft Corp.
-20.225.34.189|443|404|304|h2|1.0|0|cloudflare|USA|Microsoft Corp.
-20.234.212.49|443|403|930|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
-20.238.172.235|443|401|876|h2|1.0|0|cloudflare|Netherlands|Microsoft Corp.
-20.237.61.48|443|200|760|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.244.129.41|8443|200|888|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
-20.240.212.21|443|200|727|http/1.1|1.0|0|cloudflare|Sweden|Microsoft Corp.
-20.231.111.61|443|400|773|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.194.18.207|443|404|1082|http/1.1|1.0|0|cloudflare|South Korea|Microsoft Corp.
-20.240.202.234|443|302|892|http/1.1|1.0|0|cloudflare|Sweden|Microsoft Corp.
-20.200.198.209|443|503|1188|http/1.1|1.0|0|cloudflare|South Korea|Microsoft Corp.
-20.242.212.94|443|200|757|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.253.26.187|443|400|827|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.201.110.187|443|400|855|http/1.1|1.0|0|cloudflare|Brazil|Microsoft Corp.
-20.207.193.34|8443|200|925|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
-20.245.225.82|8443|200|153|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.213.218.118|443|400|863|http/1.1|1.0|0|cloudflare|Australia|Microsoft Corp.
-20.207.94.179|443|403|599|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
-20.254.84.201|443|404|782|http/1.1|1.0|0|cloudflare|UK|Microsoft Corp.
-20.224.2.99|443|301|773|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
-20.242.47.252|443|200|834|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.227.74.114|8443|200|926|http/1.1|1.0|0|cloudflare|Australia|Microsoft Corp.
-20.245.22.95|8443|200|296|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-20.230.226.115|443|302|822|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
-195.142.200.60|443|503|1062|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.64|443|503|956|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.66|443|503|1503|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.67|443|503|1137|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.70|443|503|918|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.89|443|200|1146|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.96|443|200|969|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.106|443|200|892|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.145|443|302|382|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.136|443|200|885|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.147|443|302|532|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.146|443|302|397|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.155|443|503|943|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.173|443|403|633|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.174|443|404|1330|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.179|443|200|973|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.176|443|200|1138|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.177|443|404|1237|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.178|443|200|594|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.181|443|200|526|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.183|443|200|1266|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.185|443|200|619|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.186|443|200|620|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.184|443|503|1168|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.187|443|200|1116|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.192|443|503|1282|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.202|443|200|1036|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.204|443|200|990|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.207|443|503|1123|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.210|443|404|1038|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.211|443|200|880|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.227|443|404|777|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.227|8443|404|558|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.214|443|404|731|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.222|443|200|1069|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.223|443|200|896|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.224|443|200|1177|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.225|443|401|603|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.231|443|200|534|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.200.237|443|503|1160|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.200.236|443|200|900|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.3|443|404|746|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.3|8443|404|709|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.15|443|400|1223|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.20|443|200|1319|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.21|443|200|1030|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.61|443|200|1421|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.98|443|401|859|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.93|443|503|1066|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.66|443|200|1055|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.73|443|200|690|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.65|443|404|985|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.68|443|200|1506|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.85|443|503|1151|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.88|443|403|1100|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.89|443|200|1315|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.75|443|404|928|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.90|443|503|1483|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.76|443|404|832|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.69|443|503|1244|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.104|443|503|1061|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.115|443|503|1454|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.122|443|404|1254|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.107|443|503|1318|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.130|443|503|1437|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.134|443|404|1293|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.139|443|200|1042|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.147|443|302|976|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.146|443|302|932|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.145|443|302|569|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.148|443|200|1549|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.154|443|503|981|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.162|443|200|647|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.163|443|404|975|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.169|443|400|572|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.167|443|403|625|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.184|443|200|1402|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.184|8443|200|1057|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.170|443|404|1300|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.166|443|200|1213|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.171|443|404|1369|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.195|443|404|857|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.195|8443|404|1051|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.172|443|200|701|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.221|443|400|1032|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.251|443|200|518|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.250|443|200|874|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.174|443|404|1035|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.177|443|404|888|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.198|443|200|1054|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.197|443|200|1096|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.183|443|200|1377|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.186|443|401|756|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.188|443|200|752|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.193|443|200|746|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.200|443|200|871|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.189|443|200|921|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.190|443|200|786|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.191|443|200|732|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
-195.142.202.187|443|200|915|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.192|443|200|930|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.199|443|200|962|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.203|443|404|467|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.194|443|200|831|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.216|443|404|734|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.218|443|404|493|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.182|8443|404|527|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.220|443|200|481|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.219|443|302|501|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
-195.142.202.217|443|200|906|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+93.175.138.1|443|200|943|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.33|443|200|865|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.25|443|200|883|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.73|443|200|831|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.49|443|200|772|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.17|443|200|805|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.81|443|200|960|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.137.141|443|404|949|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.137.140|443|404|845|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.137.158|443|404|853|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.98|443|200|717|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.100|443|200|715|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.129|443|200|1159|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.83|8443|200|724|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.221|443|200|943|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.209|443|200|847|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.249|443|200|1141|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.153|443|200|1132|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.241|443|200|1107|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.145|443|200|891|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.217|443|200|728|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.177|443|200|813|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.225|443|200|908|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.122|443|400|1228|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+93.175.138.250|443|200|1170|http/1.1|1.0|0|cloudflare|Poland|KSU Provector Network
+188.132.152.22|443|200|711|h2|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.22|2083|200|1374|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.22|2087|200|1492|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.22|2096|200|1253|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.21|443|200|770|h2|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.21|2083|200|933|http/1.1|0.5|0|cloudflare|Turkey|Node Net VE...
+188.132.152.21|2087|200|1357|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.21|2096|200|1297|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.23|443|200|642|h2|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.23|2083|200|1270|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.23|2087|200|1282|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.23|2096|200|1381|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.20|443|200|754|h2|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.20|2083|200|1321|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.20|2087|200|1279|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.20|2096|200|1371|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.19|2083|200|1313|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.19|2087|200|1235|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.19|2096|200|1322|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.7|443|200|912|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.34|443|200|598|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.3|443|200|608|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+188.132.152.2|443|200|909|http/1.1|1.0|0|cloudflare|Turkey|Node Net VE...
+20.217.219.199|8443|200|873|http/1.1|1.0|0|cloudflare|Israel|Microsoft Corp.
+20.236.78.124|443|404|3|h2|1.0|0|cloudflare|USA|Microsoft Corp.
+20.253.45.247|443|200|834|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.224.137.61|443|302|995|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
+20.254.201.198|443|400|934|http/1.1|1.0|0|cloudflare|UK|Microsoft Corp.
+20.194.186.52|443|401|505|h2|1.0|0|cloudflare|Japan|Microsoft Corp.
+20.203.0.10|443|404|1043|http/1.1|1.0|0|cloudflare|UAE|Microsoft Corp.
+20.255.152.198|443|200|935|http/1.1|1.0|0|cloudflare|Hong Kong|Microsoft Corp.
+20.197.24.130|443|404|1108|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
+20.240.35.37|443|503|1448|http/1.1|1.0|0|cloudflare|Sweden|Microsoft Corp.
+20.251.72.146|443|401|884|h2|1.0|0|cloudflare|Norway|Microsoft Corp.
+20.241.227.60|443|503|958|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.220.11.165|443|200|235|http/1.1|1.0|0|cloudflare|Canada|Microsoft Corp.
+20.224.116.165|443|401|1048|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
+20.201.224.25|443|404|944|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.196.221.157|443|302|696|http/1.1|1.0|0|cloudflare|South Korea|Microsoft Corp.
+20.239.50.211|8443|200|674|http/1.1|1.0|0|cloudflare|Hong Kong|Microsoft Corp.
+20.195.24.74|443|200|624|h2|1.0|0|cloudflare|Singapore|Microsoft Corp.
+20.253.16.1|443|400|869|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.232.221.54|443|400|879|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.243.104.42|8443|200|781|http/1.1|1.0|0|cloudflare|Japan|Microsoft Corp.
+20.243.16.230|443|200|574|http/1.1|1.0|0|cloudflare|Japan|Microsoft Corp.
+20.221.10.241|443|503|996|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.213.241.228|443|401|801|http/1.1|1.0|0|cloudflare|Australia|Microsoft Corp.
+20.225.34.189|443|404|900|h2|1.0|0|cloudflare|USA|Microsoft Corp.
+20.234.212.49|443|403|926|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
+20.238.172.235|443|401|914|h2|1.0|0|cloudflare|Netherlands|Microsoft Corp.
+20.237.61.48|443|200|804|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.244.129.41|8443|200|780|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
+20.240.212.21|443|200|900|http/1.1|1.0|0|cloudflare|Sweden|Microsoft Corp.
+20.231.111.61|443|400|843|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.194.18.207|443|404|1042|http/1.1|1.0|0|cloudflare|South Korea|Microsoft Corp.
+20.240.202.234|443|302|815|http/1.1|1.0|0|cloudflare|Sweden|Microsoft Corp.
+20.200.198.209|443|503|1069|http/1.1|1.0|0|cloudflare|South Korea|Microsoft Corp.
+20.242.212.94|443|200|244|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.253.26.187|443|400|852|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.201.110.187|443|400|1046|http/1.1|1.0|0|cloudflare|Brazil|Microsoft Corp.
+20.207.193.34|8443|200|785|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
+20.245.225.82|8443|200|907|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.213.218.118|443|400|793|http/1.1|1.0|0|cloudflare|Australia|Microsoft Corp.
+20.207.94.179|443|403|733|http/1.1|1.0|0|cloudflare|India|Microsoft Corp.
+20.254.84.201|443|404|870|http/1.1|1.0|0|cloudflare|UK|Microsoft Corp.
+20.224.2.99|443|301|909|http/1.1|1.0|0|cloudflare|Netherlands|Microsoft Corp.
+20.242.47.252|443|200|869|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.227.74.114|8443|200|683|http/1.1|1.0|0|cloudflare|Australia|Microsoft Corp.
+20.245.22.95|8443|200|905|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+20.230.226.115|443|302|942|http/1.1|1.0|0|cloudflare|USA|Microsoft Corp.
+195.142.200.60|443|503|1237|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.64|443|503|935|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.66|443|503|1447|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.67|443|503|956|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.70|443|503|1662|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.89|443|200|918|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.96|443|200|964|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.145|443|302|521|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.136|443|200|1149|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.147|443|302|1012|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.146|443|302|553|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.155|443|503|1439|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.173|443|403|405|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.174|443|404|1380|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.179|443|200|981|http/1.1|0.5|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.176|443|200|1238|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.177|443|404|923|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.178|443|200|1088|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.181|443|200|795|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.183|443|200|818|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.185|443|200|839|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.186|443|200|777|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.184|443|503|1099|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.187|443|200|767|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.192|443|503|1536|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.202|443|200|1439|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.204|443|200|1255|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.207|443|503|1184|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.210|443|404|863|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.211|443|200|1227|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.227|443|404|456|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.227|8443|404|1069|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.214|443|404|891|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.222|443|200|690|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.223|443|200|1452|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.224|443|200|1269|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.225|443|401|981|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.231|443|200|508|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.200.237|443|503|1235|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.200.236|443|200|406|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.3|443|404|602|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.3|8443|404|540|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.15|443|400|1263|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.20|443|200|980|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.21|443|200|1091|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.61|443|200|1119|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.98|443|401|727|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.93|443|503|1455|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.66|443|200|1032|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.73|443|200|853|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.65|443|403|776|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.68|443|200|1122|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.85|443|503|1198|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.88|443|403|974|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.89|443|200|1201|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.75|443|404|1048|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.90|443|503|1277|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.76|443|404|551|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.69|443|503|1065|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.104|443|503|1125|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.115|443|503|1430|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.122|443|404|1362|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.107|443|503|886|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.130|443|503|1428|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.134|443|404|997|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.139|443|200|784|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.147|443|302|545|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.146|443|302|927|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.145|443|302|830|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.148|443|200|1272|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.154|443|503|1255|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.162|443|200|1076|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.163|443|404|653|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.169|443|400|439|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.167|443|403|730|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.184|443|200|1261|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.184|8443|200|946|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.170|443|404|972|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.166|443|200|1079|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.171|443|404|1606|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.195|443|404|514|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.195|8443|404|625|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.172|443|200|973|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.221|443|400|947|http/1.1|0.5|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.251|443|200|693|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.250|443|200|440|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.174|443|404|930|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.177|443|404|550|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.198|443|200|1008|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.197|443|200|1149|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.183|443|200|1432|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.186|443|401|624|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.188|443|200|719|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.193|443|200|592|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.200|443|200|757|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.189|443|200|771|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.190|443|200|806|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.191|443|200|582|http/1.1|1.0|0|cloudflare|Turkey|Turkiye Vakiflar Bankasi TAO
+195.142.202.187|443|200|781|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.192|443|200|685|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.199|443|200|592|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.203|443|403|410|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.194|443|200|718|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.216|443|404|666|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.218|443|404|359|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.182|8443|404|384|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.220|443|200|591|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.219|443|302|360|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO
+195.142.202.217|443|200|765|http/1.1|1.0|0|cloudflare|Türkiye|Turkiye Vakiflar Bankasi TAO

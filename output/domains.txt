@@ -22,7 +22,6 @@ example.com
 eyks.vakifbank.com.tr
 facebook.com
 fonts.googleapis.com
-fonts.gstatic.com
 github.com
 go.microsoft.com
 httpd.apache.org
@@ -50,7 +49,7 @@ signup.microsoft.com
 sigorta.vakifbank.com.tr
 subesizbankacilik.vakifbank.com.tr
 survey.vakifbank.com.tr
-testdigitalapiheavy.vakifbank.com.tr
+testdigitalapiheavy.vakifbank.com
 this.media
 tr.incirhosting.com
 tradeprod.vakifbank.com.tr
@@ -69,9 +68,7 @@ www.googletagmanager.com
 www.linkedin.com
 www.microsoft.com
 www.oracle.com
-www.vakifbank.ae
 www.vakifbank.com.tr
 www.vakiffaktoring.com.tr
-www.vakifkart.com.tr
 www.w3.org
 xmlns.com
