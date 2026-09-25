@@ -1,24 +1,18 @@
-5.56.187.192|443|200|1359|http/1.1|1.0|0|cloudflare|Germany|Vodafone
-5.56.187.217|443|200|594|http/1.1|1.0|0|cloudflare|Germany|Vodafone
-5.56.188.150|443|200|1420|http/1.1|1.0|0|cloudflare|Germany|Vodafone
-5.56.189.109|443|200|1280|http/1.1|1.0|0|cloudflare|Germany|Vodafone
-60.242.6.38|8443|200|864|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-60.242.6.148|443|200|436|h2|1.0|0|cloudflare|Australia|TPG Net Pty
-60.242.6.176|8443|200|914|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-91.233.204.27|443|200|321|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.26|443|200|524|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.116|443|200|348|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.205.14|443|200|568|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.13|443|200|296|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.10|443|302|352|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.76|443|200|282|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.118|443|302|264|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.148|443|200|443|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.177|443|302|314|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.204.210|443|404|386|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.205.113|8443|403|434|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.205.11|443|302|341|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.205.171|443|200|762|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.205.128|443|200|266|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.205.189|443|301|341|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
-91.233.205.234|443|302|294|http/1.1|1.0|0|cloudflare|Poland|CHOJNET sp. z o.o.
+212.33.223.235|443|200|1440|http/1.1|1.0|0|cloudflare|Iran|Iran Telecommunication Co. PJS
+185.88.252.28|443|200|514|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.62|443|302|593|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.50|443|200|561|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.5|443|307|1014|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.5|2083|200|798|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.5|2087|200|722|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.4|443|200|721|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.58|443|200|502|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+14.201.51.73|8443|200|895|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+14.201.51.235|8443|200|979|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
+185.88.252.124|443|200|707|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.143|443|200|602|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.137|443|200|620|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.252.118|443|302|880|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.255.10|443|200|712|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.255.10|2083|200|940|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
+185.88.255.10|2087|200|887|http/1.1|1.0|0|cloudflare|Iran|Orum Torkan Rayaneh LLC
