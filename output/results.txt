@@ -1,60 +1,75 @@
-66.22.168.1|443|200|449|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.1|8443|200|485|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.1|2053|200|494|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.1|2083|200|504|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.1|2087|200|476|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.1|2096|200|458|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.247|443|200|413|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.169.230|443|302|564|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.169.230|8443|400|943|http/1.1|0.5|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.242|443|403|583|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.241|443|403|606|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.168.243|443|403|566|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.173.35|443|200|1237|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.173.34|443|200|1270|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-66.22.175.248|2053|400|543|http/1.1|1.0|0|cloudflare|Canada|CIK Telecom INC
-84.51.164.227|8443|302|678|http/1.1|1.0|0|cloudflare|UK|PARBIN
-84.51.185.249|443|302|1004|http/1.1|1.0|0|cloudflare|UK|PARBIN
-84.51.191.246|443|302|698|http/1.1|1.0|0|cloudflare|UK|PARBIN
-84.51.165.206|443|302|584|http/1.1|1.0|0|cloudflare|UK|PARBIN
-84.51.186.182|443|302|704|http/1.1|1.0|0|cloudflare|UK|PARBIN
-84.51.165.18|8443|302|676|http/1.1|1.0|0|cloudflare|UK|PARBIN
-84.51.184.43|8443|302|585|http/1.1|1.0|0|cloudflare|UK|PARBIN
-91.199.14.61|443|200|1039|h2|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.61|8443|404|761|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.61|2053|404|932|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.61|2087|404|1938|http/1.1|0.5|0|cloudflare|Iran|Panyuan Huang
-91.199.14.60|8443|404|788|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.60|2053|404|1404|http/1.1|0.5|0|cloudflare|Iran|Panyuan Huang
-91.199.14.60|2087|404|1094|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.10|443|200|602|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.10|8443|403|499|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.10|2083|200|1307|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.120|2096|404|548|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.63|2053|400|488|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.63|2087|400|568|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.70|443|200|546|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.49|443|200|506|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.8|443|404|713|h2|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.8|8443|404|734|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-94.177.144.46|443|200|658|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.46|8443|200|796|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.47|443|200|577|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.35|443|200|661|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.59|443|200|596|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.102|443|200|782|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-91.199.14.79|443|200|630|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.78|443|200|639|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-91.199.14.77|443|200|689|http/1.1|1.0|0|cloudflare|Iran|Panyuan Huang
-94.177.144.52|443|200|682|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.53|443|200|588|h2|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.80|443|404|910|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.17|443|302|679|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.29|443|403|762|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.69|443|403|790|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.75|443|200|551|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.93|443|302|778|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.96|443|400|865|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.103|443|200|688|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.132|443|403|911|http/1.1|1.0|0|cloudflare|France|Alphalink SASU
-94.177.144.129|8080|400|588|http|1.0|0|cloudflare|France|Alphalink SASU
+74.113.12.109|443|200|416|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.204|443|503|675|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.203|443|503|715|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.200|443|500|722|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.202|443|503|708|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.206|443|503|629|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.201|443|503|729|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.169|8443|400|585|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.164|8443|400|556|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.167|8443|400|552|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.175|8443|400|532|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.163|8443|400|500|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.181|8443|400|526|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.187|8443|400|572|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.179|8443|400|539|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.176|8443|400|579|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.186|8443|400|519|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.168|8443|400|473|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.12.177|8443|400|546|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.13.139|443|400|596|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.14.102|443|200|505|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.13.188|443|302|694|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.13.187|443|200|440|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.13.186|443|200|436|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+74.113.15.196|443|200|486|http/1.1|1.0|0|cloudflare|Canada|Saskatchewan Telecom
+91.239.205.60|443|200|603|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.10|443|200|515|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.59|443|200|582|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.134|443|200|563|h2|1.0|0|cloudflare|Poland|KolNet
+91.239.205.65|443|200|625|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.73|443|200|478|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.106|443|200|451|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.111|443|302|730|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.103|443|302|609|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.90|443|200|509|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.116|443|302|616|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.156|443|200|464|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.80|443|200|657|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.77|443|200|598|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.93|443|200|544|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.5|443|200|638|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.6|443|200|458|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.61|443|200|645|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.193|443|200|491|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.129|443|200|498|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.140|443|200|510|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.199|443|403|531|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.66|443|200|450|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.206|443|200|484|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.33|443|200|622|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.209|443|200|611|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.203|443|200|476|h2|1.0|0|cloudflare|Poland|KolNet
+91.239.205.179|443|200|517|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.246|443|200|546|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.233|443|200|392|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.240|443|200|537|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.251|443|302|530|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.230|443|200|436|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.150|443|200|498|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.144|443|404|365|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.109|443|200|636|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.86|443|302|642|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.112|443|200|457|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.122|443|404|602|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.95|8443|200|478|http/1.1|1.0|0|cloudflare|Poland|KolNet
+91.239.205.151|443|200|524|http/1.1|1.0|0|cloudflare|Poland|KolNet
+62.238.216.66|443|200|581|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.186.220|443|200|523|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.249.163|443|200|617|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.134.43|8443|302|585|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.158.113|443|200|807|h2|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.139.238|443|200|1008|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.158.123|443|200|982|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.206.98|443|302|450|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
+62.238.170.17|443|404|626|http/1.1|1.0|0|cloudflare|Netherlands|DELTA Fiber Nederland
