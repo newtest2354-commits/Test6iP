@@ -1,14 +1,22 @@
-84.47.227.26|443|200|591|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.34|443|302|406|h2|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.24|443|200|580|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.11|443|200|392|h2|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.33|443|301|372|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.41|443|200|390|h2|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.8|443|302|403|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.52|443|200|602|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.45|443|200|393|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.42|443|404|397|h2|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.40|443|404|575|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.53|443|200|381|http/1.1|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-84.47.227.7|443|404|585|h2|1.0|0|cloudflare|Iran|Sefroyekpardaz Network
-91.194.209.69|443|200|423|http/1.1|1.0|0|cloudflare|France|Neo Telecoms
+107.171.248.90|443|302|567|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+107.171.214.101|443|302|474|http/1.1|1.0|0|cloudflare|Canada|Videotron Ltee
+107.171.170.94|443|200|212|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+107.171.202.101|443|302|201|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+107.171.148.218|443|302|512|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+107.171.218.93|443|302|522|http/1.1|1.0|0|cloudflare|Canada|Videotron Ltee
+107.171.138.77|8443|200|366|http/1.1|1.0|0|cloudflare|Canada|Videotron Ltee
+107.171.188.244|443|302|494|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+107.171.183.246|443|302|518|http/1.1|1.0|0|cloudflare|Canada|Videotron Ltee
+107.171.216.201|443|200|259|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+107.171.146.252|8443|200|401|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+107.171.250.243|443|302|493|http/1.1|1.0|0|cloudflare|Canada|Le Groupe Videotron Ltee
+31.217.255.130|443|404|388|h2|1.0|0|cloudflare|Russia|M Tech LLC
+31.217.255.134|80|400|381|http|1.0|0|cloudflare|Russia|M Tech LLC
+31.217.255.134|443|403|463|http/1.1|1.0|0|cloudflare|Russia|M Tech LLC
+31.217.255.135|443|404|381|h2|1.0|0|cloudflare|Russia|M Tech LLC
+31.217.255.133|80|400|396|http|1.0|0|cloudflare|Russia|M Tech LLC
+31.217.255.133|443|200|469|http/1.1|1.0|0|cloudflare|Russia|M Tech LLC
+31.217.255.136|443|404|391|h2|1.0|0|cloudflare|Russia|M Tech LLC
+23.144.108.148|443|200|154|h2|1.0|0|cloudflare|USA|Tier.Net Technologies LLC
+31.217.255.138|443|403|488|h2|1.0|0|cloudflare|Russia|M Tech LLC
+23.144.108.132|443|200|154|http/1.1|1.0|0|cloudflare|USA|Tier.Net Technologies LLC
