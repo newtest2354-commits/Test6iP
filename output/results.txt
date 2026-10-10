@@ -1,15 +1,80 @@
-185.136.193.4|443|302|1177|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.193.60|443|404|968|http/1.1|0.5|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.194.40|443|200|357|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.194.35|443|200|908|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.176|443|200|899|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.77|443|403|658|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.85|443|403|404|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.83|443|403|1000|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.82|443|403|630|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.74|443|403|431|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.86|443|403|673|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.146|443|404|508|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-185.136.195.131|443|404|1035|http/1.1|1.0|0|cloudflare|Iran|Honar Rayaneh Pooya...
-60.241.249.135|8443|200|898|http/1.1|1.0|0|cloudflare|Australia|TPG Net Pty
-66.49.230.65|8443|200|250|http/1.1|1.0|0|cloudflare|Canada|Distributel Comm. Ltd.
+8.10.80.135|443|302|618|http/1.1|1.0|0|cloudflare|USA|PSEG Long Island LLC
+8.10.144.4|443|302|114|h2|1.0|0|cloudflare|USA|Level 3 Comm.
+8.11.231.220|443|400|720|http/1.1|1.0|0|cloudflare|USA|Level 3 Comm.
+8.11.231.220|8443|404|754|http/1.1|1.0|0|cloudflare|USA|Level 3 Comm.
+31.7.0.11|443|200|682|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.9|443|404|772|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.13|443|200|704|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.16|443|403|731|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.17|443|302|1174|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.18|443|403|718|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.21|443|404|702|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.24|443|403|688|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.26|443|403|1185|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.27|443|200|651|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.29|443|200|676|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.31|443|403|663|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.33|443|200|658|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.32|443|200|642|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.35|443|301|698|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.36|443|302|884|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.40|443|403|639|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.43|443|503|998|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.44|443|200|669|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.47|443|500|1050|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.50|443|302|751|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.51|443|200|616|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.55|443|200|646|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.54|443|403|991|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.58|443|302|877|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.63|443|404|847|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.59|443|404|727|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.60|443|404|717|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.65|443|301|691|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.71|443|403|1070|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.73|443|200|922|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.76|443|302|576|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.79|443|200|590|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.82|443|403|451|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.84|443|404|443|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.85|443|403|382|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.87|443|404|537|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.88|443|403|490|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.61|443|200|619|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.95|443|403|895|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.98|443|404|833|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.96|443|403|402|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.101|443|200|516|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.102|443|301|496|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.106|443|200|646|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.107|443|302|900|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.112|443|200|416|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.114|443|200|524|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.117|443|302|594|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.119|443|404|546|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.123|443|200|330|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.124|443|403|470|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.125|443|503|721|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.140|443|303|530|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.140|8443|303|303|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.130|443|404|807|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.131|443|302|920|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.139|443|503|807|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.143|443|403|323|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.144|443|301|926|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.145|443|403|389|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.146|443|403|503|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.148|443|200|569|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.150|443|403|316|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.154|443|302|795|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.155|443|301|290|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.161|443|403|760|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.171|443|200|369|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.167|443|200|794|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.162|443|301|606|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.170|443|302|763|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.173|443|200|734|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.177|443|200|284|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.179|443|301|429|http/1.1|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.182|443|200|362|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
+31.7.0.166|443|404|599|h2|1.0|0|cloudflare|Netherlands|Previder B.V.
