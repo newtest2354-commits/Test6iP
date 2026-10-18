@@ -1,60 +1,65 @@
-93.115.120.178|443|200|1487|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.121.107|443|503|1471|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.122.3|443|200|691|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.122.35|443|200|1268|http/1.1|1.0|0|cloudflare|Iran|tic
-93.115.122.50|443|200|1456|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.121.188|443|202|967|http/1.1|1.0|0|cloudflare|Iran|tic
-93.115.123.190|443|200|1032|http/1.1|1.0|0|cloudflare|Iran|tic
-93.115.123.227|443|200|1701|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.123.49|443|200|654|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.123.233|443|202|1886|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.124.12|443|302|2162|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.124.67|443|200|1239|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.124.68|443|301|790|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.125.31|443|200|675|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.125.31|8443|404|1636|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.125.244|80|200|1465|http|0.5|0|cloudflare|Iran|tic
-93.115.126.158|443|302|669|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.127.146|443|200|865|http/1.1|0.5|0|cloudflare|Iran|tic
-93.115.127.112|443|200|483|h2|1.0|0|cloudflare|Iran|tic
-93.115.127.123|80|200|1428|http|0.5|0|cloudflare|Iran|tic
-109.207.102.201|443|200|775|http/1.1|1.0|0|cloudflare|Poland|K3 Telecom Sp. z o.o.
-109.207.102.18|8443|200|986|http/1.1|1.0|0|cloudflare|Poland|K3 Telecom Sp. z o.o.
-109.207.102.89|80|404|481|http|1.0|0|cloudflare|Poland|K3 Telecom Sp. z o.o.
-109.207.102.89|443|404|554|http/1.1|1.0|0|cloudflare|Poland|K3 Telecom Sp. z o.o.
-43.250.204.28|443|302|1450|http/1.1|0.5|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.43|443|200|549|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.46|443|302|493|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.49|443|302|903|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-109.207.102.139|443|302|731|http/1.1|1.0|0|cloudflare|Poland|K3 Telecom Sp. z o.o.
-43.250.204.51|443|404|1047|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-109.207.102.198|443|403|730|http/1.1|1.0|0|cloudflare|Poland|K3 Telecom Sp. z o.o.
-43.250.204.115|443|200|1052|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.115|2083|200|1175|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.115|2087|200|1130|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.115|2096|200|1282|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.26|443|200|475|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.35|443|403|484|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.38|443|200|601|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.55|443|301|650|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.91|443|403|556|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.34|443|200|527|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.165|443|302|538|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.166|443|301|626|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.173|443|404|918|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.178|443|404|579|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.179|443|404|597|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.227|443|503|483|h2|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.228|443|503|564|h2|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.204.229|443|503|501|h2|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.28|443|302|646|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.165|443|502|535|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.79|443|404|744|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.167|443|200|756|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.167|2083|200|1041|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.167|2087|200|1272|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.167|2096|200|1040|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.205.111|443|200|479|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty
-43.250.207.82|443|403|408|http/1.1|1.0|0|cloudflare|New Zealand|Servers Australia Pty
-43.250.207.82|8080|400|409|http|1.0|0|cloudflare|New Zealand|Servers Australia Pty
-43.250.207.125|443|200|498|http/1.1|1.0|0|cloudflare|New Zealand|Servers Australia Pty
+95.65.150.89|443|406|639|http/1.1|1.0|0|cloudflare|Türkiye|Vodafone Net DSL - CAMLICA
+95.65.151.140|443|406|692|http/1.1|1.0|0|cloudflare|Türkiye|Vodafone Net DSL - CAMLICA
+95.65.185.11|443|406|725|http/1.1|1.0|0|cloudflare|Türkiye|Vodafone Net DSL - CAMLICA
+95.65.174.78|443|406|675|http/1.1|1.0|0|cloudflare|Türkiye|Vodafone Net DSL - FATIH
+95.65.206.210|443|406|684|http/1.1|1.0|0|cloudflare|Türkiye|Vodafone Net DSL - IZMIR
+95.65.144.14|443|406|682|http/1.1|1.0|0|cloudflare|Türkiye|Vodafone Net DSL - CAMLICA
+45.143.168.31|443|200|495|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.156|443|400|1067|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.178|443|401|466|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.167|443|400|1024|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.166|443|400|828|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.163|443|400|1096|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.157|443|400|808|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.152|443|400|866|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.174|443|401|579|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.172|443|400|723|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.181|443|401|474|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.165|443|400|858|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.154|443|400|823|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.155|443|400|952|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.186|443|401|631|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.179|443|401|466|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.177|443|401|486|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.170|443|400|843|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.159|443|400|695|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.176|443|401|509|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.171|443|401|603|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.180|443|401|621|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.182|443|401|588|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.173|443|401|493|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.162|443|402|380|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.175|443|401|459|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.158|443|400|874|h2|1.0|0|cloudflare|France|o2switch Net
+45.143.168.169|443|401|483|http/1.1|1.0|0|cloudflare|France|o2switch Net
+45.143.168.153|443|400|830|h2|1.0|0|cloudflare|France|o2switch Net
+23.140.24.69|443|302|541|h2|1.0|0|cloudflare|USA|Bay View Funding
+23.140.24.67|443|302|66|http/1.1|1.0|0|cloudflare|USA|Bay View Funding
+23.140.24.68|443|302|145|h2|1.0|0|cloudflare|USA|Bay View Funding
+31.41.98.137|8443|200|1080|http/1.1|1.0|0|cloudflare|Russia|Base
+31.41.98.173|8443|200|1206|http/1.1|1.0|0|cloudflare|Russia|Base
+31.41.99.91|8443|200|1106|http/1.1|1.0|0|cloudflare|Russia|Base
+31.41.102.115|8443|200|1223|http/1.1|1.0|0|cloudflare|Russia|Base
+103.246.200.132|443|302|549|http/1.1|1.0|0|cloudflare|Malaysia|MCMC - - Blackberry Ltd.
+103.246.200.136|443|302|532|http/1.1|1.0|0|cloudflare|Malaysia|MCMC - - Blackberry Ltd.
+103.246.200.137|443|302|515|http/1.1|1.0|0|cloudflare|Malaysia|MCMC - - Blackberry Ltd.
+103.246.200.138|443|302|540|http/1.1|1.0|0|cloudflare|Malaysia|MCMC - - Blackberry Ltd.
+103.246.200.139|443|302|523|http/1.1|1.0|0|cloudflare|Malaysia|MCMC - - Blackberry Ltd.
+103.246.200.142|443|302|587|http/1.1|1.0|0|cloudflare|Malaysia|MCMC - - Blackberry Ltd.
+46.33.18.53|443|400|904|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.40|443|404|908|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.59|8443|302|635|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.135|443|200|687|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.135|8443|302|877|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.191|443|404|968|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.136|443|301|679|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.144|443|200|627|h2|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.144|8443|200|664|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.194|443|400|1244|http/1.1|0.5|0|cloudflare|UK|Glide Student &...
+46.33.18.176|443|302|741|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.159|443|200|907|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.180|443|400|933|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.190|443|400|819|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.208|443|200|700|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.214|443|403|873|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
+46.33.18.227|443|200|603|http/1.1|1.0|0|cloudflare|UK|Glide Student &...
