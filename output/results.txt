@@ -1,10 +1,39 @@
-37.46.25.234|443|302|348|http/1.1|1.0|0|cloudflare|Sweden|AKQA
-5.144.97.51|443|302|316|h2|1.0|0|cloudflare|Russia|Mobile TeleSystems PJSC
-5.144.96.104|443|200|332|h2|1.0|0|cloudflare|Russia|Mobile TeleSystems PJSC
-5.144.97.212|443|200|320|http/1.1|1.0|0|cloudflare|Russia|Mobile TeleSystems PJSC
-5.144.98.94|443|200|303|http/1.1|1.0|0|cloudflare|Russia|Mobile TeleSystems PJSC
-5.144.125.68|443|200|394|h2|1.0|0|cloudflare|Russia|MTS PJSC
-5.144.97.107|443|200|414|h2|1.0|0|cloudflare|Russia|Mobile TeleSystems PJSC
-45.11.4.49|443|200|753|http/1.1|1.0|0|cloudflare|Russia|Sudak-Net LLC
-45.11.4.185|443|200|874|http/1.1|1.0|0|cloudflare|Russia|Sudak-Net LLC
-45.11.5.161|443|200|1243|http/1.1|1.0|0|cloudflare|Russia|Sudak-Net LLC
+31.7.176.73|443|200|562|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.177.131|443|200|633|http/1.1|1.0|0|cloudflare|Netherlands|Core-Backbone GmbH
+31.7.178.82|443|401|740|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.98|443|401|684|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.99|443|400|820|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.78|443|401|555|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.85|443|500|464|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.91|443|200|683|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.90|443|302|657|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.84|443|301|542|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.154|8443|404|934|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.81|443|502|515|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.100|443|200|843|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.80|443|200|490|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.77|443|200|388|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.122|443|200|759|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.83|443|200|646|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.93|443|401|579|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.134|443|404|603|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.130|443|404|469|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.131|443|404|431|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.178.133|443|404|423|h2|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.148|8443|404|734|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.149|8443|404|1007|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.176|443|404|383|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.216|443|403|432|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.216|8080|400|639|http|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.211|443|200|700|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.209|443|200|478|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.249|443|302|801|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.180.246|443|200|517|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.184.226|443|302|620|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.184.196|443|200|606|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.185.7|443|401|478|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.185.10|8443|404|819|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.185.27|443|403|436|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.185.26|443|403|448|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.185.78|443|303|454|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
+31.7.185.90|443|200|509|http/1.1|1.0|0|cloudflare|Germany|Core-Backbone GmbH
