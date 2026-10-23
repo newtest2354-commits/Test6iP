@@ -1,32 +1,74 @@
-82.212.252.145|443|301|318|http/1.1|1.0|0|cloudflare|Germany|iWelt AG
-82.212.248.122|443|200|331|h2|1.0|0|cloudflare|Germany|Krick Management GmbH...
-64.99.86.14|443|404|133|http/1.1|1.0|0|cloudflare|Canada|Tucows.com Co.
-82.212.248.148|443|302|620|http/1.1|1.0|0|cloudflare|Germany|Krick Management GmbH...
-82.212.216.74|443|403|580|http/1.1|1.0|0|cloudflare|Germany|Krick Management GmbH...
-64.99.86.24|443|404|153|http/1.1|1.0|0|cloudflare|Canada|Tucows.com Co.
-64.98.39.19|443|200|290|http/1.1|1.0|0|cloudflare|Canada|Tucows.com Co.
-64.98.138.39|443|404|117|http/1.1|1.0|0|cloudflare|USA|Tucows.com Co.
-64.98.249.209|443|200|273|h2|1.0|0|cloudflare|USA|Ting Fiber
-64.98.201.171|8443|200|149|http/1.1|1.0|0|cloudflare|USA|Ting Fiber
-64.98.232.187|8443|200|312|http/1.1|1.0|0|cloudflare|USA|Ting Fiber
-64.99.216.76|8443|200|412|http/1.1|1.0|0|cloudflare|USA|Ting Fiber
-82.110.114.137|80|404|254|http|1.0|0|cloudflare|UK|GTT
-82.110.114.137|443|404|335|h2|1.0|0|cloudflare|UK|GTT
-82.110.114.137|8443|404|373|h2|1.0|0|cloudflare|UK|GTT
-69.57.222.60|443|404|280|http/1.1|1.0|0|cloudflare|Canada|Canaca-com
-69.57.222.20|443|302|339|h2|1.0|0|cloudflare|Canada|Canaca-com
-69.57.222.50|443|200|249|http/1.1|1.0|0|cloudflare|Canada|Canaca-com
-69.57.222.124|443|200|343|http/1.1|1.0|0|cloudflare|Canada|Canaca-com
-45.138.113.57|443|302|440|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.113.57|8443|302|553|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.113.119|443|200|326|h2|1.0|0|cloudflare|France|Linkt SAS
-45.138.113.119|8443|404|324|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.76|8443|200|412|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.60|443|302|985|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.222|8443|302|327|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.220|443|400|638|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.218|443|200|332|h2|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.221|443|502|1725|http/1.1|0.5|0|cloudflare|France|Linkt SAS
-45.138.114.243|443|302|431|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.242|443|302|484|http/1.1|1.0|0|cloudflare|France|Linkt SAS
-45.138.114.244|443|200|452|http/1.1|1.0|0|cloudflare|France|Linkt SAS
+45.146.238.149|443|200|1574|http/1.1|0.5|0|cloudflare|Germany|TK Networks GmbH
+45.146.239.29|443|404|820|h2|1.0|0|cloudflare|Germany|TK Networks GmbH
+77.92.157.244|443|404|832|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.244|2087|200|1087|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.241|443|404|440|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.241|8443|200|735|h2|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.194|443|200|658|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.170|443|200|829|h2|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.167|443|200|476|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.167|8443|429|547|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.247|443|200|394|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.247|8443|429|502|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.231|443|301|441|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.231|8443|200|477|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.115|443|404|433|h2|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.150|443|301|403|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.219|80|404|455|http|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.157.219|443|404|503|h2|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+77.92.159.58|8080|307|513|http|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+23.227.208.54|443|200|601|http/1.1|1.0|0|cloudflare|Canada|CTAL
+77.92.159.190|8443|302|585|http/1.1|1.0|0|cloudflare|Turkey|PremierDC Veri Merkezi...
+23.227.208.26|443|503|270|h2|1.0|0|cloudflare|Canada|CTAL
+23.227.208.73|443|401|770|http/1.1|0.5|0|cloudflare|Canada|CTAL
+23.227.208.72|443|401|569|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.208.144|8443|200|1030|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.209.123|8443|200|849|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.210.120|443|401|599|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.211.3|443|200|1567|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.210.137|8443|200|930|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.212.49|443|302|673|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.212.7|8443|200|857|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.212.128|8443|200|768|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.213.163|443|302|673|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.213.37|443|200|1742|http/1.1|0.5|0|cloudflare|Canada|CTAL
+23.227.212.248|8443|200|705|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.213.131|8443|200|886|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.214.55|8443|200|759|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.214.164|8443|200|741|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.214.224|8443|200|750|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.215.51|443|200|1477|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.215.204|8443|200|815|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.215.219|443|200|492|http/1.1|1.0|0|cloudflare|Canada|CTAL
+23.227.215.226|8443|200|714|http/1.1|1.0|0|cloudflare|Canada|CTAL
+27.111.91.61|443|200|703|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.61|2083|200|1032|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.61|2087|200|1215|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.61|2096|200|1079|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.62|443|200|660|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.62|2083|200|1106|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.62|2087|200|1070|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.62|2096|200|1058|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.63|443|200|554|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.63|2083|200|1052|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.63|2087|200|1113|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.63|2096|200|1125|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.66|2083|200|1118|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.66|2087|200|1090|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.66|2096|200|1011|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.67|443|302|733|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.67|2083|200|1070|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.67|2087|200|1408|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.67|2096|200|1208|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.65|443|200|1129|h2|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.59|2083|200|1084|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.59|2087|200|918|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.59|2096|200|927|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+194.76.187.10|443|200|900|http/1.1|1.0|0|cloudflare|Turkey|IETT
+27.111.91.202|443|200|887|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.206|443|200|633|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+27.111.91.213|443|200|922|http/1.1|1.0|0|cloudflare|Australia|Servers Australia Pty.
+194.76.187.11|443|301|661|http/1.1|1.0|0|cloudflare|Turkey|IETT
+194.76.187.58|443|302|788|http/1.1|1.0|0|cloudflare|Turkey|IETT
+194.76.187.178|443|302|720|http/1.1|1.0|0|cloudflare|Turkey|IETT
+194.76.187.181|443|404|544|http/1.1|1.0|0|cloudflare|Turkey|IETT
