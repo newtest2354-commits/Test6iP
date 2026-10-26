@@ -1,48 +1,44 @@
-128.0.54.42|443|503|949|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.42|8443|503|922|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.29|443|302|996|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.17|443|200|851|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.28|443|404|825|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.15|443|404|1069|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.40|443|404|1114|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.66|80|301|511|http|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.66|443|404|578|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.11|443|404|1077|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.82|443|404|951|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.90|443|503|524|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.103|443|503|652|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.100|443|503|615|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.114|443|200|562|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.157|443|301|697|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.171|443|200|598|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.180|443|200|651|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.182|443|301|606|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.185|443|301|589|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.186|443|301|489|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.189|443|301|328|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.188|443|301|569|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.154|443|200|560|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.155|443|200|715|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.156|443|200|706|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.169|80|301|361|http|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.169|443|404|516|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.199|443|301|578|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.202|443|301|452|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.197|443|301|398|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.204|443|301|473|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.196|443|301|363|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.200|443|301|434|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.205|443|301|417|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.201|443|301|389|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.203|443|301|389|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.181|443|301|407|h2|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.173|443|200|425|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.237|80|301|237|http|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.237|443|404|354|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.239|80|301|241|http|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.239|443|404|353|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-128.0.54.241|443|200|337|http/1.1|1.0|0|cloudflare|Poland|Dataspace P.S.A.
-5.158.240.7|443|200|969|http/1.1|1.0|0|cloudflare|France|Wibox Network
-5.158.254.28|443|404|671|http/1.1|1.0|0|cloudflare|France|NordNet SA
-5.158.254.29|443|404|643|http/1.1|1.0|0|cloudflare|France|NordNet SA
-5.158.254.27|443|404|620|http/1.1|1.0|0|cloudflare|France|NordNet SA
+45.137.47.4|8443|302|409|http/1.1|1.0|0|cloudflare|UK|Wavenet Ltd.
+80.68.240.98|443|302|618|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.240.92|443|302|541|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.240.99|443|302|610|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.242.22|443|404|463|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.244.6|443|302|469|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.7|443|302|567|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.243.166|443|200|593|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.243.169|443|200|482|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.244.94|443|200|517|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.96|443|200|492|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.98|443|200|475|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.99|443|200|437|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.92|443|200|535|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.97|443|200|523|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.102|443|200|487|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.122|443|200|578|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.121|443|200|454|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.106|443|200|464|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.93|443|200|486|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.244.103|443|200|474|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.247.33|443|200|451|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.247.35|443|200|492|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.247.34|443|302|498|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.248.244|443|302|423|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.250.216|443|302|477|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting DC Network
+80.68.252.5|443|302|801|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.252.4|443|302|848|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.252.64|443|302|570|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.7|443|302|400|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.18|443|200|400|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.12|443|302|350|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.2|443|200|440|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.11|443|302|458|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.6|443|200|348|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.15|443|302|435|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.14|443|302|371|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.10|443|302|354|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.27|443|302|389|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.16|443|302|366|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.4|443|302|342|http/1.1|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.9|443|302|337|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.13|443|302|348|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
+80.68.253.17|443|200|337|h2|1.0|0|cloudflare|Russia|RosBusinessConsulting Network
