@@ -1,83 +1,27 @@
-43.252.255.150|443|302|580|http/1.1|1.0|0|cloudflare|Australia|Vocus PTY LTD
-23.143.64.69|443|200|600|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.5|443|200|707|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.82|443|302|190|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.82|2083|200|462|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.82|2087|200|470|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.114|443|403|253|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.114|2083|200|210|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.114|2087|200|484|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.114|2096|200|478|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.56|443|200|324|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.80|443|403|165|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.23|443|403|271|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.55|443|403|197|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.87|443|403|167|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.93|443|302|237|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.96|443|403|161|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.104|443|403|195|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.108|443|200|274|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.92|443|302|435|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.47|443|403|215|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.103|443|302|365|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.129|443|403|170|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.38|443|200|163|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.33|443|302|264|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.105|443|200|225|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.53|443|403|192|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.124|443|403|173|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.110|443|403|144|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.48|443|200|150|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.28|443|302|308|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.31|443|403|154|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.123|443|403|231|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.106|443|403|258|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.132|443|403|177|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.134|443|403|183|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.135|443|403|234|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.139|443|403|148|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.144|443|403|238|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.143|443|403|159|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.136|443|403|203|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.133|443|403|256|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.137|443|403|251|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.140|443|403|230|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.138|443|403|223|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.142|443|403|205|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.131|443|403|207|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.145|443|403|228|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.141|443|403|244|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-23.143.64.24|443|403|233|http/1.1|1.0|0|cloudflare|USA|Orbiting Code
-185.212.75.102|80|302|162|http|1.0|0|cloudflare|France|Collectivite De Saint...
-185.212.75.102|443|404|222|h2|1.0|0|cloudflare|France|Collectivite De Saint...
-185.212.75.131|443|200|216|http/1.1|1.0|0|cloudflare|France|Collectivite De Saint...
-185.212.75.151|443|303|213|http/1.1|1.0|0|cloudflare|France|Collectivite De Saint...
-185.212.75.149|443|200|402|http/1.1|1.0|0|cloudflare|France|Collectivite De Saint...
-14.200.250.26|443|200|565|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.200.250.195|443|404|744|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.200.250.122|443|200|521|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.200.250.134|443|200|1379|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.200.250.123|443|200|468|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.200.250.186|443|200|384|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.200.250.194|443|302|377|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.200.250.242|443|200|554|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-45.66.79.49|443|200|277|http/1.1|1.0|0|cloudfront|Netherlands|PLINQ BV
-45.66.79.51|443|200|274|http/1.1|1.0|0|fastly|Netherlands|PLINQ BV
-45.66.79.228|443|200|295|h2|1.0|0|akamai|Netherlands|PLINQ BV
-45.66.79.228|8443|200|287|h2|1.0|0|fastly|Netherlands|PLINQ BV
-83.144.72.126|443|200|681|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.116.99|8443|200|370|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.99.94|8443|200|618|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.98.70|443|400|570|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.98.70|8443|302|497|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.90.2|443|200|400|http/1.1|1.0|0|cloudflare|Poland|UPC Poland
-83.144.76.142|443|200|330|h2|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.124.123|443|200|329|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.72.174|443|200|520|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.73.178|443|302|326|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.125.134|443|200|394|http/1.1|1.0|0|cloudflare|Poland|UPC
-83.144.73.50|443|404|643|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.121.218|443|200|352|http/1.1|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
-83.144.83.250|443|503|464|h2|1.0|0|cloudflare|Poland|UPC Poland
-83.144.90.234|443|404|599|http/1.1|1.0|0|cloudflare|Poland|UPC Poland
-83.144.100.66|443|301|318|h2|1.0|0|cloudflare|Poland|P4 Sp. z o.o.
+23.152.156.46|443|404|127|h2|1.0|0|cloudflare|USA|Together Computer
+62.106.73.41|443|200|528|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.49|443|200|393|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.123|443|302|361|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.126|8443|302|279|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.150|443|302|690|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.33|443|200|464|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.78|443|403|379|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.114|443|200|403|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.148|8080|302|220|http|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.132|443|200|266|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.137|8443|200|726|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.140|8443|200|730|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.213|443|200|225|h2|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.153|443|200|256|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.156|443|302|299|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.231|443|200|217|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.227|443|200|490|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.219|443|200|1488|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.190|443|200|440|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.218|443|200|271|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+62.106.73.193|443|302|375|http/1.1|1.0|0|cloudflare|France|Groupe convergence.com SAS
+185.3.65.3|443|200|252|http/1.1|1.0|0|cloudflare|France|Business & Decision...
+185.3.65.5|443|200|197|http/1.1|1.0|0|cloudflare|France|Business & Decision...
+185.3.65.4|443|200|253|http/1.1|1.0|0|cloudflare|France|Business & Decision...
+185.3.65.6|443|200|198|http/1.1|1.0|0|cloudflare|France|Business & Decision...
+37.123.96.2|443|302|319|h2|1.0|0|cloudflare|Turkey|SPDNet Telekomunikasyon
