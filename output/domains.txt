@@ -1,5 +1,11 @@
-61-68-63-165.tpgi.com.au
-preview.name
-preview.top
-www.googletagmanager.com
+cdn.jsdelivr.net
+go.microsoft.com
+mail.sxbb.com.au
+speedtest1.sxbb.com.au
+speedtest2.sxbb.com.au
+speedtest3.sxbb.com.au
+speedtest4.sxbb.com.au
+storage.dprikhodko.ru
+uisp.com
+wombat.sxbb.com.au
 www.w3.org
