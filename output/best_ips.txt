@@ -207,6 +207,7 @@
 [IP: 23.153.36.40] [PORT: 443] [SCORE=19] [TCP=33ms] [TTFB=157ms] [PROTO=h2] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Boulder] [Country=USA] [Provider=Arosscloud] [ASN=AS400619 AROSSCLOUD INC.]
 [IP: 23.153.36.123] [PORT: 443] [SCORE=19] [TCP=33ms] [TTFB=160ms] [PROTO=h2] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Boulder] [Country=USA] [Provider=Arosscloud] [ASN=AS400619 AROSSCLOUD INC.]
 [IP: 69.51.202.84] [PORT: 443] [SCORE=19] [TCP=33ms] [TTFB=180ms] [PROTO=h2] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Saint-Romain] [Country=Canada] [Provider=Sogetel] [ASN=AS4540 SOGETEL INC]
+[IP: 66.132.131.181] [PORT: 443] [SCORE=19] [TCP=34ms] [TTFB=60ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Doral] [Country=USA] [Provider=Aptum Technologies] [ASN=AS13768 Aptum Technologies]
 [IP: 72.10.130.142] [PORT: 443] [SCORE=19] [TCP=34ms] [TTFB=83ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Montreal] [Country=Canada] [Provider=EBOX] [ASN=AS1403 EBOX]
 [IP: 64.137.9.242] [PORT: 2096] [SCORE=19] [TCP=35ms] [TTFB=54ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Lewisville] [Country=USA] [Provider=Newserverlife LLC] [ASN=49791]
 [IP: 23.149.240.3] [PORT: 443] [SCORE=19] [TCP=36ms] [TTFB=84ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Spicewood] [Country=USA] [Provider=VGI Tech] [ASN=AS17267 VGI Technology, Inc.]
@@ -9317,4 +9318,3 @@
 [IP: 84.205.190.14] [PORT: 443] [SCORE=14] [TCP=104ms] [TTFB=392ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Warsaw] [Country=Poland] [Provider=P4 Sp. z o.o.] [ASN=31242]
 [IP: 45.137.100.125] [PORT: 443] [SCORE=14] [TCP=104ms] [TTFB=393ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Amsterdam] [Country=Netherlands] [Provider=Freedom Net BV] [ASN=AS206238 Freedom Internet BV]
 [IP: 91.230.24.108] [PORT: 443] [SCORE=14] [TCP=104ms] [TTFB=393ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Warsaw] [Country=Poland] [Provider=MINISTERSTWO IT -...] [ASN=197678]
-[IP: 91.237.160.1] [PORT: 443] [SCORE=14] [TCP=104ms] [TTFB=394ms] [PROTO=http/1.1] [REL=1.0] [CDN=cloudflare] [TYPE=HTTPS] [SNI=cloudflare.com] [City=Tryńcza] [Country=Poland] [Provider=Global Polska Tomasz...] [ASN=AS198327 Global Polska - Tomasz Zaplacinski]
