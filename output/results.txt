@@ -1,15 +1,4 @@
-14.203.3.254|443|200|375|h2|1.0|0|cloudflare|Australia|AAPT Ltd.
-14.203.3.210|443|200|962|http/1.1|1.0|0|cloudflare|Australia|AAPT Ltd.
-83.242.93.184|8080|400|345|http|1.0|0|cloudflare|Poland|Jerzy Krempa "Telpol" PPMUE
-83.242.95.91|443|403|504|h2|1.0|0|cloudflare|Poland|Jerzy Krempa "Telpol" PPMUE
-27.96.199.5|443|200|471|h2|1.0|0|cloudflare|Australia|Spintel Pty
-27.96.202.33|443|200|479|h2|1.0|0|cloudflare|Australia|Spintel Pty
-27.96.202.33|8080|400|471|http|1.0|0|cloudflare|Australia|Spintel Pty
-27.96.202.33|8443|200|974|http/1.1|1.0|0|cloudflare|Australia|Spintel Pty
-27.96.206.150|8443|200|927|http/1.1|1.0|0|cloudflare|Australia|Spintel Pty
-27.96.196.232|80|301|346|http|1.0|0|cloudflare|Australia|Spintel Pty
-27.96.196.232|443|404|470|h2|1.0|0|cloudflare|Australia|Spintel Pty
-185.51.24.56|443|200|509|http/1.1|1.0|0|cloudflare|Turkey|Cypking Network &...
-185.51.24.186|443|302|669|http/1.1|1.0|0|cloudflare|Turkey|Cypking Network &...
-185.51.25.6|443|302|795|http/1.1|1.0|0|cloudflare|Turkey|Cypking Network &...
-185.51.24.249|443|302|638|http/1.1|1.0|0|cloudflare|Turkey|Cypking Network &...
+43.249.8.3|443|200|290|http/1.1|1.0|0|cloudflare|Turkey|Huawei International Pte.
+43.249.8.1|443|302|278|http/1.1|1.0|0|cloudflare|Turkey|Huawei International Pte.
+43.249.8.2|443|200|354|h2|1.0|0|cloudflare|Turkey|Huawei International Pte.
+43.249.8.5|443|404|285|http/1.1|1.0|0|cloudflare|Turkey|Huawei International Pte.

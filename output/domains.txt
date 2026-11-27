@@ -1,7 +1,11 @@
-14-203-3-210.static.tpgi.com.au
-14-203-3-254.static.tpgi.com.au
-hosting.endereclipse.au
-itunes.apple.com
-play.google.com
-www.ubnt.com
+api.ipify.org
+cdn.jsdelivr.net
+cdn.tailwindcss.com
+date.now
+fonts.googleapis.com
+haveibeenpwned.com
+link.id
+mail.bitrelic.io
+sirket.com
+upgrade.yubico.com
 www.w3.org
